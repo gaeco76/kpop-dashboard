@@ -1,0 +1,667 @@
+{
+ "tma2026": {
+  "name": "2026 THE FACT MUSIC AWARDS (TMA) — 제9회",
+  "date": "2026-09-19 (토)",
+  "venue": "부산 아시아드 주경기장 (부산 첫 개최, 3년 만의 국내 개최)",
+  "schedule": [
+   {
+    "time": "16:00",
+    "item": "블루카펫 (MC 재재)",
+    "status": "verified",
+    "sources": [
+     "TMA-SPECIAL",
+     "TMA-RESULT"
+    ]
+   },
+   {
+    "time": "18:00",
+    "item": "본식 (MC 전현무·서현)",
+    "status": "verified",
+    "sources": [
+     "TMA-SPECIAL",
+     "TMA-SBS"
+    ]
+   },
+   {
+    "time": "15:00",
+    "item": "입장 시작",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "time": "~22:00",
+    "item": "종료 예상 (약 240분)",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   }
+  ],
+  "broadcast": "국내 치지직 단독 생중계, 일본 니코니코 생방송, 기타 지역 Hello Live",
+  "lineup": [
+   "RIIZE",
+   "RESCENE",
+   "xikers",
+   "IDID",
+   "ILLIT",
+   "ALPHA DRIVE ONE",
+   "EVAN",
+   "ATEEZ",
+   "NMIXX",
+   "ALLDAY PROJECT",
+   "임영웅",
+   "YENA",
+   "CORTIS",
+   "CLOSE YOUR EYES",
+   "KiiiKiii",
+   "TREASURE",
+   "tripleS"
+  ],
+  "lineupSources": [
+   "TMA-SBS",
+   "TMA-RESULT"
+  ],
+  "orderNote": "공식 분 단위 러닝오더는 공개되지 않음. 오프닝(CLOSE YOUR EYES·tripleS·xikers)만 공식 기사로 확인. 이후 순서는 Grok 대화(직캠·빌리빌리 기반) 기준.",
+  "stages": [
+   {
+    "order": "오프닝",
+    "artist": "CLOSE YOUR EYES",
+    "stage": "NCT DREAM 'Beat It Up' 커버 + 4th 미니 수록곡 선공개",
+    "status": "verified",
+    "sources": [
+     "TMA-SBS",
+     "TMA-RESULT"
+    ]
+   },
+   {
+    "order": "오프닝",
+    "artist": "tripleS",
+    "stage": "aespa 'LEMONADE' 커버",
+    "status": "verified",
+    "sources": [
+     "TMA-SBS",
+     "TMA-RESULT"
+    ]
+   },
+   {
+    "order": "오프닝",
+    "artist": "xikers",
+    "stage": "BTS 'Hooligan' 커버 + 미공개곡 첫 무대",
+    "status": "verified",
+    "sources": [
+     "TMA-SBS",
+     "TMA-RESULT"
+    ]
+   },
+   {
+    "order": "4 (Grok)",
+    "artist": "RESCENE",
+    "stage": "LOVE ATTACK (오케스트라 버전)",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "order": "5 (Grok)",
+    "artist": "ALLDAY PROJECT",
+    "stage": "WICKED + ONE MORE TIME",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "order": "6 (Grok)",
+    "artist": "ILLIT",
+    "stage": "NOT CUTE ANYMORE + It's Me",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "order": "7 (Grok)",
+    "artist": "YENA",
+    "stage": "인트로 + Catch Catch",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "order": "8 (Grok)",
+    "artist": "CORTIS",
+    "stage": "RED RED",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "order": "9 (Grok)",
+    "artist": "ATEEZ",
+    "stage": "Adrenaline + MAMACITA(첫 공개) + BAD — 미공개곡 첫 무대는 공식 확인, 곡명은 Grok 기준",
+    "status": "partial",
+    "sources": [
+     "TMA-SBS",
+     "GROK"
+    ]
+   },
+   {
+    "order": "10 (Grok)",
+    "artist": "임영웅",
+    "stage": "'영원한 순간(Make the Moment Eternal)' + '행복하길(Please Be Happy)'",
+    "status": "verified",
+    "sources": [
+     "TMA-RESULT",
+     "TMA-SPECIAL"
+    ]
+   },
+   {
+    "order": "11 (Grok)",
+    "artist": "Busan-z (TREASURE 지훈 + KiiiKiii 지유)",
+    "stage": "윤하 '혜성(Comet)' 듀엣",
+    "status": "verified",
+    "sources": [
+     "TMA-RESULT",
+     "TMA-SBS"
+    ]
+   },
+   {
+    "order": "미확인",
+    "artist": "RIIZE, NMIXX, TREASURE, IDID, ALPHA DRIVE ONE, EVAN, KiiiKiii (본무대)",
+    "stage": "곡목 미확인",
+    "status": "unverified",
+    "sources": [
+     "TMA-RESULT"
+    ]
+   }
+  ],
+  "winners": [
+   {
+    "award": "Icon of the Year (대상)",
+    "winner": "ATEEZ"
+   },
+   {
+    "award": "Sound of the Year (대상)",
+    "winner": "NMIXX"
+   },
+   {
+    "award": "Muse of the Year (대상)",
+    "winner": "RIIZE"
+   },
+   {
+    "award": "Record of the Year (대상)",
+    "winner": "CORTIS"
+   },
+   {
+    "award": "World Best Performer",
+    "winner": "TREASURE"
+   },
+   {
+    "award": "Artist of the Year",
+    "winner": "ATEEZ, TREASURE, NMIXX, RIIZE, ILLIT, RESCENE, KiiiKiii, ALLDAY PROJECT, CORTIS, ALPHA DRIVE ONE, YENA"
+   },
+   {
+    "award": "World Best Wave",
+    "winner": "EVAN"
+   },
+   {
+    "award": "Global Hot Trend",
+    "winner": "tripleS, CLOSE YOUR EYES"
+   },
+   {
+    "award": "Next Leader",
+    "winner": "CORTIS, ALPHA DRIVE ONE"
+   },
+   {
+    "award": "Hottest",
+    "winner": "xikers, IDID"
+   },
+   {
+    "award": "TMA 인기상 / 심사위원 특별상",
+    "winner": "임영웅"
+   },
+   {
+    "award": "Today's Choice",
+    "winner": "RESCENE"
+   },
+   {
+    "award": "팬앤스타 초이스 그룹 / 솔로",
+    "winner": "BTS / 이찬원"
+   },
+   {
+    "award": "Best Music 봄·여름 / 가을 / 겨울",
+    "winner": "BTS / PLAVE / 이찬원"
+   },
+   {
+    "award": "Global Hot Star",
+    "winner": "PLAVE"
+   },
+   {
+    "award": "My Star Award (남/여)",
+    "winner": "BTS 진 / NMIXX 설윤"
+   }
+  ],
+  "winnerSources": [
+   "TMA-RESULT"
+  ],
+  "video": "Grok 대화 기준 빌리빌리 영상: 본식 전체 약 3시간 58분, 전 무대 모음 약 1시간 48분, 레드카펫+무대 약 4시간 59분 (링크 미확인)"
+ },
+ "awards2026": {
+  "title": "2026 국내 음악 시상식 캘린더",
+  "asOf": "2026-10-04",
+  "note": "과거 일정·라인업은 Claude 대화(8/28) 기준, 9월 이후·예정 시상식은 웹 재확인. ‘상태’는 2026-10-04 KST 기준.",
+  "events": [
+   {
+    "name": "제40회 골든디스크어워즈",
+    "date": "1/10",
+    "dateSort": "2026-01-10",
+    "venue": "타이베이돔",
+    "state": "종료",
+    "lineup": "몬스타엑스, Stray Kids, 제니, ENHYPEN, IVE, ATEEZ, LE SSERAFIM, ZB1, BOYNEXTDOOR, NCT WISH, TWS, izna, ALL(H)OURS, CORTIS, KiiiKiii, CLOSE YOUR EYES, ARK, 조째즈 외 (18팀)",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "제2회 D어워즈",
+    "date": "2/11",
+    "dateSort": "2026-02-11",
+    "venue": "고려대학교",
+    "state": "종료",
+    "lineup": "P1Harmony, ENHYPEN, FIFTY FIFTY, xikers, BOYNEXTDOOR, Hi-Fi Un!corn, ZB1, 82MAJOR, QWER, NCT WISH, NEXZ, izna, KickFlip, AHOF, AMP, 최립우 외 (16팀)",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "한국힙합어워즈",
+    "date": "2/11",
+    "dateSort": "2026-02-11",
+    "venue": "노들섬",
+    "state": "종료",
+    "lineup": "식케이, 염따, 저스디스, EK, 에픽하이, 릴모쉬핏 외",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "한터뮤직어워즈 2025",
+    "date": "2/15",
+    "dateSort": "2026-02-15",
+    "venue": "KSPO돔",
+    "state": "종료",
+    "lineup": "규현, 윤종신, 펜타곤, 이창섭, 이찬원, 김희재, 박지현, 손태진, 포레스텔라, LUCY, 이영지, ATEEZ, WEi, tripleS, xikers, Billlie, 8TURN, Hearts2Hearts, NOWADAYS, IDID, WING, ARTMS, 황가람 (23팀)",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "한국대중음악상",
+    "date": "2/26",
+    "dateSort": "2026-02-26",
+    "venue": "무신사 개러지",
+    "state": "종료",
+    "lineup": "이승윤, 단편선 외",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "아시아스타엔터테이너어워즈",
+    "date": "5/16–17",
+    "dateSort": "2026-05-16",
+    "venue": "사이타마 벨루나돔",
+    "state": "종료",
+    "lineup": "ENHYPEN, ATEEZ, &TEAM, Hearts2Hearts, xikers, IDID, 권은비, NOWADAYS, THE RAMPAGE, VVUP, 원호, ALPHA DRIVE ONE, 창민",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "서울가요대상",
+    "date": "6/20",
+    "dateSort": "2026-06-20",
+    "venue": "인스파이어 아레나",
+    "state": "종료",
+    "lineup": "권은비, 다영, ATEEZ, 이찬원, 한로로, LE SSERAFIM, xikers, BOYNEXTDOOR, ZB1, 드래곤포니, SAY MY NAME, izna, KiiiKiii, Hearts2Hearts, CLOSE YOUR EYES, AHOF, IDENTITY, IDID, ALPHA DRIVE ONE, MODYSSEY (20팀)",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "KM차트 어워즈",
+    "date": "7/25",
+    "dateSort": "2026-07-25",
+    "venue": "고려대학교",
+    "state": "종료",
+    "lineup": "TXT, 82MAJOR, VVUP, KickFlip, ALL(H)OURS, CORTIS, LNGSHOT, P1Harmony, Hi-Fi Un!corn, ZB1, UNIS, Hearts2Hearts, NewBeat, ALPHA DRIVE ONE, MODYSSEY (15팀)",
+    "status": "claude",
+    "sources": [
+     "CLAUDE-CHATS-1"
+    ],
+    "note": "",
+    "results": []
+   },
+   {
+    "name": "케이 월드 드림 어워즈 (KWDA, 10주년)",
+    "date": "8/27",
+    "dateSort": "2026-08-27",
+    "venue": "킨텍스 9홀",
+    "state": "종료",
+    "lineup": "ATEEZ, LE SSERAFIM, RIIZE, &TEAM, P1Harmony, 씨야, JB, ILLIT, QWER, xikers, 82MAJOR, AMPERS&ONE, MEOVV, RESCENE, Hearts2Hearts, KiiiKiii, KickFlip, AHOF, NOWADAYS, ALPHA DRIVE ONE, IDID, AND2BLE, XLOV, Hi-Fi Un!corn, 선리, 박지현, 에반 (27팀)",
+    "status": "partial",
+    "sources": [
+     "CLAUDE-CHATS-1",
+     "ETODAY-KWDA",
+     "KTRENZ-KWDA"
+    ],
+    "note": "라인업은 Claude 대화 기준, 수상 결과는 보도로 확인",
+    "results": [
+     "ATEEZ 4관왕",
+     "LE SSERAFIM 3관왕 (베스트 아티스트·아티스트상·베스트 비주얼 콘텐츠상)",
+     "KiiiKiii 2관왕 (아티스트상·베스트 비주얼 콘텐츠상)",
+     "AMPERS&ONE 글로벌 넥스트 리더 (Claude 대화 기준)"
+    ]
+   },
+   {
+    "name": "2026 SPOTV K-POP AWARDS (SKA)",
+    "date": "9/6",
+    "dateSort": "2026-09-06",
+    "venue": "킨텍스",
+    "state": "종료",
+    "lineup": "RESCENE, MODYSSEY, Billlie, 성리, ALPHA DRIVE ONE, AND2BLE, 전유진, 최예나, xikers, IDID, CLOSE YOUR EYES, cosmosy, KISS OF LIFE, KiiiKiii, KickFlip, POW, 82MAJOR (17팀)",
+    "status": "verified",
+    "sources": [
+     "SPOTV-SKA"
+    ],
+    "note": "Claude 대화(8/28)에선 ‘예정’ → 9/6 개최 확인. MC 장성규·빌리 츠키·앤더블 한유진",
+    "results": [
+     "올해의 아티스트: 악뮤",
+     "올해의 앨범: 방탄소년단",
+     "올해의 노래: KiiiKiii",
+     "여자 그룹상: KISS OF LIFE / 남자 그룹상: KickFlip",
+     "신인상: ALPHA DRIVE ONE, AND2BLE",
+     "스포티비 앰버서더·글로벌 커넥트: RESCENE"
+    ]
+   },
+   {
+    "name": "제9회 더팩트 뮤직 어워즈 (TMA)",
+    "date": "9/19",
+    "dateSort": "2026-09-19",
+    "venue": "부산 아시아드 주경기장",
+    "state": "종료",
+    "lineup": "17팀 — 위 ‘2026 TMA’ 상세 참조",
+    "status": "verified",
+    "sources": [
+     "TMA-SBS",
+     "TMA-RESULT"
+    ],
+    "note": "",
+    "results": [
+     "대상 4개: ATEEZ·NMIXX·RIIZE·CORTIS"
+    ]
+   },
+   {
+    "name": "2026 슈퍼사운드 페스티벌 (SSF)",
+    "date": "10/24",
+    "dateSort": "2026-10-24",
+    "venue": "개최 도시 미발표",
+    "state": "예정",
+    "lineup": "라인업 미공개",
+    "status": "verified",
+    "sources": [
+     "MHN-SSF"
+    ],
+    "note": "‘릴레이 콘서트’형 시상식, 주최 NINEONENINE919",
+    "results": []
+   },
+   {
+    "name": "제3회 코리아 그랜드 뮤직 어워즈 (KGMA)",
+    "date": "11/7–8",
+    "dateSort": "2026-11-07",
+    "venue": "고척스카이돔",
+    "state": "예정",
+    "lineup": "[11/7 아티스트 데이] 노벨브라이트, 누에라, 다영, 루시, RESCENE, 메이딘, MEOVV, xikers, IDID, AND2BLE, 영케이, ALLDAY PROJECT, 장민호, CRAVITY, CLOSE YOUR EYES, Tuide, TREASURE, tripleS, P1Harmony, FIFTY FIFTY / [11/8 뮤직 데이] NEXZ, RIIZE, 민호, 박지현, Billlie, 셔누X형원, AHOF, ALPHA DRIVE ONE, A.N, ATEEZ, WayV, 유나, ITZY, 최예나, KISS OF LIFE, KiiiKiii, KickFlip, 터치드, TWS, Hearts2Hearts (총 40팀)",
+    "status": "verified",
+    "sources": [
+     "EDAILY-KGMA"
+    ],
+    "note": "Claude 대화(8/28)에선 라인업 미공개 → 9/22 공개. MC: 7일 RESCENE 원이·남지현, 8일 IVE 리즈·김재원. ENA 생중계",
+    "results": []
+   },
+   {
+    "name": "MMA2026 (제18회 멜론뮤직어워드)",
+    "date": "11/14–15",
+    "dateSort": "2026-11-14",
+    "venue": "고척스카이돔",
+    "state": "예정",
+    "lineup": "1차: PLAVE, RIIZE, NCT WISH, ALPHA DRIVE ONE, LNGSHOT / 3차: NCT 127, NCT DREAM, ATEEZ, TWS, AND2BLE, 82MAJOR / 2차(걸그룹·솔로) 명단은 미확인",
+    "status": "partial",
+    "sources": [
+     "KAKAO-MMA",
+     "KAKAO-MMA-L1",
+     "KAKAO-MMA-L3"
+    ],
+    "note": "사상 첫 2일 개최. Claude 대화(8/28)에선 라인업 미공개",
+    "results": []
+   },
+   {
+    "name": "2026 MAMA AWARDS",
+    "date": "11/20–21",
+    "dateSort": "2026-11-20",
+    "venue": "교세라돔 오사카",
+    "state": "예정",
+    "lineup": "라인업 미공개 (2026-10-04 기준 확인 못함)",
+    "status": "verified",
+    "sources": [
+     "CJ-MAMA"
+    ],
+    "note": "Mnet Plus 전 세계 생중계",
+    "results": []
+   },
+   {
+    "name": "AAA 2026 (아시아 아티스트 어워즈)",
+    "date": "12/5–6",
+    "dateSort": "2026-12-05",
+    "venue": "가오슝 국가체육장",
+    "state": "예정",
+    "lineup": "[12/5, MC 쯔위·성한빈] Naniwa Danshi, NEXZ, 다영, RIIZE, LNGSHOT, RESCENE, MONSTA X, SUPER JUNIOR-D&E, OURBIRTHDAY, IDID, &TEAM, Accusefive, ATEEZ, Xdinary Heroes, 연준, ALLDAY PROJECT, WOODZ, 원필, ITZY, 주헌, YENA, KISS OF LIFE, KickFlip, tripleS, Hearts2Hearts / [12/6, MC 장원영·지창욱] NEXZ, 다영, LNGSHOT, RESCENE, MEOVV, 박지훈, 성한빈, ALPHA DRIVE ONE, ATEEZ 민기·성화·우영(솔로), NMIXX, 유나, ZEROBASEONE, 쯔위, 채령, CORTIS, QWER, CLOSE YOUR EYES, KiiiKiii, TXT, TWS, TUIDE, tripleS",
+    "status": "verified",
+    "sources": [
+     "STARNEWS-AAA",
+     "SAYART-AAA"
+    ],
+    "note": "Claude 대화(8/28) 부분 라인업(TXT·ZB1·RIIZE·연준·ADO·ATEEZ·&TEAM·LNGSHOT·ITZY·H2H·KiiiKiii·RESCENE)은 최종 명단과 일치. 배우 라인업 별도",
+    "results": []
+   }
+  ]
+ },
+ "festivals2026": {
+  "title": "2026 해외 대형 음악 페스티벌 K-pop 출연 (Claude 9/9 조사)",
+  "asOf": "2026-09-09",
+  "sources": [
+   "CLAUDE-FC"
+  ],
+  "columns": [
+   "페스티벌",
+   "시기·장소",
+   "K-pop 출연",
+   "등급",
+   "검증"
+  ],
+  "rows": [
+   [
+    "Lollapalooza South America",
+    "3월, 아르헨티나·칠레·브라질",
+    "RIIZE (3개국 전 일정)",
+    "라인업",
+    "claude"
+   ],
+   [
+    "Coachella",
+    "4/10–12·4/17–19, 미국 인디오",
+    "KATSEYE(금), 태민(토), BIGBANG 3인(일, 20주년) / 리사(Anyma 게스트, Claude 기준)",
+    "라인업(양 주차)",
+    "verified"
+   ],
+   [
+    "Governors Ball",
+    "6/5–7, 뉴욕",
+    "KATSEYE, Stray Kids, 제니",
+    "헤드라이너 2팀",
+    "claude"
+   ],
+   [
+    "Mawazine",
+    "6/23, 모로코 라바트",
+    "ITZY",
+    "헤드라이너",
+    "claude"
+   ],
+   [
+    "Mad Cool",
+    "7월, 스페인",
+    "제니",
+    "헤드라이너",
+    "claude"
+   ],
+   [
+    "Lollapalooza Chicago",
+    "7/30–8/2, 시카고 그랜트파크",
+    "제니(헤드라이너), aespa, i-dle, CORTIS",
+    "헤드라이너 1팀",
+    "verified"
+   ],
+   [
+    "Hinterland",
+    "7/30, 미국 아이오와",
+    "KATSEYE",
+    "라인업",
+    "claude"
+   ],
+   [
+    "Head in the Clouds",
+    "8/8, 미국 패서디나",
+    "KATSEYE",
+    "라인업",
+    "claude"
+   ],
+   [
+    "Rock in Rio Brazil",
+    "9/11, 리우",
+    "Stray Kids(헤드라이너), 화사, NEXZ",
+    "헤드라이너 1팀",
+    "claude"
+   ]
+  ],
+  "rowSources": {
+   "Coachella": [
+    "KT-COACHELLA26"
+   ],
+   "Lollapalooza Chicago": [
+    "SOOMPI-LOLLA26",
+    "KT-JENNIE-LOLLA"
+   ]
+  },
+  "girls": [
+   [
+    "KATSEYE",
+    "5",
+    "Coachella, Governors Ball, Hinterland, Head in the Clouds",
+    "4",
+    "WILDWORLD 투어 사전 노출"
+   ],
+   [
+    "aespa",
+    "4",
+    "Lollapalooza Chicago",
+    "1",
+    "COMPLæXITY 북미 구간 직전"
+   ],
+   [
+    "i-dle",
+    "4",
+    "Lollapalooza Chicago",
+    "1",
+    "취소된 북중미 투어 대체"
+   ],
+   [
+    "ITZY",
+    "4",
+    "Mawazine",
+    "1",
+    "미개척 지역 단발 진입(헤드라이너)"
+   ],
+   [
+    "IVE",
+    "4",
+    "확인된 2026 대형 페스티벌 없음",
+    "0",
+    "2025년 Lollapalooza Chicago·Paris 출연"
+   ],
+   [
+    "LE SSERAFIM",
+    "4",
+    "확인된 2026 대형 페스티벌 없음",
+    "0",
+    "36회 투어 집중"
+   ],
+   [
+    "BABYMONSTER",
+    "5",
+    "없음",
+    "0",
+    "단독 투어 우선"
+   ]
+  ],
+  "milestones": [
+   [
+    "2016",
+    "에픽하이, 한국 아티스트 최초 Coachella"
+   ],
+   [
+    "2022",
+    "TXT, K-pop 그룹 최초 Lollapalooza Chicago / 제이홉 헤드라이너(약 10만 5천 관객)"
+   ],
+   [
+    "2023",
+    "BLACKPINK, BST Hyde Park 헤드라이너 / Stray Kids, Lollapalooza Paris 헤드라이너"
+   ],
+   [
+    "2025",
+    "TWICE, 걸그룹 최초 Lollapalooza Chicago 헤드라이너"
+   ],
+   [
+    "2026",
+    "제니, 한국 여성 솔로 최초 Lollapalooza 헤드라이너 / 태민, K-pop 남성 솔로 최초 Coachella / RIIZE, 보이그룹 최초 Lollapalooza 남미"
+   ]
+  ],
+  "note": "Coachella·Lollapalooza Chicago 행은 보도로 확인, 나머지는 Claude 대화 기준. BST Hyde Park 2026 K-pop 출연은 확인 안 됨. Glastonbury·Primavera·Summer Sonic·Sziget는 미조사(출연 없음 아님). 출연료 비공개 — 경제성은 구조 설명뿐."
+ }
+}

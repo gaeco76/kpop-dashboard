@@ -1,0 +1,223 @@
+{
+ "summary": "YouTube 랜덤플레이댄스(RPD) 영상에서 곡별 참여 댄서 수를 근사 추정하는 도구 (Jev + Claude Code). 정확한 인원이 아닌 범위(예: 6–8명)로 출력.",
+ "status": "grok",
+ "pipeline": [
+  "영상 설명/챕터에서 곡 타임스탬프 파싱",
+  "카운트다운 3초 제외",
+  "곡당 8프레임 샘플링",
+  "YOLO 사람 박스 검출 (중심·크기·ROI 유지)",
+  "인접 프레임 간 움직임으로 댄서 분류",
+  "평균/최소/최대 출력 — 중앙에서 움직이는 사람만 집계, 가장자리 대기 인원·스태프·원거리 소형 박스 제외"
+ ],
+ "commands": [
+  "cd kpop-rpd-counter",
+  "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt",
+  "python main.py --url \"YouTubeURL\" --meta-only   # 메타/챕터만",
+  "python main.py --url \"YouTubeURL\"               # 실제 추정",
+  "python main.py --video clip.mp4 --desc examples/sample_description.txt",
+  "python main.py --demo                           # 파서 데모"
+ ],
+ "outputs": [
+  "output/rpd_counts.csv",
+  "output/rpd_counts.json"
+ ],
+ "tunables": [
+  "margin_x",
+  "motion_threshold",
+  "samples_per_song",
+  "min_box_h_ratio (원거리 안무 시 낮춤)"
+ ],
+ "limits": [
+  "챕터/곡명 없으면 --desc 필요",
+  "줌 변화가 motion score에 영향",
+  "개인 ID 추적 없음 → 중복 집계 가능 (향후 ByteTrack 예정)",
+  "향후: 곡명 OCR, 박스 미리보기 저장"
+ ],
+ "results": [
+  {
+   "time": "0:45",
+   "song": "BLACKPINK - Kill This Love",
+   "dancers": "2 (예시 출력)",
+   "views": "미확인",
+   "status": "grok"
+  },
+  {
+   "time": "3:08",
+   "song": "IVE - LOVE DIVE",
+   "dancers": "6 (예시 출력)",
+   "views": "미확인",
+   "status": "grok"
+  }
+ ],
+ "note": "Grok 대화에는 실제 영상 조회수 데이터가 없음. 조회수 및 실측 결과는 도구 실행 후 이 파일의 results에 추가하세요 (영상 URL·조회 일시 함께 기록). Claude 배치 1에도 실제 영상별 인원·조회수 결과는 없음. Claude 배치 1에도 실제 영상별 인원·조회수 결과는 없음.",
+ "v2": {
+  "title": "v2 아키텍처 — yt-dlp + YOLO/ByteTrack + Jev (Claude 9/21)",
+  "status": "claude",
+  "sources": [
+   "CLAUDE-CHATS-1"
+  ],
+  "steps": [
+   "yt-dlp로 영상·챕터 다운로드",
+   "YOLO + ByteTrack으로 사람 검출·추적 (ID 유지 → v1의 중복 집계 문제 보완)",
+   "Python으로 움직임·박스 형태 변화·중앙 근접도·등장 지속성 계산",
+   "점수 0.35–0.65 애매 구간만 Jev가 ‘댄서 vs 관객’ 판정",
+   "곡 앞뒤 15% 버리고, 댄서 수의 90퍼센타일을 곡별 인원으로 채택",
+   "Claude Code가 실행·디버그·튜닝"
+  ],
+  "weights": [
+   [
+    "움직임",
+    35
+   ],
+   [
+    "형태 변화",
+    25
+   ],
+   [
+    "중앙 근접",
+    25
+   ],
+   [
+    "존재 지속",
+    15
+   ]
+  ],
+  "command": "python count_dancers.py <URL> --jev --debug-frames   # 출력: runs/<id>/results.md + 디버그 JPG",
+  "test": "합성 테스트 데이터에서 3명·5명 정확히 집계 (실제 영상 검증 결과는 미확인)",
+  "bench": [
+   [
+    "비전 LLM 전체 판독",
+    "~260k 토큰",
+    "5–10분"
+   ],
+   [
+    "1초 1프레임 LLM",
+    "~4.5M 토큰",
+    "30–60분"
+   ],
+   [
+    "Claude 파이프라인",
+    "~40k 토큰",
+    "15–19분"
+   ],
+   [
+    "Jev 판정 파이프라인",
+    "~30k 토큰",
+    "13–16분"
+   ],
+   [
+    "규칙만 사용",
+    "0 토큰",
+    "12–15분"
+   ]
+  ],
+  "benchNote": "60분·40곡 영상 기준 추정. Jev는 판정 단계를 6–20배 줄이지만 YOLO가 병목이라 전체는 10–20% 단축. 캐시 사용 시 재튜닝은 수초–30초 (원래 12–15분).",
+  "artifacts": [
+   "count_dancers.py",
+   "README.md",
+   "requirements.txt",
+   "songs.example.csv",
+   ".gitignore"
+  ],
+  "benchStatus": "estimate",
+  "options": [
+   [
+    "--fps",
+    "5",
+    "초당 분석 프레임 (높을수록 정확·느림)"
+   ],
+   [
+    "--model",
+    "yolo11s.pt",
+    "인원이 많고 멀면 yolo11m.pt"
+   ],
+   [
+    "--device",
+    "mps",
+    "Mac=mps, NVIDIA=0, 기타=cpu"
+   ],
+   [
+    "--conf",
+    "0.35",
+    "YOLO 검출 신뢰도"
+   ],
+   [
+    "--imgsz",
+    "960",
+    "추론 이미지 크기"
+   ],
+   [
+    "--min-len",
+    "8",
+    "이보다 짧은 구간(초)은 곡으로 보지 않음"
+   ],
+   [
+    "--min-samples",
+    "5",
+    "이보다 적게 잡힌 사람은 잡음 처리"
+   ],
+   [
+    "--motion-ref / --shape-ref",
+    "0.06 / 0.10",
+    "움직임·형태 점수 기준 (튜닝 대상)"
+   ],
+   [
+    "--threshold",
+    "0.5",
+    "댄서 판정 기준 점수"
+   ],
+   [
+    "--band",
+    "0.35 0.65",
+    "Jev로 보낼 애매 점수 범위"
+   ],
+   [
+    "--trim",
+    "0.15",
+    "곡 앞뒤 입장·퇴장 구간 제외 비율"
+   ],
+   [
+    "--pct",
+    "90",
+    "프레임별 인원 중 대표값 퍼센타일"
+   ],
+   [
+    "--jev / --jev-model / --jev-batch",
+    "off / jev-latest / 20",
+    "애매한 사람만 곡 단위 배치로 Jev 재판정"
+   ],
+   [
+    "--segments",
+    "—",
+    "챕터 없는 영상용 곡 구간 CSV (시작시각,곡명)"
+   ],
+   [
+    "--debug-frames",
+    "off",
+    "곡마다 중간 장면에 판정(초록=댄서, 회색=관객) 표시"
+   ]
+  ],
+  "outputs": "runs/<영상ID>/results.md · results.csv · results.json · debug/*.jpg · detections.jsonl(YOLO 추적 캐시 — 튜닝 시 삭제 금지) · jev_last_response.json",
+  "tuning": [
+   "관객이 댄서로 잡힘 → --motion-ref/--shape-ref·--threshold 올림",
+   "댄서 누락 → 반대로 내림",
+   "인원 과대 → --pct 낮춤, --trim 늘림",
+   "캐시 재사용으로 재실행, 사용자가 센 정답과의 오차(MAE)를 표로 보고",
+   "Jev는 산술 없이 ‘댄서인가’ 의미 판단만 — 숫자는 describe()에서 범주 단어로 변환"
+  ],
+  "install": "Mac mini M4: brew install ffmpeg → uv venv → uv pip install -r requirements.txt / Jev(선택): uv tool install jev-cli → jev auth set",
+  "bot": {
+   "title": "RPD 통계 봇 PR #3 — 곡명 정규화 버그 수정 (Claude Code)",
+   "status": "claude",
+   "sources": [
+    "CLAUDE-FC"
+   ],
+   "items": [
+    "원인: ‘ver’·‘mv’·‘audio’ 등을 부분 문자열로 삭제 → ‘Fever’→‘fe’, ‘Lover’→‘lo’, ‘Forever’→‘fore’",
+    "제목이 ‘Audio’뿐이면 빈 문자열 → 곡 구간 누락, 서로 다른 곡이 같은 키로 합쳐질 위험, 별칭 ‘fever’ 미매칭",
+    "수정: 제목 끝 단독 단어(Official MV, ver. 등)만 제거, 결과가 비면 원래 값 유지, 회귀 테스트 추가",
+    "테스트 48건 통과 (CI 결과·실제 수집·YOLO 실행은 Mac mini에서 미확인)"
+   ]
+  }
+ }
+}

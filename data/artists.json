@@ -1,0 +1,1431 @@
+{
+ "compare": {
+  "title": "5세대 '입덕 요정' 4인 비교 — RESCENE 원이·미나미 / ILLIT 윤아·원희",
+  "columns": [
+   "RESCENE 원이",
+   "RESCENE 미나미",
+   "ILLIT 윤아",
+   "ILLIT 원희"
+  ],
+  "rows": [
+   {
+    "item": "본명",
+    "cells": [
+     {
+      "v": "정원이",
+      "status": "verified",
+      "sources": [
+       "FANDOM-WONI"
+      ]
+     },
+     {
+      "v": "이토 미나미",
+      "status": "verified",
+      "sources": [
+       "FANDOM-MINAMI"
+      ]
+     },
+     {
+      "v": "노윤아",
+      "status": "verified",
+      "sources": [
+       "DBKPOP-ILLIT"
+      ]
+     },
+     {
+      "v": "이원희",
+      "status": "verified",
+      "sources": [
+       "WIKI-WONHEE"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "생년월일 (만 나이, 2026-10-04 기준)",
+    "cells": [
+     {
+      "v": "2004-05-25 (22)",
+      "status": "verified",
+      "sources": [
+       "FANDOM-WONI"
+      ]
+     },
+     {
+      "v": "2006-11-29 (19)",
+      "status": "verified",
+      "sources": [
+       "FANDOM-MINAMI"
+      ]
+     },
+     {
+      "v": "2004-01-15 (22)",
+      "status": "verified",
+      "sources": [
+       "DBKPOP-ILLIT"
+      ]
+     },
+     {
+      "v": "2007-06-26 (19)",
+      "status": "verified",
+      "sources": [
+       "WIKI-WONHEE"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "출신",
+    "cells": [
+     {
+      "v": "경남 거제",
+      "status": "verified",
+      "sources": [
+       "FANDOM-WONI"
+      ]
+     },
+     {
+      "v": "일본 — 출처 불일치 (Grok: 지바 / Fandom: 나가사키 쓰시마) 미확인",
+      "status": "unverified",
+      "sources": [
+       "GROK",
+       "FANDOM-MINAMI"
+      ]
+     },
+     {
+      "v": "충북 충주",
+      "status": "verified",
+      "sources": [
+       "DBKPOP-ILLIT"
+      ]
+     },
+     {
+      "v": "부산 (Grok: 부산→창원)",
+      "status": "verified",
+      "sources": [
+       "WIKI-WONHEE"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "키",
+    "cells": [
+     {
+      "v": "162–163cm",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "162–164cm",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "168cm",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "161–162cm",
+      "status": "grok",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "item": "혈액형",
+    "cells": [
+     {
+      "v": "B",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "O",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "A",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "A",
+      "status": "grok",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "item": "MBTI",
+    "cells": [
+     {
+      "v": "ESFP",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "ENFP",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "ENFP",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "ISFP",
+      "status": "grok",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "item": "포지션",
+    "cells": [
+     {
+      "v": "리더 (최연장)",
+      "status": "verified",
+      "sources": [
+       "FANDOM-WONI"
+      ]
+     },
+     {
+      "v": "메인보컬/리드댄서",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "리드보컬/분위기 메이커",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "리드보컬",
+      "status": "grok",
+      "sources": []
+     }
+    ]
+   },
+   {
+    "item": "소속사",
+    "cells": [
+     {
+      "v": "더뮤즈엔터테인먼트",
+      "status": "verified",
+      "sources": [
+       "WIKI-RESCENE"
+      ]
+     },
+     {
+      "v": "더뮤즈엔터테인먼트",
+      "status": "verified",
+      "sources": [
+       "WIKI-RESCENE"
+      ]
+     },
+     {
+      "v": "빌리프랩 (HYBE)",
+      "status": "verified",
+      "sources": [
+       "WIKI-ILLIT"
+      ]
+     },
+     {
+      "v": "빌리프랩 (HYBE)",
+      "status": "verified",
+      "sources": [
+       "WIKI-ILLIT"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "데뷔",
+    "cells": [
+     {
+      "v": "2024-03-26",
+      "status": "verified",
+      "sources": [
+       "WIKI-RESCENE"
+      ]
+     },
+     {
+      "v": "2024-03-26",
+      "status": "verified",
+      "sources": [
+       "WIKI-RESCENE"
+      ]
+     },
+     {
+      "v": "2024-03-25",
+      "status": "verified",
+      "sources": [
+       "WIKI-ILLIT"
+      ]
+     },
+     {
+      "v": "2024-03-25",
+      "status": "verified",
+      "sources": [
+       "WIKI-ILLIT"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "이전 경력",
+    "cells": [
+     {
+      "v": "—",
+      "status": "grok",
+      "sources": []
+     },
+     {
+      "v": "MBC '방과후 설렘' 최종 13위",
+      "status": "verified",
+      "sources": [
+       "WIKI-RESCENE"
+      ]
+     },
+     {
+      "v": "R U Next? 출신",
+      "status": "verified",
+      "sources": [
+       "WIKI-ILLIT"
+      ]
+     },
+     {
+      "v": "R U Next? 출신, 솔로 예능 '원희는 스무살'(쿠팡플레이, 2026)",
+      "status": "verified",
+      "sources": [
+       "WIKI-WONHEE"
+      ]
+     }
+    ]
+   }
+  ],
+  "insights": [
+   "원이·윤아 = 2004년생 언니 라인 / 미나미·원희 = 2006·2007년생 막내 라인",
+   "원이: 리더·콘텐츠 엔진 (거제 사투리, 유튜브, '안원잘부' 100만, 멜론 1위 역주행 언급) — Grok 대화 기준",
+   "미나미: 일본인 올라운더, 갸루 밈, 광고 100편+ 주장 — Grok 대화 기준, 미확인",
+   "윤아: 장기 연습생, 최장신, 예능·분위기 라인 — Grok 대화 기준",
+   "원희: 짧은 연습 기간, 버스터미널 캐스팅 일화(소속사 스카우트 일화는 SBS star 보도), 브랜드평판 상위권 — Grok 대화 기준",
+   "페어: 원이+미나미('원나미')가 RESCENE 역주행 견인 / 윤아+원희 ILLIT 보컬·예능 라인 — Grok 대화 기준"
+  ],
+  "insightStatus": "grok"
+ },
+ "groups": {
+  "title": "걸그룹 대시보드 시드 (3–5세대 18팀, Grok 대화 기준일 2026-08-29)",
+  "list": [
+   "BLACKPINK",
+   "TWICE",
+   "BABYMONSTER",
+   "ITZY",
+   "i-dle",
+   "aespa",
+   "NewJeans",
+   "IVE",
+   "ILLIT",
+   "LE SSERAFIM",
+   "Red Velvet",
+   "NMIXX",
+   "Hearts2Hearts",
+   "KATSEYE",
+   "STAYC",
+   "KISS OF LIFE",
+   "MEOVV",
+   "izna"
+  ],
+  "facts": [
+   {
+    "text": "BLACKPINK 유튜브 구독자 약 1억 100만 (2026-02 아티스트 최초 1억 돌파)",
+    "status": "verified",
+    "sources": [
+     "YNA-BP100M",
+     "CHUKKAE-YT"
+    ]
+   },
+   {
+    "text": "KATSEYE 그래미 신인상 후보 (2026, 수상 불발)",
+    "status": "verified",
+    "sources": [
+     "TENASIA-KATSEYE"
+    ]
+   },
+   {
+    "text": "BABYMONSTER 누적 100억 뷰",
+    "status": "unverified",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "text": "ILLIT 유튜브 뮤직 월간 리스너 1위",
+    "status": "unverified",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "text": "RESCENE 국내 차트 역주행",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "text": "2006년생 라인: 은채, 해린, 규진, 아사, 메간, 키키(Hearts2Hearts) 등",
+    "status": "grok",
+    "sources": [
+     "GROK"
+    ]
+   },
+   {
+    "text": "그 외 팀별 구독자 수·평균 나이는 미확인 (확정/추정 구분 필요)",
+    "status": "unverified",
+    "sources": [
+     "GROK"
+    ]
+   }
+  ]
+ },
+ "profiles": [
+  {
+   "id": "rescene",
+   "name": "RESCENE (리센느)",
+   "type": "girl",
+   "facts": [
+    {
+     "k": "SPOTV K-POP AWARDS 2026",
+     "v": "스포티비 앰버서더·글로벌 커넥트 수상 (2026-09-06)",
+     "status": "verified",
+     "sources": [
+      "SPOTV-SKA"
+     ]
+    },
+    {
+     "k": "2026 시상식 출연",
+     "v": "KWDA·SKA·TMA·KGMA(원이 MC)·AAA 2026 양일",
+     "status": "verified",
+     "sources": [
+      "EDAILY-KGMA",
+      "STARNEWS-AAA"
+     ]
+    },
+    {
+     "k": "유튜브 구독자",
+     "v": "‘유튜브·SNS’ 탭 참조",
+     "status": "verified",
+     "sources": [
+      "CHUKKAE-YT-1004"
+     ]
+    },
+    {
+     "k": "미나미 학력",
+     "v": "일본에서 학교를 다니다 한림연예예술고 실용음악과에 재입학(또래보다 1살 위) → 이후 제나·리브와 함께 자퇴 (담당 교사 SNS 인용 보도)",
+     "status": "verified",
+     "sources": [
+      "KHAN-MINAMI"
+     ]
+    },
+    {
+     "k": "미나미 출생",
+     "v": "이토 미나미(伊藤南美), 2006-11-29, 일본 지바현",
+     "status": "verified",
+     "sources": [
+      "WIKI-KO-MINAMI"
+     ]
+    },
+    {
+     "k": "미나미 일본 학교",
+     "v": "치바니혼대학제일 초·중 재학 (Claude 대화 기준, 1차 출처 미노출 → 학비·진학률·가정 배경 등 대화 속 비공식 수치는 게재하지 않음)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "광고·앰버서더",
+     "v": "CU, 할리스, 도미노피자, 나랑드사이다, 어퓨, 프리티스킨, 엘리트학생복 / 원이 — 바이오던스 개인 앰버서더. ‘LOVE ATTACK’ 역주행 이후 계약 급증 (Claude 9/18 대시보드 v3)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "캐릭터 IP",
+     "v": "멤버 동물 캐릭터(미나미·메이·제나 등) 5종, 올라고엑스 제작(2024~), 멤버가 설정·디자인 참여, 캐릭터라이선싱페어 2026 관련 활동 (Claude 대화 미리보기 기준)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "수상 (2026)",
+     "v": "대한민국 퍼스트브랜드 대상 여자아이돌 라이징스타, K 월드 드림 어워즈 베스트 팬상 / 2025 미니 3집 ‘lip bomb’ 포브스 ‘2025 비평가 호평 K-팝 앨범’ (Claude 대시보드 요약)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-01-21",
+     "text": "‘Pinball’ 일본어 버전",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-02-27",
+     "text": "AA Project 컬래버 ‘Busy Boy’",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-04-08",
+     "text": "첫 디지털 싱글 ‘Runaway’",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-06",
+     "text": "수원시 MZ 타깃 브랜딩 콘텐츠 참여",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-07",
+     "text": "‘LOVE ATTACK’(2024-08 미니 1집 SCENEDROME 타이틀) 발매 2년 만에 멜론 TOP100 1위 — 일간 2위, FLO 2위, 지니 실시간 3위. 원이 유튜브 채널 갸루·사투리 밈이 계기 (문화일보 07-09·스포츠경향 07-13 보도 요약)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-07-08",
+     "text": "카라 ‘Pretty Girl’(2008) 리메이크 싱글 — 향 콘셉트 ‘자몽’, 컴백 라이브 3만 명+, 엠카 첫 무대 니콜 합류 (스포츠경향·일간스포츠 요약)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-09-01",
+     "text": "9월 신인 아이돌 브랜드평판 1위 (한국기업평판연구소, 8/1~9/1 빅데이터 1,973만 건) — 2위 코르티스, 3위 키키 (셀럽미디어·K trendy NEWS 요약)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "date": "2026-09-06",
+     "text": "SPOTV K-POP AWARDS 수상",
+     "status": "verified",
+     "sources": [
+      "SPOTV-SKA"
+     ]
+    },
+    {
+     "date": "2026-09-26",
+     "text": "OBJET K-POP FESTA(9/26–27) 주최 측 사정으로 취소 (공식 Mnet Plus 공지 요약)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    }
+   ],
+   "pending": [],
+   "withheld": "건강·다이어트 관련 대화(9/15)는 실존 인물의 체중·식단에 관한 내용이라, 1차 출처 URL로 확인되기 전까지 게재하지 않음.",
+   "artifacts": "출처: Claude ‘개인 K-pop 대시보드’(knowledge-dash, 9/19) 처리 노트 6건 — 원 보도 URL 미포함."
+  },
+  {
+   "id": "bts",
+   "name": "방탄소년단 (BTS)",
+   "type": "boy",
+   "facts": [
+    {
+     "k": "5집 ARIRANG",
+     "v": "2026년 3월 발매, Billboard 200 1위·리드 싱글 ‘SWIM’ Hot 100 1위 데뷔",
+     "status": "verified",
+     "sources": [
+      "PRN-JINRO-V"
+     ]
+    },
+    {
+     "k": "ARIRANG 월드투어",
+     "v": "88회·34개 도시(2026-04-09 고양 ~ 2027-03-16 불라칸) — 트래커 탭 참조",
+     "status": "verified",
+     "sources": [
+      "CM-BTS88",
+      "WIKI-ARIRANG"
+     ]
+    },
+    {
+     "k": "Claude 위키 아티팩트 권역 분포",
+     "v": "북미 28 · 동남아/중화권 21 · 중남미 17 · 유럽 10 · 한국 5 · 오세아니아 5 · 일본 2 (=88회, 대화 내 일부 초기 권역 수치는 개략)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "디스코그래피 (아티팩트 집계)",
+     "v": "정규·미니 등 앨범 22, 싱글 16, ARIRANG 15곡, 멤버 솔로 앨범 15, Hot 100 1위 7곡 (Claude 대화 기준 — PR Newswire는 ‘2020년 이후 Hot 100 1위 6곡’ 문구, 집계 기준 차이 가능)",
+     "status": "conflict",
+     "sources": [
+      "CLAUDE-CHATS-2",
+      "PRN-JINRO-V"
+     ]
+    },
+    {
+     "k": "LE SSERAFIM 비교 (아티팩트)",
+     "v": "BTS 7개 권역·스타디움·회당 4–6만 vs 르세라핌 5개 권역·아레나·회당 약 1만, 교세라돔 2회 / Billboard 200 1위 7회 vs 르세라핌 톱10 5회 / Hot 100 1위 7곡 vs 르세라핌 최고 50위",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-03-20",
+     "text": "5집 ‘ARIRANG’ 발매",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "date": "2026-03-21",
+     "text": "광화문 넷플릭스 컴백 라이브",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "date": "2026-04-09",
+     "text": "고양에서 월드투어 개막",
+     "status": "verified",
+     "sources": [
+      "CM-BTS88"
+     ]
+    },
+    {
+     "date": "2026",
+     "text": "부산 13주년 공연·AMA 무대 (Claude 아티팩트 기준)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    }
+   ],
+   "artifacts": "Claude 아티팩트 ‘bts-wiki’(13장: 개요·멤버·연표·디스코그래피·투어·활동 캘린더 2013–2027.3·BU·ARMY/광고·수상·논란·유튜브·르세라핌 비교·출처)와 ‘lesserafim-wiki’(12장)"
+  },
+  {
+   "id": "lesserafim",
+   "name": "LE SSERAFIM (르세라핌)",
+   "type": "girl",
+   "facts": [
+    {
+     "k": "Claude 위키 아티팩트 수치",
+     "v": "앨범 13, 싱글 17, PUREFLOW 36회, EASY CRAZY HOT 31회, 공식 MV 링크 20개 (PUREFLOW 회차는 트래커 34회·Claude 배치1 32회와 또 달라 충돌)",
+     "status": "conflict",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "광고 구조",
+     "v": "그룹 계약 중심, 멤버 개인(사쿠라·카즈하·은채 등) 계약 병행 — IVE·aespa·NewJeans와 비교 (Claude 9/18 대시보드)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    }
+   ],
+   "timeline": []
+  },
+  {
+   "id": "katseye",
+   "name": "KATSEYE (캣츠아이)",
+   "type": "girl",
+   "facts": [
+    {
+     "k": "3rd EP ‘WILD’ (2026-08-14)",
+     "v": "Billboard 200 1위(8/29자) — 170,000 유닛(앨범 판매 145,000 · SEA 24,500 · TEA 약 500). 여성 그룹 주간 유닛 최고치. 직전 ‘Beautiful Chaos’ 최고 4위",
+     "status": "verified",
+     "sources": [
+      "BB-KATSEYE-WILD",
+      "HERALD-KATSEYE-WILD"
+     ]
+    },
+    {
+     "k": "‘WILD’ 해외 차트",
+     "v": "영국 앨범 2위 (보도), Claude는 ‘Bel Air’ 버블링 언더 Hot 100 11위·UK 싱글 97위라 함",
+     "status": "partial",
+     "sources": [
+      "CLAUDE-CHATS-2",
+      "HERALD-KATSEYE-WILD"
+     ]
+    },
+    {
+     "k": "‘Bel Air’ (WILD 4번 트랙, 약 3:30)",
+     "v": "Charli xcx 2013년 ‘SUCKER’용 미발매·유출곡 리워크. 작곡 Charli xcx·Noonie Bao·Jarrad Rogers·Stefan Gräslund·Patrik Berger·Martin Stilling·Kristin Carpenter / 프로듀서 Stilling·MSTR Rogers·Gräslund·Berger / 믹스 Alex Ghenea, 마스터 Chris Gehringer. 프리코러스 신설, 톤은 어두운 인디팝→광택 대중팝. 참여: 소피아·다니엘라·라라·메간·윤채 (마농 활동 불참)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-07-30",
+     "text": "WILD 트랙리스트 공개 (‘PINKY UP’ 번호판 티저)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "date": "2026-08-14",
+     "text": "3rd EP ‘WILD’ 발매",
+     "status": "verified",
+     "sources": [
+      "BB-KATSEYE-WILD"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blackpink",
+   "name": "BLACKPINK (블랙핑크)",
+   "type": "girl",
+   "facts": [
+    {
+     "k": "‘JUMP’ 사운드 분석 (Claude 2025-08-01)",
+     "v": "하드스타일 기반 EDM에 테크노·드릴·유로댄스·트랜스 혼합. 웨스턴 영화음악풍 기타 리프 인트로 → 고에너지 일렉트로닉, 1997년 레이브곡 ‘Meet Her at the Loveparade’를 연상시키는 후렴, 랩·반말투 벌스에서 폭발적 후렴으로 빌드업",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "k": "‘JUMP’ 프로듀서",
+     "v": "Diplo, 24, Boaz van de Beatz, Zecca, Ape Drums (Claude가 Rolling Stone 인용)",
+     "status": "claude",
+     "sources": [
+      "CLAUDE-FC"
+     ]
+    },
+    {
+     "k": "멤버 인스타그램",
+     "v": "‘유튜브·SNS’ 탭 참조",
+     "status": "verified",
+     "sources": [
+      "LIVECOUNTS-LJ"
+     ]
+    }
+   ],
+   "timeline": []
+  }
+ ],
+ "ambassadors": {
+  "title": "K-pop 앰버서더 총람 (Claude 9/18 아티팩트 요약)",
+  "status": "claude",
+  "sources": [
+   "CLAUDE-CHATS-1"
+  ],
+  "summary": "162건 · 9개 카테고리(럭셔리 패션, 컨템포러리/캐주얼, 스포츠/아웃도어, 럭셔리 뷰티/향수, K-뷰티/스킨케어, 주얼리/시계, 아이웨어, 테크/가전, 식품/금융/라이프스타일) · 107개 브랜드. 해외 데이터는 WWD/Variety/Hypebae 2026 스냅샷으로 전수 아님.",
+  "comparisons": [
+   [
+    "Louis Vuitton",
+    "K-pop 7명",
+    "해외 13명"
+   ],
+   [
+    "Chanel",
+    "제니·정국·민지·G-DRAGON",
+    "해외 15명"
+   ],
+   [
+    "Prada",
+    "카리나·사나·재현",
+    "해외 8명"
+   ],
+   [
+    "Tiffany & Co.",
+    "로제·지민",
+    "비욘세·제이지·안야 테일러조이·갤 가돗·헤일리 비버"
+   ]
+  ],
+  "examples": [
+   [
+    "리사",
+    "Nike"
+   ],
+   [
+    "카리나",
+    "Nike·Converse"
+   ],
+   [
+    "로제",
+    "Puma"
+   ],
+   [
+    "윈터",
+    "New Balance"
+   ],
+   [
+    "필릭스",
+    "Adidas"
+   ],
+   [
+    "지수",
+    "Salomon·Alo Yoga"
+   ]
+  ],
+  "note": "대화 제목은 ‘블랙핑크 멤버별 SNS 구독자수 비교’지만 추출본에 팔로워 수치는 없음 → 팔로워는 ‘유튜브·SNS’ 탭에서 웹 확인값 사용. LE SSERAFIM LV 역할·BTS 럭셔리 협업은 배치 2에서 보강 예정.",
+  "girlAds": {
+   "title": "걸그룹 광고·앰버서더 대시보드 (Claude 9/18 v1→v3)",
+   "status": "claude",
+   "sources": [
+    "CLAUDE-CHATS-2"
+   ],
+   "rows": [
+    [
+     "KATSEYE",
+     "Gap, Coach, Hershey’s"
+    ],
+    [
+     "BABYMONSTER",
+     "banila co, PUBG Mobile, Google Pixel Japan"
+    ],
+    [
+     "ALLDAY PROJECT",
+     "클리오, IBK"
+    ],
+    [
+     "ILLIT",
+     "원희 — PINO"
+    ],
+    [
+     "Hearts2Hearts",
+     "빙그레 요맘때"
+    ],
+    [
+     "KiiiKiii",
+     "카카오뱅크 mini"
+    ],
+    [
+     "NMIXX",
+     "메이크업포에버 글로벌, GUESS 아시아, 설윤 바이오더마"
+    ],
+    [
+     "MEOVV",
+     "엘라 — Miu Miu·M·A·C 글로벌 / 안나 — Chloé 글로벌 / 전원 — 로레알 파리"
+    ],
+    [
+     "RESCENE",
+     "CU, 할리스, 도미노피자, 나랑드사이다, 어퓨, 프리티스킨, 엘리트학생복 / 원이 — 바이오던스"
+    ]
+   ],
+   "note": "v1은 LE SSERAFIM·IVE·aespa·NewJeans 비교(그룹 계약·럭셔리 밀도·개인 계약·해외 노출, 정성 지표). 빈칸은 ‘미확인’이지 ‘없음’이 아님. v3에서 ‘5세대는 럭셔리 계약 없음’ 주장을 수정 — 럭셔리는 MEOVV에 집중. NewJeans 과거 계약의 현재 유효성은 불확실."
+  }
+ },
+ "memberChart": {
+  "title": "2004–2010년생 걸그룹 멤버 (Claude 8/16, 48명)",
+  "status": "claude",
+  "sources": [
+   "CLAUDE-CHATS-2"
+  ],
+  "columns": [
+   "#",
+   "생년월일",
+   "이름",
+   "그룹"
+  ],
+  "rows": [
+   [
+    "1",
+    "2004-01-26",
+    "설윤",
+    "NMIXX"
+   ],
+   [
+    "2",
+    "2004-02-03",
+    "레이",
+    "IVE"
+   ],
+   [
+    "3",
+    "2004-02-13",
+    "지연",
+    "tripleS"
+   ],
+   [
+    "4",
+    "2004-03-10",
+    "코토네",
+    "tripleS"
+   ],
+   [
+    "5",
+    "2004-04-14",
+    "윤",
+    "STAYC"
+   ],
+   [
+    "6",
+    "2004-05-07경",
+    "민지",
+    "NewJeans"
+   ],
+   [
+    "7",
+    "2004-07-01",
+    "라라",
+    "KATSEYE"
+   ],
+   [
+    "8",
+    "2004-08-31",
+    "장원영",
+    "IVE"
+   ],
+   [
+    "9",
+    "2004-10-06경",
+    "하니",
+    "NewJeans"
+   ],
+   [
+    "10",
+    "2004-11-21",
+    "리즈",
+    "IVE"
+   ],
+   [
+    "11",
+    "2004-12-04",
+    "김채연",
+    "tripleS"
+   ],
+   [
+    "12",
+    "2004-12-09",
+    "재이",
+    "STAYC"
+   ],
+   [
+    "13",
+    "2004-12-28",
+    "배이",
+    "NMIXX"
+   ],
+   [
+    "14",
+    "2004",
+    "윤아",
+    "ILLIT"
+   ],
+   [
+    "15",
+    "2004",
+    "민주",
+    "ILLIT"
+   ],
+   [
+    "16",
+    "2004",
+    "모카",
+    "ILLIT"
+   ],
+   [
+    "17",
+    "2005-02-03",
+    "공유빈",
+    "tripleS"
+   ],
+   [
+    "18",
+    "2005-04-11경",
+    "다니엘",
+    "NewJeans"
+   ],
+   [
+    "19",
+    "2005-04-13",
+    "지우",
+    "NMIXX"
+   ],
+   [
+    "20",
+    "2005-05-25",
+    "하늘",
+    "KISS OF LIFE"
+   ],
+   [
+    "21",
+    "2005-08-26",
+    "파리타",
+    "BABYMONSTER"
+   ],
+   [
+    "22",
+    "2005-10-24",
+    "이지우",
+    "tripleS"
+   ],
+   [
+    "23",
+    "2005-11-03",
+    "메간",
+    "KATSEYE"
+   ],
+   [
+    "24",
+    "2005-12-20",
+    "카에데",
+    "tripleS"
+   ],
+   [
+    "25",
+    "2006-02-10",
+    "윤채",
+    "KATSEYE"
+   ],
+   [
+    "26",
+    "2006-04-03",
+    "박시온",
+    "tripleS"
+   ],
+   [
+    "27",
+    "2006-04-12",
+    "린",
+    "tripleS"
+   ],
+   [
+    "28",
+    "2006-04-17",
+    "아사",
+    "BABYMONSTER"
+   ],
+   [
+    "29",
+    "2006-05-15",
+    "해린",
+    "NewJeans"
+   ],
+   [
+    "30",
+    "2006-05-26",
+    "규진",
+    "NMIXX"
+   ],
+   [
+    "31",
+    "2006-11-10",
+    "홍은채",
+    "LE SSERAFIM"
+   ],
+   [
+    "32",
+    "2006-11-30",
+    "설린",
+    "tripleS"
+   ],
+   [
+    "33",
+    "2007-02-21",
+    "이서",
+    "IVE"
+   ],
+   [
+    "34",
+    "2007-04-11",
+    "아현",
+    "BABYMONSTER"
+   ],
+   [
+    "35",
+    "2007-04-12",
+    "정혜린",
+    "tripleS"
+   ],
+   [
+    "36",
+    "2007-05-02",
+    "김채원",
+    "tripleS"
+   ],
+   [
+    "37",
+    "2007-08-01",
+    "정하연",
+    "tripleS"
+   ],
+   [
+    "38",
+    "2007-10-03",
+    "김수민",
+    "tripleS"
+   ],
+   [
+    "39",
+    "2007-10-17",
+    "라미",
+    "BABYMONSTER"
+   ],
+   [
+    "40",
+    "2007-12-06경",
+    "다니엘라",
+    "KATSEYE"
+   ],
+   [
+    "41",
+    "2007",
+    "원희",
+    "ILLIT"
+   ],
+   [
+    "42",
+    "2008-01-08",
+    "곽연지",
+    "tripleS"
+   ],
+   [
+    "43",
+    "2008-04-21",
+    "혜인",
+    "NewJeans"
+   ],
+   [
+    "44",
+    "2008-08-14",
+    "로라",
+    "BABYMONSTER"
+   ],
+   [
+    "45",
+    "2008",
+    "이로하",
+    "ILLIT"
+   ],
+   [
+    "46",
+    "2009-01-16",
+    "주빈",
+    "tripleS"
+   ],
+   [
+    "47",
+    "2009-02-17",
+    "치키타",
+    "BABYMONSTER"
+   ],
+   [
+    "48",
+    "2010-06-11",
+    "서아",
+    "tripleS"
+   ]
+  ],
+  "note": "범위: 현재 활동 중인 K-pop·글로벌 기반 그룹. ‘경’·연도만 표기는 정확한 날짜 미확인. 추가: WOOAH 루시·민서(2004, 날짜 미확인). 미반영·부분 확인 그룹: UNIS, Hearts2Hearts, Kep1er, izna, MEOVV, CSR, NiziU, XG, TRI.BE, Young Posse, H1-KEY, Cignature, VVUP, VVS, Hitgs, Ifeye, Baby Dont Cry — 전수 목록 아님. 표 안 RESCENE은 누락(미나미 2006-11-29는 위키 확인)."
+ },
+ "brandCollabs": {
+  "title": "BTS 멤버 럭셔리 브랜드 (Claude 7/22 → 2026-10-04 웹 재확인)",
+  "status": "partial",
+  "sources": [
+   "CLAUDE-CHATS-2",
+   "OUTLOOK-BTS-LUX",
+   "MGK-BTS-LUX",
+   "ST-BTS-LUX"
+  ],
+  "columns": [
+   "멤버",
+   "주 브랜드",
+   "Claude 대화 기록",
+   "2026-10 웹 확인",
+   "검증"
+  ],
+  "rows": [
+   [
+    "지민",
+    "Dior 글로벌 앰버서더 (2023-01)",
+    "2025-10-01 Dior SS26 파리, #JiminxDior 12시간 480만 언급",
+    "Dior(2023-01)·Tiffany 하우스 앰버서더(2023-03) 확인",
+    "verified"
+   ],
+   [
+    "뷔",
+    "Celine 글로벌 앰버서더 (2023-03)",
+    "Celine SS26 EMV $13.1M, 2026-06-28 SS27 남성쇼",
+    "Celine·Cartier(2023-07) 확인 + JINRO 글로벌 앰버서더(2026-07-02) 신규",
+    "verified"
+   ],
+   [
+    "정국",
+    "Calvin Klein",
+    "2025-09-12 CK SS26 뉴욕, 미디어가치 $7.44M, 2026-05 캡슐 컬렉션",
+    "CK(2023~)·5월 20피스 캡슐 확인 + Chanel 프래그런스&뷰티(2025-12)·Hublot(2026-02-12)·Graff(2026-07-01) 신규",
+    "verified"
+   ],
+   [
+    "RM",
+    "Bottega Veneta (2023-03)",
+    "Matthieu Blazy 게시물, 밀라노 패션위크 소셜 언급 순위",
+    "Straits Times: 2023년부터 연관되나 ‘공식 글로벌 앰버서더 명칭은 아님’ / MyGuideKorea: 브랜드 첫 셀럽 앰버서더 → 충돌",
+    "conflict"
+   ],
+   [
+    "진",
+    "Gucci",
+    "Gucci SS26 밀라노, 패션위크 언급 37.5%",
+    "Gucci(2023~)·Fred 주얼리 확인",
+    "verified"
+   ],
+   [
+    "제이홉",
+    "Louis Vuitton (Claude: 2025-01)",
+    "LV 남성 AW25, 미디어가치 $6.68M",
+    "LV 앰버서더는 2023년부터(Outlook Luxe 2023-02) — Claude의 2025-01은 오류 가능. 2026-06-23 SS27 남성쇼 참석",
+    "conflict"
+   ],
+   [
+    "슈가",
+    "Valentino (Claude: 참고 수준)",
+    "스포츠 기사 사진 캡션 근거",
+    "Valentino 연관 보도 있음(MyGuideKorea·Outlook Luxe) + 삼성 Galaxy Buds4 Pro",
+    "partial"
+   ]
+  ],
+  "note": "Claude 대화: 2026 S/S 시즌 5명(RM·진·지민·뷔·정국) EMV 합계 $39.26M (미검증). 보충: 블랙핑크 — 제니 Chanel, 리사 Louis Vuitton(이전 Celine), 로제 Saint Laurent·Tiffany & Co., 지수 Dior (Claude 기준)."
+ },
+ "agencies": {
+  "title": "카카오엔터테인먼트 계열 아이돌 (Claude 9/3)",
+  "status": "claude",
+  "sources": [
+   "CLAUDE-CHATS-2"
+  ],
+  "columns": [
+   "소속/레이블",
+   "주요 아이돌",
+   "비고"
+  ],
+  "rows": [
+   [
+    "스타쉽",
+    "IVE, MONSTA X, CRAVITY, KiiiKiii(2025), IDID(2025-09 데뷔, 7인), 우주소녀 잔류 멤버",
+    "핵심 아이돌 축. 킹콩 by 스타쉽은 배우"
+   ],
+   [
+    "이담",
+    "(그룹 없음)",
+    "아이유, 우즈"
+   ],
+   [
+    "하이업",
+    "STAYC",
+    "블랙아이드필승 설립"
+   ],
+   [
+    "안테나",
+    "아이돌 프로젝트 준비 중(2026 보도)",
+    "유희열·유재석·이효리·이서진·정재형·루시드폴·페퍼톤스·정승환·규현·양세찬·드래곤포니"
+   ],
+   [
+    "카카오 직속",
+    "—",
+    "빅마마, 곰막스보이즈 등"
+   ],
+   [
+    "SM (카카오 최대주주·관계사)",
+    "aespa, Red Velvet, 소녀시대, NCT 127/DREAM/WISH, RIIZE, EXO, SHINee, 슈퍼주니어, 동방신기, Hearts2Hearts",
+    "SM은 독립 상장·운영"
+   ]
+  ],
+  "note": "정정: 큐브·FNC·RBW는 카카오 소유가 아니라 유통 계약만(별도 코스닥 상장사). 큐브: i-dle·LIGHTSUM·NOWZ / FNC: FTISLAND·CNBLUE·N.Flying·SF9·P1Harmony·AMPERS&ONE / RBW: 마마무·원어스·원위, WM: 오마이걸·B1A4·ONF, DSP: KARD·YOUNG POSSE. IST(에이핑크·더보이즈)는 과거 카카오 관련이었으나 매각. 지분 관계는 공시로 재확인 필요."
+ },
+ "producers": {
+  "title": "양현석·YG × Diplo 협업 조사 (Claude 9/25)",
+  "status": "claude",
+  "sources": [
+   "CLAUDE-CHATS-2"
+  ],
+  "columns": [
+   "곡",
+   "내용"
+  ],
+  "rows": [
+   [
+    "‘쿠데타’ (2013-09, YG)",
+    "G-DRAGON 타이틀곡, Diplo·Baauer 공동 프로듀싱, 슬로 템포 트랩, Gil Scott-Heron ‘The Revolution Will Not Be Televised’ 샘플"
+   ],
+   [
+    "‘Doctor Pepper’ (2015-05-26, Mad Decent)",
+    "Diplo 싱글 feat. CL·Riff Raff·OG Maco, Diplo·Swizzymack 프로듀싱, CL 미국 시장 테스트. 라스베이거스 촬영"
+   ],
+   [
+    "‘Knock Out(뻑이 가요)’",
+    "GD&T.O.P — 나무위키 서술상 YG가 Diplo에게 아카펠라를 이메일로 보낸 것이 시작(원 인터뷰 미확인)"
+   ],
+   [
+    "‘Dirty Vibe’ (2014)",
+    "CL·Diplo가 GD와 이미 함께 작업한 곡 (Claude 대화 기준)"
+   ]
+  ],
+  "note": "첫 접촉자: ‘YG’라는 회사 단위만 확인. 후보 — 양현석(정황상 유력, 직접 증거 없음), 테디(근거 없음), YG 해외 A&R(미상), GD(이후 직접 관계). 양현석의 직접 개입은 ‘Black’·‘R.O.D.’·‘Runaway’ 등에서 문서화, ‘Doctor Pepper’는 아님. 2011년 Diplo: M.I.A. ‘Paper Planes’(Hot 100 4위·그래미 올해의 레코드 후보), Major Lazer, 비욘세 ‘Run the World (Girls)’ 샘플, 크리스 브라운 ‘Look at Me Now’ — 트렌드세터 프로듀서 단계, 첫 그래미는 2016년(Jack Ü)."
+ },
+ "fanEvents": {
+  "title": "정국 생일(9/1) 글로벌 팬 이벤트 (Claude 8/31)",
+  "status": "estimate",
+  "sources": [
+   "CLAUDE-CHATS-2"
+  ],
+  "types": [
+   "옥외광고",
+   "오프라인 생일카페·모임",
+   "기부·선물",
+   "랜드마크 점등·조형물 특별 이벤트",
+   "온라인 스트리밍·해시태그·투표"
+  ],
+  "costs": [
+   [
+    "지하철 포스터/와이드컬러",
+    "2주",
+    "30만–150만"
+   ],
+   [
+    "CM보드/디지털 패널",
+    "1주",
+    "50만–300만"
+   ],
+   [
+    "스크린도어",
+    "2주",
+    "100만–350만"
+   ],
+   [
+    "지하철 노선 패키지",
+    "1–2주",
+    "1,000만–5,000만+"
+   ],
+   [
+    "버스 쉘터",
+    "1주",
+    "80만–400만"
+   ],
+   [
+    "버스 노선 광고",
+    "1개월",
+    "300만–800만"
+   ],
+   [
+    "랩핑 버스",
+    "5–7일",
+    "300만–800만"
+   ],
+   [
+    "LED 트럭/택시",
+    "1–2주",
+    "150만–600만"
+   ],
+   [
+    "중형 빌보드",
+    "1–3일",
+    "100만–600만"
+   ],
+   [
+    "대형 빌보드",
+    "1–3일",
+    "500만–3,000만"
+   ],
+   [
+    "타임스스퀘어 TSX",
+    "1일·고빈도",
+    "1,000만–5,000만"
+   ],
+   [
+    "대형 공간 랩핑",
+    "1개월",
+    "2,000만–6,000만"
+   ],
+   [
+    "편의점 체인",
+    "1주",
+    "1,000만–4,000만"
+   ],
+   [
+    "랜드마크 점등",
+    "20분–1시간",
+    "200만–1,500만"
+   ],
+   [
+    "조형물/풍선",
+    "3–5일",
+    "500만–3,000만"
+   ],
+   [
+    "불꽃놀이",
+    "1회",
+    "1,000만–5,000만+"
+   ],
+   [
+    "생일카페+굿즈",
+    "1–3일",
+    "100만–800만"
+   ],
+   [
+    "기부/쌀화환",
+    "건당",
+    "5만–1,500만"
+   ],
+   [
+    "온라인",
+    "—",
+    "0"
+   ]
+  ],
+  "regions": [
+   [
+    "미국",
+    "타임스스퀘어 TSX, LA SoFi 인근 빌보드 3, SoFi 쉘터, 라스베이거스 iHeart 스크린, 광고 트럭 3",
+    "4,300만–1억 2,600만"
+   ],
+   [
+    "한국",
+    "신촌 U-PLEX/DID, 명동, 여의도, 강남, 테헤란로, 홍대, 용산, 명동 기둥 26개/스크린 52면, 메가커피, 한강 풍선 등",
+    "4,500만–1억 2,400만"
+   ],
+   [
+    "중국",
+    "4개 도시 테마 빌딩·정국존, 위챗 스토어, 11개 도시 옥외 스크린, 상하이 이벤트",
+    "6,200만–1억 6,500만"
+   ],
+   [
+    "일본 (별도 주최)",
+    "도쿄 드론 1,000대 생일 쇼",
+    "2억–5억"
+   ]
+  ],
+  "note": "비용은 모두 시장 단가 기반 추정(원, $1=1,400원), 실제 집행액 비공개. Jungkook China PART 1–41 광고 소계 약 1억 5,000만–4억 1,500만, 일본 드론쇼 포함 약 3억 5,000만–9억. 규모별 예산: 개인 5만–50만, 소형 계정 300만–1,000만, 중형 3,000만–1억, 대형 국가 팬클럽 2억–5억+, 전 세계 연간 합계 5억–15억+ (감사되지 않은 추정). 사례: 타임스스퀘어 TSX 1일 576회, 신주쿠, 방콕 MBK·툭툭, 부다페스트, 인도네시아 산호 심기, 중남미 Operation Smile·보호소 후원."
+ }
+}
