@@ -4,4 +4,5 @@
  */
 const DATA_BASE = 'https://gaeco76.github.io/kpop-research/data/';
 const FALLBACK_BASES = ['../kpop/site/data/', './data/'];
-const DATA_FILES = ['meta','tours','tracker','social','events','industry','artists','auditions','rpd','sources'];
+const DATA_FILES = ['meta','tours','tracker','social','events','industry','artists','auditions','rpd','sources','hybe'];
+const OPTIONAL_FILES = ['hybe'];  // 실패해도 해당 탭만 안내 표시

@@ -7,14 +7,14 @@ DATA = os.path.join(ROOT, 'data') if os.path.isdir(os.path.join(ROOT, 'data')) e
 rd = lambda p: open(os.path.join(ROOT, p), encoding='utf-8').read()
 html = rd('index.html')
 emb = {}
-for f in ['meta','tours','tracker','social','events','industry','artists','auditions','rpd','sources']:
+for f in ['meta','tours','tracker','social','events','industry','artists','auditions','rpd','sources','hybe']:
     fp = os.path.join(DATA, f + '.json')
     if os.path.exists(fp): emb[f] = json.load(open(fp, encoding='utf-8'))
 safe = lambda s: s.replace('</script', '<\\/script')
 html = html.replace('<link rel="stylesheet" href="css/style.css">', '<style>' + rd('css/style.css') + '</style>')
 html = re.sub(r'<script src="vendor/echarts.min.js"></script>\s*<script>if\(!window.echarts\).*?</script>', lambda m: '<script>' + safe(rd('vendor/echarts.min.js')) + '</script>', html, flags=re.S)
 embed_js = 'window.KPD_EMBED=' + json.dumps(emb, ensure_ascii=False) + ';'
-for js in ['config', 'core', 'tabs', 'app']:
+for js in ['config', 'core', 'tabs', 'calendar', 'hybe', 'app']:
     code = rd(f'js/{js}.js')
     if js == 'config': code = embed_js + '\n' + code
     html = html.replace(f'<script src="js/{js}.js"></script>', '<script>' + safe(code) + '</script>')

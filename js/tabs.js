@@ -147,7 +147,7 @@ function accCounts() {
       Object.values(x).forEach(v => walk(v, inheritEst));
     }
   };
-  ['tours', 'tracker', 'social', 'events', 'industry', 'artists', 'auditions', 'rpd'].forEach(f => D[f] && walk(D[f]));
+  ['tours', 'tracker', 'social', 'events', 'industry', 'artists', 'auditions', 'rpd', 'hybe'].forEach(f => D[f] && walk(D[f]));
   return (__accCounts = c);
 }
 
@@ -773,4 +773,4 @@ function merchCharts(M) {
   }
 }
 
-const RENDER = { overview: renderOverview, boxscore: renderBoxscore, tracker: () => renderTracker(), social: renderSocial, events: renderEvents, artists: renderArtists, auditions: renderAuditions, rpd: renderRPD, industry: renderIndustry };
+const RENDER = { overview: renderOverview, boxscore: renderBoxscore, tracker: () => renderTracker(), hybe: () => renderHybe(), social: renderSocial, events: renderEvents, artists: renderArtists, auditions: renderAuditions, rpd: renderRPD, industry: renderIndustry };

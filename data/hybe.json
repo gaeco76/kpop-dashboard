@@ -1,0 +1,972 @@
+{
+ "asOf": "2026-10-04T09:30:00+09:00",
+ "title": "하이브(HYBE) 투어 현황 — 2026-10-04 KST 기준",
+ "intro": "HYBE MUSIC GROUP 전 레이블의 2025–26 투어·공연. 관객·매출은 출처가 있는 값만 수치로 넣고, 집계 범위(보고 회차·집계기간)를 함께 표기합니다. 합계 카드는 출처 있는 보고분 단순 합계이며 투어 총량이 아닙니다.",
+ "tours": [
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "BTS",
+   "tour": "WORLD TOUR 'ARIRANG'",
+   "kind": "월드투어",
+   "start": "2026-04-09",
+   "end": "2027-03-16",
+   "period": "2026-04-09 ~ 2027-03-16",
+   "regions": "한국·일본·북미·멕시코·유럽(스페인)·남미(10월)·아시아(11월~)",
+   "cities": 34,
+   "shows": 88,
+   "done": 48,
+   "left": 40,
+   "attendance": 2300000,
+   "attendanceText": "2,300,000 (38회 시점, 8/11)",
+   "gross": 500000000,
+   "grossText": "$500M+ (8월 보고분까지, Billboard 9/30)",
+   "state": "진행 중",
+   "y2027": true,
+   "status": "partial",
+   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인.",
+   "sources": [
+    "BB-BTS-0930",
+    "TTB-HYBE-2Q26",
+    "CL-STARNEWS-BTS",
+    "CM-BTS88",
+    "HYBE-2Q26-EKN"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "TOMORROW X TOGETHER",
+   "tour": "ACT : TOMORROW",
+   "kind": "월드투어",
+   "start": "2025-08-22",
+   "end": "2026-02-14",
+   "period": "2025-08 ~ 2026-02-14",
+   "regions": "서울·미국 7도시·일본 5돔·홍콩·싱가포르·타이베이·쿠알라룸푸르",
+   "cities": 17,
+   "shows": 29,
+   "done": 29,
+   "left": 0,
+   "attendance": 564000,
+   "attendanceText": "약 564,000 (BigHit 발표)",
+   "gross": 36666355,
+   "grossText": "$36.7M (보고 17/29회, Touring Data)",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "Billboard 2026 상반기(집계기간) $53M·412K·20회는 2026년분 보고치(투어 총량 아님). 2025년분 Billboard 연간: $64.3M·485K·39회(ACT: PROMISE 일부 포함 집계기간).",
+   "sources": [
+    "AKP-TXT-ACT",
+    "TD-TXT-ACT",
+    "BB-MID2026",
+    "BB-YE2025"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "TOMORROW X TOGETHER",
+   "tour": "2026 TXT MOA CON",
+   "kind": "팬콘서트",
+   "start": "2026-02-27",
+   "end": "2026-03-01",
+   "period": "2026-02-27 ~ 03-01",
+   "regions": "서울",
+   "cities": 1,
+   "shows": 3,
+   "done": 3,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인 (전석 매진)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "데뷔 7주년 기념 3일 공연, 전석 매진(BigHit).",
+   "sources": [
+    "KPH-TXT-MOA"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "TOMORROW X TOGETHER",
+   "tour": "WORLD TOUR ⟨STEAL THE WIND⟩",
+   "kind": "월드투어",
+   "start": "2026-11-13",
+   "end": "2027-06-20",
+   "period": "2026-11-13 ~ 2027-06-20",
+   "regions": "서울·마카오·일본 4도시·가오슝·쿠알라룸푸르·자카르타·북미 6도시·멕시코시티·유럽 6도시·홍콩",
+   "cities": 23,
+   "shows": 32,
+   "done": 0,
+   "left": 32,
+   "attendance": null,
+   "attendanceText": "—",
+   "gross": null,
+   "grossText": "—",
+   "state": "예정",
+   "y2027": true,
+   "status": "verified",
+   "note": "발표 32회·23개 도시(2026-08-27). 도쿄돔 2027-01-07~08 확정. BigHit: 추가 도시 발표 예정 → 최종 회차 미정.",
+   "sources": [
+    "CONSEQ-TXT-STW",
+    "WEVERSE-TXT-STW"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "CORTIS",
+   "tour": "PUT YOUR PHONE DOWN",
+   "kind": "첫 투어",
+   "start": "2026-07-18",
+   "end": "2026-09-06",
+   "period": "2026-07-18 ~ 09-06",
+   "regions": "인천·토론토·뉴욕·애틀랜타·어빙·LA·샌프란시스코·서울·가나가와",
+   "cities": 9,
+   "shows": 14,
+   "done": 14,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인 (14회 전석 매진)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "BigHit: 9개 도시 14회 전석 매진. 회차별 관객·매출 공식 발표 없음.",
+   "sources": [
+    "STARNEWS-CORTIS",
+    "WEVERSE-CORTIS"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "SEVENTEEN",
+   "tour": "WORLD TOUR [NEW_]",
+   "kind": "월드투어",
+   "start": "2025-09-13",
+   "end": "2026-04-05",
+   "period": "2025-09-13 ~ 2026-04-05",
+   "regions": "인천·홍콩·북미·일본·싱가포르·방콕·불라칸",
+   "cities": 14,
+   "shows": 31,
+   "done": 31,
+   "left": 0,
+   "attendance": 840000,
+   "attendanceText": "840,000 (PLEDIS, 온·오프라인 합산 표현)",
+   "gross": 88000000,
+   "grossText": "$88M (Billboard 2026 상반기 집계 25회·574K)",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "84만은 PLEDIS 누적 발표(온라인 포함 여부 기사마다 표현 차). 매출은 투어 전체가 아닌 Billboard 상반기 집계기간치. 홍콩 카이탁 2회 76,292명·$16.4M.",
+   "sources": [
+    "NC-SVT-NEW",
+    "WIKI-SVT-NEW",
+    "BB-MID2026"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "SEVENTEEN",
+   "tour": "2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
+   "kind": "팬미팅",
+   "start": "2026-05-13",
+   "end": "2026-05-24",
+   "period": "2026-05-13 ~ 05-24",
+   "regions": "도쿄돔·교세라돔 오사카",
+   "cities": 2,
+   "shows": 4,
+   "done": 4,
+   "left": 0,
+   "attendance": 180000,
+   "attendanceText": "180,000 (위키 인용)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "관객 수는 Wikipedia 인용치(1차 원문 미확인).",
+   "sources": [
+    "WIKI-SVT-LIVE"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "SEVENTEEN",
+   "tour": "2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
+   "kind": "팬미팅",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "period": "2026-06-20 ~ 06-21",
+   "regions": "인천아시아드주경기장",
+   "cities": 1,
+   "shows": 2,
+   "done": 2,
+   "left": 0,
+   "attendance": 58000,
+   "attendanceText": "58,000+ (PLEDIS)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "verified",
+   "note": "98개국 온라인 생중계 병행.",
+   "sources": [
+    "SPORTAL-SVT-CL"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "S.COUPS X MINGYU (CxM)",
+   "tour": "DOUBLE UP LIVE PARTY 2026",
+   "kind": "유닛 공연",
+   "start": "2026-01-23",
+   "end": "2026-01-25",
+   "period": "2026-01-23 ~ 01-25",
+   "regions": "인천 인스파이어 아레나",
+   "cities": 1,
+   "shows": 3,
+   "done": 3,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "",
+   "sources": [
+    "NOL-CXM"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "VERNON·THE 8 (V8)",
+   "tour": "2026 [V8] LIVE",
+   "kind": "유닛 공연",
+   "start": "2026-07-11",
+   "end": "2026-07-19",
+   "period": "2026-07-11 ~ 07-19",
+   "regions": "고양·홍콩(AsiaWorld-Expo)",
+   "cities": 2,
+   "shows": null,
+   "done": null,
+   "left": 0,
+   "attendance": 15000,
+   "attendanceText": "15,000 (고양 올스탠딩, allkpop)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "총 회차 미확인(고양 7/11–12, 홍콩 7/17–19).",
+   "sources": [
+    "AKP-V8",
+    "IME-V8-HK"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "TWS",
+   "tour": "24/7 : With:Us",
+   "kind": "첫 투어",
+   "start": "2025-06-20",
+   "end": "2026-01-31",
+   "period": "2025-06-20 ~ 2026-01-31",
+   "regions": "서울·일본·마카오·가오슝",
+   "cities": null,
+   "shows": 18,
+   "done": 18,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "공지 기준 18회.",
+   "sources": [
+    "WEVERSE-TWS-SEOUL",
+    "HYBEJP-TWS",
+    "WEVERSE-TWS-MACAU"
+   ]
+  },
+  {
+   "label": "PLEDIS",
+   "artist": "TWS",
+   "tour": "2026 TOUR ⟨24/7:FOR:YOU⟩",
+   "kind": "투어",
+   "start": "2026-06-27",
+   "end": "2026-10-24",
+   "period": "2026-06-27 ~ 10-24",
+   "regions": "서울·후쿠오카·고베·요코하마·마카오·방콕·싱가포르·가오슝",
+   "cities": 8,
+   "shows": 15,
+   "done": 13,
+   "left": 2,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "진행 중",
+   "y2027": false,
+   "status": "partial",
+   "note": "회차 15는 공지 일정(서울2·후쿠오카3·고베3·요코하마2·마카오2·방콕1·싱가포르1·가오슝1) 합산. 잔여: 싱가포르 10/10, 가오슝 10/24. Weverse 원문 직접 열람 실패 — 검색 색인 기준.",
+   "sources": [
+    "WEVERSE-TWS-FORYOU"
+   ]
+  },
+  {
+   "label": "BELIFT LAB",
+   "artist": "ENHYPEN",
+   "tour": "WORLD TOUR ‘BLOOD SAGA’",
+   "kind": "월드투어",
+   "start": "2026-05-01",
+   "end": null,
+   "period": "2026-05-01 ~ 2027-03 (유럽)",
+   "regions": "서울·남미 3도시·북미 5도시·부산·마카오·일본 4도시·자카르타·싱가포르·유럽 5도시",
+   "cities": 21,
+   "shows": 35,
+   "done": 17,
+   "left": 18,
+   "attendance": 225280,
+   "attendanceText": "225,280 (서울 32,280 + 미주 12회 193,000, 부산 2회 미포함)",
+   "gross": 3648869,
+   "grossText": "$3.65M (서울 3회만)",
+   "state": "진행 중",
+   "y2027": true,
+   "status": "partial",
+   "note": "총 35회는 Wikipedia 집계(공식 총회차 미확인), 21개 도시(Korea Herald). 서울 관객 07탭 32,280 유지(Korea Herald 32,250·위키 31,213 병기). 미주 193,000은 BELIFT 발표. 다음 일정: 마카오 10/16–17. Billboard 9/30 Top Tours 등재(금액 미확인).",
+   "sources": [
+    "KH-ENH-BS",
+    "KH2-ENH-AM",
+    "WIKI-ENH-LIVE"
+   ]
+  },
+  {
+   "label": "BELIFT LAB",
+   "artist": "ENHYPEN",
+   "tour": "WALK THE LINE",
+   "kind": "월드투어",
+   "start": "2024-10-05",
+   "end": "2025-10-26",
+   "period": "2024-10-05 ~ 2025-10-26",
+   "regions": "아시아·북미·유럽",
+   "cities": null,
+   "shows": 28,
+   "done": 28,
+   "left": 0,
+   "attendance": 556000,
+   "attendanceText": "556,000 (Billboard 2025 집계기간 25회)",
+   "gross": 76100000,
+   "grossText": "$76.1M (Billboard 2025 집계기간)",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "Billboard 연간치는 2025 집계기간 기준이며 투어 총량 아님.",
+   "sources": [
+    "BB-YE2025",
+    "WIKI-ENH-LIVE"
+   ]
+  },
+  {
+   "label": "BELIFT LAB",
+   "artist": "ILLIT",
+   "tour": "ILLIT LIVE 'PRESS START♥︎'",
+   "kind": "첫 투어",
+   "start": "2026-03-14",
+   "end": "2026-08-22",
+   "period": "2026-03-14 ~ 08-22",
+   "regions": "아시아",
+   "cities": 7,
+   "shows": 15,
+   "done": 15,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인 (매진 보도)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "",
+   "sources": [
+    "CHOSUN-ILLIT",
+    "WIKI-ILLIT"
+   ]
+  },
+  {
+   "label": "BELIFT LAB",
+   "artist": "ILLIT",
+   "tour": "'PRESS START♥︎' ENCORE",
+   "kind": "앙코르",
+   "start": "2026-10-17",
+   "end": "2026-12-27",
+   "period": "2026-10-17 ~ 12-27",
+   "regions": "인천 인스파이어 아레나·지바 LaLa arena TOKYO-BAY",
+   "cities": 2,
+   "shows": 6,
+   "done": 0,
+   "left": 6,
+   "attendance": null,
+   "attendanceText": "—",
+   "gross": null,
+   "grossText": "—",
+   "state": "예정",
+   "y2027": false,
+   "status": "verified",
+   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식).",
+   "sources": [
+    "WEVERSE-ILLIT-ENC",
+    "PRT-ILLIT-ENC",
+    "KBOO-ILLIT"
+   ]
+  },
+  {
+   "label": "SOURCE MUSIC",
+   "artist": "LE SSERAFIM",
+   "tour": "2026 TOUR 'PUREFLOW'",
+   "kind": "월드투어",
+   "start": "2026-07-11",
+   "end": "2026-12-20",
+   "period": "2026-07-11 ~ 12-20",
+   "regions": "인천·일본 5도시(11회)·북미 9회·유럽 5회·교세라돔",
+   "cities": null,
+   "shows": 34,
+   "done": null,
+   "left": null,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "진행 중",
+   "y2027": false,
+   "status": "conflict",
+   "note": "총 회차 34(트래커) vs 32(Claude) 충돌 — 공식 총회차 미확인. 인천 2회 매진(약 3만석은 수용 규모 기반 추정치). 북미 9/16–10/8, 유럽 10/16–26, 마지막 교세라돔 12/19–20.",
+   "sources": [
+    "WIKI-PUREFLOW",
+    "LSF-JP-KYOCERA"
+   ]
+  },
+  {
+   "label": "SOURCE MUSIC",
+   "artist": "LE SSERAFIM",
+   "tour": "Easy Crazy Hot Tour",
+   "kind": "월드투어",
+   "start": "2025-04-19",
+   "end": "2026-02-01",
+   "period": "2025-04-19 ~ 2026-02-01",
+   "regions": "아시아·북미",
+   "cities": null,
+   "shows": 31,
+   "done": 31,
+   "left": 0,
+   "attendance": 237441,
+   "attendanceText": "237,441 (보고 27/31회)",
+   "gross": 34100000,
+   "grossText": "$34.1M (보고 27/31회)",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "",
+   "sources": [
+    "TD-LSF-ECH",
+    "BB-YE2025"
+   ]
+  },
+  {
+   "label": "KOZ",
+   "artist": "BOYNEXTDOOR",
+   "tour": "TOUR 'KNOCK ON Vol.2'",
+   "kind": "첫 월드투어",
+   "start": "2026-07-17",
+   "end": "2026-11-24",
+   "period": "2026-07-17 ~ 11-24 (북미 종료일 기준)",
+   "regions": "서울·부산·일본·타이베이·홍콩 등 아시아·북미 9도시·멕시코시티",
+   "cities": 24,
+   "shows": 38,
+   "done": null,
+   "left": null,
+   "attendance": 69300,
+   "attendanceText": "69,300 (Billboard 보고 6회)",
+   "gross": 5800000,
+   "grossText": "$5.8M (Billboard 보고 6회, 9/30)",
+   "state": "진행 중",
+   "y2027": false,
+   "status": "partial",
+   "note": "총 38회·24개 도시(KOZ, 10월 발표) — 트래커 이전 33회를 9/30 이후 자료로 갱신. 서울 3회 07탭 30,571 유지(소속사 발표 31,800 병기). 다음: 지바 10/10–11 → 북미 10/30 댈러스~11/24 멕시코시티. 북미 이후 일정 추가 여부 미확인.",
+   "sources": [
+    "AKP-BND-BB",
+    "CHOSUN-BND",
+    "LIL-BND-NA"
+   ]
+  },
+  {
+   "label": "KOZ",
+   "artist": "BOYNEXTDOOR",
+   "tour": "TOUR 'KNOCK ON Vol.1'",
+   "kind": "투어",
+   "start": "2024-12-14",
+   "end": "2025-07-27",
+   "period": "2024-12-14 ~ 2025-07-27",
+   "regions": "한국·일본·아시아",
+   "cities": null,
+   "shows": 23,
+   "done": 23,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "",
+   "sources": [
+    "CLAUDE-TRACKER"
+   ]
+  },
+  {
+   "label": "HYBE JAPAN (YX LABELS)",
+   "artist": "&TEAM",
+   "tour": "2026 CONCERT TOUR 'BLAZE THE WAY'",
+   "kind": "아시아 투어",
+   "start": null,
+   "end": "2026-10-04",
+   "period": "2026-05 ~ 10-04",
+   "regions": "요코하마·가가와·고베·지바 등 일본 아레나·벨루나돔·서울 KSPO돔",
+   "cities": 14,
+   "shows": 23,
+   "done": 23,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "14개 도시 23회(YX LABELS, 10/3). 9/5–6 벨루나돔(첫 돔), 10/3–4 KSPO돔 앙코르로 종료(오늘 최종일). 2025 아시아 투어는 10개 도시 약 16만(HYBE JAPAN).",
+   "sources": [
+    "CHOSUN-TEAM",
+    "PRT-TEAM"
+   ]
+  },
+  {
+   "label": "HYBE x Geffen",
+   "artist": "KATSEYE",
+   "tour": "THE WILDWORLD TOUR",
+   "kind": "첫 아레나 투어",
+   "start": "2026-09-01",
+   "end": "2026-11-28",
+   "period": "2026-09-01 ~ 11-28",
+   "regions": "유럽 8도시·북미·멕시코시티",
+   "cities": 27,
+   "shows": 31,
+   "done": null,
+   "left": null,
+   "attendance": null,
+   "attendanceText": "미확인 (31회 전석 매진)",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "진행 중",
+   "y2027": false,
+   "status": "partial",
+   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭).",
+   "sources": [
+    "HYBE-2Q26-ZDNET",
+    "POLLSTAR-KATSEYE",
+    "LN-KATSEYE",
+    "BB-KATSEYE-WILD"
+   ]
+  },
+  {
+   "label": "HYBE LATIN AMERICA",
+   "artist": "SANTOS BRAVOS",
+   "tour": "‘SESIÓN DUAL’",
+   "kind": "단독 공연",
+   "start": "2026-05-24",
+   "end": "2026-05-28",
+   "period": "2026-05-24 ~ 05-28",
+   "regions": "리마·상파울루",
+   "cities": 2,
+   "shows": 2,
+   "done": 2,
+   "left": 0,
+   "attendance": null,
+   "attendanceText": "미확인",
+   "gross": null,
+   "grossText": "미확인",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "그 외 2026 페스티벌 출연: 보고타·몬테레이·과테말라시티·멕시코시티, CAMPO MARTE 26(7/15), KCON LA(8/14), ES LATINA 마드리드(9/18–20). 정규 투어 미발표.",
+   "sources": [
+    "WEVERSE-SB",
+    "BBBR-SB",
+    "WIKI-SB"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "j-hope (BTS)",
+   "tour": "HOPE ON THE STAGE",
+   "kind": "솔로 월드투어",
+   "start": "2025-02-28",
+   "end": "2025-06-30",
+   "period": "2025-02-28 ~ 2025-06",
+   "regions": "아시아·북미·라틴",
+   "cities": null,
+   "shows": 33,
+   "done": 33,
+   "left": 0,
+   "attendance": 504000,
+   "attendanceText": "504,000 (Billboard 2025 집계기간 33회)",
+   "gross": 79900000,
+   "grossText": "$79.9M (Billboard 2025)",
+   "state": "종료",
+   "y2027": false,
+   "status": "verified",
+   "note": "2026년 BTS 멤버 개별 솔로 투어는 단체 ARIRANG 투어 진행으로 없음(공식 일정 기준).",
+   "sources": [
+    "BB-YE2025"
+   ]
+  },
+  {
+   "label": "BIGHIT MUSIC",
+   "artist": "Jin (BTS)",
+   "tour": "RUNSEOKJIN_EP.TOUR",
+   "kind": "솔로 투어",
+   "start": "2025-06-28",
+   "end": "2025-08-10",
+   "period": "2025-06 ~ 2025-08",
+   "regions": "고양·일본·북미·런던·암스테르담",
+   "cities": null,
+   "shows": 18,
+   "done": 18,
+   "left": 0,
+   "attendance": 287000,
+   "attendanceText": "287,000 (Billboard 2025 집계기간 18회)",
+   "gross": 46100000,
+   "grossText": "$46.1M (Billboard 2025)",
+   "state": "종료",
+   "y2027": false,
+   "status": "partial",
+   "note": "기간 일자는 공식 공지 재확인 필요(회차·관객·매출은 Billboard 연간).",
+   "sources": [
+    "BB-YE2025"
+   ]
+  }
+ ],
+ "roster": [
+  [
+   "BIGHIT MUSIC",
+   "BTS",
+   "ARIRANG 월드투어 진행 중 (2027-03 종료 예정)",
+   "verified",
+   [
+    "BB-BTS-0930"
+   ]
+  ],
+  [
+   "BIGHIT MUSIC",
+   "TOMORROW X TOGETHER",
+   "STEAL THE WIND 2026-11-13 개막 예정",
+   "verified",
+   [
+    "CONSEQ-TXT-STW"
+   ]
+  ],
+  [
+   "BIGHIT MUSIC",
+   "CORTIS",
+   "첫 투어 9/6 종료, 차기 투어 미발표",
+   "partial",
+   [
+    "STARNEWS-CORTIS"
+   ]
+  ],
+  [
+   "PLEDIS",
+   "SEVENTEEN",
+   "2026 투어 없음(4월 NEW_ 종료) · 팬미팅·유닛 공연 중심",
+   "partial",
+   [
+    "NC-SVT-NEW",
+    "SPORTAL-SVT-CL"
+   ]
+  ],
+  [
+   "PLEDIS",
+   "TWS",
+   "24/7:FOR:YOU 진행 중 (10/24 종료 예정)",
+   "partial",
+   [
+    "WEVERSE-TWS-FORYOU"
+   ]
+  ],
+  [
+   "PLEDIS",
+   "fromis_9",
+   "HYBE 소속 아님 — PLEDIS 계약 2024-12-31 만료, 5인 ASND 이적(2025-01)",
+   "verified",
+   [
+    "SOOMPI-FROMIS"
+   ]
+  ],
+  [
+   "BELIFT LAB",
+   "ENHYPEN",
+   "BLOOD SAGA 진행 중 (다음: 마카오 10/16)",
+   "partial",
+   [
+    "WIKI-ENH-LIVE"
+   ]
+  ],
+  [
+   "BELIFT LAB",
+   "ILLIT",
+   "PRESS START 앙코르 10/17 개막 예정",
+   "verified",
+   [
+    "WEVERSE-ILLIT-ENC"
+   ]
+  ],
+  [
+   "SOURCE MUSIC",
+   "LE SSERAFIM",
+   "PUREFLOW 진행 중 (북미→유럽→일본)",
+   "partial",
+   [
+    "WIKI-PUREFLOW"
+   ]
+  ],
+  [
+   "KOZ",
+   "BOYNEXTDOOR",
+   "KNOCK ON Vol.2 진행 중 (지바 10/10)",
+   "partial",
+   [
+    "AKP-BND-BB"
+   ]
+  ],
+  [
+   "ADOR",
+   "NewJeans",
+   "투어·컴백 공식 일정 없음 (2026-10 기준, 멤버 복귀 논의·소송 진행)",
+   "partial",
+   [
+    "KH-NJ",
+    "STARNEWS-NJ"
+   ]
+  ],
+  [
+   "HYBE JAPAN (YX LABELS)",
+   "&TEAM",
+   "BLAZE THE WAY 10/4 KSPO돔 앙코르로 종료",
+   "verified",
+   [
+    "CHOSUN-TEAM"
+   ]
+  ],
+  [
+   "HYBE x Geffen",
+   "KATSEYE",
+   "WILDWORLD 진행 중 (북미 10/13~)",
+   "partial",
+   [
+    "HYBE-2Q26-ZDNET"
+   ]
+  ],
+  [
+   "HYBE LATIN AMERICA",
+   "SANTOS BRAVOS",
+   "단독 2회 + 페스티벌, 정규 투어 미발표",
+   "partial",
+   [
+    "WIKI-SB"
+   ]
+  ]
+ ],
+ "company": {
+  "quarters": [
+   [
+    "2025 1Q",
+    1552,
+    "—",
+    "partial",
+    "증권사 분기표(155.2십억). HYBE 1Q26 YoY −42.8%와 역산 일치.",
+    [
+     "HYBE-2Q26-BROKER"
+    ]
+   ],
+   [
+    "2025 2Q",
+    1887,
+    "—",
+    "partial",
+    "증권사 분기표(188.7십억). HYBE 2Q26 YoY +243.3%와 역산 일치.",
+    [
+     "HYBE-2Q26-BROKER",
+     "HYBE-2Q26-EDAILY"
+    ]
+   ],
+   [
+    "2025 3Q",
+    2450,
+    "—",
+    "partial",
+    "증권사 분기표(245.0십억). 연간 7,639억과 합산 일치.",
+    [
+     "HYBE-2Q26-BROKER"
+    ]
+   ],
+   [
+    "2025 4Q",
+    1751,
+    "소폭 감소",
+    "verified",
+    "",
+    [
+     "HYBE-FY25-ASIAE"
+    ]
+   ],
+   [
+    "2025 연간",
+    7639,
+    "+약 69%",
+    "verified",
+    "10개 팀 279회 공연(HYBE).",
+    [
+     "HYBE-FY25-ASIAE",
+     "HYBE-FY25-YNA",
+     "HYBE-2Q26-EDAILY"
+    ]
+   ],
+   [
+    "2026 1Q",
+    887,
+    "−42.8%",
+    "verified",
+    "",
+    [
+     "HYBE-2Q26-EKN"
+    ]
+   ],
+   [
+    "2026 2Q",
+    6477,
+    "+243.3% (QoQ +630%)",
+    "verified",
+    "사상 최대. BTS ARIRANG 24회 + SEVENTEEN 팬미팅·&TEAM·TXT·ENHYPEN 공연.",
+    [
+     "HYBE-2Q26-EDAILY",
+     "HYBE-2Q26-MBW",
+     "HYBE-2Q26-CALL"
+    ]
+   ],
+   [
+    "2026 3Q(E)",
+    7249,
+    "—",
+    "estimate",
+    "증권사 전망치(724.9십억). 실적 발표 전.",
+    [
+     "HYBE-2Q26-BROKER"
+    ]
+   ],
+   [
+    "2026 4Q(E)",
+    5183,
+    "—",
+    "estimate",
+    "증권사 전망치(518.3십억).",
+    [
+     "HYBE-2Q26-BROKER"
+    ]
+   ],
+   [
+    "2026 연간(E)",
+    19796,
+    "—",
+    "estimate",
+    "증권사 전망치(1,979.6십억).",
+    [
+     "HYBE-2Q26-BROKER"
+    ]
+   ]
+  ],
+  "stats": [
+   [
+    "2026 상반기 공연",
+    "12개 팀 119회",
+    "verified",
+    [
+     "HYBE-2Q26-EDAILY",
+     "HYBE-2Q26-MBW"
+    ]
+   ],
+   [
+    "2026 하반기 예정 공연",
+    "200회 이상",
+    "verified",
+    [
+     "HYBE-2Q26-EDAILY"
+    ]
+   ],
+   [
+    "2025 공연",
+    "10개 팀 279회",
+    "verified",
+    [
+     "HYBE-2Q26-EDAILY"
+    ]
+   ],
+   [
+    "2026 2Q 매출 / 영업이익",
+    "1조4,500억 / 1,709억 (분기 최대)",
+    "verified",
+    [
+     "HYBE-2Q26-EDAILY"
+    ]
+   ],
+   [
+    "2026 2Q MD·라이선싱",
+    "3,106억 (사상 최대, 투어 MD·THE CITY)",
+    "verified",
+    [
+     "HYBE-2Q26-EDAILY",
+     "HYBE-2Q26-CALL"
+    ]
+   ],
+   [
+    "2026 2Q BTS 비중",
+    "BTS 24회 · 2분기 전체 공연 관객의 60% 이상",
+    "partial",
+    [
+     "HYBE-2Q26-EKN"
+    ]
+   ],
+   [
+    "HYBE 전체 공연 관객 수",
+    "미공개 (분기 실적에 총 모객 수 미기재)",
+    "unverified",
+    [
+     "HYBE-2Q26-MBW"
+    ]
+   ]
+  ],
+  "unit": "억원"
+ },
+ "unverified": [
+  "HYBE 회사 차원의 분기·연간 총 관객 수: 2Q26 실적 자료에 미기재 → 미확인.",
+  "2025 1~3Q 분기 공연 매출은 증권사 리포트 표 기준(HYBE 공시 YoY·연간 합계와 역산 일치, 원 공시 표 미열람).",
+  "BTS ARIRANG 최신 누적 관객: 8/11 시점 230만(38회)까지만 확인. 9월 이후 누적 관객 미확인.",
+  "KATSEYE·LE SSERAFIM PUREFLOW·CORTIS·ILLIT·&TEAM·TWS: 관객·매출 공식 집계 미발표(매진 보도만).",
+  "LE SSERAFIM PUREFLOW 총 회차 34 vs 32 충돌 미해소. ENHYPEN BLOOD SAGA 총 35회는 Wikipedia 집계.",
+  "TWS 24/7:FOR:YOU 일정은 Weverse 원문 직접 열람 실패로 검색 색인 요약 기준.",
+  "SEVENTEEN 일본 팬미팅 18만, V8 회차, Jin 투어 기간 일자는 2차 출처 기준.",
+  "HYBE America(SANTOS BRAVOS 외)·HYBE x Geffen 추가 아티스트 투어: 확인된 일정 없음."
+ ]
+}

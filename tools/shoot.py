@@ -3,7 +3,7 @@
 import sys, asyncio, os
 from playwright.async_api import async_playwright
 BASE = sys.argv[1] if len(sys.argv) > 1 else 'http://127.0.0.1:8765/kpop-dashboard/'
-TABS = sys.argv[2:] or ['overview','boxscore','tracker','social','events','artists','auditions','rpd','industry']
+TABS = sys.argv[2:] or ['overview','boxscore','tracker','hybe','social','events','artists','auditions','rpd','industry']
 OUT = os.path.join(os.path.dirname(__file__), '..', 'screenshots')
 async def main():
     errs = []
@@ -35,6 +35,16 @@ async def main():
                 await pg.click('#tkSub button[data-v="cal"]'); await pg.wait_for_timeout(300)
                 await pg.screenshot(path=os.path.join(OUT, 'tracker-calendar-week.png'), full_page=True)
                 print('shot calendar variants')
+            if t == 'hybe':
+                cal = await pg.query_selector('#hyCal')
+                await cal.screenshot(path=os.path.join(OUT, 'hybe-calendar-week.png'))
+                await pg.click('#hcalView button[data-v="month"]'); await pg.wait_for_timeout(500)
+                await cal.screenshot(path=os.path.join(OUT, 'hybe-calendar-month.png'))
+                await pg.click('#hcalMain .cal-chip'); await pg.wait_for_timeout(400)
+                await pg.screenshot(path=os.path.join(OUT, 'hybe-calendar-detail.png'))
+                await pg.click('.modal-x')
+                await pg.click('#hcalView button[data-v="week"]')
+                print('shot hybe calendar')
         await b.close()
     print('\n'.join(errs) or 'NO ERRORS')
 asyncio.run(main())

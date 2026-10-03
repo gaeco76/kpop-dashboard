@@ -36,10 +36,11 @@ async function init() {
   if (!window.echarts) { $('#loading').innerHTML = '<div class="error">차트 라이브러리(ECharts)를 불러오지 못했습니다.</div>'; return; }
   const info = await loadAll();
   $('#loading').remove();
-  const failed = DATA_FILES.filter(f => !info[f]);
-  const live = DATA_FILES.filter(f => info[f] === DATA_BASE).length;
+  const REQ = DATA_FILES.filter(f => !OPTIONAL_FILES.includes(f));
+  const failed = REQ.filter(f => !info[f]); const optFailed = OPTIONAL_FILES.filter(f => !info[f]);
+  const live = REQ.filter(f => info[f] === DATA_BASE).length;
   const usedBases = [...new Set(Object.values(info).filter(Boolean))];
-  $('#srcState').innerHTML = (live === DATA_FILES.length ? `<span class="dot" style="background:#22c55e"></span>라이브 데이터` : live ? `<span class="dot" style="background:#f59e0b"></span>라이브 ${live}/${DATA_FILES.length} · 일부 폴백` : usedBases.length ? (usedBases.includes('embedded') ? `<span class="dot" style="background:#f59e0b"></span>내장 스냅샷(오프라인)` : usedBases.every(x => x === './data/') ? `<span class="dot" style="background:#f59e0b"></span>동봉 스냅샷 데이터(라이브 실패)` : `<span class="dot" style="background:#f59e0b"></span>로컬 폴백 데이터`) : `<span class="dot" style="background:#ef4444"></span>데이터 로드 실패`) + (failed.length ? ` · 실패: ${failed.join(', ')}` : '');
+  $('#srcState').innerHTML = (live === REQ.length ? `<span class="dot" style="background:#22c55e"></span>라이브 데이터` : live ? `<span class="dot" style="background:#f59e0b"></span>라이브 ${live}/${REQ.length} · 일부 폴백` : usedBases.length ? (usedBases.includes('embedded') ? `<span class="dot" style="background:#f59e0b"></span>내장 스냅샷(오프라인)` : usedBases.every(x => x === './data/') ? `<span class="dot" style="background:#f59e0b"></span>동봉 스냅샷 데이터(라이브 실패)` : `<span class="dot" style="background:#f59e0b"></span>로컬 폴백 데이터`) : `<span class="dot" style="background:#ef4444"></span>데이터 로드 실패`) + (failed.length ? ` · 실패: ${failed.join(', ')}` : '') + (optFailed.length ? ` · <span title="선택 파일 — 해당 탭만 안내 표시">선택 파일 미로드: ${optFailed.join(', ')}</span>` : '');
   $('#srcState').title = usedBases.join('\n');
   $('#footSrc').textContent = '불러온 위치: ' + usedBases.join(' , ');
   if (!D.meta && !D.tours) { $('#main').insertAdjacentHTML('afterbegin', `<div class="error">데이터를 불러오지 못했습니다. config.js의 DATA_BASE 또는 ?data= 파라미터를 확인하세요. (file:// 로 열면 fetch가 차단됩니다 — 정적 서버로 여세요)</div>`); return; }

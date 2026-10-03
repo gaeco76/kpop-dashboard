@@ -249,3 +249,11 @@ input[type=date],input[type=month]{background:var(--card);color:var(--text);bord
 .md-src{margin-top:12px;border-top:1px solid var(--line);padding-top:8px;display:grid;gap:3px;font-size:12.5px}
 @media (max-width:1100px){.cal-layout{grid-template-columns:1fr}.cal-side{position:static;grid-template-columns:1fr 1fr}.cal-toolbar{position:static}}
 @media (max-width:700px){.cal-side{grid-template-columns:1fr}.cal-dh{padding:5px 4px;flex-direction:column;gap:0}.cal-chip{font-size:10.5px;padding:2px 4px}.cal-chip .tn,.cal-chip small{display:none}}
+/* 진행률 */
+.cal-chip.has-prog{padding-bottom:6px}
+.cal-chip .prog{position:absolute;left:0;bottom:0;height:3px;background:#fff;opacity:.9;border-radius:0 2px 2px 0}
+.lg-prog{background:linear-gradient(#7c6cff 0 70%,#fff 70%);background-size:60% 100%;background-repeat:no-repeat;background-color:#7c6cff55}
+.md-prog{height:6px;background:var(--card2);border-radius:999px;overflow:hidden;margin:6px 0 2px;border:1px solid var(--line)}
+.md-prog i{display:block;height:100%;background:linear-gradient(90deg,#22c55e,#22d3ee)}
+.kpi.sumk .label::after{content:" · 보고분 합";color:#fbbf24;font-weight:700}
+.kpi.estk{border-style:dashed;border-color:#f472b6;background:repeating-linear-gradient(-45deg,rgba(244,114,182,.05) 0 8px,transparent 8px 16px),var(--card)}
