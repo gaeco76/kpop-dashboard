@@ -19,7 +19,7 @@ function showTab(t) {
 }
 function drawAccChips() {
   const cnt = accCounts();
-  $('#accChips').innerHTML = ACC_KEYS.map(k => `<span class="chip ${S.acc.has(k) ? 'on' : ''}" data-k="${k}" title="${k === 'estimate' ? '추정치·전망(forecast)·estimate:true 행, 산업 모델 전체' : ''}"><i style="background:${ACC[k].color}"></i>${ACC[k].label}<span class="cnt">${cnt[k] || 0}</span></span>`).join('');
+  $('#accChips').innerHTML = ACC_KEYS.map(k => `<span class="chip ${S.acc.has(k) ? 'on' : ''}" data-k="${k}" title="${esc(ACC[k].desc)}"><i style="background:${ACC[k].color}"></i>${ACC[k].label}<span class="cnt">${cnt[k] || 0}</span></span>`).join('');
 }
 function onAccChange() { drawAccChips(); RENDERED.clear(); renderTab(CUR, true); }
 function toggleAcc(k) { S.acc.has(k) ? S.acc.delete(k) : S.acc.add(k); onAccChange(); }
@@ -38,11 +38,17 @@ async function init() {
   $('#loading').remove();
   const REQ = DATA_FILES.filter(f => !OPTIONAL_FILES.includes(f));
   const failed = REQ.filter(f => !info[f]); const optFailed = OPTIONAL_FILES.filter(f => !info[f]);
-  const live = REQ.filter(f => info[f] === DATA_BASE).length;
-  const usedBases = [...new Set(Object.values(info).filter(Boolean))];
-  $('#srcState').innerHTML = (live === REQ.length ? `<span class="dot" style="background:#22c55e"></span>라이브 데이터` : live ? `<span class="dot" style="background:#f59e0b"></span>라이브 ${live}/${REQ.length} · 일부 폴백` : usedBases.length ? (usedBases.includes('embedded') ? `<span class="dot" style="background:#f59e0b"></span>내장 스냅샷(오프라인)` : usedBases.every(x => x === './data/') ? `<span class="dot" style="background:#f59e0b"></span>동봉 스냅샷 데이터(라이브 실패)` : `<span class="dot" style="background:#f59e0b"></span>로컬 폴백 데이터`) : `<span class="dot" style="background:#ef4444"></span>데이터 로드 실패`) + (failed.length ? ` · 실패: ${failed.join(', ')}` : '') + (optFailed.length ? ` · <span title="선택 파일 — 해당 탭만 안내 표시">선택 파일 미로드: ${optFailed.join(', ')}</span>` : '');
-  $('#srcState').title = usedBases.join('\n');
-  $('#footSrc').textContent = '불러온 위치: ' + usedBases.join(' , ');
+  const used = [...new Set(Object.values(info).filter(Boolean))];
+  const SRCL = Object.fromEntries(dataSources().map(s => [s.id, s.label])); SRCL.embedded = '내장 스냅샷(오프라인)';
+  const main = info.tracker || info.tours;
+  const dot = c => `<span class="dot" style="background:${c}"></span>`;
+  const verif = SNAPSHOT?.verification || null;
+  $('#srcState').innerHTML = (!used.length ? `${dot('#ef4444')}데이터 로드 실패` : main === 'store' ? `${dot('#22c55e')}공용 저장소` : main === 'snapshot' ? `${dot('#22c55e')}저장소 스냅샷${SNAPSHOT?.synced_at ? ' · 동기화 ' + esc(SNAPSHOT.synced_at.replace('T', ' ').slice(5, 16)) : ''}` : main === 'legacy' ? `${dot('#f59e0b')}구형 라이브 폴백` : main === 'embedded' ? `${dot('#f59e0b')}내장 스냅샷(오프라인)` : `${dot('#f59e0b')}${esc(SRCL[main] || main)}`)
+    + (used.length > 1 ? ` · 혼합(${used.map(u => SRCL[u] || u).join(', ')})` : '') + (failed.length ? ` · 실패: ${failed.join(', ')}` : '')
+    + (optFailed.length ? ` · <span title="선택 파일 — 해당 부분만 대체 표시">선택 파일 미로드: ${optFailed.join(', ')}</span>` : '')
+    + (verif ? ` · <span class="vstate" title="${esc(verif.detail || '')}">${esc(verif.label)}</span>` : '');
+  $('#srcState').title = DATA_FILES.map(f => `${f}: ${SRCL[info[f]] || info[f] || '실패'}`).join('\n');
+  $('#footSrc').textContent = '불러온 위치: ' + used.map(u => SRCL[u] || u).join(' , ') + (SNAPSHOT ? ` · 스냅샷 동기화 ${SNAPSHOT.synced_at}` : '');
   if (!D.meta && !D.tours) { $('#main').insertAdjacentHTML('afterbegin', `<div class="error">데이터를 불러오지 못했습니다. config.js의 DATA_BASE 또는 ?data= 파라미터를 확인하세요. (file:// 로 열면 fetch가 차단됩니다 — 정적 서버로 여세요)</div>`); return; }
   const lu = D.meta?.lastUpdated;
   $('#asOf').textContent = lu ? lu.replace('T', ' ').slice(0, 16) + ' KST' : (D.tours?.asOf || '—');

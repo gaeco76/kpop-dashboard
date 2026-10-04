@@ -1,0 +1,989 @@
+{
+ "generated_at": "2026-10-05",
+ "rules": "/workspace/data/README.md §2",
+ "count": 70,
+ "records": [
+  {
+   "subject": "Blackpink 유튜브",
+   "artist_id": "blackpink",
+   "metric": "youtube_subscribers",
+   "value": 101000000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "BTS 유튜브",
+   "artist_id": "bts",
+   "metric": "youtube_subscribers",
+   "value": 86100000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Stray Kids 유튜브",
+   "artist_id": "stray_kids",
+   "metric": "youtube_subscribers",
+   "value": 25300000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Twice 유튜브",
+   "artist_id": "twice",
+   "metric": "youtube_subscribers",
+   "value": 19500000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "SEVENTEEN 유튜브",
+   "artist_id": "seventeen",
+   "metric": "youtube_subscribers",
+   "value": 18000000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "BIGBANG 유튜브",
+   "artist_id": "bigbang",
+   "metric": "youtube_subscribers",
+   "value": 17000000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ENHYPEN 유튜브",
+   "artist_id": "enhypen",
+   "metric": "youtube_subscribers",
+   "value": 14600000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Tomorrow X Together 유튜브",
+   "artist_id": "txt",
+   "metric": "youtube_subscribers",
+   "value": 13900000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Babymonster 유튜브",
+   "artist_id": "babymonster",
+   "metric": "youtube_subscribers",
+   "value": 13300000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Itzy 유튜브",
+   "artist_id": "itzy",
+   "metric": "youtube_subscribers",
+   "value": 10000000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "EXO 유튜브",
+   "artist_id": "exo",
+   "metric": "youtube_subscribers",
+   "value": 9920000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "I-dle 유튜브",
+   "artist_id": "i_dle",
+   "metric": "youtube_subscribers",
+   "value": 9870000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "aespa 유튜브",
+   "artist_id": "aespa",
+   "metric": "youtube_subscribers",
+   "value": 8960000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Le Sserafim 유튜브",
+   "artist_id": "le_sserafim",
+   "metric": "youtube_subscribers",
+   "value": 8820000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "NewJeans 유튜브",
+   "artist_id": "newjeans",
+   "metric": "youtube_subscribers",
+   "value": 8680000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "TREASURE 유튜브",
+   "artist_id": "treasure",
+   "metric": "youtube_subscribers",
+   "value": 8060000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "CORTIS 유튜브",
+   "artist_id": "cortis",
+   "metric": "youtube_subscribers",
+   "value": 7210000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "NCT DREAM 유튜브",
+   "artist_id": "nct_dream",
+   "metric": "youtube_subscribers",
+   "value": 7090000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Illit 유튜브",
+   "artist_id": "illit",
+   "metric": "youtube_subscribers",
+   "value": 6960000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "MAMAMOO 유튜브",
+   "artist_id": "mamamoo",
+   "metric": "youtube_subscribers",
+   "value": 6830000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "2NE1 유튜브",
+   "artist_id": "2ne1",
+   "metric": "youtube_subscribers",
+   "value": 6070000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "NCT 127 유튜브",
+   "artist_id": "nct_127",
+   "metric": "youtube_subscribers",
+   "value": 5660000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ATEEZ 유튜브",
+   "artist_id": "ateez",
+   "metric": "youtube_subscribers",
+   "value": 5650000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Red Velvet 유튜브",
+   "artist_id": "red_velvet",
+   "metric": "youtube_subscribers",
+   "value": 5610000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Ive 유튜브",
+   "artist_id": "ive",
+   "metric": "youtube_subscribers",
+   "value": 5270000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Nmixx 유튜브",
+   "artist_id": "nmixx",
+   "metric": "youtube_subscribers",
+   "value": 4780000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Hearts2Hearts 유튜브",
+   "artist_id": "hearts2hearts",
+   "metric": "youtube_subscribers",
+   "value": 4130000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Girls' Generation 유튜브",
+   "artist_id": "girls_generation",
+   "metric": "youtube_subscribers",
+   "value": 3060000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "tripleS 유튜브",
+   "artist_id": "triples",
+   "metric": "youtube_subscribers",
+   "value": 2960000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "SHINee 유튜브",
+   "artist_id": "shinee",
+   "metric": "youtube_subscribers",
+   "value": 2640000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "MONSTA X 유튜브",
+   "artist_id": "monsta_x",
+   "metric": "youtube_subscribers",
+   "value": 2620000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Kep1er 유튜브",
+   "artist_id": "kep1er",
+   "metric": "youtube_subscribers",
+   "value": 2530000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "BOYNEXTDOOR 유튜브",
+   "artist_id": "boynextdoor",
+   "metric": "youtube_subscribers",
+   "value": 2510000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "TWS 유튜브",
+   "artist_id": "tws",
+   "metric": "youtube_subscribers",
+   "value": 2280000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "RIIZE 유튜브",
+   "artist_id": "riize",
+   "metric": "youtube_subscribers",
+   "value": 2170000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Kiss of Life 유튜브",
+   "artist_id": "kiss_of_life",
+   "metric": "youtube_subscribers",
+   "value": 2150000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ZEROBASEONE 유튜브",
+   "artist_id": "zerobaseone",
+   "metric": "youtube_subscribers",
+   "value": 2120000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "izna 유튜브",
+   "artist_id": "izna",
+   "metric": "youtube_subscribers",
+   "value": 2050000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "LNGSHOT 유튜브",
+   "artist_id": "lngshot",
+   "metric": "youtube_subscribers",
+   "value": 2030000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "STAYC 유튜브",
+   "artist_id": "stayc",
+   "metric": "youtube_subscribers",
+   "value": 1860000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Dreamcatcher 유튜브",
+   "artist_id": "dreamcatcher",
+   "metric": "youtube_subscribers",
+   "value": 1780000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "P1Harmony 유튜브",
+   "artist_id": "p1harmony",
+   "metric": "youtube_subscribers",
+   "value": 1770000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "&TEAM 유튜브",
+   "artist_id": "andteam",
+   "metric": "youtube_subscribers",
+   "value": 1690000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "MEOVV 유튜브",
+   "artist_id": "meovv",
+   "metric": "youtube_subscribers",
+   "value": 1630000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ONEUS 유튜브",
+   "artist_id": "oneus",
+   "metric": "youtube_subscribers",
+   "value": 1590000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "NCT WISH 유튜브",
+   "artist_id": "nct_wish",
+   "metric": "youtube_subscribers",
+   "value": 1560000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "RESCENE 유튜브",
+   "artist_id": "rescene",
+   "metric": "youtube_subscribers",
+   "value": 1250000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "XLOV 유튜브",
+   "artist_id": "xlov",
+   "metric": "youtube_subscribers",
+   "value": 1230000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ALLDAY PROJECT 유튜브",
+   "artist_id": "allday_project",
+   "metric": "youtube_subscribers",
+   "value": 1180000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Wonder Girls 유튜브",
+   "artist_id": "wonder_girls",
+   "metric": "youtube_subscribers",
+   "value": 1120000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Oh My Girl 유튜브",
+   "artist_id": "oh_my_girl",
+   "metric": "youtube_subscribers",
+   "value": 1050000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Tuide 유튜브",
+   "artist_id": "tuide",
+   "metric": "youtube_subscribers",
+   "value": 980000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "UNCHILD 유튜브",
+   "artist_id": "unchild",
+   "metric": "youtube_subscribers",
+   "value": 950000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "idntt 유튜브",
+   "artist_id": "idntt",
+   "metric": "youtube_subscribers",
+   "value": 865000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "ALPHA DRIVE ONE 유튜브",
+   "artist_id": "alpha_drive_one",
+   "metric": "youtube_subscribers",
+   "value": 795000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "CLOSE YOUR EYES 유튜브",
+   "artist_id": "close_your_eyes",
+   "metric": "youtube_subscribers",
+   "value": 731000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "KiiiKiii 유튜브",
+   "artist_id": "kiiikiii",
+   "metric": "youtube_subscribers",
+   "value": 715000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "KickFlip 유튜브",
+   "artist_id": "kickflip",
+   "metric": "youtube_subscribers",
+   "value": 711000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "KARA 유튜브",
+   "artist_id": "kara",
+   "metric": "youtube_subscribers",
+   "value": 704000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "PURPLE KISS 유튜브",
+   "artist_id": "purple_kiss",
+   "metric": "youtube_subscribers",
+   "value": 697000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "AHOF 유튜브",
+   "artist_id": "ahof",
+   "metric": "youtube_subscribers",
+   "value": 639000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Baby DONT Cry 유튜브",
+   "artist_id": "baby_dont_cry",
+   "metric": "youtube_subscribers",
+   "value": 636000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "82MAJOR 유튜브",
+   "artist_id": "82major",
+   "metric": "youtube_subscribers",
+   "value": 576000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "fromis_9 유튜브",
+   "artist_id": "fromis_9",
+   "metric": "youtube_subscribers",
+   "value": 367000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "THE BOYZ 유튜브",
+   "artist_id": "the_boyz",
+   "metric": "youtube_subscribers",
+   "value": 213000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "Ourbirthday 유튜브",
+   "artist_id": "ourbirthday",
+   "metric": "youtube_subscribers",
+   "value": 162000,
+   "unit": "subscribers",
+   "source_url": [
+    "https://chukkae.com/rankings/youtube"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": "2026-10-04 KST (Chukkae, YouTube 공개 수치 = 유효숫자 3자리 반올림)",
+   "note": ""
+  },
+  {
+   "subject": "리사 (LISA) 인스타그램",
+   "artist_id": "lisa",
+   "metric": "instagram_followers",
+   "value": 105966648,
+   "unit": "followers",
+   "source_url": [
+    "https://livecounts.nl/vs/lisa-vs-jennie/",
+    "https://creatorfanbase.com/c/lisa"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": null,
+   "note": "105,966,648"
+  },
+  {
+   "subject": "제니 (JENNIE) 인스타그램",
+   "artist_id": "blackpink_jennie",
+   "metric": "instagram_followers",
+   "value": 89428341,
+   "unit": "followers",
+   "source_url": [
+    "https://livecounts.nl/vs/lisa-vs-jennie/",
+    "https://creatorfanbase.com/c/jennie"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "확정",
+   "as_of": null,
+   "note": "89,428,341"
+  },
+  {
+   "subject": "로제 (ROSÉ) 인스타그램",
+   "artist_id": "blackpink_rose",
+   "metric": "instagram_followers",
+   "value": 84400000,
+   "unit": "followers",
+   "source_url": [
+    "https://kpopbeen.com/most-followed-k-pop-idol-on-instagram/"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "부분",
+   "as_of": null,
+   "note": "약 8,440만"
+  },
+  {
+   "subject": "지수 (JISOO) 인스타그램",
+   "artist_id": "blackpink_jisoo",
+   "metric": "instagram_followers",
+   "value": 80300000,
+   "unit": "followers",
+   "source_url": [
+    "https://kpopbeen.com/most-followed-k-pop-idol-on-instagram/"
+   ],
+   "collected_at": "2026-10-04",
+   "grade": "부분",
+   "as_of": null,
+   "note": "약 8,030만"
+  }
+ ]
+}

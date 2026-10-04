@@ -14,28 +14,51 @@
      {
       "v": "정원이",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Woni"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-WONI"
       ]
      },
      {
       "v": "이토 미나미",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Minami"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-MINAMI"
       ]
      },
      {
       "v": "노윤아",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://dbkpop.com/group/illit/"
+      ],
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "DBKPOP-ILLIT"
       ]
      },
      {
       "v": "이원희",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Wonhee"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-WONHEE"
       ]
      }
@@ -47,28 +70,51 @@
      {
       "v": "2004-05-25 (22)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Woni"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-WONI"
       ]
      },
      {
       "v": "2006-11-29 (19)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Minami"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-MINAMI"
       ]
      },
      {
       "v": "2004-01-15 (22)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://dbkpop.com/group/illit/"
+      ],
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "DBKPOP-ILLIT"
       ]
      },
      {
       "v": "2007-06-26 (19)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Wonhee"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-WONHEE"
       ]
      }
@@ -80,14 +126,29 @@
      {
       "v": "경남 거제",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Woni"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-WONI"
       ]
      },
      {
       "v": "일본 — 출처 불일치 (Grok: 지바 / Fandom: 나가사키 쓰시마) 미확인",
       "status": "unverified",
-      "sources": [
+      "grade": "미확",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Minami"
+      ],
+      "source_note": [
+       "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "GROK",
        "FANDOM-MINAMI"
       ]
@@ -95,14 +156,25 @@
      {
       "v": "충북 충주",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://dbkpop.com/group/illit/"
+      ],
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "DBKPOP-ILLIT"
       ]
      },
      {
       "v": "부산 (Grok: 부산→창원)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Wonhee"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-WONHEE"
       ]
      }
@@ -114,22 +186,34 @@
      {
       "v": "162–163cm",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "162–164cm",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "168cm",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "161–162cm",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      }
     ]
    },
@@ -139,22 +223,34 @@
      {
       "v": "B",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "O",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "A",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "A",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      }
     ]
    },
@@ -164,22 +260,34 @@
      {
       "v": "ESFP",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "ENFP",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "ENFP",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "ISFP",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      }
     ]
    },
@@ -189,24 +297,39 @@
      {
       "v": "리더 (최연장)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://rescene.fandom.com/wiki/Woni"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "FANDOM-WONI"
       ]
      },
      {
       "v": "메인보컬/리드댄서",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "리드보컬/분위기 메이커",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "리드보컬",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      }
     ]
    },
@@ -216,28 +339,52 @@
      {
       "v": "더뮤즈엔터테인먼트",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Rescene"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-RESCENE"
       ]
      },
      {
       "v": "더뮤즈엔터테인먼트",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Rescene"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-RESCENE"
       ]
      },
      {
       "v": "빌리프랩 (HYBE)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Illit"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-ILLIT"
       ]
      },
      {
       "v": "빌리프랩 (HYBE)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Illit"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-ILLIT"
       ]
      }
@@ -249,28 +396,52 @@
      {
       "v": "2024-03-26",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Rescene"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-RESCENE"
       ]
      },
      {
       "v": "2024-03-26",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Rescene"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-RESCENE"
       ]
      },
      {
       "v": "2024-03-25",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Illit"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-ILLIT"
       ]
      },
      {
       "v": "2024-03-25",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Illit"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-ILLIT"
       ]
      }
@@ -282,26 +453,47 @@
      {
       "v": "—",
       "status": "grok",
-      "sources": []
+      "grade": "추정",
+      "source_url": [],
+      "collected_at": "2026-10-04",
+      "source_ids": []
      },
      {
       "v": "MBC '방과후 설렘' 최종 13위",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Rescene"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-RESCENE"
       ]
      },
      {
       "v": "R U Next? 출신",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Illit"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-ILLIT"
       ]
      },
      {
       "v": "R U Next? 출신, 솔로 예능 '원희는 스무살'(쿠팡플레이, 2026)",
       "status": "verified",
-      "sources": [
+      "grade": "확정",
+      "source_url": [
+       "https://en.wikipedia.org/wiki/Wonhee"
+      ],
+      "primary_source": false,
+      "collected_at": "2026-10-04",
+      "source_ids": [
        "WIKI-WONHEE"
       ]
      }
@@ -344,7 +536,13 @@
    {
     "text": "BLACKPINK 유튜브 구독자 약 1억 100만 (2026-02 아티스트 최초 1억 돌파)",
     "status": "verified",
-    "sources": [
+    "grade": "확정",
+    "source_url": [
+     "https://en.yna.co.kr/view/AEN20260221002852320",
+     "https://chukkae.com/rankings/youtube"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "YNA-BP100M",
      "CHUKKAE-YT"
     ]
@@ -352,42 +550,77 @@
    {
     "text": "KATSEYE 그래미 신인상 후보 (2026, 수상 불발)",
     "status": "verified",
-    "sources": [
+    "grade": "확정",
+    "source_url": [
+     "https://www.tenasia.com/music/2026020278724"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "TENASIA-KATSEYE"
     ]
    },
    {
     "text": "BABYMONSTER 누적 100억 뷰",
     "status": "unverified",
-    "sources": [
+    "grade": "미확",
+    "source_url": [],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "GROK"
     ]
    },
    {
     "text": "ILLIT 유튜브 뮤직 월간 리스너 1위",
     "status": "unverified",
-    "sources": [
+    "grade": "미확",
+    "source_url": [],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "GROK"
     ]
    },
    {
     "text": "RESCENE 국내 차트 역주행",
     "status": "grok",
-    "sources": [
+    "grade": "추정",
+    "source_url": [],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "GROK"
     ]
    },
    {
     "text": "2006년생 라인: 은채, 해린, 규진, 아사, 메간, 키키(Hearts2Hearts) 등",
     "status": "grok",
-    "sources": [
+    "grade": "추정",
+    "source_url": [],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "GROK"
     ]
    },
    {
     "text": "그 외 팀별 구독자 수·평균 나이는 미확인 (확정/추정 구분 필요)",
     "status": "unverified",
-    "sources": [
+    "grade": "미확",
+    "source_url": [],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
      "GROK"
     ]
    }
@@ -403,7 +636,12 @@
      "k": "SPOTV K-POP AWARDS 2026",
      "v": "스포티비 앰버서더·글로벌 커넥트 수상 (2026-09-06)",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.spotvnews.co.kr/news/articleView.html?idxno=1005997"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "SPOTV-SKA"
      ]
     },
@@ -411,7 +649,13 @@
      "k": "2026 시상식 출연",
      "v": "KWDA·SKA·TMA·KGMA(원이 MC)·AAA 2026 양일",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www3.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03427606645582744",
+      "https://www.starnewskorea.com/en/music/2026/09/15/2026091405040880740"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "EDAILY-KGMA",
       "STARNEWS-AAA"
      ]
@@ -420,7 +664,12 @@
      "k": "유튜브 구독자",
      "v": "‘유튜브·SNS’ 탭 참조",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://chukkae.com/rankings/youtube"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CHUKKAE-YT-1004"
      ]
     },
@@ -428,7 +677,12 @@
      "k": "미나미 학력",
      "v": "일본에서 학교를 다니다 한림연예예술고 실용음악과에 재입학(또래보다 1살 위) → 이후 제나·리브와 함께 자퇴 (담당 교사 SNS 인용 보도)",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://sports.khan.co.kr/article/202607141642003"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "KHAN-MINAMI"
      ]
     },
@@ -436,7 +690,13 @@
      "k": "미나미 출생",
      "v": "이토 미나미(伊藤南美), 2006-11-29, 일본 지바현",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%82%98%EB%AF%B8_(%EC%9D%BC%EB%B3%B8%EC%9D%98_%EA%B0%80%EC%88%98)"
+     ],
+     "primary_source": false,
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "WIKI-KO-MINAMI"
      ]
     },
@@ -444,7 +704,13 @@
      "k": "미나미 일본 학교",
      "v": "치바니혼대학제일 초·중 재학 (Claude 대화 기준, 1차 출처 미노출 → 학비·진학률·가정 배경 등 대화 속 비공식 수치는 게재하지 않음)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -452,7 +718,13 @@
      "k": "광고·앰버서더",
      "v": "CU, 할리스, 도미노피자, 나랑드사이다, 어퓨, 프리티스킨, 엘리트학생복 / 원이 — 바이오던스 개인 앰버서더. ‘LOVE ATTACK’ 역주행 이후 계약 급증 (Claude 9/18 대시보드 v3)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -460,7 +732,13 @@
      "k": "캐릭터 IP",
      "v": "멤버 동물 캐릭터(미나미·메이·제나 등) 5종, 올라고엑스 제작(2024~), 멤버가 설정·디자인 참여, 캐릭터라이선싱페어 2026 관련 활동 (Claude 대화 미리보기 기준)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -468,7 +746,13 @@
      "k": "수상 (2026)",
      "v": "대한민국 퍼스트브랜드 대상 여자아이돌 라이징스타, K 월드 드림 어워즈 베스트 팬상 / 2025 미니 3집 ‘lip bomb’ 포브스 ‘2025 비평가 호평 K-팝 앨범’ (Claude 대시보드 요약)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     }
@@ -478,7 +762,13 @@
      "date": "2026-01-21",
      "text": "‘Pinball’ 일본어 버전",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -486,7 +776,13 @@
      "date": "2026-02-27",
      "text": "AA Project 컬래버 ‘Busy Boy’",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -494,7 +790,13 @@
      "date": "2026-04-08",
      "text": "첫 디지털 싱글 ‘Runaway’",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -502,7 +804,13 @@
      "date": "2026-06",
      "text": "수원시 MZ 타깃 브랜딩 콘텐츠 참여",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -510,7 +818,13 @@
      "date": "2026-07",
      "text": "‘LOVE ATTACK’(2024-08 미니 1집 SCENEDROME 타이틀) 발매 2년 만에 멜론 TOP100 1위 — 일간 2위, FLO 2위, 지니 실시간 3위. 원이 유튜브 채널 갸루·사투리 밈이 계기 (문화일보 07-09·스포츠경향 07-13 보도 요약)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -518,7 +832,13 @@
      "date": "2026-07-08",
      "text": "카라 ‘Pretty Girl’(2008) 리메이크 싱글 — 향 콘셉트 ‘자몽’, 컴백 라이브 3만 명+, 엠카 첫 무대 니콜 합류 (스포츠경향·일간스포츠 요약)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -526,7 +846,13 @@
      "date": "2026-09-01",
      "text": "9월 신인 아이돌 브랜드평판 1위 (한국기업평판연구소, 8/1~9/1 빅데이터 1,973만 건) — 2위 코르티스, 3위 키키 (셀럽미디어·K trendy NEWS 요약)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -534,7 +860,12 @@
      "date": "2026-09-06",
      "text": "SPOTV K-POP AWARDS 수상",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.spotvnews.co.kr/news/articleView.html?idxno=1005997"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "SPOTV-SKA"
      ]
     },
@@ -542,14 +873,21 @@
      "date": "2026-09-26",
      "text": "OBJET K-POP FESTA(9/26–27) 주최 측 사정으로 취소 (공식 Mnet Plus 공지 요약)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     }
    ],
    "pending": [],
    "withheld": "건강·다이어트 관련 대화(9/15)는 실존 인물의 체중·식단에 관한 내용이라, 1차 출처 URL로 확인되기 전까지 게재하지 않음.",
-   "artifacts": "출처: Claude ‘개인 K-pop 대시보드’(knowledge-dash, 9/19) 처리 노트 6건 — 원 보도 URL 미포함."
+   "artifacts": "출처: Claude ‘개인 K-pop 대시보드’(knowledge-dash, 9/19) 처리 노트 6건 — 원 보도 URL 미포함.",
+   "artist_id": "rescene"
   },
   {
    "id": "bts",
@@ -560,7 +898,14 @@
      "k": "5집 ARIRANG",
      "v": "2026년 3월 발매, Billboard 200 1위·리드 싱글 ‘SWIM’ Hot 100 1위 데뷔",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.billboard.com/lists/bts-swim-number-1-hot-100-debut/",
+      "https://www.prnewswire.com/news-releases/jinro-the-worlds-no-1-soju-brand-partners-with-v-of-bts-302815606.html"
+     ],
+     "collected_at": "2026-10-05",
+     "source_ids": [
+      "BB-SWIM",
       "PRN-JINRO-V"
      ]
     },
@@ -568,7 +913,13 @@
      "k": "ARIRANG 월드투어",
      "v": "88회·34개 도시(2026-04-09 고양 ~ 2027-03-16 불라칸) — 트래커 탭 참조",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.contactmusic.com/story/469/3553178/bts-add-pair-of-southeast-asia-dates-as-arirang-tour-expands-to-record-breaking-88-shows",
+      "https://en.wikipedia.org/wiki/Arirang_World_Tour"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CM-BTS88",
       "WIKI-ARIRANG"
      ]
@@ -577,24 +928,62 @@
      "k": "Claude 위키 아티팩트 권역 분포",
      "v": "북미 28 · 동남아/중화권 21 · 중남미 17 · 유럽 10 · 한국 5 · 오세아니아 5 · 일본 2 (=88회, 대화 내 일부 초기 권역 수치는 개략)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
     {
      "k": "디스코그래피 (아티팩트 집계)",
-     "v": "정규·미니 등 앨범 22, 싱글 16, ARIRANG 15곡, 멤버 솔로 앨범 15, Hot 100 1위 7곡 (Claude 대화 기준 — PR Newswire는 ‘2020년 이후 Hot 100 1위 6곡’ 문구, 집계 기준 차이 가능)",
-     "status": "conflict",
-     "sources": [
-      "CLAUDE-CHATS-2",
-      "PRN-JINRO-V"
+     "v": "정규·미니 등 앨범 22, 싱글 16, ARIRANG 15곡, 멤버 솔로 앨범 15 (Claude 아티팩트 집계, 미검증)",
+     "status": "claude",
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-05",
+     "source_ids": [
+      "CLAUDE-CHATS-2"
+     ]
+    },
+    {
+     "k": "Billboard Hot 100 1위",
+     "v": "그룹 명의 7곡 — 단독 5(Dynamite·Life Goes On·Butter·Permission to Dance·Swim) + 협업 2(Savage Love remix·My Universe). 멤버 솔로 2곡(지민 ‘Like Crazy’·정국 ‘Seven’, 2023). PR Newswire ‘6곡’은 Swim(2026-04-04 차트) 이전 집계.",
+     "status": "verified",
+     "grade": "확정",
+     "source_url": [
+      "https://www.billboard.com/lists/bts-swim-number-1-hot-100-debut/",
+      "https://www.billboard.com/lists/bts-number-ones-hot-100-billboard-200/",
+      "https://www.asiae.co.kr/en/article/2026033108341819327",
+      "https://www.billboard.com/music/chart-beat/jimin-like-crazy-debuts-number-one-first-bts-solo-hot-100-1235297097/",
+      "https://www.billboard.com/music/chart-beat/jung-kook-latto-seven-number-one-debut-hot-100-jason-aldean-1235377400/"
+     ],
+     "collected_at": "2026-10-05",
+     "source_ids": [
+      "BB-SWIM",
+      "BB-BTS-NO1S",
+      "ASIAE-BTS-7",
+      "BB-JIMIN-LC",
+      "BB-JK-SEVEN"
      ]
     },
     {
      "k": "LE SSERAFIM 비교 (아티팩트)",
      "v": "BTS 7개 권역·스타디움·회당 4–6만 vs 르세라핌 5개 권역·아레나·회당 약 1만, 교세라돔 2회 / Billboard 200 1위 7회 vs 르세라핌 톱10 5회 / Hot 100 1위 7곡 vs 르세라핌 최고 50위",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     }
@@ -604,7 +993,13 @@
      "date": "2026-03-20",
      "text": "5집 ‘ARIRANG’ 발매",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -612,7 +1007,13 @@
      "date": "2026-03-21",
      "text": "광화문 넷플릭스 컴백 라이브",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -620,7 +1021,12 @@
      "date": "2026-04-09",
      "text": "고양에서 월드투어 개막",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.contactmusic.com/story/469/3553178/bts-add-pair-of-southeast-asia-dates-as-arirang-tour-expands-to-record-breaking-88-shows"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CM-BTS88"
      ]
     },
@@ -628,12 +1034,19 @@
      "date": "2026",
      "text": "부산 13주년 공연·AMA 무대 (Claude 아티팩트 기준)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     }
    ],
-   "artifacts": "Claude 아티팩트 ‘bts-wiki’(13장: 개요·멤버·연표·디스코그래피·투어·활동 캘린더 2013–2027.3·BU·ARMY/광고·수상·논란·유튜브·르세라핌 비교·출처)와 ‘lesserafim-wiki’(12장)"
+   "artifacts": "Claude 아티팩트 ‘bts-wiki’(13장: 개요·멤버·연표·디스코그래피·투어·활동 캘린더 2013–2027.3·BU·ARMY/광고·수상·논란·유튜브·르세라핌 비교·출처)와 ‘lesserafim-wiki’(12장)",
+   "artist_id": "bts"
   },
   {
    "id": "lesserafim",
@@ -642,9 +1055,15 @@
    "facts": [
     {
      "k": "Claude 위키 아티팩트 수치",
-     "v": "앨범 13, 싱글 17, PUREFLOW 36회, EASY CRAZY HOT 31회, 공식 MV 링크 20개 (PUREFLOW 회차는 트래커 34회·Claude 배치1 32회와 또 달라 충돌)",
-     "status": "conflict",
-     "sources": [
+     "v": "앨범 13, 싱글 17, PUREFLOW 36회, EASY CRAZY HOT 31회, 공식 MV 링크 20개 (Claude 아티팩트 집계. PUREFLOW 36회는 2026-10-05 공식 공지 합산 32+마카오2+교세라돔2와 일치 — 트래커 반영)",
+     "status": "claude",
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-05",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -652,12 +1071,19 @@
      "k": "광고 구조",
      "v": "그룹 계약 중심, 멤버 개인(사쿠라·카즈하·은채 등) 계약 병행 — IVE·aespa·NewJeans와 비교 (Claude 9/18 대시보드)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     }
    ],
-   "timeline": []
+   "timeline": [],
+   "artist_id": "le_sserafim"
   },
   {
    "id": "katseye",
@@ -668,7 +1094,13 @@
      "k": "3rd EP ‘WILD’ (2026-08-14)",
      "v": "Billboard 200 1위(8/29자) — 170,000 유닛(앨범 판매 145,000 · SEA 24,500 · TEA 약 500). 여성 그룹 주간 유닛 최고치. 직전 ‘Beautiful Chaos’ 최고 4위",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/",
+      "https://biz.heraldcorp.com/article/10849687"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "BB-KATSEYE-WILD",
       "HERALD-KATSEYE-WILD"
      ]
@@ -677,7 +1109,15 @@
      "k": "‘WILD’ 해외 차트",
      "v": "영국 앨범 2위 (보도), Claude는 ‘Bel Air’ 버블링 언더 Hot 100 11위·UK 싱글 97위라 함",
      "status": "partial",
-     "sources": [
+     "grade": "부분",
+     "source_url": [
+      "https://biz.heraldcorp.com/article/10849687"
+     ],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2",
       "HERALD-KATSEYE-WILD"
      ]
@@ -686,7 +1126,13 @@
      "k": "‘Bel Air’ (WILD 4번 트랙, 약 3:30)",
      "v": "Charli xcx 2013년 ‘SUCKER’용 미발매·유출곡 리워크. 작곡 Charli xcx·Noonie Bao·Jarrad Rogers·Stefan Gräslund·Patrik Berger·Martin Stilling·Kristin Carpenter / 프로듀서 Stilling·MSTR Rogers·Gräslund·Berger / 믹스 Alex Ghenea, 마스터 Chris Gehringer. 프리코러스 신설, 톤은 어두운 인디팝→광택 대중팝. 참여: 소피아·다니엘라·라라·메간·윤채 (마농 활동 불참)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     }
@@ -696,7 +1142,13 @@
      "date": "2026-07-30",
      "text": "WILD 트랙리스트 공개 (‘PINKY UP’ 번호판 티저)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-CHATS-2"
      ]
     },
@@ -704,11 +1156,17 @@
      "date": "2026-08-14",
      "text": "3rd EP ‘WILD’ 발매",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "BB-KATSEYE-WILD"
      ]
     }
-   ]
+   ],
+   "artist_id": "katseye"
   },
   {
    "id": "blackpink",
@@ -719,7 +1177,13 @@
      "k": "‘JUMP’ 사운드 분석 (Claude 2025-08-01)",
      "v": "하드스타일 기반 EDM에 테크노·드릴·유로댄스·트랜스 혼합. 웨스턴 영화음악풍 기타 리프 인트로 → 고에너지 일렉트로닉, 1997년 레이브곡 ‘Meet Her at the Loveparade’를 연상시키는 후렴, 랩·반말투 벌스에서 폭발적 후렴으로 빌드업",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -727,7 +1191,13 @@
      "k": "‘JUMP’ 프로듀서",
      "v": "Diplo, 24, Boaz van de Beatz, Zecca, Ape Drums (Claude가 Rolling Stone 인용)",
      "status": "claude",
-     "sources": [
+     "grade": "추정",
+     "source_url": [],
+     "source_note": [
+      "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "CLAUDE-FC"
      ]
     },
@@ -735,20 +1205,23 @@
      "k": "멤버 인스타그램",
      "v": "‘유튜브·SNS’ 탭 참조",
      "status": "verified",
-     "sources": [
+     "grade": "확정",
+     "source_url": [
+      "https://livecounts.nl/vs/lisa-vs-jennie/"
+     ],
+     "collected_at": "2026-10-04",
+     "source_ids": [
       "LIVECOUNTS-LJ"
      ]
     }
    ],
-   "timeline": []
+   "timeline": [],
+   "artist_id": "blackpink"
   }
  ],
  "ambassadors": {
   "title": "K-pop 앰버서더 총람 (Claude 9/18 아티팩트 요약)",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-1"
-  ],
   "summary": "162건 · 9개 카테고리(럭셔리 패션, 컨템포러리/캐주얼, 스포츠/아웃도어, 럭셔리 뷰티/향수, K-뷰티/스킨케어, 주얼리/시계, 아이웨어, 테크/가전, 식품/금융/라이프스타일) · 107개 브랜드. 해외 데이터는 WWD/Variety/Hypebae 2026 스냅샷으로 전수 아님.",
   "comparisons": [
    [
@@ -802,9 +1275,6 @@
   "girlAds": {
    "title": "걸그룹 광고·앰버서더 대시보드 (Claude 9/18 v1→v3)",
    "status": "claude",
-   "sources": [
-    "CLAUDE-CHATS-2"
-   ],
    "rows": [
     [
      "KATSEYE",
@@ -843,15 +1313,30 @@
      "CU, 할리스, 도미노피자, 나랑드사이다, 어퓨, 프리티스킨, 엘리트학생복 / 원이 — 바이오던스"
     ]
    ],
-   "note": "v1은 LE SSERAFIM·IVE·aespa·NewJeans 비교(그룹 계약·럭셔리 밀도·개인 계약·해외 노출, 정성 지표). 빈칸은 ‘미확인’이지 ‘없음’이 아님. v3에서 ‘5세대는 럭셔리 계약 없음’ 주장을 수정 — 럭셔리는 MEOVV에 집중. NewJeans 과거 계약의 현재 유효성은 불확실."
-  }
+   "note": "v1은 LE SSERAFIM·IVE·aespa·NewJeans 비교(그룹 계약·럭셔리 밀도·개인 계약·해외 노출, 정성 지표). 빈칸은 ‘미확인’이지 ‘없음’이 아님. v3에서 ‘5세대는 럭셔리 계약 없음’ 주장을 수정 — 럭셔리는 MEOVV에 집중. NewJeans 과거 계약의 현재 유효성은 불확실.",
+   "grade": "추정",
+   "source_url": [],
+   "source_note": [
+    "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+   ],
+   "collected_at": "2026-10-04",
+   "source_ids": [
+    "CLAUDE-CHATS-2"
+   ]
+  },
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1"
+  ]
  },
  "memberChart": {
   "title": "2004–2010년생 걸그룹 멤버 (Claude 8/16, 48명)",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-2"
-  ],
   "columns": [
    "#",
    "생년월일",
@@ -1148,17 +1633,20 @@
     "tripleS"
    ]
   ],
-  "note": "범위: 현재 활동 중인 K-pop·글로벌 기반 그룹. ‘경’·연도만 표기는 정확한 날짜 미확인. 추가: WOOAH 루시·민서(2004, 날짜 미확인). 미반영·부분 확인 그룹: UNIS, Hearts2Hearts, Kep1er, izna, MEOVV, CSR, NiziU, XG, TRI.BE, Young Posse, H1-KEY, Cignature, VVUP, VVS, Hitgs, Ifeye, Baby Dont Cry — 전수 목록 아님. 표 안 RESCENE은 누락(미나미 2006-11-29는 위키 확인)."
+  "note": "범위: 현재 활동 중인 K-pop·글로벌 기반 그룹. ‘경’·연도만 표기는 정확한 날짜 미확인. 추가: WOOAH 루시·민서(2004, 날짜 미확인). 미반영·부분 확인 그룹: UNIS, Hearts2Hearts, Kep1er, izna, MEOVV, CSR, NiziU, XG, TRI.BE, Young Posse, H1-KEY, Cignature, VVUP, VVS, Hitgs, Ifeye, Baby Dont Cry — 전수 목록 아님. 표 안 RESCENE은 누락(미나미 2006-11-29는 위키 확인).",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2"
+  ]
  },
  "brandCollabs": {
   "title": "BTS 멤버 럭셔리 브랜드 (Claude 7/22 → 2026-10-04 웹 재확인)",
   "status": "partial",
-  "sources": [
-   "CLAUDE-CHATS-2",
-   "OUTLOOK-BTS-LUX",
-   "MGK-BTS-LUX",
-   "ST-BTS-LUX"
-  ],
   "columns": [
    "멤버",
    "주 브랜드",
@@ -1217,14 +1705,27 @@
     "partial"
    ]
   ],
-  "note": "Claude 대화: 2026 S/S 시즌 5명(RM·진·지민·뷔·정국) EMV 합계 $39.26M (미검증). 보충: 블랙핑크 — 제니 Chanel, 리사 Louis Vuitton(이전 Celine), 로제 Saint Laurent·Tiffany & Co., 지수 Dior (Claude 기준)."
+  "note": "Claude 대화: 2026 S/S 시즌 5명(RM·진·지민·뷔·정국) EMV 합계 $39.26M (미검증). 보충: 블랙핑크 — 제니 Chanel, 리사 Louis Vuitton(이전 Celine), 로제 Saint Laurent·Tiffany & Co., 지수 Dior (Claude 기준).",
+  "grade": "부분",
+  "source_url": [
+   "https://luxe.outlookindia.com/people/bts-fashion-the-luxury-brands-worn-by-rm-jin-suga-j-hope-jimin-v-and-jungkook",
+   "https://myguidekorea.com/trends/kpop/bts-brand-ambassador-deals-2026-every-member-luxury-partnership",
+   "https://www.straitstimes.com/life/style/the-boys-are-back-bts-comeback-year-is-a-fashion-bonanza"
+  ],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2",
+   "OUTLOOK-BTS-LUX",
+   "MGK-BTS-LUX",
+   "ST-BTS-LUX"
+  ]
  },
  "agencies": {
   "title": "카카오엔터테인먼트 계열 아이돌 (Claude 9/3)",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-2"
-  ],
   "columns": [
    "소속/레이블",
    "주요 아이돌",
@@ -1262,14 +1763,20 @@
     "SM은 독립 상장·운영"
    ]
   ],
-  "note": "정정: 큐브·FNC·RBW는 카카오 소유가 아니라 유통 계약만(별도 코스닥 상장사). 큐브: i-dle·LIGHTSUM·NOWZ / FNC: FTISLAND·CNBLUE·N.Flying·SF9·P1Harmony·AMPERS&ONE / RBW: 마마무·원어스·원위, WM: 오마이걸·B1A4·ONF, DSP: KARD·YOUNG POSSE. IST(에이핑크·더보이즈)는 과거 카카오 관련이었으나 매각. 지분 관계는 공시로 재확인 필요."
+  "note": "정정: 큐브·FNC·RBW는 카카오 소유가 아니라 유통 계약만(별도 코스닥 상장사). 큐브: i-dle·LIGHTSUM·NOWZ / FNC: FTISLAND·CNBLUE·N.Flying·SF9·P1Harmony·AMPERS&ONE / RBW: 마마무·원어스·원위, WM: 오마이걸·B1A4·ONF, DSP: KARD·YOUNG POSSE. IST(에이핑크·더보이즈)는 과거 카카오 관련이었으나 매각. 지분 관계는 공시로 재확인 필요.",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2"
+  ]
  },
  "producers": {
   "title": "양현석·YG × Diplo 협업 조사 (Claude 9/25)",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-2"
-  ],
   "columns": [
    "곡",
    "내용"
@@ -1292,14 +1799,20 @@
     "CL·Diplo가 GD와 이미 함께 작업한 곡 (Claude 대화 기준)"
    ]
   ],
-  "note": "첫 접촉자: ‘YG’라는 회사 단위만 확인. 후보 — 양현석(정황상 유력, 직접 증거 없음), 테디(근거 없음), YG 해외 A&R(미상), GD(이후 직접 관계). 양현석의 직접 개입은 ‘Black’·‘R.O.D.’·‘Runaway’ 등에서 문서화, ‘Doctor Pepper’는 아님. 2011년 Diplo: M.I.A. ‘Paper Planes’(Hot 100 4위·그래미 올해의 레코드 후보), Major Lazer, 비욘세 ‘Run the World (Girls)’ 샘플, 크리스 브라운 ‘Look at Me Now’ — 트렌드세터 프로듀서 단계, 첫 그래미는 2016년(Jack Ü)."
+  "note": "첫 접촉자: ‘YG’라는 회사 단위만 확인. 후보 — 양현석(정황상 유력, 직접 증거 없음), 테디(근거 없음), YG 해외 A&R(미상), GD(이후 직접 관계). 양현석의 직접 개입은 ‘Black’·‘R.O.D.’·‘Runaway’ 등에서 문서화, ‘Doctor Pepper’는 아님. 2011년 Diplo: M.I.A. ‘Paper Planes’(Hot 100 4위·그래미 올해의 레코드 후보), Major Lazer, 비욘세 ‘Run the World (Girls)’ 샘플, 크리스 브라운 ‘Look at Me Now’ — 트렌드세터 프로듀서 단계, 첫 그래미는 2016년(Jack Ü).",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2"
+  ]
  },
  "fanEvents": {
   "title": "정국 생일(9/1) 글로벌 팬 이벤트 (Claude 8/31)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-2"
-  ],
   "types": [
    "옥외광고",
    "오프라인 생일카페·모임",
@@ -1426,6 +1939,15 @@
     "2억–5억"
    ]
   ],
-  "note": "비용은 모두 시장 단가 기반 추정(원, $1=1,400원), 실제 집행액 비공개. Jungkook China PART 1–41 광고 소계 약 1억 5,000만–4억 1,500만, 일본 드론쇼 포함 약 3억 5,000만–9억. 규모별 예산: 개인 5만–50만, 소형 계정 300만–1,000만, 중형 3,000만–1억, 대형 국가 팬클럽 2억–5억+, 전 세계 연간 합계 5억–15억+ (감사되지 않은 추정). 사례: 타임스스퀘어 TSX 1일 576회, 신주쿠, 방콕 MBK·툭툭, 부다페스트, 인도네시아 산호 심기, 중남미 Operation Smile·보호소 후원."
+  "note": "비용은 모두 시장 단가 기반 추정(원, $1=1,400원), 실제 집행액 비공개. Jungkook China PART 1–41 광고 소계 약 1억 5,000만–4억 1,500만, 일본 드론쇼 포함 약 3억 5,000만–9억. 규모별 예산: 개인 5만–50만, 소형 계정 300만–1,000만, 중형 3,000만–1억, 대형 국가 팬클럽 2억–5억+, 전 세계 연간 합계 5억–15억+ (감사되지 않은 추정). 사례: 타임스스퀘어 TSX 1일 576회, 신주쿠, 방콕 MBK·툭툭, 부다페스트, 인도네시아 산호 심기, 중남미 Operation Smile·보호소 후원.",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2"
+  ]
  }
 }

@@ -39,23 +39,26 @@
    "song": "BLACKPINK - Kill This Love",
    "dancers": "2 (예시 출력)",
    "views": "미확인",
-   "status": "grok"
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
   },
   {
    "time": "3:08",
    "song": "IVE - LOVE DIVE",
    "dancers": "6 (예시 출력)",
    "views": "미확인",
-   "status": "grok"
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
   }
  ],
  "note": "Grok 대화에는 실제 영상 조회수 데이터가 없음. 조회수 및 실측 결과는 도구 실행 후 이 파일의 results에 추가하세요 (영상 URL·조회 일시 함께 기록). Claude 배치 1에도 실제 영상별 인원·조회수 결과는 없음. Claude 배치 1에도 실제 영상별 인원·조회수 결과는 없음.",
  "v2": {
   "title": "v2 아키텍처 — yt-dlp + YOLO/ByteTrack + Jev (Claude 9/21)",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-1"
-  ],
   "steps": [
    "yt-dlp로 영상·챕터 다운로드",
    "YOLO + ByteTrack으로 사람 검출·추적 (ID 유지 → v1의 중복 집계 문제 보완)",
@@ -209,15 +212,33 @@
   "bot": {
    "title": "RPD 통계 봇 PR #3 — 곡명 정규화 버그 수정 (Claude Code)",
    "status": "claude",
-   "sources": [
-    "CLAUDE-FC"
-   ],
    "items": [
     "원인: ‘ver’·‘mv’·‘audio’ 등을 부분 문자열로 삭제 → ‘Fever’→‘fe’, ‘Lover’→‘lo’, ‘Forever’→‘fore’",
     "제목이 ‘Audio’뿐이면 빈 문자열 → 곡 구간 누락, 서로 다른 곡이 같은 키로 합쳐질 위험, 별칭 ‘fever’ 미매칭",
     "수정: 제목 끝 단독 단어(Official MV, ver. 등)만 제거, 결과가 비면 원래 값 유지, 회귀 테스트 추가",
     "테스트 48건 통과 (CI 결과·실제 수집·YOLO 실행은 Mac mini에서 미확인)"
+   ],
+   "grade": "추정",
+   "source_url": [],
+   "source_note": [
+    "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+   ],
+   "collected_at": "2026-10-04",
+   "source_ids": [
+    "CLAUDE-FC"
    ]
-  }
- }
+  },
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1"
+  ]
+ },
+ "grade": "추정",
+ "source_url": [],
+ "collected_at": "2026-10-04"
 }

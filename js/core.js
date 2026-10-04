@@ -6,7 +6,8 @@ const isNum = v => typeof v === 'number' && isFinite(v);
 
 /* ---------- 데이터 로딩 ---------- */
 const D = {};          // 로드된 JSON
-const LOADINFO = {};   // 파일별 사용된 base
+const LOADINFO = {};   // 파일별 사용된 source id
+let SNAPSHOT = null;   // ./data/kpop/SNAPSHOT.json (동기화 시각·검증 상태)
 async function fetchJSON(url) {
   const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 8000);
   try {
@@ -15,53 +16,161 @@ async function fetchJSON(url) {
     return await r.json();
   } finally { clearTimeout(t); }
 }
-async function loadAll() {
+function dataSources() {
   const qp = new URLSearchParams(location.search).get('data');
-  const bases = [...new Set([qp, DATA_BASE, ...FALLBACK_BASES].filter(Boolean))];
-  const bust = 'v=' + Math.floor(Date.now() / 60000); // 1분 단위 캐시 우회
+  const L = [];
+  if (qp) L.push({ id: 'custom', base: qp, layout: 'store', label: '지정 경로' });
+  if (!ON_PAGES && location.protocol !== 'file:') L.push({ id: 'store', base: STORE_LOCAL, layout: 'store', label: '공용 저장소 /workspace/data/kpop' });
+  if (location.protocol !== 'file:') L.push({ id: 'snapshot', base: STORE_SNAPSHOT, layout: 'store', label: '저장소 스냅샷 (data/kpop)' });
+  L.push({ id: 'legacy', base: LEGACY_BASE, layout: 'flat', label: '구형 라이브 폴백 (kpop-research)' });
+  return L;
+}
+async function loadAll() {
+  const bust = 'v=' + Math.floor(Date.now() / 60000);
+  const SRC = dataSources();
   await Promise.all(DATA_FILES.map(async f => {
     let lastErr;
-    for (const b of bases) {
-      try { D[f] = await fetchJSON(b + f + '.json?' + bust); LOADINFO[f] = b; return; }
-      catch (e) { lastErr = e; }
+    if (!window.KPD_EMBED) for (const s of SRC) {
+      if (s.layout === 'flat' && STORE_ONLY.includes(f)) continue;
+      const url = s.base + (s.layout === 'store' ? DATA_PATHS[f] : DATA_PATHS[f].split('/').pop()) + '.json?' + bust;
+      try { D[f] = await fetchJSON(url); LOADINFO[f] = s.id; return; } catch (e) { lastErr = e; }
     }
-    if (window.KPD_EMBED && window.KPD_EMBED[f]) { D[f] = window.KPD_EMBED[f]; LOADINFO[f] = 'embedded'; return; } // 오프라인 단일 파일 변형용 스냅샷
-    D[f] = null; LOADINFO[f] = null; console.warn('load failed', f, lastErr);
+    if (window.KPD_EMBED && window.KPD_EMBED[f]) { D[f] = window.KPD_EMBED[f]; LOADINFO[f] = 'embedded'; return; }
+    D[f] = null; LOADINFO[f] = null; if (!OPTIONAL_FILES.includes(f)) console.warn('load failed', f, lastErr);
   }));
+  if (window.KPD_EMBED) SNAPSHOT = window.KPD_EMBED.__snapshot || null;
+  else if (Object.values(LOADINFO).includes('snapshot')) { try { SNAPSHOT = await fetchJSON(STORE_SNAPSHOT + 'SNAPSHOT.json?' + bust); } catch (e) { } }
+  DATA_FILES.forEach(f => D[f] && normalizeStore(D[f]));
+  buildFigIndex(); applyFigures();
   return LOADINFO;
 }
+/** 저장소 형식 정규화: source_ids → sources(화면 출처 칩), grade(한글) → status(내부 키). 원본 status는 status_legacy로 보존 */
+function normalizeStore(o) {
+  if (Array.isArray(o)) { o.forEach(normalizeStore); return; }
+  if (!o || typeof o !== 'object') return;
+  if (o.source_ids && !o.sources) o.sources = o.source_ids;
+  if (o.grade && GRADE_KEY[o.grade]) { if (o.status && o.status_legacy === undefined) o.status_legacy = o.status; o.status = GRADE_KEY[o.grade]; }
+  for (const k in o) if (o[k] && typeof o[k] === 'object') normalizeStore(o[k]);
+}
+/* 수치 레코드 인덱스: subject("아티스트 투어") → metric → 최신 레코드 */
+const FIG = new Map();
+function buildFigIndex() {
+  FIG.clear();
+  for (const f of ['tourFigures', 'socialFigures']) for (const r of (D[f]?.records || [])) {
+    const k = r.subject; if (!FIG.has(k)) FIG.set(k, {});
+    const m = FIG.get(k); if (!m[r.metric] || (r.collected_at || '') >= (m[r.metric].collected_at || '')) m[r.metric] = r;
+  }
+}
+/* 수치 레코드 → 화면 행 필드 덮어쓰기 + 지표별 등급(row._g[field]) 기록. 차트는 레코드 값·등급을 우선 사용 */
+const FIG_MAP = {
+  tours:   [['gross', 'gross'], ['attendance', 'attendance'], ['shows', 'shows']],
+  tracker: [['attendance', 'attendance'], ['gross', 'revenue'], ['shows', 'shows'], ['cities', 'cities'], ['attendance_model_estimate', 'estimate']],
+  hybe:    [['attendance', 'attendance'], ['gross', 'gross'], ['shows', 'shows'], ['cities', 'cities'], ['shows_done', 'done'], ['shows_left', 'left']],
+};
+const FIG_DIFF = []; let FIG_HITS = 0;
+function applyFigures() {
+  FIG_DIFF.length = 0; FIG_HITS = 0;
+  for (const [f, map] of Object.entries(FIG_MAP)) for (const row of (D[f]?.tours || [])) {
+    row._g = row._g || {}; row._rec = row._rec || {};
+    for (const [metric, field] of map) {
+      const r = figOf(row, metric); if (!r || !isNum(r.value)) continue;
+      // 행 값이 없으면 채우지 않음: subject가 데이터셋 간 겹칠 수 있음(예: 트래커·하이브의 "BTS WORLD TOUR 'ARIRANG'") → 교차 오염 방지
+      if (!isNum(row[field])) { if (row[field] == null) FIG_DIFF.push({ file: f, subject: r.subject, field, row: null, record: r.value, skipped: true }); continue; }
+      FIG_HITS++;
+      if (row[field] !== r.value) FIG_DIFF.push({ file: f, subject: r.subject, field, row: row[field], record: r.value });
+      row[field] = r.value; row._g[field] = GRADE_KEY[r.grade] || 'unverified'; row._rec[field] = r;
+    }
+  }
+  if (FIG_DIFF.length) console.info('수치 레코드와 행 값 차이', FIG_DIFF);
+}
+/* ---------- artist_id 조인 (트래커·하이브·소셜) ---------- */
+let ARTISTS = null;
+function artistIndex() {
+  if (ARTISTS) return ARTISTS;
+  ARTISTS = new Map();
+  const get = id => { if (!ARTISTS.has(id)) ARTISTS.set(id, { id, ko: null, en: null, tracker: [], hybe: [], yt: null, ig: [] }); return ARTISTS.get(id); };
+  (D.tracker?.tours || []).forEach((t, i) => { if (!t.artist_id) return; const a = get(t.artist_id); a.ko = a.ko || t.artist; a.tracker.push(i); });
+  (D.hybe?.tours || []).forEach((t, i) => { if (!t.artist_id) return; const a = get(t.artist_id); a.en = a.en || t.artist; a.hybe.push(i); });
+  (D.social?.youtube?.rows || []).forEach(r => { if (!r.artist_id) return; const a = get(r.artist_id); a.ko = a.ko || r.ko; a.en = a.en || r.group; a.ytRow = r; });
+  (D.socialFigures?.records || []).forEach(r => { if (!r.artist_id) return; const a = get(r.artist_id);
+    if (r.metric === 'youtube_subscribers' && (!a.yt || (r.collected_at || '') >= (a.yt.collected_at || ''))) a.yt = r;
+    if (r.metric === 'instagram_followers') a.ig.push(r); });
+  return ARTISTS;
+}
+const artistById = id => id ? artistIndex().get(id) || null : null;
+const artistByName = name => { const n = String(name || '').toLowerCase(); for (const a of artistIndex().values()) if ([a.en, a.ko, a.ytRow?.group].some(x => x && x.toLowerCase() === n)) return a; return null; };
+/** 유튜브 구독자 칩 (등급 포함) */
+function ytChip(a) {
+  if (!a) return '';
+  const r = a.yt; const v = r ? r.value : a.ytRow?.subs;
+  if (!isNum(v)) return '';
+  return `<span class="ytchip" title="${esc(r ? `${r.subject} · ${r.as_of || ''} · 수집 ${r.collected_at}` : '소셜 탭 유튜브 표')}">▶ ${fmtKo(v, 1)}</span>${r ? badge({ status: GRADE_KEY[r.grade], collected_at: r.collected_at, primary_source: r.primary_source }) : ''}`;
+}
+/** 지표 등급 키: 레코드 등급 → 없으면 행 등급 */
+const gradeOf = (row, field) => (row && row._g && row._g[field]) || STATUS_GROUP(row?.status || 'unverified');
+/** 등급별 막대 스타일: 추정=빗금, 개략=점선 테두리, 미확=흐리게+점선, 충돌=빨간 테두리 */
+function gradeStyle(color, g, extra = {}) {
+  if (g === 'estimate') return estStyle(color, extra);
+  if (g === 'rough') return { color, opacity: .8, borderColor: '#2dd4bf', borderType: 'dotted', borderWidth: 1.5, ...extra };
+  if (g === 'unverified') return { color, opacity: .45, borderColor: '#9ca3af', borderType: 'dashed', borderWidth: 1, ...extra };
+  if (g === 'conflict') return { color, borderColor: '#ef4444', borderWidth: 1.5, ...extra };
+  return { color, ...extra };
+}
+/** 행(row)의 metric 레코드 — subject = "artist tour" (트래커는 한글명, 하이브·박스스코어는 영문명) */
+const figOf = (row, metric) => row ? (FIG.get(`${row.artist} ${row.tour}`) || {})[metric] || null : null;
+/** 차트용: 레코드 값·등급 우선, 없으면 행 필드 */
+function figVal(row, metric, field) {
+  const r = figOf(row, metric);
+  if (r && isNum(r.value)) return { value: r.value, status: GRADE_KEY[r.grade] || 'unverified', rec: r };
+  const v = row ? row[field || metric] : null;
+  return { value: isNum(v) ? v : null, status: row?.status || 'unverified', rec: null };
+}
 
-/* ---------- 정확도 ---------- */
+/* ---------- 등급 (README: 확정·부분·개략·충돌·미확·추정) ---------- */
+const GRADE_KEY = { '확정': 'verified', '부분': 'partial', '개략': 'rough', '충돌': 'conflict', '미확': 'unverified', '추정': 'estimate' };
 const ACC = {
-  verified:   { label: '검증됨',            color: '#22c55e' },
-  partial:    { label: '부분 확인',         color: '#60a5fa' },
-  conflict:   { label: '충돌',              color: '#ef4444' },
-  unverified: { label: '미확인',            color: '#9ca3af' },
-  grok:       { label: 'Grok 대화 기준',     color: '#c084fc' },
-  claude:     { label: 'Claude 리서치 기준', color: '#f59e0b' },
-  estimate:   { label: '추정치',            color: '#f472b6' },
+  verified:   { label: '확정', color: '#22c55e', desc: '인용 출처로 확인됨' },
+  partial:    { label: '부분', color: '#60a5fa', desc: '일부만 출처로 확인 (일부 회차·기간)' },
+  rough:      { label: '개략', color: '#2dd4bf', desc: '대략값 (반올림·“약/+” 보도)' },
+  conflict:   { label: '충돌', color: '#ef4444', desc: '출처끼리 값이 다름 (note 참고)' },
+  unverified: { label: '미확', color: '#9ca3af', desc: '아직 확인 안 됨' },
+  estimate:   { label: '추정', color: '#f472b6', desc: '출처 없는 값·모델·AI 대화 추정' },
 };
 const ACC_KEYS = Object.keys(ACC);
-// forecast(전망)는 추정치 그룹으로 필터링, 배지는 ‘전망’으로 표시
-const STATUS_GROUP = s => s === 'forecast' ? 'estimate' : (ACC[s] ? s : 'unverified');
+// 구형 status(배열 행 등 grade 없는 곳): claude·grok·forecast → 추정 (저장소 규칙: AI 대화값은 원문 확인 전 미확/추정)
+const LEGACY_STATUS = { claude: 'estimate', grok: 'estimate', forecast: 'estimate' };
+const STATUS_GROUP = s => GRADE_KEY[s] || LEGACY_STATUS[s] || (ACC[s] ? s : 'unverified');
 const S = { acc: new Set(ACC_KEYS) };
-/** row의 정확도 키 목록: status + (estimate) */
+/** row의 등급 키 목록: status + (estimate) */
 function accKeys(status, estimate) {
+  if (status && typeof status === 'object') status = status.status;
   const k = new Set([STATUS_GROUP(status || 'unverified')]);
   if (estimate) k.add('estimate');
   return [...k];
 }
 const accVisible = (status, estimate) => accKeys(status, estimate).every(k => S.acc.has(k));
 
-function badge(status, opt = {}) {
+/** 등급 배지. 문자열(status/한글 등급) 또는 레코드 객체(grade·collected_at·source_note·primary_source 표시) */
+function badge(x, opt = {}) {
+  if (!x) return '';
+  const obj = typeof x === 'object' ? x : null;
+  const status = obj ? obj.status : x;
   if (!status) return '';
-  if (status === 'forecast') return `<span class="badge b-estimate" title="전망치 — 추정치 필터에 포함">전망</span>`;
-  const a = ACC[status]; if (!a) return `<span class="badge b-unverified">${esc(status)}</span>`;
-  return `<span class="badge b-${status}">${a.label}</span>`;
+  const key = STATUS_GROUP(status), a = ACC[key];
+  const lbl = status === 'forecast' ? '전망' : a.label;
+  const tip = [a.desc, obj?.collected_at ? `수집 ${obj.collected_at}` : '', obj?.status_legacy && obj.status_legacy !== key ? `구형 표기: ${obj.status_legacy}` : '', ...(obj?.source_note || [])].filter(Boolean).join(' · ');
+  const wiki = obj && obj.primary_source === false ? `<span class="wk" title="1차 출처 없음 — 위키 등 2차 출처만">2차</span>` : '';
+  return `<span class="badge b-${key}" title="${esc(tip)}">${lbl}</span>${wiki}`;
 }
-const estBadge = (txt = '추정치') => `<span class="badge b-estimate">${esc(txt)}</span>`;
-const badges = (status, est, estTxt) => badge(status) + (est && status !== 'estimate' && status !== 'forecast' ? ' ' + estBadge(estTxt) : '');
+const estBadge = (txt = '추정') => `<span class="badge b-estimate">${esc(txt)}</span>`;
+const badges = (status, est, estTxt) => badge(status) + (est && STATUS_GROUP(typeof status === 'object' ? status?.status : status) !== 'estimate' ? ' ' + estBadge(estTxt) : '');
 const estOn = () => S.acc.has('estimate');
+/** 레코드의 source_url 배열 → 링크 칩 */
+function urlLinks(urls, mode = 'chip') {
+  if (!urls || !urls.length) return '';
+  return urls.map((u, i) => { let h = u; try { h = new URL(u).hostname.replace(/^www\./, ''); } catch (e) { }
+    return mode === 'list' ? `<a href="${esc(u)}" target="_blank" rel="noopener">↗ ${esc(h)}</a>` : `<a class="src" href="${esc(u)}" target="_blank" rel="noopener" title="${esc(u)}">${i + 1}</a>`; }).join(mode === 'list' ? '<br>' : '');
+}
 
 /* ---------- 출처 ---------- */
 function srcLinks(keys, mode = 'chip') {
@@ -146,7 +255,7 @@ function DataTable(el, cols, opts) {
     }
     thead.innerHTML = '<tr>' + cols.map(c => `<th class="${c.num ? 'num' : ''} ${c.nosort ? '' : 'sortable'}" data-k="${esc(c.k)}" title="${esc(c.title || '')}">${esc(c.label)}${st.k === c.k ? `<span class="arr">${st.dir === 'asc' ? '▲' : '▼'}</span>` : ''}</th>`).join('') + '</tr>';
     tbody.innerHTML = rows.length ? rows.map((r, i) => `<tr class="${opts.rowClass ? opts.rowClass(r) : ''}">` + cols.map(c => `<td class="${c.num ? 'num' : ''} ${c.cls || ''}">${c.html ? c.html(r, i) : esc(r[c.k] ?? '')}</td>`).join('') + '</tr>').join('')
-      : `<tr><td colspan="${cols.length}"><div class="hidden-note">${opts.empty || '표시할 행이 없습니다 (정확도 필터를 확인하세요)'}</div></td></tr>`;
+      : `<tr><td colspan="${cols.length}"><div class="hidden-note">${opts.empty || '표시할 행이 없습니다 (등급 필터를 확인하세요)'}</div></td></tr>`;
     const total = (typeof opts.rows === 'function' ? opts.rows() : opts.rows).length;
     cnt.textContent = `${rows.length}행` + (opts.totalHint ? ` / 전체 ${opts.totalHint()}행` : (rows.length !== total ? ` / ${total}행` : ''));
   }
@@ -235,5 +344,5 @@ function bindSeg(id, cb) {
   const el = document.getElementById(id); if (!el) return;
   el.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; $$('button', el).forEach(x => x.classList.toggle('on', x === b)); cb(b.dataset.v); });
 }
-const hiddenNote = (what = '이 섹션') => `<div class="hidden-note">${what}은(는) 현재 정확도 필터로 숨겨져 있습니다.</div>`;
+const hiddenNote = (what = '이 섹션') => `<div class="hidden-note">${what}은(는) 현재 등급 필터로 숨겨져 있습니다.</div>`;
 const sectionVisible = (status, est) => accVisible(status, est);

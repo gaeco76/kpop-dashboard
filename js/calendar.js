@@ -168,7 +168,7 @@ function awardDetail(i) {
     const e = D.events.awards2026.events[i];
     return `<div class="md-kicker">시상식 · ${esc(e.state)}</div><h2 class="md-title">🏆 ${esc(e.name)}</h2>
       <dl class="kv"><dt>일정</dt><dd>${esc(e.date)} (${esc(e.dateSort)})</dd><dt>장소</dt><dd>${esc(e.venue)}</dd><dt>라인업</dt><dd class="small">${esc(e.lineup)}</dd>
-      ${e.results?.length ? `<dt>결과</dt><dd><ul class="dots small">${e.results.map(x => `<li>${esc(x)}</li>`).join('')}</ul></dd>` : ''}<dt>정확도</dt><dd>${badge(e.status)}</dd></dl>
+      ${e.results?.length ? `<dt>결과</dt><dd><ul class="dots small">${e.results.map(x => `<li>${esc(x)}</li>`).join('')}</ul></dd>` : ''}<dt>등급</dt><dd>${badge(e)}</dd></dl>
       ${e.note ? `<p class="small muted">${esc(e.note)}</p>` : ''}<div class="md-src">${srcLinks(e.sources, 'list')}</div>`;
 }
 function trackerDetail(i) {
@@ -177,7 +177,7 @@ function trackerDetail(i) {
     const days = sp.unknown ? null : e - s + 1;
     return `<div class="md-kicker"><i class="dot" style="background:${calColor(t)}"></i> ${TYPE_LABEL[t.group] || ''} · ${esc(t.tier || '')}</div>
       <h2 class="md-title">${esc(t.artist)} <span class="muted">${esc(t.tour)}</span></h2>
-      <div style="margin-bottom:10px">${badge(t.status)} ${t.estimateText && !isNum(t.attendance) && estOn() ? estBadge('관객 추정치') : ''} ${(sp.dashS || sp.dashE || sp.unknown) ? '<span class="badge b-unverified" style="border-style:dashed">일정 미확정</span>' : ''} ${t.changes ? '<span class="badge b-change">변경</span>' : ''}</div>
+      <div style="margin-bottom:10px">${badge(t)} ${t.estimateText && !isNum(t.attendance) && estOn() ? estBadge('관객 추정치') : ''} ${(sp.dashS || sp.dashE || sp.unknown) ? '<span class="badge b-unverified" style="border-style:dashed">일정 미확정</span>' : ''} ${t.changes ? '<span class="badge b-change">변경</span>' : ''}</div>
       <dl class="kv">
         <dt>기간</dt><dd>${esc(t.start || '시작일 미정')} ~ ${esc(t.end || '종료일 미정')} ${days ? `<span class="muted small">(${days}일${sp.dashS || sp.dashE ? ', 캘린더 표시는 임시 구간' : ''})</span>` : `<span class="muted small">(${esc(t.yearHint || '')})</span>`}</dd>
         <dt>회차 · 도시</dt><dd>${t.shows != null ? t.shows + '회' : '회차 미확인'} · ${t.cities != null ? t.cities + '개 도시' : '도시 수 미확인'}</dd>
@@ -191,7 +191,9 @@ function trackerDetail(i) {
       </dl>
       ${t.note ? `<p class="small">${esc(t.note)}</p>` : ''}
       ${t.changes ? `<p class="small muted"><b>변경 이력</b> ${esc(t.changes)}</p>` : ''}
-      <div class="md-src"><div class="small muted">출처</div>${srcLinks(t.sources, 'list') || '<span class="muted small">없음</span>'}</div>`;
+      ${(() => { const a = artistById(t.artist_id); if (!a) return ''; const hy = a.hybe.map(i => D.hybe.tours[i]).filter(h => trackerMatch(h)?.t === t);
+        return `<dl class="kv"><dt>연결 (artist_id)</dt><dd><code>${esc(t.artist_id)}</code> ${esc(a.en || '')} ${ytChip(a)}${hy.length ? `<br><span class="small">하이브 탭: ${hy.map(h => esc(h.tour) + (isNum(h.done) ? ` · 완료 ${h.done}/${h.shows}회` : '')).join(', ')}</span>` : ''}</dd></dl>`; })()}
+      <div class="md-src"><div class="small muted">출처 <span class="muted">· 수집 ${esc(t.collected_at || '—')}</span></div>${urlLinks(t.source_url, 'list') || srcLinks(t.sources, 'list') || '<span class="muted small">없음</span>'}${(t.source_note || []).map(n => `<div class="small muted">※ ${esc(n)}</div>`).join('')}</div>`;
 }
 
 /* 박스스코어 → 캘린더 연결 (박스스코어는 연도 단위 기간만 있음) */

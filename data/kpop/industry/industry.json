@@ -2,16 +2,6 @@
  "kwda": {
   "title": "케이 월드 드림 어워즈(KWDA) 운영·수익 구조",
   "status": "claude",
-  "sources": [
-   "CLAUDE-CHATS-1",
-   "KHAN-KWDA-1",
-   "KHAN-KWDA-2",
-   "KHAN-KWDA-3",
-   "GUKJE-KWDA",
-   "FIELD-KWDA",
-   "DAUM-KWDA",
-   "NAMU-KWDA"
-  ],
   "changes": [
    {
     "k": "성격",
@@ -41,14 +31,35 @@
    "컴백 쇼케이스 대용",
    "불참해도 손해 없음 — 권위 때문이 아님"
   ],
-  "note": "수익 금액(티켓·스폰서·중계권) 수치는 대화에 없음 → 미확인"
+  "note": "수익 금액(티켓·스폰서·중계권) 수치는 대화에 없음 → 미확인",
+  "grade": "추정",
+  "source_url": [
+   "https://sports.khan.co.kr/article/202608201923003/",
+   "https://sports.khan.co.kr/article/202608280739003/",
+   "https://sports.khan.co.kr/article/202608271638003/",
+   "https://www.gukjenews.com/news/articleView.html?idxno=3677611",
+   "https://www.fieldnews.co.kr/news/articleView.html?idxno=233568",
+   "https://v.daum.net/v/20260730141830727",
+   "https://namu.wiki/w/케이%20월드%20드림%20어워즈"
+  ],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1",
+   "KHAN-KWDA-1",
+   "KHAN-KWDA-2",
+   "KHAN-KWDA-3",
+   "GUKJE-KWDA",
+   "FIELD-KWDA",
+   "DAUM-KWDA",
+   "NAMU-KWDA"
+  ]
  },
  "tourEcon": {
   "title": "4·5세대 걸그룹 2026 투어 경제성 모델 (Claude 9/9 스프레드시트)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-1"
-  ],
   "assumptions": [
    "티켓 매출 = 관객 × 지역 평균가",
    "MD 1인당 42,000–60,000원",
@@ -461,15 +472,20 @@
    "관객 수 자체가 추정 모델 산출물 → 오차가 곱으로 누적, 순위 비교만 유효",
    "온라인 스트리밍(Weverse·Beyond LIVE) 매출 제외",
    "매출 20% 감소 시 영업이익 78% 감소(고정비 레버리지)"
+  ],
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1"
   ]
  },
  "lsf": {
   "title": "르세라핌 PUREFLOW 수익 계산 (Claude 7/13)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-1",
-   "TD-LSF-ECH"
-  ],
   "actual": "직전 투어 EASY CRAZY HOT 실적: 27회 보고 237,441장·$34.1M (Touring Data, 27/31 보고 시점), 회당 $1.26M·8,794명, 시애틀 2025-09-17 $2.013M 커리어 하이. 이전의 ‘$70–80M’ 추정은 기각됨",
   "model": [
    [
@@ -509,14 +525,23 @@
    "MD 이익 +100–130억, 스트리밍 +25–40억 → 총 공헌 370–410억",
    "아티스트 정산 −110~200억 → 회사 영업이익 180–280억",
    "HYBE 2025 공시 인용: 연결매출 2조6,499억, 공연매출 7,639억, 279회 (Claude 대화 기준, 미검증)"
+  ],
+  "grade": "추정",
+  "source_url": [
+   "https://touringdata.org/2025/11/04/le-sserafim-easy-crazy-hot-tour/"
+  ],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1",
+   "TD-LSF-ECH"
   ]
  },
  "compare": {
   "title": "걸그룹 투어 매출 추정 비교 (Claude 8/30)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-1"
-  ],
   "rows": [
    [
     "aespa 차기 투어",
@@ -551,14 +576,20 @@
     128
    ]
   ],
-  "note": "총매출(티켓+MD) 추정, 억 원. 9개 투어 합계 티켓 5,407억 + MD 1,443억 = 6,850억. 가정: 티켓 한국 16만·일본 13.5만·북미 22만·유럽 18만 원 / MD 1인 한국 5만·일본·북미 4.5만·유럽 4.2만·동남아 2.8만 원. (첫 버전은 aespa PARALLEL LINE 52만 명 ‘공식’으로 표기 — Wikipedia상 45.4만은 43회 중 38회 집계로 충돌)"
+  "note": "총매출(티켓+MD) 추정, 억 원. 9개 투어 합계 티켓 5,407억 + MD 1,443억 = 6,850억. 가정: 티켓 한국 16만·일본 13.5만·북미 22만·유럽 18만 원 / MD 1인 한국 5만·일본·북미 4.5만·유럽 4.2만·동남아 2.8만 원. (첫 버전은 aespa PARALLEL LINE 52만 명 ‘공식’으로 표기 — Wikipedia상 45.4만은 43회 중 38회 집계로 충돌)",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1"
+  ]
  },
  "amort": {
   "title": "투어 무대 감가상각 예시 (Claude 9/3, KATSEYE WILDWORLD)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-1"
-  ],
   "base": "무대 비용 $4.0M, 잔존가치 $0.4M → 상각대상 $3.6M, 32회",
   "methods": [
    [
@@ -596,14 +627,20 @@
     112500
    ]
   ],
-  "simple": "단순 예: 무대 10억 ÷ 10회 = 회당 1억. 티켓 3억·기타비용 1.5억이면 회당 이익 0.5억 → 5회 −2.5억, 10회 5억, 20회 20억, 30회 35억 (손익분기 약 7회) — 대화 원문 수치 그대로"
+  "simple": "단순 예: 무대 10억 ÷ 10회 = 회당 1억. 티켓 3억·기타비용 1.5억이면 회당 이익 0.5억 → 5회 −2.5억, 10회 5억, 20회 20억, 30회 35억 (손익분기 약 7회) — 대화 원문 수치 그대로",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "Claude 리서치 기준 — 사용자 claude.ai K-pop 대화 배치 1 (2026-07~09, 12건)"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-1"
+  ]
  },
  "ytViews": {
   "title": "유튜브 공개 조회수 집계 변화·유료 광고 조회수 (Claude 9/1, ‘안녕하세요 원이입니다 잘 부탁드립니다’ 채널 사례)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-CHATS-2"
-  ],
   "pass": [
    [
     "0.85",
@@ -669,14 +706,20 @@
    "광고 단가 추정: 국내 CPV 80–100원(광역 저입찰 20–50원), 인피드 CPC 50–150원, 타깃 CPM 2,800원+타기팅 420원 → 1억 원으로 노출 조회 250만–1,000만",
    "유료 조회수는 공개 카운터·kworb에는 잡히나 유튜브 공식 차트·YPP·애드센스 수익에서는 제외 — ‘숫자는 살 수 있어도 성과는 못 산다’",
    "채널 실제 수익 금액은 대화에 없음 → 미확인"
+  ],
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 Claude 대화 배치 2 (2026-07~09, 추출 2026-10-04) — 출처 URL 미노출"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-CHATS-2"
   ]
  },
  "merch": {
   "title": "걸그룹 투어 티켓·굿즈(MD) 수익 추정 (Claude 8/30 ‘Girlgroup tour tables’ 아티팩트, 기준일 8/29)",
   "status": "estimate",
-  "sources": [
-   "CLAUDE-FC"
-  ],
   "columns": [
    "투어",
    "그룹",
@@ -1088,6 +1131,15 @@
     "영문 위키백과"
    ]
   ],
-  "note": "굿즈 수익 = 관객 × 인당 굿즈 가정(현장 판매 기준, 온라인 MD·중계·스폰서 미포함). 수익은 그로스(총 판매액)로 제작비·수수료·배분 전. 관객 수 ‘예측·추정’과 단가·수익 전 항목은 공식 발표가 아님. 07 검증 기준: Parallel Line은 43회 45.4만(비교선), 이 표의 52만은 충돌값."
+  "note": "굿즈 수익 = 관객 × 인당 굿즈 가정(현장 판매 기준, 온라인 MD·중계·스폰서 미포함). 수익은 그로스(총 판매액)로 제작비·수수료·배분 전. 관객 수 ‘예측·추정’과 단가·수익 전 항목은 공식 발표가 아님. 07 검증 기준: Parallel Line은 43회 45.4만(비교선), 이 표의 52만은 충돌값.",
+  "grade": "추정",
+  "source_url": [],
+  "source_note": [
+   "사용자 claude.ai K-pop 자료 패키지 (대화 본문·아티팩트, 수집 2026-10-04) — Claude 추정 포함"
+  ],
+  "collected_at": "2026-10-04",
+  "source_ids": [
+   "CLAUDE-FC"
+  ]
  }
 }

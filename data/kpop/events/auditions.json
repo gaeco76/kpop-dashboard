@@ -1,0 +1,297 @@
+{
+ "programs": [
+  {
+   "program": "SIXTEEN",
+   "year": "2015",
+   "organizer": "JYP (Mnet)",
+   "result": "TWICE",
+   "feature": "사내 서바이벌 원형",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "PRODUCE 101 시리즈",
+   "year": "2016–2019",
+   "organizer": "Mnet",
+   "result": "I.O.I, Wanna One, IZ*ONE, X1",
+   "feature": "국민 프로듀서 투표, 투표 조작 사건",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "I-LAND",
+   "year": "2020",
+   "organizer": "HYBE + Mnet",
+   "result": "ENHYPEN",
+   "feature": "격리형 트레이닝 공간",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "Girls Planet 999",
+   "year": "2021",
+   "organizer": "Mnet",
+   "result": "Kep1er",
+   "feature": "한·중·일 지역 구분",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "R U Next?",
+   "year": "2023 (6/30–9/1)",
+   "organizer": "Belift Lab(HYBE) · JTBC 방송",
+   "result": "ILLIT",
+   "feature": "코치 평가 비중↑, 22명 경쟁",
+   "status": "verified",
+   "grade": "확정",
+   "source_url": [
+    "https://en.wikipedia.org/wiki/Illit"
+   ],
+   "primary_source": false,
+   "collected_at": "2026-10-04",
+   "source_ids": [
+    "WIKI-ILLIT"
+   ]
+  },
+  {
+   "program": "The Debut: Dream Academy",
+   "year": "2023",
+   "organizer": "HYBE × Geffen",
+   "result": "KATSEYE",
+   "feature": "미국 현지화, 약 12만 명→20명→6명",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "A2K",
+   "year": "2023",
+   "organizer": "JYP",
+   "result": "VCHA",
+   "feature": "미국 그룹",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "Boys Planet",
+   "year": "2023",
+   "organizer": "Mnet",
+   "result": "ZEROBASEONE",
+   "feature": "프로듀스 계열 후속",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "I-LAND 2",
+   "year": "2024",
+   "organizer": "Mnet + WakeOne",
+   "result": "izna",
+   "feature": "걸그룹 시즌",
+   "status": "grok",
+   "grade": "추정",
+   "source_url": [],
+   "collected_at": "2026-10-04"
+  },
+  {
+   "program": "Boys II Planet",
+   "year": "2025 (피날레 9/25)",
+   "organizer": "Mnet",
+   "result": "ALPHA DRIVE ONE (ALD1, 8인)",
+   "feature": "이상원·저우안신·허신룽·김건우·아르노·리오·정상현·김준서",
+   "status": "verified",
+   "grade": "확정",
+   "source_url": [
+    "https://www.soompi.com/article/1786833wpp/watch-live-boys-ii-planet-announces-members-of-new-boy-group-in-finale-episode"
+   ],
+   "collected_at": "2026-10-04",
+   "source_ids": [
+    "ALD1-SOOMPI"
+   ]
+  },
+  {
+   "program": "GIRLS PLANET 2",
+   "year": "모집 2026-05-01~ / 방송 2027",
+   "organizer": "Mnet",
+   "result": "미정",
+   "feature": "2013-01-01 이전 출생, 국적·거주지 무관, 연습생·데뷔 아티스트 지원 가능",
+   "status": "verified",
+   "grade": "확정",
+   "source_url": [
+    "https://www.starnewskorea.com/en/star/2026/05/01/2026050108094072068",
+    "https://www.forbes.com/sites/laurasirikul/2026/04/30/mnets-girls-planet-2-returns-to-find-their-next-global-girl-group/"
+   ],
+   "collected_at": "2026-10-04",
+   "source_ids": [
+    "GP2-STARNEWS",
+    "GP2-FORBES"
+   ]
+  }
+ ],
+ "hybeIndia": {
+  "title": "HYBE INDIA Audition: Final Call",
+  "facts": [
+   {
+    "k": "발표/접수 시작",
+    "v": "2026-09-02",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.mediainfoline.com/brand/hybe-india-returns-with-hybe-india-audition-final-call"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-MIL"
+    ]
+   },
+   {
+    "k": "온라인 접수 마감",
+    "v": "2026-10-31 (오늘 기준 D-27)",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.filmfare.com/news/bollywood/hybe-india-partners-with-rashmika-mandanna-in-an-expanded-search-for-a-new-global-girl-group-85913.html",
+     "https://www.mediainfoline.com/brand/hybe-india-returns-with-hybe-india-audition-final-call"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-FILMFARE",
+     "HYBEIN-MIL"
+    ]
+   },
+   {
+    "k": "자격",
+    "v": "2005–2011년생 여성, 타 기획사 계약 없을 것",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.sportskeeda.com/us/k-pop/hybe-india-audition-final-call-application-dates-eligibility-need-know"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-SK"
+    ]
+   },
+   {
+    "k": "분야",
+    "v": "보컬·랩·댄스·연기·모델",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.mediainfoline.com/brand/hybe-india-returns-with-hybe-india-audition-final-call"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-MIL"
+    ]
+   },
+   {
+    "k": "1차 라운드",
+    "v": "2026-03-31~07-31 접수, 인도 10개 도시 + 런던·뉴욕·싱가포르·시드니·토론토",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.sportskeeda.com/us/k-pop/hybe-india-audition-final-call-application-dates-eligibility-need-know"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-SK"
+    ]
+   },
+   {
+    "k": "Final Call 오프라인 추가 8개 도시",
+    "v": "러크나우, 디마푸르, 코히마, 실롱, 자이푸르, 인도르, 고아, 코치",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.mediainfoline.com/brand/hybe-india-returns-with-hybe-india-audition-final-call"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-MIL"
+    ]
+   },
+   {
+    "k": "지원 규모",
+    "v": "인도 및 116개국 인도 디아스포라 지원 (1,650개 도시 수치는 미확인)",
+    "status": "partial",
+    "grade": "부분",
+    "source_url": [
+     "https://www.filmfare.com/news/bollywood/hybe-india-partners-with-rashmika-mandanna-in-an-expanded-search-for-a-new-global-girl-group-85913.html"
+    ],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-FILMFARE",
+     "GROK"
+    ]
+   },
+   {
+    "k": "홍보 파트너",
+    "v": "라시미카 만단나 (심사위원 아님 — Grok 해석), 협찬 Kia India·Nongshim·Project B",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.filmfare.com/news/bollywood/hybe-india-partners-with-rashmika-mandanna-in-an-expanded-search-for-a-new-global-girl-group-85913.html"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-FILMFARE"
+    ]
+   },
+   {
+    "k": "Grok 대화의 '오프라인 18+5=23개 도시'",
+    "v": "공식 기사로는 1차 10+5개, Final Call 추가 8개로 확인 → 구성 다름 (미확인)",
+    "status": "unverified",
+    "grade": "미확",
+    "source_url": [
+     "https://www.sportskeeda.com/us/k-pop/hybe-india-audition-final-call-application-dates-eligibility-need-know"
+    ],
+    "source_note": [
+     "Grok 대화 기준 (사용자 과거 대화, 외부 검증 전)"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "GROK",
+     "HYBEIN-SK"
+    ]
+   },
+   {
+    "k": "지원 포털",
+    "v": "india.hybeaudition.com",
+    "status": "verified",
+    "grade": "확정",
+    "source_url": [
+     "https://www.sportskeeda.com/us/k-pop/hybe-india-audition-final-call-application-dates-eligibility-need-know"
+    ],
+    "collected_at": "2026-10-04",
+    "source_ids": [
+     "HYBEIN-SK"
+    ]
+   }
+  ]
+ },
+ "notes": [
+  "기획사 오디션(SM/JYP/HYBE)은 비공개 연습생 선발이며 데뷔 보장 없음 / 방송 서바이벌은 공개 탈락·데뷔조 선발 (Grok 대화 기준 해석)",
+  "Dream Academy: 약 12만 명 지원→20명, 미션 3개, 투표 50%+심사 50% → 6인 (Sophia, Manon, Yoonchae, Lara, Megan, Daniela) — Grok 대화 기준, 미확인",
+  "KATSEYE: 제68회 그래미(2026) 신인상 후보 → 수상 불발 (수상: Olivia Dean)"
+ ],
+ "noteSources": [
+  "GROK",
+  "TENASIA-KATSEYE"
+ ]
+}

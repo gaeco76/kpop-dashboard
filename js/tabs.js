@@ -11,7 +11,7 @@ function hbar(el, items, { valueFmt = fmtN, axisFmt, name = '', tip, height, mar
   // items: [{label, value, color, est, dashed, ...}]
   const data = items.map(it => ({
     value: it.value, it,
-    itemStyle: it.est ? estStyle(it.color || PAL[0], { borderRadius: [0, 4, 4, 0] }) : solidStyle(it.color || PAL[0], { borderRadius: [0, 4, 4, 0], ...(it.dashed ? { borderColor: '#fff', borderType: 'dashed', borderWidth: 1, opacity: .8 } : {}) }),
+    itemStyle: it.est ? estStyle(it.color || PAL[0], { borderRadius: [0, 4, 4, 0] }) : it.g && it.g !== 'verified' && it.g !== 'partial' ? gradeStyle(it.color || PAL[0], it.g, { borderRadius: [0, 4, 4, 0] }) : solidStyle(it.color || PAL[0], { borderRadius: [0, 4, 4, 0], ...(it.dashed ? { borderColor: '#fff', borderType: 'dashed', borderWidth: 1, opacity: .8 } : {}) }),
   }));
   if (height) el.style.height = height + 'px';
   return chart(el, {
@@ -19,7 +19,7 @@ function hbar(el, items, { valueFmt = fmtN, axisFmt, name = '', tip, height, mar
     tooltip: { trigger: 'item', formatter: p => tip ? tip(p.data.it) : `${esc(p.name)}: ${valueFmt(p.value)}` },
     xAxis: axisStyle({ type: 'value', name, axisLabel: { color: themeColors().muted, fontSize: 11, formatter: axisFmt || (v => fmtKo(v, 0)) } }),
     yAxis: axisStyle({ type: 'category', inverse: true, data: items.map(i => i.label), axisLabel: { color: themeColors().text, fontSize: 11.5, width: labelWidth, overflow: 'truncate' }, splitLine: { show: false } }),
-    series: [{ type: 'bar', data, barMaxWidth: 18, label: { show: true, position: 'right', color: themeColors().muted, fontSize: 11, formatter: p => valueFmt(p.value) + (p.data.it.est ? ' (추정)' : '') },
+    series: [{ type: 'bar', data, barMaxWidth: 18, label: { show: true, position: 'right', color: themeColors().muted, fontSize: 11, formatter: p => valueFmt(p.value) + (p.data.it.est ? ' (추정)' : p.data.it.g && p.data.it.g !== 'verified' ? ` [${ACC[p.data.it.g].label}]` : '') },
       ...(markAvg ? { markLine: { symbol: 'none', label: { color: themeColors().muted, formatter: '평균 {c}' }, lineStyle: { color: themeColors().muted, type: 'dashed' }, data: [{ type: 'average' }] } } : {}) }],
   });
 }
@@ -73,15 +73,15 @@ function renderOverview() {
   <div class="page-head"><div><h1>개요</h1><p>${esc(D.tours?.definition || '')}</p></div></div>
   <div class="grid g6">
     ${kpi('역대 단일 투어 최고 매출', top[0] ? fmtUSD(top[0].gross) : '—', top[0] ? `${esc(top[0].artist)} · ${esc(top[0].tour)} ${badge(top[0].status)}` : '')}
-    ${kpi('K-pop 최고 박스스코어', kTop ? fmtUSD(kTop.gross) : '—', kTop ? `${esc(kTop.artist)} ${esc(kTop.tour)} ${badge(kTop.status)}` : '')}
+    ${kpi('K-pop 최고 박스스코어', kTop ? fmtUSD(kTop.gross) : '—', kTop ? `${esc(kTop.artist)} ${esc(kTop.tour)} ${badge(kTop)}` : '')}
     ${kpi('해외 투어 트래커', TR.length + '건', `${artistsN}팀 · 기준일 진행 중 ${ongoing}건 (날짜 확인분)`)}
     ${kpi('유튜브 구독자 1위', YT[0] ? fmtKo(YT[0].subs, 2) : '—', YT[0] ? `${esc(YT[0].ko)} (${esc(YT[0].group)}) ${badge(D.social.youtube.status)}` : '')}
-    ${kpi('인스타그램 최다 팔로워', ig ? fmtKo(ig.followers, 2) : '—', ig ? `${esc(ig.member)} ${badge(ig.status)}` : '')}
+    ${kpi('인스타그램 최다 팔로워', ig ? fmtKo(ig.followers, 2) : '—', ig ? `${esc(ig.member)} ${badge(ig)}` : '')}
     ${kpi('다음 시상식', next ? esc(next.date) : '—', next ? `${esc(next.name)} · ${esc(next.venue)}` : '예정 없음')}
   </div>
   <div class="grid g3" style="margin-top:16px">
     ${card({ title: '역대 단일 투어 매출 Top 12', sub: 'K-pop 강조 · USD 명목 · 진행 중 투어는 점선 테두리', body: chartDiv('ovTop', 'h420'), cls: 'span2', foot: '출처: tours.json (Billboard·Pollstar·Wikipedia). 막대 위 마우스 → 출처 링크' })}
-    ${card({ title: '데이터 정확도 분포', sub: '전체 JSON 행의 status 집계 · 조각 클릭 시 필터 토글', body: chartDiv('ovAcc', 'h420') })}
+    ${card({ title: '데이터 등급 분포', sub: '전체 JSON 행의 status 집계 · 조각 클릭 시 필터 토글', body: chartDiv('ovAcc', 'h420') })}
     ${card({ title: '그룹 공식 유튜브 구독자 Top 10', sub: esc(D.social?.youtube?.snapshot || ''), body: chartDiv('ovYT', 'h300') })}
     ${card({ title: '해외 투어 — 연도별 진행 투어 수', sub: '트래커 years 필드 기준(연도 걸침은 각 연도에 집계)', body: chartDiv('ovYears', 'h300') })}
     ${card({ title: '2026 시상식 진행 현황', sub: '종료 vs 예정 (기준일)', body: chartDiv('ovAw', 'h300') })}
@@ -131,7 +131,7 @@ function renderOverview() {
     series: [['종료', '#5d6578'], ['예정', '#22d3ee']].map(([st, col]) => ({ name: st, type: 'bar', stack: 's', itemStyle: { color: col }, data: months.map(m => awV.filter(e => e.state === st && +e.dateSort.slice(5, 7) === m).length) })),
   });
   // milestones
-  $('#ovMs').innerHTML = (D.tours?.milestones || []).filter(m => accVisible(m.status)).map(m => `<li>${badge(m.status)} ${esc(m.text)} ${srcLinks(m.sources)}</li>`).join('') || '<li class="muted">필터로 숨김</li>';
+  $('#ovMs').innerHTML = (D.tours?.milestones || []).filter(m => accVisible(m.status)).map(m => `<li>${badge(m)} ${esc(m.text)} ${srcLinks(m.sources)}</li>`).join('') || '<li class="muted">필터로 숨김</li>';
 }
 
 /* 전체 status 집계 */
@@ -181,13 +181,13 @@ function renderBoxscore() {
   <h2 class="sec">박스스코어 표</h2>
   <div id="bxTable"></div>
   <h2 class="sec">마일스톤</h2>
-  <div class="card"><ul class="clean">${(D.tours?.milestones || []).map(m => `<li data-st="${m.status}">${badge(m.status)} ${esc(m.text)} ${srcLinks(m.sources)}</li>`).join('')}</ul></div>`;
+  <div class="card"><ul class="clean">${(D.tours?.milestones || []).map(m => `<li data-st="${m.status}">${badge(m)} ${esc(m.text)} ${srcLinks(m.sources)}</li>`).join('')}</ul></div>`;
 
   const drawCharts = () => {
     const R = rows(); const [mLabel, mFmt] = M[BX.metric];
     const ranked = R.filter(t => isNum(t[BX.metric])).sort((a, b) => b[BX.metric] - a[BX.metric]).slice(0, BX.top);
     const tip = t => tipHTML({ title: `${t.artist} — ${t.tour}`, rows: [['총매출', fmtUSD(t.gross)], ['회차', fmtN(t.shows)], ['총관객', t.attendance ? fmtN(t.attendance) : '미확인'], ['회당 매출', fmtUSD(t.perShowGross, 2)], ['회당 관객', t.perShowAtt ? fmtN(Math.round(t.perShowAtt)) : '—'], ['평균 티켓가(계산)', t.avgTicket ? '$' + t.avgTicket.toFixed(0) : '—'], ['기간', esc(t.period) + (t.ongoing ? ' · 진행 중' : '')]], status: t.status, note: t.note, sources: t.sources });
-    hbar($('#bxRank'), ranked.map(t => ({ label: `${t.artist} — ${t.tour}`, value: t[BX.metric], color: isKpop(t.artist) ? TYPE_COLOR.girl : PAL[0], dashed: t.ongoing, t })), { valueFmt: mFmt, axisFmt: BX.metric.includes('ross') || BX.metric === 'avgTicket' ? (v => BX.metric === 'avgTicket' ? '$' + v : fmtUSD(v, 0)) : (v => fmtKo(v, 0)), tip: it => tip(it.t), labelWidth: 230, height: Math.max(360, ranked.length * 24 + 40) });
+    hbar($('#bxRank'), ranked.map(t => ({ label: `${t.artist} — ${t.tour}`, value: t[BX.metric], color: isKpop(t.artist) ? TYPE_COLOR.girl : PAL[0], dashed: t.ongoing, g: gradeOf(t, BX.metric === 'perShowGross' || BX.metric === 'avgTicket' ? 'gross' : BX.metric === 'perShowAtt' ? 'attendance' : BX.metric), t })), { valueFmt: mFmt, axisFmt: BX.metric.includes('ross') || BX.metric === 'avgTicket' ? (v => BX.metric === 'avgTicket' ? '$' + v : fmtUSD(v, 0)) : (v => fmtKo(v, 0)), tip: it => tip(it.t), labelWidth: 230, height: Math.max(360, ranked.length * 24 + 40) });
     const sc = R.filter(t => isNum(t.attendance));
     const missing = R.length - sc.length;
     const pt = (t, x, y) => ({ value: [x, y, t.shows], t, itemStyle: { color: isKpop(t.artist) ? TYPE_COLOR.girl : PAL[0], opacity: t.status === 'verified' ? .85 : .5, borderColor: t.status === 'verified' ? 'transparent' : '#fff', borderType: 'dashed', borderWidth: t.status === 'verified' ? 0 : 1 } });
@@ -223,7 +223,7 @@ function renderBoxscore() {
     { k: 'perShowGross', label: '회당 매출', num: true, html: t => fmtUSD(t.perShowGross, 2) },
     { k: 'perShowAtt', label: '회당 관객', num: true, html: t => t.perShowAtt ? fmtN(Math.round(t.perShowAtt)) : nullCell('—') },
     { k: 'avgTicket', label: '평균 티켓가', num: true, title: 'gross ÷ attendance (계산값)', html: t => t.avgTicket ? '$' + t.avgTicket.toFixed(0) : nullCell('—') },
-    { k: 'status', label: '정확도', html: t => badge(t.status) },
+    { k: 'status', label: '등급', html: t => badge(t) },
     { k: 'src', label: '출처', nosort: true, html: t => srcLinks(t.sources) },
   ], { rows, sort: { k: 'gross', dir: 'desc' }, search: ['artist', 'tour', 'note'], rowClass: t => isKpop(t.artist) ? 'hl' : '' });
   bindSeg('bxMetric', v => { BX.metric = v; drawCharts(); });
@@ -264,7 +264,7 @@ function renderTrackerCharts(el) {
   </div>
   <div class="grid g2" style="margin-top:16px">
     ${card({ title: '관객 기록 (records)', sub: '해칭·흐린 막대 = 추정치(estimate:true) · 투어 총량 vs 도시/회차 단위', tools: seg('tkKind', [['tour', '투어 단위'], ['city', '도시·공연장 단위']], TK.kind), body: chartDiv('tkRec', 'h560') })}
-    ${card({ title: esc(TRD.billboard2025?.title || 'Billboard 2025'), sub: '막대 = 연간 매출 · 점 = 관객 · 집계기간 기준(투어 총량 아님) · 정확도 필드 없음 → 출처 기준 표시', body: chartDiv('tkBB', 'h560'), foot: srcLinks(TRD.billboard2025?.sources) + ' Billboard Year-End 2025' })}
+    ${card({ title: esc(TRD.billboard2025?.title || 'Billboard 2025'), sub: '막대 = 연간 매출 · 점 = 관객 · 집계기간 기준(투어 총량 아님) · 등급 필드 없음 → 출처 기준 표시', body: chartDiv('tkBB', 'h560'), foot: srcLinks(TRD.billboard2025?.sources) + ' Billboard Year-End 2025' })}
   </div>
   ${(all.some(t => t.estimateText) ? `<div class="grid g2" style="margin-top:16px">${card({ title: '실집계 관객 vs 추정 관객(모델)', sub: '실선 = 보고된 관객(일부는 도시·부분 집계) · 해칭 = Claude 모델 추정 관객(공식 아님) · 필터 적용', body: chartDiv('tkEst', 'h560'), foot: esc(TRD.estimateNote || ''), cls: 'spanall' })}</div>` : '')}
   ${TRD.btsMonthly ? `<div class="grid g2" style="margin-top:16px">${card({ title: `${esc(TRD.btsMonthly.title)} ${badge(TRD.btsMonthly.status)} ${srcLinks(TRD.btsMonthly.sources)}`, sub: '막대 = 월 매출 · 선 = 관객 · 흐린 막대 = Claude 인용(원문 미확인)', body: chartDiv('tkBTS', 'h360'), foot: esc(TRD.btsMonthly.note || '') })}
@@ -297,7 +297,7 @@ function renderTrackerCharts(el) {
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: ps => tipT(E[ps[0].dataIndex]) },
         xAxis: axisStyle({ type: 'value', axisLabel: { color: themeColors().muted, formatter: v => fmtKo(v, 0) } }),
         yAxis: axisStyle({ type: 'category', inverse: true, data: E.map(t => `${t.artist} · ${t.tour}`), axisLabel: { color: themeColors().text, fontSize: 11, width: 250, overflow: 'truncate' }, splitLine: { show: false } }),
-        series: [{ name: '실집계 관객', type: 'bar', barMaxWidth: 10, barGap: '20%', itemStyle: { color: PAL[1], borderRadius: [0, 3, 3, 0] }, data: E.map(t => t.attendance ?? null), label: { show: true, position: 'right', fontSize: 10, color: themeColors().muted, formatter: p => p.value ? fmtKo(p.value, 1) : '' } },
+        series: [{ name: '실집계 관객', type: 'bar', barMaxWidth: 10, barGap: '20%', itemStyle: { color: PAL[1], borderRadius: [0, 3, 3, 0] }, data: E.map(t => ({ value: t.attendance ?? null, itemStyle: gradeStyle(PAL[1], gradeOf(t, 'attendance'), { borderRadius: [0, 3, 3, 0] }) })), label: { show: true, position: 'right', fontSize: 10, color: themeColors().muted, formatter: p => p.value ? fmtKo(p.value, 1) + ` [${ACC[gradeOf(E[p.dataIndex], 'attendance')].label}]` : '' } },
           { name: '추정 관객(모델)', type: 'bar', barMaxWidth: 10, itemStyle: estStyle(ACC.estimate.color, { borderRadius: [0, 3, 3, 0] }), data: E.map(t => estOn() ? t.estimate ?? null : null), label: { show: true, position: 'right', fontSize: 10, color: '#f9a8d4', formatter: p => p.value ? E[p.dataIndex].estimateText : '' } }] });
     }
     // table refresh
@@ -339,7 +339,7 @@ function renderTrackerCharts(el) {
     { k: 'attendance', label: '관객(실집계)', num: true, html: t => t.attendanceText ? esc(t.attendanceText) : nullCell() },
     { k: 'estimate', label: '추정 관객', num: true, title: 'Claude 모델값 (공식 집계 아님)', val: t => estOn() ? t.estimate : null, html: t => t.estimateText ? (estOn() ? `<span class="estval" title="추정치 — 공식 집계 아님">${esc(t.estimateText)}</span>` : '<span class="dim small">숨김</span>') : nullCell('—') },
     { k: 'revenue', label: '매출', num: true, html: t => t.revenueText ? esc(t.revenueText) : nullCell() },
-    { k: 'status', label: '정확도', html: t => badge(t.status) + `<span class="note">원자료: ${esc(t.claudeAcc || '—')}</span>` },
+    { k: 'status', label: '등급', html: t => badge(t) + `<span class="note">원자료: ${esc(t.claudeAcc || '—')}</span>` },
     { k: 'src', label: '출처·예매', nosort: true, html: t => srcLinks(t.sources) + (t.ticket?.url ? ` <a class="src" href="${esc(t.ticket.url)}" target="_blank" rel="noopener">${esc(t.ticket.name)}</a>` : '') },
   ], { rows: filt, sort: { k: 'start', dir: 'asc' } });
   DataTable($('#tkRecTable'), [
@@ -348,7 +348,7 @@ function renderTrackerCharts(el) {
     { k: 'region', label: '권역' }, { k: 'shows', label: '회차', num: true },
     { k: 'attendance', label: '관객', num: true, html: r => r.estimate ? `<span class="estval" title="추정치">${esc(r.attendanceText)}</span>` : esc(r.attendanceText || '—') },
     { k: 'avg', label: '회당(계산)', num: true, val: r => isNum(r.attendance) && r.shows ? r.attendance / r.shows : null, html: r => isNum(r.attendance) && r.shows ? fmtN(Math.round(r.attendance / r.shows)) : nullCell('—') },
-    { k: 'status', label: '정확도', html: r => badges(r.status, r.estimate) },
+    { k: 'status', label: '등급', html: r => badges(r.status, r.estimate) },
     { k: 'src', label: '출처', nosort: true, html: r => srcLinks(r.sources || ['CLAUDE-TRACKER']) },
   ], { rows: () => (TRD.records || []).filter(r => accVisible(r.status, r.estimate)), sort: { k: 'attendance', dir: 'desc' }, search: ['artist', 'label', 'note'], rowClass: r => r.estimate ? 'est' : '' });
   draw(); drawRec();
@@ -365,7 +365,7 @@ function renderSocial() {
   const ytOK = accVisible(yt.status);
   const filt = () => ytOK ? (yt.rows || []).filter(r => SO.gens.has(r.gen) && (SO.type === 'all' || r.type === SO.type)) : [];
   el.innerHTML = `
-  <div class="page-head"><div><h1>소셜 — 유튜브·인스타그램</h1><p>${esc(yt.title || '')} · 스냅샷 ${esc(yt.snapshot || '')} ${badge(yt.status)} ${srcLinks(yt.sources)}</p></div>
+  <div class="page-head"><div><h1>소셜 — 유튜브·인스타그램</h1><p>${esc(yt.title || '')} · 스냅샷 ${esc(yt.snapshot || '')} ${badge(yt)} ${srcLinks(yt.sources)}</p></div>
     <div class="card-tools">
       <span class="small muted">세대</span><span id="soGens">${[2, 3, 4, 5].map(g => `<span class="chip ${SO.gens.has(g) ? 'on' : ''}" data-g="${g}"><i style="background:${PAL[g]}"></i>${g}세대</span>`).join(' ')}</span>
       ${seg('soType', [['all', '전체'], ['girl', '걸그룹'], ['boy', '보이그룹'], ['coed', '혼성']], SO.type)}
@@ -384,7 +384,7 @@ function renderSocial() {
     ${card({ title: '멤버별 팔로워', sub: '각 행 기준 시각 참고', body: chartDiv('soIG', 'h260') + '<div id="soIGt"></div>' })}
     ${card({ title: '기타 아티스트 (텍스트 값)', sub: '수치가 문자열(약 ~)로만 제공 → 차트 미표시 · 상태 필드 없음', body: `<ul class="clean">${(ig.others || []).map(o => `<li><b>${esc(o.member)}</b> <span class="muted">${esc(o.text)}</span></li>`).join('')}</ul><div class="card-foot">${srcLinks(ig.othersSources)}</div><ul class="dots small muted" style="margin-top:10px">${(ig.notes || []).map(n => `<li>${esc(n)}</li>`).join('')}</ul>` })}
   </div>
-  <h2 class="sec">${esc(mg.title || '')} ${badge(mg.status)} ${srcLinks(mg.sources)}</h2>
+  <h2 class="sec">${esc(mg.title || '')} ${badge(mg)} ${srcLinks(mg.sources)}</h2>
   <div class="card" id="soMG"></div>`;
 
   const draw = () => {
@@ -420,7 +420,7 @@ function renderSocial() {
     { k: 'subs', label: '구독자', num: true, html: r => fmtN(r.subs) },
     { k: 'weekly', label: '주간 변화', num: true, html: r => r.weekly > 0 ? `<span style="color:#4ade80">+${fmtN(r.weekly)}</span>` : r.weekly < 0 ? `<span style="color:#f87171">${fmtN(r.weekly)}</span>` : '<span class="dim">0</span>' },
     { k: 'rate', label: '주간 증가율', num: true, title: 'weekly ÷ subs (계산)', val: r => r.subs ? r.weekly / r.subs : null, html: r => r.subs ? (r.weekly / r.subs * 100).toFixed(2) + '%' : '—' },
-    { k: 'st', label: '정확도', nosort: true, html: () => badge(yt.status) + srcLinks(yt.sources) },
+    { k: 'st', label: '등급', nosort: true, html: () => badge(yt) + srcLinks(yt.sources) },
   ], { rows: filt, sort: { k: 'subs', dir: 'desc' }, search: ['group', 'ko', 'company'], maxH: 520 });
   draw();
   $('#soGens').onclick = e => { const c = e.target.closest('.chip'); if (!c) return; const g = +c.dataset.g; SO.gens.has(g) ? SO.gens.delete(g) : SO.gens.add(g); if (!SO.gens.size) SO.gens.add(g); $$('#soGens .chip').forEach(x => x.classList.toggle('on', SO.gens.has(+x.dataset.g))); draw(); };
@@ -430,7 +430,7 @@ function renderSocial() {
   const igR = (ig.rows || []).filter(r => accVisible(r.status)).sort((a, b) => b.followers - a.followers);
   if (igR.length) hbar($('#soIG'), igR.map((r, i) => ({ label: r.member, value: r.followers, color: ['#f472b6', '#fb7185', '#e879f9', '#c084fc'][i % 4], r })), { valueFmt: v => fmtKo(v, 2), labelWidth: 110, tip: it => tipHTML({ title: `${it.r.member} ${it.r.handle}`, rows: [['팔로워', esc(it.r.text)], ['기준 시각', esc(it.r.asOf)]], status: it.r.status, sources: it.r.sources }) });
   else $('#soIG').innerHTML = hiddenNote('인스타그램');
-  $('#soIGt').innerHTML = `<table class="dt" style="margin-top:8px"><thead><tr><th>멤버</th><th>계정</th><th class="num">팔로워</th><th>기준 시각</th><th>정확도</th></tr></thead><tbody>${igR.map(r => `<tr><td><b>${esc(r.member)}</b></td><td class="muted">${esc(r.handle)}</td><td class="num">${esc(r.text)}</td><td class="small muted">${esc(r.asOf)}</td><td>${badge(r.status)}${srcLinks(r.sources)}</td></tr>`).join('')}</tbody></table>`;
+  $('#soIGt').innerHTML = `<table class="dt" style="margin-top:8px"><thead><tr><th>멤버</th><th>계정</th><th class="num">팔로워</th><th>기준 시각</th><th>등급</th></tr></thead><tbody>${igR.map(r => `<tr><td><b>${esc(r.member)}</b></td><td class="muted">${esc(r.handle)}</td><td class="num">${esc(r.text)}</td><td class="small muted">${esc(r.asOf)}</td><td>${badge(r)}${srcLinks(r.sources)}</td></tr>`).join('')}</tbody></table>`;
   $('#soMG').innerHTML = accVisible(mg.status) ? `<table class="dt"><thead><tr><th>멤버</th><th>소속 그룹</th></tr></thead><tbody>${(mg.rows || []).map(r => `<tr><td><b>${esc(r.person)}</b></td><td>${esc(r.groups)}</td></tr>`).join('')}</tbody></table><div class="card-foot">${esc(mg.note || '')}</div>` : hiddenNote('복수 그룹 멤버');
 }
 
@@ -491,16 +491,16 @@ function renderEvents() {
     { k: 'state', label: '상태', html: e => `<span class="badge ${e.state === '종료' ? 'b-state-done' : 'b-state-next'}">${esc(e.state)}</span>` },
     { k: 'luc', label: '라인업', cls: 'wrap', val: e => e.lu.count, html: e => `<span class="small">${esc(e.lineup)}</span>` },
     { k: 'res', label: '결과·비고', cls: 'wrap', nosort: true, html: e => (e.results.length ? `<ul class="dots small">${e.results.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '') + (e.note ? `<span class="note">${esc(e.note)}</span>` : '') },
-    { k: 'status', label: '정확도', html: e => badge(e.status) + srcLinks(e.sources) },
+    { k: 'status', label: '등급', html: e => badge(e) + srcLinks(e.sources) },
   ], { rows: vis, sort: { k: 'dateSort', dir: 'asc' }, search: ['name', 'venue', 'lineup'] });
   draw();
   bindSeg('evState', v => { EV.state = v; draw(); });
   if (D.events?.festivals2026) festivalsCharts(D.events.festivals2026);
   const sch = (T.schedule || []).filter(s => accVisible(s.status)).sort((a, b) => a.time.replace('~', '').localeCompare(b.time.replace('~', '')));
-  $('#tmaSched').innerHTML = `<div class="timeline">${sch.map(s => `<div class="ev"><div class="d">${esc(s.time)}</div>${esc(s.item)} ${badge(s.status)}${srcLinks(s.sources)}</div>`).join('') || hiddenNote('타임테이블')}</div>`;
+  $('#tmaSched').innerHTML = `<div class="timeline">${sch.map(s => `<div class="ev"><div class="d">${esc(s.time)}</div>${esc(s.item)} ${badge(s)}${srcLinks(s.sources)}</div>`).join('') || hiddenNote('타임테이블')}</div>`;
   DataTable($('#tmaStages'), [
     { k: 'order', label: '순서' }, { k: 'artist', label: '아티스트', html: s => `<b>${esc(s.artist)}</b>` }, { k: 'stage', label: '무대', cls: 'wrap' },
-    { k: 'status', label: '정확도', html: s => badge(s.status) + srcLinks(s.sources) },
+    { k: 'status', label: '등급', html: s => badge(s) + srcLinks(s.sources) },
   ], { rows: () => (T.stages || []).filter(s => accVisible(s.status)) });
 }
 
@@ -537,12 +537,12 @@ function renderArtists() {
   const members = (mc.rows || []).map(r => ({ n: +r[0], date: r[1], name: r[2], group: r[3], year: +(String(r[1]).match(/\d{4}/) || [])[0] || null, exact: /^\d{4}-\d{2}-\d{2}$/.test(r[1]) }));
   el.innerHTML = `
   <div class="page-head"><div><h1>아티스트·브랜드</h1><p>프로필, 2004–2010년생 걸그룹 멤버, 앰버서더·광고, 소속사, 팬 이벤트 비용(추정).</p></div></div>
-  <h2 class="sec">${esc(cmp.title || '')} ${badge('verified')}<span class="small muted">셀별 정확도</span></h2>
+  <h2 class="sec">${esc(cmp.title || '')} ${badge('verified')}<span class="small muted">셀별 등급</span></h2>
   <div class="card" id="arCmp"></div>
   <div class="card" style="margin-top:12px"><b class="small">인사이트</b> ${badge(cmp.insightStatus)}<ul class="dots small">${(cmp.insights || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
   <h2 class="sec">프로필</h2>
   <div class="grid g2" id="arProfiles"></div>
-  <h2 class="sec">${esc(mc.title || '')} ${badge(mc.status)} ${srcLinks(mc.sources)}</h2>
+  <h2 class="sec">${esc(mc.title || '')} ${badge(mc)} ${srcLinks(mc.sources)}</h2>
   <div class="grid g3">
     ${card({ title: '출생 연도 분포', sub: '해칭 = 정확한 날짜 미확인(‘경’·연도만)', body: chartDiv('arYear', 'h300') })}
     ${card({ title: '그룹별 인원', sub: '해당 연령대 멤버 수(계산)', body: chartDiv('arGroup', 'h300') })}
@@ -568,15 +568,15 @@ function renderArtists() {
     ${card({ title: '지역별 구성', cls: 'spanall', body: accVisible(fe.status, true) ? simpleTable(['지역', '주요 구성', '소계 추정'], fe.regions.map(r => [`<b>${esc(r[0])}</b>`, `<span class="small">${esc(r[1])}</span>`, `<span class="estval">${esc(r[2])}</span>`])) : '', foot: esc(fe.note) })}
   </div>` : ''}
   <h2 class="sec">${esc(A.groups?.title || '')}</h2>
-  <div class="card"><div class="tagwrap" style="margin-bottom:10px">${(A.groups?.list || []).map(g => `<span class="tag">${esc(g)}</span>`).join('')}</div><ul class="clean">${(A.groups?.facts || []).filter(f => accVisible(f.status)).map(f => `<li>${badge(f.status)} ${esc(f.text)} ${srcLinks(f.sources)}</li>`).join('')}</ul></div>`;
+  <div class="card"><div class="tagwrap" style="margin-bottom:10px">${(A.groups?.list || []).map(g => `<span class="tag">${esc(g)}</span>`).join('')}</div><ul class="clean">${(A.groups?.facts || []).filter(f => accVisible(f.status)).map(f => `<li>${badge(f)} ${esc(f.text)} ${srcLinks(f.sources)}</li>`).join('')}</ul></div>`;
 
   // compare
-  $('#arCmp').innerHTML = `<div class="tablewrap"><table class="dt"><thead><tr><th>항목</th>${(cmp.columns || []).map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${(cmp.rows || []).map(r => `<tr><td class="muted">${esc(r.item)}</td>${r.cells.map(c => `<td>${accVisible(c.status) ? `${esc(c.v)} ${badge(c.status)}${srcLinks(c.sources)}` : '<span class="dim small">필터로 숨김</span>'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  $('#arCmp').innerHTML = `<div class="tablewrap"><table class="dt"><thead><tr><th>항목</th>${(cmp.columns || []).map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${(cmp.rows || []).map(r => `<tr><td class="muted">${esc(r.item)}</td>${r.cells.map(c => `<td>${accVisible(c.status) ? `${esc(c.v)} ${badge(c)}${srcLinks(c.sources)}` : '<span class="dim small">필터로 숨김</span>'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   // profiles
   $('#arProfiles').innerHTML = (A.profiles || []).map(p => card({
     title: `${esc(p.name)} <span class="muted small">${TYPE_LABEL[p.type] || p.type || ''}</span>`,
-    body: `<dl class="kv">${(p.facts || []).filter(f => accVisible(f.status)).map(f => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)} ${badge(f.status)}${srcLinks(f.sources)}</dd>`).join('')}</dl>
-      ${(p.timeline || []).length ? `<h4 style="margin:12px 0 6px">타임라인</h4><div class="timeline">${p.timeline.filter(t => accVisible(t.status)).map(t => `<div class="ev"><div class="d">${esc(t.date)}</div>${esc(t.text)} ${badge(t.status)}${srcLinks(t.sources)}</div>`).join('')}</div>` : ''}
+    body: `<dl class="kv">${(p.facts || []).filter(f => accVisible(f.status)).map(f => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)} ${badge(f)}${srcLinks(f.sources)}</dd>`).join('')}</dl>
+      ${(p.timeline || []).length ? `<h4 style="margin:12px 0 6px">타임라인</h4><div class="timeline">${p.timeline.filter(t => accVisible(t.status)).map(t => `<div class="ev"><div class="d">${esc(t.date)}</div>${esc(t.text)} ${badge(t)}${srcLinks(t.sources)}</div>`).join('')}</div>` : ''}
       ${(p.pending || []).length ? `<div class="small" style="margin-top:8px"><span class="badge b-conflict">배치 2 예정</span> ${p.pending.map(esc).join(', ')}</div>` : ''}
       ${p.artifacts ? `<div class="small muted" style="margin-top:8px">자료: ${esc(p.artifacts)}</div>` : ''}`,
     foot: p.withheld ? '게재 보류: ' + esc(p.withheld) : '',
@@ -606,7 +606,7 @@ function renderArtists() {
   }
   if ($('#arBrand') && A.brandCollabs) {
     const bc = A.brandCollabs; const last = bc.columns.length - 1;
-    $('#arBrand').innerHTML = simpleTable(bc.columns.slice(0, last).concat(['정확도']), bc.rows.filter(r => accVisible(r[last] || bc.status)).map(r => r.map((c, i) => i === last ? badge(c) : i === 0 ? `<b>${esc(c)}</b>` : `<span class="small">${esc(c)}</span>`)));
+    $('#arBrand').innerHTML = simpleTable(bc.columns.slice(0, last).concat(['등급']), bc.rows.filter(r => accVisible(r[last] || bc.status)).map(r => r.map((c, i) => i === last ? badge(c) : i === 0 ? `<b>${esc(c)}</b>` : `<span class="small">${esc(c)}</span>`)));
   }
   // fan events range
   if (fe && accVisible(fe.status, true)) {
@@ -632,8 +632,8 @@ function renderAuditions() {
   el.innerHTML = `
   <div class="page-head"><div><h1>오디션</h1><p>기획사·방송 서바이벌 오디션 프로그램과 결과 그룹, HYBE INDIA 오디션.</p></div></div>
   <div class="grid g3">
-    ${card({ title: '오디션 프로그램 연표', sub: '방송 연도 기준 · 색 = 정확도 · 마우스 → 결과 그룹', body: chartDiv('auTL', 'h420'), cls: 'span2' })}
-    ${card({ title: esc(A.hybeIndia?.title || 'HYBE INDIA'), body: `<dl class="kv">${(A.hybeIndia?.facts || []).filter(f => accVisible(f.status)).map(f => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)} ${badge(f.status)}${srcLinks(f.sources)}</dd>`).join('')}</dl>` })}
+    ${card({ title: '오디션 프로그램 연표', sub: '방송 연도 기준 · 색 = 등급 · 마우스 → 결과 그룹', body: chartDiv('auTL', 'h420'), cls: 'span2' })}
+    ${card({ title: esc(A.hybeIndia?.title || 'HYBE INDIA'), body: `<dl class="kv">${(A.hybeIndia?.facts || []).filter(f => accVisible(f.status)).map(f => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)} ${badge(f)}${srcLinks(f.sources)}</dd>`).join('')}</dl>` })}
   </div>
   <h2 class="sec">프로그램 표</h2><div id="auTable"></div>
   <h2 class="sec">메모 ${srcLinks(A.noteSources)}</h2><div class="card"><ul class="clean">${(A.notes || []).map(n => `<li>${esc(n)}</li>`).join('')}</ul></div>`;
@@ -642,7 +642,7 @@ function renderAuditions() {
   DataTable($('#auTable'), [
     { k: 'y0', label: '연도', html: p => esc(p.year) }, { k: 'program', label: '프로그램', html: p => `<b>${esc(p.program)}</b>` }, { k: 'organizer', label: '주최·방송' },
     { k: 'result', label: '결과 그룹', html: p => `<b>${esc(p.result)}</b>` }, { k: 'feature', label: '특징', cls: 'wrap' },
-    { k: 'status', label: '정확도', html: p => badge(p.status) + srcLinks(p.sources) },
+    { k: 'status', label: '등급', html: p => badge(p) + srcLinks(p.sources) },
   ], { rows: vis, sort: { k: 'y0', dir: 'asc' }, search: ['program', 'result', 'organizer'] });
 }
 
@@ -650,10 +650,10 @@ function renderAuditions() {
 function renderRPD() {
   const el = $('#tab-rpd'); const R = D.rpd || {}; const v2 = R.v2 || {};
   el.innerHTML = `
-  <div class="page-head"><div><h1>랜덤플레이댄스 (RPD) 참여 인원 추정</h1><p>${esc(R.summary || '')} ${badge(R.status)}</p></div></div>
+  <div class="page-head"><div><h1>랜덤플레이댄스 (RPD) 참여 인원 추정</h1><p>${esc(R.summary || '')} ${badge(R)}</p></div></div>
   <div class="banner"><b>데이터 상태</b> — 실제 영상별 참여 인원·조회수 데이터는 아직 없습니다(조회수 ‘미확인’). 아래 결과 표의 인원은 도구의 <b>예시 출력</b>이며, 벤치마크 수치는 추정치입니다.</div>
   <div class="grid g3">
-    ${card({ title: 'v1 파이프라인', sub: badge(R.status), body: `<ol class="steps">${(R.pipeline || []).map(s => `<li>${esc(s)}</li>`).join('')}</ol>` })}
+    ${card({ title: 'v1 파이프라인', sub: badge(R), body: `<ol class="steps">${(R.pipeline || []).map(s => `<li>${esc(s)}</li>`).join('')}</ol>` })}
     ${sectionCard(v2, `<ol class="steps">${(v2.steps || []).map(s => `<li>${esc(s)}</li>`).join('')}</ol>`, {})}
     ${sectionCard({ ...v2, title: 'v2 판정 신호 가중치', note: '' }, chartDiv('rpdW', 'h260'))}
     ${card({ title: '방식별 토큰 사용량', sub: '60분·40곡 영상 기준 추정 · 로그 축 · 해칭 = 추정', body: accVisible(v2.benchStatus || v2.status, true) ? chartDiv('rpdTok', 'h300') : hiddenNote('벤치마크') })}
@@ -679,7 +679,7 @@ function renderRPD() {
       xAxis: axisStyle({ type: 'value', name: '분' }), yAxis: axisStyle({ type: 'category', inverse: true, data: bench.map(b => b.m), splitLine: { show: false }, axisLabel: { color: themeColors().text, fontSize: 11 } }),
       series: [{ type: 'bar', stack: 'r', silent: true, itemStyle: { color: 'transparent' }, data: bench.map(b => b.rng[0]) }, { type: 'bar', stack: 'r', barMaxWidth: 14, itemStyle: estStyle(ACC.estimate.color, { borderRadius: 3 }), data: bench.map(b => b.rng[1] - b.rng[0]), label: { show: true, position: 'right', color: themeColors().muted, fontSize: 10, formatter: p => bench[p.dataIndex].time } }] });
   }
-  DataTable($('#rpdRes'), [{ k: 'time', label: '시점' }, { k: 'song', label: '곡' }, { k: 'dancers', label: '인원', html: r => `<span class="estval">${esc(r.dancers)}</span>` }, { k: 'views', label: '조회수', html: r => nullCell(esc(r.views)) }, { k: 'status', label: '정확도', html: r => badge(r.status) }],
+  DataTable($('#rpdRes'), [{ k: 'time', label: '시점' }, { k: 'song', label: '곡' }, { k: 'dancers', label: '인원', html: r => `<span class="estval">${esc(r.dancers)}</span>` }, { k: 'views', label: '조회수', html: r => nullCell(esc(r.views)) }, { k: 'status', label: '등급', html: r => badge(r) }],
     { rows: () => (R.results || []).filter(r => accVisible(r.status)) });
 }
 
@@ -706,7 +706,7 @@ function renderIndustry() {
     ${te.regionShare ? card({ title: '지역 기여 (추정)', sub: '관객 비중 vs 매출 비중', body: ok(te) ? chartDiv('inRS', 'h300') + simpleTable(['지역', '관객 비중', '매출 비중', '특징'], te.regionShare.map(r => r.map(esc))) : hiddenNote('지역 기여') }) : ''}
     ${te.benchmark ? card({ title: esc(te.benchmark.title || '벤치마크'), sub: '남성 그룹 실적(보고값)과 걸그룹 모델 대조', body: simpleTable(['아티스트', '기간', '회차', '관객', '매출', '회당 매출', '티켓 단가'], te.benchmark.rows.map(r => r.map((c, i) => i === 0 ? `<b>${esc(c)}</b>` : /추정/.test(r[0]) ? `<span class="estval">${esc(c)}</span>` : esc(c)))), foot: esc(te.benchmark.note || '') + (te.limits ? '<br><b>모델 한계</b>: ' + te.limits.map(esc).join(' · ') : '') }) : ''}
     ${I.merch ? merchHTML(I.merch, ok) : ''}
-    ${card({ title: `${esc(kw.title || '')} ${badge(kw.status)} ${srcLinks(kw.sources)}`, sub: '정성 정보 (수익 금액 미확인)', body: accVisible(kw.status) ? `<dl class="kv">${(kw.changes || []).map(c => `<dt>${esc(c.k)}</dt><dd>${esc(c.v)}</dd>`).join('')}</dl><h4 style="margin:12px 0 6px">아티스트 참여 이유</h4><ul class="dots">${(kw.why || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : hiddenNote('KWDA'), foot: esc(kw.note || '') })}
+    ${card({ title: `${esc(kw.title || '')} ${badge(kw)} ${srcLinks(kw.sources)}`, sub: '정성 정보 (수익 금액 미확인)', body: accVisible(kw.status) ? `<dl class="kv">${(kw.changes || []).map(c => `<dt>${esc(c.k)}</dt><dd>${esc(c.v)}</dd>`).join('')}</dl><h4 style="margin:12px 0 6px">아티스트 참여 이유</h4><ul class="dots">${(kw.why || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : hiddenNote('KWDA'), foot: esc(kw.note || '') })}
   </div>`;
   const E = estStyle; const mut = themeColors().muted;
   if (ok(te)) {

@@ -257,3 +257,8 @@ input[type=date],input[type=month]{background:var(--card);color:var(--text);bord
 .md-prog i{display:block;height:100%;background:linear-gradient(90deg,#22c55e,#22d3ee)}
 .kpi.sumk .label::after{content:" · 보고분 합";color:#fbbf24;font-weight:700}
 .kpi.estk{border-style:dashed;border-color:#f472b6;background:repeating-linear-gradient(-45deg,rgba(244,114,182,.05) 0 8px,transparent 8px 16px),var(--card)}
+/* 저장소 등급 */
+.badge.b-rough{color:#2dd4bf;background:rgba(45,212,191,.07);border-style:dotted}
+.wk{display:inline-block;font-size:9.5px;line-height:13px;padding:0 3px;margin-left:3px;border-radius:3px;color:var(--dim);border:1px dotted var(--dim);vertical-align:1px;cursor:help}
+.vstate{color:#fbbf24}
+.ytchip{font-size:11px;color:#f87171;font-variant-numeric:tabular-nums;margin-right:3px;white-space:nowrap}

@@ -16,7 +16,7 @@ const HYBE_RULE = '관객·매출 숫자는 출처가 있는 <b>보고분</b>만
 
 function renderHybe() {
   const el = $('#tab-hybe'); const H = D.hybe;
-  if (!H) { el.innerHTML = `<div class="page-head"><div><h1>하이브</h1></div></div><div class="banner"><b>hybe.json을 불러오지 못했습니다.</b> 라이브(${esc(DATA_BASE)}hybe.json)와 폴백 경로 모두 실패했습니다. 다른 탭은 정상 동작합니다. 데이터가 게시되면 새로고침하세요.</div>`; return; }
+  if (!H) { el.innerHTML = `<div class="page-head"><div><h1>하이브</h1></div></div><div class="banner"><b>hybe.json을 불러오지 못했습니다.</b> 공용 저장소(tours/hybe.json)·스냅샷·구형 폴백 모두 실패했습니다. 다른 탭은 정상 동작합니다. 데이터가 게시되면 새로고침하세요.</div>`; return; }
   const rows = hybeRows(); const labels = [...new Set(rows.map(r => r.label).concat((H.roster || []).map(r => r[0])))];
   const lc = hybeLabelColor(labels);
   const vis = () => rows.filter(r => accVisible(r.status));
@@ -24,9 +24,12 @@ function renderHybe() {
   const attR = V.filter(r => isNum(r.attendance)), grossR = V.filter(r => isNum(r.gross));
   const sumAtt = attR.reduce((a, r) => a + r.attendance, 0), sumGross = grossR.reduce((a, r) => a + r.gross, 0);
   const cnt = st => V.filter(r => r.state === st).length;
-  const Q = H.company?.quarters || []; const unit = H.company?.unit || '억원';
+  // 분기 공연 매출: 표준 레코드(quarters_records) 우선 — 등급(추정=전망)으로 스타일. 증감·출처 ID는 구형 quarters 배열에서 보충
+  const QL = H.company?.quarters || []; const unit = H.company?.unit || '억원';
+  const Q = (H.company?.quarters_records || []).length ? H.company.quarters_records.map(r => { const old = QL.find(q => q[0] === r.as_of) || []; return [r.as_of || r.subject.replace(/^HYBE\s*/, ''), r.value, old[2] || '—', GRADE_KEY[r.grade] || 'unverified', r.note || old[4] || '', old[5] || r.source_ids || [], r]; }) : QL;
   const qBars = Q.filter(q => !/연간/.test(q[0])), qYear = Q.filter(q => /연간/.test(q[0]));
-  const isEst = q => q[3] === 'estimate' || q[3] === 'forecast' || /\(E\)/.test(q[0]);
+  const isEst = q => STATUS_GROUP(q[3]) === 'estimate' || /\(E\)/.test(q[0]);
+  const qSrc = q => (q[6] ? urlLinks(q[6].source_url) : srcLinks(q[5]));
   const kpi = (label, value, desc, extra = '') => `<div class="card kpi ${extra}"><div class="label">${label}</div><div class="value ${extra.includes('estk') ? 'est' : ''}">${value}</div><div class="desc">${desc}</div></div>`;
   el.innerHTML = `
   <div class="page-head"><div><h1>${esc(H.title || '하이브')}</h1><p>${esc(H.intro || '')}</p></div>
@@ -41,13 +44,13 @@ function renderHybe() {
     ${(() => { const q = qYear.find(isEst); return q ? kpi(`${esc(q[0])} 공연매출 전망`, fmtN(q[1]) + '억', `증권사 전망치 ${estBadge()}`, 'estk') : ''; })()}
   </div>
   <div class="grid g3" style="margin-top:16px">
-    ${card({ title: 'HYBE 분기 공연 매출', sub: `단위 ${esc(unit)} · 실선 = 실적, 빗금·반투명·점선 테두리 = 증권사 전망치(E)`, cls: 'span2', body: chartDiv('hyQ', 'h420'), foot: qYear.map(q => `${esc(q[0])}: <b class="${isEst(q) ? 'estval' : ''}">${fmtN(q[1])}억</b> ${badge(q[3])} ${q[4] ? `<span class="muted">${esc(q[4])}</span>` : ''} ${srcLinks(q[5])}`).join('<br>') })}
+    ${card({ title: 'HYBE 분기 공연 매출', sub: `단위 ${esc(unit)} · 실선 = 실적, 빗금·반투명·점선 테두리 = 증권사 전망치(E)`, cls: 'span2', body: chartDiv('hyQ', 'h420'), foot: qYear.map(q => `${esc(q[0])}: <b class="${isEst(q) ? 'estval' : ''}">${fmtN(q[1])}억</b> ${badge(q[6] || q[3])} ${q[4] ? `<span class="muted">${esc(q[4])}</span>` : ''} ${qSrc(q)}`).join('<br>') })}
     ${card({ title: '회사 지표', sub: '2026 2Q 실적 요약 등', body: `<ul class="clean">${(H.company?.stats || []).filter(s => accVisible(s[2])).map(s => `<li><span class="muted small">${esc(s[0])}</span><br><b>${esc(s[1])}</b> ${badge(s[2])}${srcLinks(s[3])}</li>`).join('')}</ul>` })}
   </div>
   <h2 class="sec">하이브 투어 주간 캘린더</h2>
   <div id="hyCal"></div>
   <div class="grid g2" style="margin-top:16px">
-    ${card({ title: '투어별 보고 수치 순위', sub: '각 막대는 해당 투어의 보고 범위 수치(라벨 참고) · 투어 간 단순 비교에 주의 · 색 = 레이블 · 흰 점선 테두리 = 진행 중(수치 계속 변동) · [ ] = 정확도', tools: seg('hyMetric', [['attendance', '관객'], ['gross', '매출(USD)']], HY.metric), body: chartDiv('hyRank', 'h420') })}
+    ${card({ title: '투어별 보고 수치 순위', sub: '각 막대는 해당 투어의 보고 범위 수치(라벨 참고) · 투어 간 단순 비교에 주의 · 색 = 레이블 · 흰 점선 테두리 = 진행 중(수치 계속 변동) · [ ] = 해당 지표 레코드 등급(빗금=추정, 점선=개략·미확)', tools: seg('hyMetric', [['attendance', '관객'], ['gross', '매출(USD)']], HY.metric), body: chartDiv('hyRank', 'h420') })}
     ${card({ title: '회차 진행률 (done / left)', sub: '완료·잔여 회차가 있는 투어 · 오늘 기준 데이터', body: chartDiv('hyProg', 'h420') })}
   </div>
   <h2 class="sec">레이블별 로스터</h2>
@@ -62,7 +65,7 @@ function renderHybe() {
   chart('hyQ', {
     grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
     legend: { data: ['실적', '전망치(E)'] },
-    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: ps => { const q = qv[ps[0].dataIndex]; return tipHTML({ title: `${q[0]} 공연 매출`, rows: [['매출', `${fmtN(q[1])}억 원`], ['증감', esc(q[2])]], status: q[3], estimate: isEst(q), note: q[4], sources: q[5] }); } },
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, formatter: ps => { const q = qv[ps[0].dataIndex]; return tipHTML({ title: `${q[0]} 공연 매출`, rows: [['매출', `${fmtN(q[1])}억 원`], ['증감', esc(q[2])], q[6] ? ['수집', esc(q[6].collected_at)] : null], status: q[3], estimate: isEst(q), note: q[4], sources: q[5] }); } },
     xAxis: axisStyle({ type: 'category', data: qv.map(q => q[0]) }),
     yAxis: axisStyle({ type: 'value', name: '억 원', axisLabel: { color: themeColors().muted, formatter: v => fmtN(v) } }),
     series: [
@@ -81,11 +84,11 @@ function renderHybe() {
   // 순위
   const drawRank = () => {
     const m = HY.metric; const R = vis().filter(r => isNum(r[m])).sort((a, b) => b[m] - a[m]);
-    hbar($('#hyRank'), R.map(r => ({ label: `${r.artist} — ${r.tour}`, value: r[m], color: lc(r.label), dashed: r.state === '진행 중', r })), {
+    hbar($('#hyRank'), R.map(r => ({ label: `${r.artist} — ${r.tour}`, value: r[m], color: lc(r.label), dashed: r.state === '진행 중', g: gradeOf(r, m), r })), {
       valueFmt: v => m === 'gross' ? fmtUSD(v) : fmtKo(v, 1), axisFmt: v => m === 'gross' ? fmtUSD(v, 0) : fmtKo(v, 0), labelWidth: 220, height: Math.max(320, R.length * 30 + 30),
       tip: it => tipHTML({ title: `${it.r.artist} — ${it.r.tour}`, rows: [['레이블', esc(it.r.label)], ['관객 (보고 범위)', esc(it.r.attendanceText || '미확인')], ['매출 (보고 범위)', esc(it.r.grossText || '미확인')], ['회차', `${it.r.shows ?? '—'}회 (완료 ${it.r.done ?? '—'} / 잔여 ${it.r.left ?? '—'})`], ['상태', esc(it.r.state)]], status: it.r.status, note: it.r.note, sources: it.r.sources }),
     });
-    const c = CHARTS.get($('#hyRank')); c && c.setOption({ grid: { right: 250 }, series: [{ label: { formatter: p => { const r = R[p.dataIndex]; const t = m === 'gross' ? r.grossText : r.attendanceText; return `${m === 'gross' ? fmtUSD(p.value) : fmtKo(p.value, 1)}  ${String(t || '').replace(/^[^(]*\(?/, '(').slice(0, 26)}${String(t || '').length > 26 ? '…' : ''}  [${ACC[STATUS_GROUP(r.status)].label}]`; } } }] });
+    const c = CHARTS.get($('#hyRank')); c && c.setOption({ grid: { right: 250 }, series: [{ label: { formatter: p => { const r = R[p.dataIndex]; const t = m === 'gross' ? r.grossText : r.attendanceText; return `${m === 'gross' ? fmtUSD(p.value) : fmtKo(p.value, 1)}  ${String(t || '').replace(/^[^(]*\(?/, '(').slice(0, 26)}${String(t || '').length > 26 ? '…' : ''}  [${ACC[gradeOf(r, m)].label}]`; } } }] });
   };
   drawRank(); bindSeg('hyMetric', v => { HY.metric = v; drawRank(); });
   // 진행률
@@ -104,34 +107,58 @@ function renderHybe() {
   const ro = H.roster || [];
   $('#hyRoster').innerHTML = labels.filter(l => ro.some(r => r[0] === l)).map(l => card({
     title: `<i class="dot" style="background:${lc(l)}"></i> ${esc(l)}`, sub: `${ro.filter(r => r[0] === l).length}팀 · 투어 ${rows.filter(r => r.label === l).length}건`,
-    body: `<ul class="clean">${ro.filter(r => r[0] === l).map(r => `<li style="${accVisible(r[3]) ? '' : 'opacity:.35'}"><b>${esc(r[1])}</b> ${badge(r[3])}${srcLinks(r[4])}<br><span class="small muted">${esc(r[2])}</span></li>`).join('')}</ul>` })).join('');
+    body: `<ul class="clean">${ro.filter(r => r[0] === l).map(r => `<li style="${accVisible(r[3]) ? '' : 'opacity:.35'}"><b>${esc(r[1])}</b>${(() => { const a = artistByName(r[1]); return a?.ko && a.ko !== r[1] ? ` <span class="small muted">${esc(a.ko)}</span>` : ''; })()} ${badge(r[3])}${srcLinks(r[4])} ${ytChip(artistByName(r[1]))}<br><span class="small muted">${esc(r[2])}</span></li>`).join('')}</ul>` })).join('');
   // 표
   const sumRow = () => { const R = vis(); const a = R.filter(r => isNum(r.attendance)), g = R.filter(r => isNum(r.gross));
     return `<div class="banner info small" style="margin:8px 0 0">표시 행 기준 <b>보고분 합</b>: 관객 ${fmtN(a.reduce((s, r) => s + r.attendance, 0))}명 (${a.length}건) · 매출 ${fmtUSD(g.reduce((s, r) => s + r.gross, 0))} (${g.length}건) — 집계 범위가 서로 달라 총계가 아닙니다.</div>`; };
   DataTable($('#hyTable'), [
     { k: 'label', label: '레이블', html: r => `<i class="dot" style="background:${lc(r.label)}"></i> <span class="small">${esc(r.label)}</span>` },
-    { k: 'artist', label: '아티스트', html: r => `<b>${esc(r.artist)}</b>` },
+    { k: 'artist', label: '아티스트', html: r => { const a = artistById(r.artist_id); return `<b>${esc(r.artist)}</b>${a?.ko ? `<span class="note">${esc(a.ko)} · <code>${esc(r.artist_id)}</code></span>` : ''}<span class="note">${ytChip(a)}</span>`; } },
     { k: 'tour', label: '투어', cls: 'wrap', html: r => `${esc(r.tour)} <span class="muted small">${esc(r.kind)}</span>${r.note ? `<span class="note">${esc(r.note)}</span>` : ''}` },
     { k: 'start', label: '기간', html: r => `${esc(r.start || '시작 미정')}<br>~ ${esc(r.end || '종료 미정')}` },
     { k: 'regions', label: '권역', cls: 'wrap', html: r => `<span class="small">${esc(r.regions || '')}</span>` },
     { k: 'cities', label: '도시', num: true, html: r => r.cities ?? nullCell('—') },
     { k: 'shows', label: '회차', num: true, html: r => r.shows ?? nullCell('—') },
     { k: 'done', label: '완료/잔여', num: true, val: r => r.shows && isNum(r.done) ? r.done / r.shows : null, html: r => isNum(r.done) || isNum(r.left) ? `${r.done ?? '?'} / ${r.left ?? '?'}` : nullCell('미확인') },
-    { k: 'attendance', label: '관객(보고)', num: true, html: r => isNum(r.attendance) ? `${fmtN(r.attendance)}<span class="note">${esc(r.attendanceText)}</span>` : `${nullCell('미확인')}<span class="note">${esc(r.attendanceText && r.attendanceText !== '—' ? r.attendanceText : '')}</span>` },
-    { k: 'gross', label: '매출(보고, USD)', num: true, html: r => isNum(r.gross) ? `${fmtUSD(r.gross)}<span class="note">${esc(r.grossText)}</span>` : nullCell('미확인') },
+    { k: 'attendance', label: '관객(보고)', num: true, html: r => isNum(r.attendance) ? `${fmtN(r.attendance)} ${r._rec?.attendance ? badge({ status: gradeOf(r, 'attendance'), collected_at: r._rec.attendance.collected_at }) : ''}<span class="note">${esc(r.attendanceText)}</span>` : `${nullCell('미확인')}<span class="note">${esc(r.attendanceText && r.attendanceText !== '—' ? r.attendanceText : '')}</span>` },
+    { k: 'gross', label: '매출(보고, USD)', num: true, html: r => isNum(r.gross) ? `${fmtUSD(r.gross)} ${r._rec?.gross ? badge({ status: gradeOf(r, 'gross'), collected_at: r._rec.gross.collected_at }) : ''}<span class="note">${esc(r.grossText)}</span>` : nullCell('미확인') },
     { k: 'state', label: '상태', html: r => `<span class="badge ${r.state === '종료' ? 'b-state-done' : 'b-state-next'}">${esc(r.state)}</span>${r.y2027 ? ' <span class="badge b-change">~2027</span>' : ''}` },
-    { k: 'status', label: '정확도', html: r => badge(r.status) },
+    { k: 'trk', label: '트래커 연결', cls: 'wrap', val: r => trackerMatch(r) ? 1 : 0, html: r => { const m = trackerMatch(r); if (!m) return nullCell(r.artist_id ? '트래커 행 없음' : 'artist_id 없음'); const d = trackerDiff(r, m.t); return `<span class="small">${esc(m.t.artist)} · ${esc(m.t.tour)}</span>${d.length ? `<span class="note" style="color:#fbbf24">차이: ${d.map(esc).join(' · ')}</span>` : '<span class="note">일정·회차 일치</span>'}`; } },
+    { k: 'status', label: '등급', html: r => badge(r) },
     { k: 'src', label: '출처', nosort: true, html: r => srcLinks(r.sources) },
   ], { rows: vis, sort: { k: 'start', dir: 'desc' }, search: ['artist', 'tour', 'label', 'note'], tools: '' });
   $('#hyTable').insertAdjacentHTML('beforeend', sumRow());
 }
 
+/* artist_id + 투어명 토큰으로 트래커 행 매칭 */
+const TK_STOP = new Set(['world', 'tour', 'concert', 'live', 'the', '투어', '월드투어', '2024', '2025', '2026', '2027']);
+const tourKey = s => String(s || '').toLowerCase().replace(/[^a-z0-9가-힣.]+/g, ' ').replace(/\.(?!\d)/g, ' ').split(/\s+/).filter(w => w && !TK_STOP.has(w));
+const dayGap = (a, b) => a && b ? Math.abs(Date.parse(a) - Date.parse(b)) / 864e5 : 0;
+function trackerMatch(r) {
+  const a = artistById(r.artist_id); if (!a) return null;
+  const k = tourKey(r.tour); let best = null;
+  for (const i of a.tracker) {
+    const t = D.tracker.tours[i]; const tk = tourKey(t.tour);
+    const inter = tk.filter(w => k.includes(w)).length, uni = new Set([...tk, ...k]).size;
+    const sc = Math.max(inter / Math.max(1, uni), inter / Math.max(1, Math.min(tk.length, k.length)) * .8);
+    if (sc >= 0.5 && dayGap(r.start, t.start) <= 120 && (!best || sc > best.sc)) best = { t, i, sc };
+  }
+  return best;
+}
+function trackerDiff(h, t) {
+  const d = [];
+  if (h.start && t.start && h.start !== t.start) d.push(`시작 ${h.start}↔${t.start}`);
+  if (h.end && t.end && h.end !== t.end) d.push(`종료 ${h.end}↔${t.end}`);
+  if (isNum(h.shows) && isNum(t.shows) && h.shows !== t.shows) d.push(`회차 ${h.shows}↔${t.shows}`);
+  if (isNum(h.attendance) && isNum(t.attendance) && h.attendance !== t.attendance) d.push(`관객 ${fmtN(h.attendance)}↔${fmtN(t.attendance)}`);
+  return d;
+}
 function hybeDetail(i, lc) {
   const t = D.hybe.tours[i]; const sp = hybeSpan(t);
   const prog = isNum(t.done) && t.shows ? Math.round(t.done / t.shows * 100) : null;
   return `<div class="md-kicker"><i class="dot" style="background:${lc(t.label)}"></i> ${esc(t.label)} · ${esc(t.kind || '')}</div>
     <h2 class="md-title">${esc(t.artist)} <span class="muted">${esc(t.tour)}</span></h2>
-    <div style="margin-bottom:10px">${badge(t.status)} <span class="badge ${t.state === '종료' ? 'b-state-done' : 'b-state-next'}">${esc(t.state)}</span> ${t.y2027 ? '<span class="badge b-change">2027년까지</span>' : ''} ${(sp.dashS || sp.dashE || sp.unknown) ? '<span class="badge b-unverified" style="border-style:dashed">일정 미확정</span>' : ''}</div>
+    <div style="margin-bottom:10px">${badge(t)} <span class="badge ${t.state === '종료' ? 'b-state-done' : 'b-state-next'}">${esc(t.state)}</span> ${t.y2027 ? '<span class="badge b-change">2027년까지</span>' : ''} ${(sp.dashS || sp.dashE || sp.unknown) ? '<span class="badge b-unverified" style="border-style:dashed">일정 미확정</span>' : ''}</div>
     <dl class="kv">
       <dt>기간</dt><dd>${esc(t.period || `${t.start || '미정'} ~ ${t.end || '미정'}`)}${sp.dashS || sp.dashE ? ' <span class="small muted">(캘린더 표시는 임시 구간)</span>' : ''}</dd>
       <dt>권역</dt><dd>${esc(t.regions || '—')}</dd>
@@ -141,6 +168,7 @@ function hybeDetail(i, lc) {
       <dt>관객 (보고 범위)</dt><dd>${isNum(t.attendance) ? fmtN(t.attendance) + '명 · ' : ''}<span class="small">${esc(t.attendanceText || '미확인')}</span></dd>
       <dt>매출 (보고 범위)</dt><dd>${isNum(t.gross) ? fmtUSD(t.gross) + ' · ' : ''}<span class="small">${esc(t.grossText || '미확인')}</span></dd>
     </dl>
+    ${(() => { const a = artistById(t.artist_id), m = trackerMatch(t); return a ? `<dl class="kv"><dt>연결 (artist_id)</dt><dd><code>${esc(t.artist_id)}</code> ${esc(a.ko || '')} ${ytChip(a)}${m ? `<br><span class="small">트래커: ${esc(m.t.artist)} · ${esc(m.t.tour)}${trackerDiff(t, m.t).length ? ` <span style="color:#fbbf24">(차이: ${trackerDiff(t, m.t).map(esc).join(' · ')})</span>` : ' (일치)'}</span>` : ''}</dd></dl>` : ''; })()}
     ${t.note ? `<p class="small">${esc(t.note)}</p>` : ''}
-    <div class="md-src"><div class="small muted">출처</div>${srcLinks(t.sources, 'list') || '<span class="muted small">없음</span>'}</div>`;
+    <div class="md-src"><div class="small muted">출처 <span class="muted">· 수집 ${esc(t.collected_at || '—')}</span></div>${urlLinks(t.source_url, 'list') || srcLinks(t.sources, 'list') || '<span class="muted small">없음</span>'}${(t.source_note || []).map(n => `<div class="small muted">※ ${esc(n)}</div>`).join('')}</div>`;
 }
