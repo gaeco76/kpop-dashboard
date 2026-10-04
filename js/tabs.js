@@ -156,7 +156,7 @@ const BX = { metric: 'gross', kpop: false, top: 20 };
 function tourRows() {
   return (D.tours?.tours || []).map(t => ({ ...t,
     perShowGross: isNum(t.gross) && t.shows ? t.gross / t.shows : null,
-    perShowAtt: isNum(t.attendance) && t.shows ? t.attendance / t.shows : null,
+    perShowAtt: perShowAtt(t)?.v ?? null,
     avgTicket: isNum(t.gross) && isNum(t.attendance) && t.attendance ? t.gross / t.attendance : null,
     startYear: +(String(t.period).match(/\d{4}/) || [])[0] || null,
   }));
@@ -305,9 +305,9 @@ function renderTrackerCharts(el) {
   };
   const drawRec = () => {
     const recs = (TRD.records || []).filter(r => r.kind === TK.kind && accVisible(r.status, r.estimate) && isNum(r.attendance)).sort((a, b) => b.attendance - a.attendance);
-    hbar($('#tkRec'), recs.map(r => ({ label: `${r.artist} · ${r.label}`, value: r.attendance, est: r.estimate, color: r.estimate ? ACC.estimate.color : PAL[1], r })), {
+    hbar($('#tkRec'), recs.map(r => ({ label: `${r.artist} · ${r.label}`, value: r.attendance, est: r.estimate, g: r.estimate ? 'estimate' : undefined, color: r.estimate ? ACC.estimate.color : PAL[1], r })), {
       valueFmt: v => fmtKo(v, 1), labelWidth: 210, height: Math.max(360, recs.length * 22 + 30),
-      tip: it => tipHTML({ title: `${it.r.artist} · ${it.r.label}`, rows: [['관객', esc(it.r.attendanceText || fmtN(it.r.attendance))], ['회차', fmtN(it.r.shows)], ['회당 평균(계산)', it.r.shows ? fmtN(Math.round(it.r.attendance / it.r.shows)) : '—'], ['권역', esc(it.r.region)]], status: it.r.status, estimate: it.r.estimate, note: it.r.note, sources: it.r.sources || ['CLAUDE-TRACKER'] }),
+      tip: it => tipHTML({ title: `${it.r.artist} · ${it.r.label}`, rows: [['관객', esc(it.r.attendanceText || fmtN(it.r.attendance))], ['회차', fmtN(it.r.shows)], ['회당 평균(계산)', perShowAtt(it.r) ? perShowTxt(perShowAtt(it.r)) : (it.r.estimate ? '— (추정치·기준 회차 없음)' : '—')], ['권역', esc(it.r.region)]], status: it.r.status, estimate: it.r.estimate, note: it.r.note, sources: it.r.sources || ['CLAUDE-TRACKER'] }),
     });
   };
   // billboard
@@ -347,7 +347,7 @@ function renderTrackerCharts(el) {
     { k: 'artist', label: '아티스트', html: r => `<b>${esc(r.artist)}</b>` }, { k: 'label', label: '기록', cls: 'wrap', html: r => `${esc(r.label)}<span class="note">${esc(r.note)}</span>` },
     { k: 'region', label: '권역' }, { k: 'shows', label: '회차', num: true },
     { k: 'attendance', label: '관객', num: true, html: r => r.estimate ? `<span class="estval" title="추정치">${esc(r.attendanceText)}</span>` : esc(r.attendanceText || '—') },
-    { k: 'avg', label: '회당(계산)', num: true, val: r => isNum(r.attendance) && r.shows ? r.attendance / r.shows : null, html: r => isNum(r.attendance) && r.shows ? fmtN(Math.round(r.attendance / r.shows)) : nullCell('—') },
+    { k: 'avg', label: '회당(계산)', num: true, title: 'attendance_basis_shows 기준 · 기준 없는 추정치는 계산 안 함', val: r => perShowAtt(r)?.v ?? null, html: r => perShowAtt(r) ? perShowTxt(perShowAtt(r)) : nullCell('—') },
     { k: 'status', label: '등급', html: r => badges(r.status, r.estimate) },
     { k: 'src', label: '출처', nosort: true, html: r => srcLinks(r.sources || ['CLAUDE-TRACKER']) },
   ], { rows: () => (TRD.records || []).filter(r => accVisible(r.status, r.estimate)), sort: { k: 'attendance', dir: 'desc' }, search: ['artist', 'label', 'note'], rowClass: r => r.estimate ? 'est' : '' });

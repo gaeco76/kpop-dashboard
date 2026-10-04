@@ -2320,7 +2320,7 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(8/29, 34회 가정). 확정 36회로 재계산하지 않음."
   },
   {
    "subject": "트와이스 THIS IS FOR WORLD TOUR",
@@ -3596,26 +3596,31 @@
   {
    "subject": "르세라핌 Pureflow (추정)",
    "artist_id": "le_sserafim",
-   "metric": "attendance",
+   "metric": "attendance_model_estimate",
    "value": 400000,
    "unit": "명",
    "source_url": [],
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": null,
-   "note": "아레나 회당 1.2만 명 가정. 그룹 첫 유럽 공연 포함 · Claude 모델 간 편차: 36만(트래커 8/29)·40만(8/30 비교표)·33만(7/13 수익 계산)"
+   "note": "Claude 모델 추정치(8/30): 34회 × 아레나 회당 약 1.2만 명 가정. 확정 회차 36회로 재계산하지 않음. 실제 관객 미발표."
   },
   {
    "subject": "르세라핌 Pureflow (추정)",
    "artist_id": "le_sserafim",
    "metric": "shows",
-   "value": 34,
+   "value": 36,
    "unit": "회",
-   "source_url": [],
-   "collected_at": "2026-10-04",
-   "grade": "추정",
+   "source_url": [
+    "https://prtimes.jp/main/html/rd/p/000000690.000045862.html",
+    "https://weverse.io/lesserafim/notice/37666",
+    "https://www.le-sserafim.jp/news/0fbf87ba1d6c",
+    "https://en.wikipedia.org/wiki/Pureflow_Tour"
+   ],
+   "collected_at": "2026-10-05",
+   "grade": "부분",
    "as_of": null,
-   "note": ""
+   "note": "회차 36 = 마스터값(부분: 공식 발표 32 + 마카오 2 + 교세라돔 2). Claude 원문 회차는 34."
   },
   {
    "subject": "베이비몬스터 Hello Monsters",

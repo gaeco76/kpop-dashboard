@@ -81,8 +81,27 @@ function applyFigures() {
       row[field] = r.value; row._g[field] = GRADE_KEY[r.grade] || 'unverified'; row._rec[field] = r;
     }
   }
+  // 관객 기록(records): subject = "아티스트 label". attendance_model_estimate 레코드면 실집계가 아니라 추정치로 표시
+  for (const row of (D.tracker?.records || [])) {
+    const m = FIG.get(`${row.artist} ${row.label}`); if (!m) continue;
+    row._g = row._g || {}; row._rec = row._rec || {};
+    if (m.shows && isNum(m.shows.value) && isNum(row.shows)) { if (row.shows !== m.shows.value) FIG_DIFF.push({ file: 'tracker.records', subject: m.shows.subject, field: 'shows', row: row.shows, record: m.shows.value }); row.shows = m.shows.value; row._g.shows = GRADE_KEY[m.shows.grade] || 'unverified'; row._rec.shows = m.shows; FIG_HITS++; }
+    const a = m.attendance, ae = m.attendance_model_estimate;
+    if (a && isNum(a.value) && isNum(row.attendance)) { row.attendance = a.value; row._g.attendance = GRADE_KEY[a.grade] || 'unverified'; row._rec.attendance = a; FIG_HITS++; }
+    else if (ae && isNum(ae.value) && isNum(row.attendance)) { row.attendance = ae.value; row.estimate = true; row._g.attendance = 'estimate'; row._rec.attendance = ae; FIG_HITS++; }
+  }
   if (FIG_DIFF.length) console.info('수치 레코드와 행 값 차이', FIG_DIFF);
 }
+/** 회당 관객: attendance_basis_shows(관객 수치가 가정한 회차)를 우선 사용.
+ *  추정치(estimate)인데 기준 회차가 없으면 계산하지 않음 — 확정 회차로 나누면 잘못된 평균이 됨 */
+function perShowAtt(r, att = r?.attendance) {
+  if (!r || !isNum(att)) return null;
+  const est = r.estimate === true || (r._g && r._g.attendance === 'estimate');
+  const own = isNum(r.attendance_basis_shows);
+  const basis = own ? r.attendance_basis_shows : (est ? null : r.shows);
+  return basis ? { v: att / basis, basis, est, own } : null;
+}
+const perShowTxt = p => p ? `${fmtN(Math.round(p.v))}${p.own ? ` <span class="muted" title="관객 수치가 가정한 회차(attendance_basis_shows)">÷${p.basis}회 기준</span>` : ''}${p.est ? ' <span class="badge b-estimate">추정</span>' : ''}` : '—';
 /* ---------- artist_id 조인 (트래커·하이브·소셜) ---------- */
 let ARTISTS = null;
 function artistIndex() {
