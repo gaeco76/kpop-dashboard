@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05",
+ "generated_at": "2026-10-14",
  "rules": "/workspace/data/README.md §2",
- "count": 489,
+ "count": 498,
  "records": [
   {
    "subject": "Taylor Swift The Eras Tour",
@@ -16,7 +16,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Taylor Swift The Eras Tour",
@@ -31,7 +32,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Taylor Swift The Eras Tour",
@@ -46,7 +48,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay Music of the Spheres World Tour",
@@ -62,7 +65,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "단일 투어 최다 관객"
+   "note": "단일 투어 최다 관객",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay Music of the Spheres World Tour",
@@ -78,7 +82,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "단일 투어 최다 관객"
+   "note": "단일 투어 최다 관객",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay Music of the Spheres World Tour",
@@ -94,7 +99,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "단일 투어 최다 관객"
+   "note": "단일 투어 최다 관객",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Weeknd After Hours til Dawn Tour",
@@ -109,7 +115,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)"
+   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Weeknd After Hours til Dawn Tour",
@@ -124,7 +131,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)"
+   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Weeknd After Hours til Dawn Tour",
@@ -139,7 +147,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)"
+   "note": "리스본(9/5–6)까지 집계. 아시아 17회 남음(11/5 쿠알라룸푸르 종료 예정)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Elton John Farewell Yellow Brick Road",
@@ -155,7 +164,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Elton John Farewell Yellow Brick Road",
@@ -171,7 +181,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Elton John Farewell Yellow Brick Road",
@@ -187,7 +198,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran +−=÷× Tour",
@@ -202,7 +214,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran +−=÷× Tour",
@@ -217,7 +230,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran +−=÷× Tour",
@@ -232,7 +246,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran ÷ Tour",
@@ -247,7 +262,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran ÷ Tour",
@@ -262,7 +278,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Ed Sheeran ÷ Tour",
@@ -277,7 +294,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 360° Tour",
@@ -292,7 +310,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 360° Tour",
@@ -307,7 +326,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 360° Tour",
@@ -322,7 +342,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bruce Springsteen & E Street Band 2023–2025 Tour",
@@ -337,7 +358,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bruce Springsteen & E Street Band 2023–2025 Tour",
@@ -352,7 +374,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bruce Springsteen & E Street Band 2023–2025 Tour",
@@ -367,7 +390,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica M72 World Tour",
@@ -382,7 +406,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "2026년 7월 보고분까지 합산"
+   "note": "2026년 7월 보고분까지 합산",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica M72 World Tour",
@@ -397,7 +422,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "2026년 7월 보고분까지 합산"
+   "note": "2026년 7월 보고분까지 합산",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica M72 World Tour",
@@ -412,7 +438,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "2026년 7월 보고분까지 합산"
+   "note": "2026년 7월 보고분까지 합산",
+   "dataset": "boxscore"
   },
   {
    "subject": "BTS ARIRANG World Tour",
@@ -430,7 +457,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Billboard 본문은 '5억 달러 돌파'(8월 보고분까지)만 명시. $637.5M·50회는 Wikipedia(해당 Billboard 기사 인용) 기준. 누적 관객 미확인(8월 12회 801,000명). 총 88회·34개 도시, 2027-03-16까지, 약 40회 남음. Claude 트래커(2026-08-11 기준 38회·230만·$433.2M)는 Billboard 9/30 보고로 대체됨. 8/11 누적+8월분 합과 $637.5M이 정확히 일치하지 않아 공식 최종치 대기 총 88회(불라칸 2027-03-16 종료). Claude 전망 $817M(범위 $770~970M)은 추정."
+   "note": "Billboard 본문은 '5억 달러 돌파'(8월 보고분까지)만 명시. $637.5M·50회는 Wikipedia(해당 Billboard 기사 인용) 기준. 누적 관객 미확인(8월 12회 801,000명). 총 88회·34개 도시, 2027-03-16까지, 약 40회 남음. Claude 트래커(2026-08-11 기준 38회·230만·$433.2M)는 Billboard 9/30 보고로 대체됨. 8/11 누적+8월분 합과 $637.5M이 정확히 일치하지 않아 공식 최종치 대기 총 88회(불라칸 2027-03-16 종료). Claude 전망 $817M(범위 $770~970M)은 추정.",
+   "dataset": "boxscore"
   },
   {
    "subject": "BTS ARIRANG World Tour",
@@ -448,7 +476,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Billboard 본문은 '5억 달러 돌파'(8월 보고분까지)만 명시. $637.5M·50회는 Wikipedia(해당 Billboard 기사 인용) 기준. 누적 관객 미확인(8월 12회 801,000명). 총 88회·34개 도시, 2027-03-16까지, 약 40회 남음. Claude 트래커(2026-08-11 기준 38회·230만·$433.2M)는 Billboard 9/30 보고로 대체됨. 8/11 누적+8월분 합과 $637.5M이 정확히 일치하지 않아 공식 최종치 대기 총 88회(불라칸 2027-03-16 종료). Claude 전망 $817M(범위 $770~970M)은 추정."
+   "note": "Billboard 본문은 '5억 달러 돌파'(8월 보고분까지)만 명시. $637.5M·50회는 Wikipedia(해당 Billboard 기사 인용) 기준. 누적 관객 미확인(8월 12회 801,000명). 총 88회·34개 도시, 2027-03-16까지, 약 40회 남음. Claude 트래커(2026-08-11 기준 38회·230만·$433.2M)는 Billboard 9/30 보고로 대체됨. 8/11 누적+8월분 합과 $637.5M이 정확히 일치하지 않아 공식 최종치 대기 총 88회(불라칸 2027-03-16 종료). Claude 전망 $817M(범위 $770~970M)은 추정.",
+   "dataset": "boxscore"
   },
   {
    "subject": "Harry Styles Love On Tour",
@@ -463,7 +492,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Harry Styles Love On Tour",
@@ -478,7 +508,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Harry Styles Love On Tour",
@@ -493,7 +524,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "P!nk Summer Carnival",
@@ -508,7 +540,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "P!nk Summer Carnival",
@@ -523,7 +556,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "P!nk Summer Carnival",
@@ -538,7 +572,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Guns N' Roses Not in This Lifetime… Tour",
@@ -553,7 +588,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 175회 기준"
+   "note": "관객 집계표는 175회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Guns N' Roses Not in This Lifetime… Tour",
@@ -568,7 +604,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 175회 기준"
+   "note": "관객 집계표는 175회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Guns N' Roses Not in This Lifetime… Tour",
@@ -583,7 +620,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 175회 기준"
+   "note": "관객 집계표는 175회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Renaissance World Tour",
@@ -598,7 +636,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(2.8M)"
+   "note": "관객은 Billboard 반올림 수치(2.8M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Renaissance World Tour",
@@ -613,7 +652,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(2.8M)"
+   "note": "관객은 Billboard 반올림 수치(2.8M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Renaissance World Tour",
@@ -628,7 +668,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(2.8M)"
+   "note": "관객은 Billboard 반올림 수치(2.8M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Rammstein Stadium Tour",
@@ -643,7 +684,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Rammstein Stadium Tour",
@@ -658,7 +700,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Rammstein Stadium Tour",
@@ -673,7 +716,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones A Bigger Bang Tour",
@@ -688,7 +732,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 147회 기준"
+   "note": "관객 집계표는 147회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones A Bigger Bang Tour",
@@ -703,7 +748,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 147회 기준"
+   "note": "관객 집계표는 147회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones A Bigger Bang Tour",
@@ -718,7 +764,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 147회 기준"
+   "note": "관객 집계표는 147회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones No Filter Tour",
@@ -732,7 +779,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인"
+   "note": "누적 관객 미확인",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones No Filter Tour",
@@ -746,7 +794,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인"
+   "note": "누적 관객 미확인",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay A Head Full of Dreams Tour",
@@ -761,7 +810,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay A Head Full of Dreams Tour",
@@ -776,7 +826,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Coldplay A Head Full of Dreams Tour",
@@ -791,7 +842,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Shakira Las Mujeres Ya No Lloran World Tour",
@@ -805,7 +857,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객·진행 여부 미확인 (Grok 대화는 진행 중으로 표기)"
+   "note": "누적 관객·진행 여부 미확인 (Grok 대화는 진행 중으로 표기)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Shakira Las Mujeres Ya No Lloran World Tour",
@@ -819,7 +872,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객·진행 여부 미확인 (Grok 대화는 진행 중으로 표기)"
+   "note": "누적 관객·진행 여부 미확인 (Grok 대화는 진행 중으로 표기)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Zach Bryan The Quittin' Time Tour",
@@ -833,7 +887,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인"
+   "note": "누적 관객 미확인",
+   "dataset": "boxscore"
   },
   {
    "subject": "Zach Bryan The Quittin' Time Tour",
@@ -847,7 +902,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인"
+   "note": "누적 관객 미확인",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bad Bunny Debí Tirar Más Fotos World Tour",
@@ -861,7 +917,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개"
+   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bad Bunny Debí Tirar Más Fotos World Tour",
@@ -875,7 +932,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개"
+   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bad Bunny Debí Tirar Más Fotos World Tour",
@@ -889,7 +947,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개"
+   "note": "Grok 대화 표에 없던 항목 (2026-07-22 종료). Grok의 '$1.08B는 커리어 합계' 언급과 별개",
+   "dataset": "boxscore"
   },
   {
    "subject": "Roger Waters The Wall Live",
@@ -904,7 +963,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 220회 기준"
+   "note": "관객 집계표는 220회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Roger Waters The Wall Live",
@@ -919,7 +979,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 220회 기준"
+   "note": "관객 집계표는 220회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Roger Waters The Wall Live",
@@ -934,7 +995,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 220회 기준"
+   "note": "관객 집계표는 220회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "AC/DC Black Ice World Tour",
@@ -949,7 +1011,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기"
+   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기",
+   "dataset": "boxscore"
   },
   {
    "subject": "AC/DC Black Ice World Tour",
@@ -964,7 +1027,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기"
+   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기",
+   "dataset": "boxscore"
   },
   {
    "subject": "AC/DC Black Ice World Tour",
@@ -979,7 +1043,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기"
+   "note": "총매출은 Eric Alper 집계. 회차·관객은 관객 집계표(165회). Grok 대화는 107회로 표기",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica WorldWired Tour",
@@ -994,7 +1059,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 159회 기준"
+   "note": "관객 집계표는 159회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica WorldWired Tour",
@@ -1009,7 +1075,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 159회 기준"
+   "note": "관객 집계표는 159회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Metallica WorldWired Tour",
@@ -1024,7 +1091,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객 집계표는 159회 기준"
+   "note": "관객 집계표는 159회 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Madonna Sticky & Sweet Tour",
@@ -1039,7 +1107,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Madonna Sticky & Sweet Tour",
@@ -1054,7 +1123,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Madonna Sticky & Sweet Tour",
@@ -1069,7 +1139,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Cowboy Carter Tour",
@@ -1084,7 +1155,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(1.6M)"
+   "note": "관객은 Billboard 반올림 수치(1.6M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Cowboy Carter Tour",
@@ -1099,7 +1171,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(1.6M)"
+   "note": "관객은 Billboard 반올림 수치(1.6M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "Beyoncé Cowboy Carter Tour",
@@ -1114,7 +1187,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 Billboard 반올림 수치(1.6M)"
+   "note": "관객은 Billboard 반올림 수치(1.6M)",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 Vertigo Tour",
@@ -1129,7 +1203,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 Vertigo Tour",
@@ -1144,7 +1219,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "U2 Vertigo Tour",
@@ -1159,7 +1235,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Police Reunion Tour",
@@ -1174,7 +1251,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인 (2007년분만 1,858,456명 확인)"
+   "note": "누적 관객 미확인 (2007년분만 1,858,456명 확인)",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Police Reunion Tour",
@@ -1189,7 +1267,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "누적 관객 미확인 (2007년분만 1,858,456명 확인)"
+   "note": "누적 관객 미확인 (2007년분만 1,858,456명 확인)",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones Licks Tour",
@@ -1204,7 +1283,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones Licks Tour",
@@ -1219,7 +1299,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "The Rolling Stones Licks Tour",
@@ -1234,7 +1315,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "boxscore"
   },
   {
    "subject": "One Direction Where We Are Tour",
@@ -1249,7 +1331,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2014) 기준"
+   "note": "관객은 연도별 표(2014) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "One Direction Where We Are Tour",
@@ -1264,7 +1347,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2014) 기준"
+   "note": "관객은 연도별 표(2014) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "One Direction Where We Are Tour",
@@ -1279,7 +1363,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2014) 기준"
+   "note": "관객은 연도별 표(2014) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bon Jovi Because We Can",
@@ -1294,7 +1379,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2013) 기준"
+   "note": "관객은 연도별 표(2013) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bon Jovi Because We Can",
@@ -1309,7 +1395,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2013) 기준"
+   "note": "관객은 연도별 표(2013) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Bon Jovi Because We Can",
@@ -1324,7 +1411,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "관객은 연도별 표(2013) 기준"
+   "note": "관객은 연도별 표(2013) 기준",
+   "dataset": "boxscore"
   },
   {
    "subject": "Stray Kids dominATE World Tour",
@@ -1342,7 +1430,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체"
+   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체",
+   "dataset": "boxscore"
   },
   {
    "subject": "Stray Kids dominATE World Tour",
@@ -1360,7 +1449,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체"
+   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체",
+   "dataset": "boxscore"
   },
   {
    "subject": "Stray Kids dominATE World Tour",
@@ -1378,7 +1468,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체"
+   "note": "Touring Data 보고 54회(본편) 기준. 인천 앙코르 2회 포함 시 총 56회(관객·매출 미보고). Claude 트래커 추정 215만·$260M을 대체",
+   "dataset": "boxscore"
   },
   {
    "subject": "BLACKPINK Born Pink World Tour",
@@ -1392,7 +1483,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)"
+   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)",
+   "dataset": "boxscore"
   },
   {
    "subject": "BLACKPINK Born Pink World Tour",
@@ -1406,7 +1498,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)"
+   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)",
+   "dataset": "boxscore"
   },
   {
    "subject": "BLACKPINK Born Pink World Tour",
@@ -1420,7 +1513,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)"
+   "note": "Touring Data 집계(헤럴드경제 인용). 걸그룹 역대 최고 투어 매출. 관객은 약 181만(반올림)",
+   "dataset": "boxscore"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨dominATE⟩",
@@ -1437,7 +1531,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨dominATE⟩",
@@ -1454,7 +1549,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨dominATE⟩",
@@ -1471,7 +1567,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "1,983,821 (보고 54회)"
+   "note": "1,983,821 (보고 54회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨dominATE⟩",
@@ -1488,7 +1585,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "$263.3M (보고 54회)"
+   "note": "$263.3M (보고 54회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "블랙핑크 WORLD TOUR ⟨DEADLINE⟩",
@@ -1504,7 +1602,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "블랙핑크 WORLD TOUR ⟨DEADLINE⟩",
@@ -1520,7 +1619,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "세븐틴 RIGHT HERE WORLD TOUR",
@@ -1532,7 +1632,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "세븐틴 WORLD TOUR [NEW_]",
@@ -1547,7 +1648,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "세븐틴 WORLD TOUR [NEW_]",
@@ -1562,7 +1664,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": "840,000"
+   "note": "840,000",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아이브 SHOW WHAT I AM",
@@ -1574,7 +1677,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아이브 SHOW WHAT I AM",
@@ -1586,7 +1690,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "베이비몬스터 1st WORLD TOUR ⟨Hello Monsters⟩",
@@ -1598,7 +1703,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "베이비몬스터 1st WORLD TOUR ⟨Hello Monsters⟩",
@@ -1610,7 +1716,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "300,000"
+   "note": "300,000",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Easy Crazy Hot Tour",
@@ -1625,7 +1732,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Easy Crazy Hot Tour",
@@ -1640,7 +1748,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "237,441 (27/31회 보고)"
+   "note": "237,441 (27/31회 보고)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Easy Crazy Hot Tour",
@@ -1655,7 +1764,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "$34.1M (27/31회)"
+   "note": "$34.1M (27/31회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에스파 SYNK: aeXIS LINE",
@@ -1667,7 +1777,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에스파 SYNK: aeXIS LINE",
@@ -1679,7 +1790,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "NCT 드림 THE DREAM SHOW 4",
@@ -1691,7 +1803,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "NCT 드림 THE DREAM SHOW 4",
@@ -1703,7 +1816,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : PROMISE",
@@ -1715,7 +1829,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : PROMISE",
@@ -1727,7 +1842,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : TOMORROW",
@@ -1743,7 +1859,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : TOMORROW",
@@ -1759,7 +1876,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : TOMORROW",
@@ -1775,7 +1893,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "약 564,000 (BigHit)"
+   "note": "약 564,000 (BigHit)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : TOMORROW",
@@ -1791,7 +1910,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "$36.7M (보고 17/29회)"
+   "note": "$36.7M (보고 17/29회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 ACT : TOMORROW",
@@ -1803,7 +1923,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에이티즈 IN YOUR FANTASY",
@@ -1819,7 +1940,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에이티즈 IN YOUR FANTASY",
@@ -1831,7 +1953,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 WALK THE LINE",
@@ -1847,7 +1970,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 WALK THE LINE",
@@ -1863,7 +1987,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 WALK THE LINE",
@@ -1879,7 +2004,8 @@
    "collected_at": "2026-10-05",
    "grade": "개략",
    "as_of": "2026-10-04",
-   "note": "670,000+ (BELIFT 발표)"
+   "note": "670,000+ (BELIFT 발표)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 WALK THE LINE",
@@ -1891,7 +2017,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "지드래곤 2025 WORLD TOUR ⟨Übermensch⟩",
@@ -1903,7 +2030,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "제이홉 HOPE ON THE STAGE",
@@ -1915,7 +2043,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "데이식스 3rd WORLD TOUR ⟨Forever Young⟩",
@@ -1930,7 +2059,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "데이식스 3rd WORLD TOUR ⟨Forever Young⟩",
@@ -1945,7 +2075,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "데이식스 3rd WORLD TOUR ⟨Forever Young⟩",
@@ -1957,7 +2088,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "라이즈 CONCERT TOUR ⟨RIIZING LOUD⟩",
@@ -1969,7 +2101,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "31,992"
+   "note": "31,992",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "라이즈 CONCERT TOUR ⟨RIIZING LOUD⟩",
@@ -1981,7 +2114,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔믹스 1st WORLD TOUR ⟨EPISODE 1: ZERO FRONTIER⟩",
@@ -1995,7 +2129,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔믹스 1st WORLD TOUR ⟨EPISODE 1: ZERO FRONTIER⟩",
@@ -2009,7 +2144,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "있지 3rd WORLD TOUR ⟨Tunnel Vision⟩",
@@ -2025,7 +2161,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "있지 3rd WORLD TOUR ⟨Tunnel Vision⟩",
@@ -2037,7 +2174,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스테이씨 2025 TOUR ⟨Stay Tuned⟩",
@@ -2052,7 +2190,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스테이씨 2025 TOUR ⟨Stay Tuned⟩",
@@ -2064,7 +2203,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -2084,7 +2224,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -2104,7 +2245,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -2124,7 +2266,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "2,300,000 (진행분 38회)"
+   "note": "2,300,000 (진행분 38회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "빅뱅 BIGBANG 2026 WORLD TOUR",
@@ -2136,7 +2279,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "빅뱅 BIGBANG 2026 WORLD TOUR",
@@ -2148,7 +2292,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "빅뱅 BIGBANG 2026 WORLD TOUR",
@@ -2160,7 +2305,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에스파 SYNK: COMPLæXITY",
@@ -2172,7 +2318,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에스파 SYNK: COMPLæXITY",
@@ -2184,7 +2331,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨RUN IT⟩",
@@ -2198,7 +2346,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨RUN IT⟩",
@@ -2212,7 +2361,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨RUN IT⟩",
@@ -2226,7 +2376,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "51,297 (서울)"
+   "note": "51,297 (서울)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "스트레이 키즈 WORLD TOUR ⟨RUN IT⟩",
@@ -2238,7 +2389,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "베이비몬스터 춤 (Choom) WORLD TOUR",
@@ -2250,7 +2402,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "베이비몬스터 춤 (Choom) WORLD TOUR",
@@ -2262,7 +2415,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "베이비몬스터 춤 (Choom) WORLD TOUR",
@@ -2274,7 +2428,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Pureflow Tour",
@@ -2291,7 +2446,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Pureflow Tour",
@@ -2308,7 +2464,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "르세라핌 Pureflow Tour",
@@ -2320,7 +2477,14 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(8/29, 34회 가정). 확정 36회로 재계산하지 않음."
+   "note": "Claude 트래커 모델 추정치(8/29, 34회 가정). 확정 36회로 재계산하지 않음.",
+   "dataset": "tracker_tours",
+   "estimate_basis": {
+    "shows": 34,
+    "confirmed_shows": 36,
+    "model": "Claude 8/29 트래커 모델",
+    "scaled_to_confirmed": false
+   }
   },
   {
    "subject": "트와이스 THIS IS FOR WORLD TOUR",
@@ -2332,7 +2496,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 STEAL THE WIND",
@@ -2347,7 +2512,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 STEAL THE WIND",
@@ -2362,7 +2528,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "투모로우바이투게더 STEAL THE WIND",
@@ -2374,7 +2541,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 BLOOD SAGA",
@@ -2393,7 +2561,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 BLOOD SAGA",
@@ -2412,7 +2581,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 BLOOD SAGA",
@@ -2431,7 +2601,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "225,250 (범위: 서울 3회 32,250 + 미주 12회 193,000 · 부산 2회 미포함)"
+   "note": "225,250 (범위: 서울 3회 32,250 + 미주 12회 193,000 · 부산 2회 미포함)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 BLOOD SAGA",
@@ -2450,7 +2621,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "$3.65M (서울 3회)"
+   "note": "$3.65M (서울 3회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엔하이픈 BLOOD SAGA",
@@ -2462,7 +2634,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 LIVE 'PRESS START♥︎'",
@@ -2474,7 +2647,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 LIVE 'PRESS START♥︎'",
@@ -2486,7 +2660,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 LIVE 'PRESS START♥︎'",
@@ -2498,7 +2673,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 'PRESS START♥︎' 앙코르",
@@ -2513,7 +2689,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 'PRESS START♥︎' 앙코르",
@@ -2528,7 +2705,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아일릿 'PRESS START♥︎' 앙코르",
@@ -2540,7 +2718,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아이들 Syncopation World Tour",
@@ -2554,7 +2733,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "아이들 Syncopation World Tour",
@@ -2566,7 +2746,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "캣츠아이 Wildworld 2026",
@@ -2584,7 +2765,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "캣츠아이 Wildworld 2026",
@@ -2602,7 +2784,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "캣츠아이 Wildworld 2026",
@@ -2614,7 +2797,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "몬스타엑스 [THE X : NEXUS]",
@@ -2626,7 +2810,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "몬스타엑스 [THE X : NEXUS]",
@@ -2638,7 +2823,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "19,129"
+   "note": "19,129",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "몬스타엑스 [THE X : NEXUS]",
@@ -2650,7 +2836,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "마마무 4WARD 재결합 투어",
@@ -2662,7 +2849,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "마마무 4WARD 재결합 투어",
@@ -2674,7 +2862,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "마마무 4WARD 재결합 투어",
@@ -2686,7 +2875,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "XG The Core",
@@ -2698,7 +2888,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "XG The Core",
@@ -2710,7 +2901,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "XG The Core",
@@ -2722,7 +2914,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "리사 Viva La Lisa",
@@ -2734,7 +2927,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "리사 Viva La Lisa",
@@ -2746,7 +2940,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "리사 Viva La Lisa",
@@ -2758,7 +2953,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "제로베이스원 HERE&NOW 앙코르",
@@ -2770,7 +2966,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "제로베이스원 HERE&NOW 앙코르",
@@ -2782,7 +2979,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "제로베이스원 HERE&NOW 앙코르",
@@ -2794,7 +2992,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "28,438"
+   "note": "28,438",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "플레이브 KEEP IT MANIC",
@@ -2806,7 +3005,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "플레이브 KEEP IT MANIC",
@@ -2818,7 +3018,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "플레이브 KEEP IT MANIC",
@@ -2830,7 +3031,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.2⟩",
@@ -2848,7 +3050,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.2⟩",
@@ -2866,7 +3069,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.2⟩",
@@ -2884,7 +3088,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "31,800 (서울 3회, KOZ) · Billboard 보고 6회 69,300"
+   "note": "31,800 (서울 3회, KOZ) · Billboard 보고 6회 69,300",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.2⟩",
@@ -2902,7 +3107,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": "$5.8M (Billboard 보고 6회)"
+   "note": "$5.8M (Billboard 보고 6회)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.2⟩",
@@ -2914,7 +3120,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.1⟩",
@@ -2926,7 +3133,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.1⟩",
@@ -2938,7 +3146,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "보이넥스트도어 TOUR ⟨KNOCK ON Vol.1⟩",
@@ -2950,7 +3159,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "키스오브라이프 KISS ROAD",
@@ -2962,7 +3172,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "키스오브라이프 KISS ROAD",
@@ -2974,7 +3185,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "NCT 위시 INTO THE WISH : Our WISH",
@@ -2986,7 +3198,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "32,664"
+   "note": "32,664",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "NCT 위시 INTO THE WISH : Our WISH",
@@ -2998,7 +3211,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엑소 EXO PLANET #6 ⟨EXhOrizon⟩",
@@ -3010,7 +3224,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "31,875"
+   "note": "31,875",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "엑소 EXO PLANET #6 ⟨EXhOrizon⟩",
@@ -3022,7 +3237,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "샤이니 SHINee WORLD VIII ⟨THE INVERT⟩",
@@ -3034,7 +3250,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "30,780"
+   "note": "30,780",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "샤이니 SHINee WORLD VIII ⟨THE INVERT⟩",
@@ -3046,7 +3263,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "더보이즈 INTER-ZECTION",
@@ -3058,7 +3276,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "25,747"
+   "note": "25,747",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "더보이즈 INTER-ZECTION",
@@ -3070,7 +3289,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "데이식스 10주년 투어 ⟨The DECADE⟩",
@@ -3082,7 +3302,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "47,297"
+   "note": "47,297",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "데이식스 10주년 투어 ⟨The DECADE⟩",
@@ -3094,7 +3315,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "피원하모니 P1ustage H : MOST WANTED",
@@ -3106,7 +3328,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-04",
-   "note": "10,002"
+   "note": "10,002",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "피원하모니 P1ustage H : MOST WANTED",
@@ -3118,7 +3341,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "트레저 2025-26 TOUR [PULSE ON]",
@@ -3133,7 +3357,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "트레저 2025-26 TOUR [PULSE ON]",
@@ -3148,7 +3373,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "TWS 24/7 : With:Us",
@@ -3164,7 +3390,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "TWS 24/7 : With:Us",
@@ -3176,7 +3403,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -3190,7 +3418,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -3204,7 +3433,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "코르티스 PUT YOUR PHONE DOWN",
@@ -3219,7 +3449,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "코르티스 PUT YOUR PHONE DOWN",
@@ -3234,7 +3465,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "코르티스 PUT YOUR PHONE DOWN",
@@ -3246,7 +3478,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "에버글로우 WORLD TOUR ⟨Re:Code⟩",
@@ -3258,7 +3491,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "원어스 WORLD TOUR ⟨Full Moon⟩",
@@ -3270,7 +3504,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "&TEAM CONCERT TOUR ⟨Blaze The Way⟩",
@@ -3285,7 +3520,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "&TEAM CONCERT TOUR ⟨Blaze The Way⟩",
@@ -3300,7 +3536,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "&TEAM CONCERT TOUR ⟨Blaze The Way⟩",
@@ -3312,7 +3549,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "이즈나 CONCERT TOUR ⟨Who Dat Girl?⟩",
@@ -3327,7 +3565,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "이즈나 CONCERT TOUR ⟨Who Dat Girl?⟩",
@@ -3342,7 +3581,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-04",
-   "note": ""
+   "note": "",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "이즈나 CONCERT TOUR ⟨Who Dat Girl?⟩",
@@ -3354,7 +3594,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "우즈 WORLD TOUR ⟨Archive.1⟩",
@@ -3366,7 +3607,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "유니스 EverAfter / Ever Last",
@@ -3378,7 +3620,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-08-29",
-   "note": "Claude 트래커 모델 추정치(가정 기반)"
+   "note": "Claude 트래커 모델 추정치(가정 기반)",
+   "dataset": "tracker_tours"
   },
   {
    "subject": "BTS ARIRANG (전체 추정)",
@@ -3392,7 +3635,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "07 검증표(8/29) 추정: 진행 38회 230만 + 잔여 50회 외삽 → 최종 500~540만·$8.8~9.8억. 정렬값은 중앙 520만. Claude 01 대화의 권역별 재계산은 약 453만(440~510만)·$8.17억. 공식 아님 — 실적은 Billboard 9/30 기준 매출 $500M+ 돌파."
+   "note": "07 검증표(8/29) 추정: 진행 38회 230만 + 잔여 50회 외삽 → 최종 500~540만·$8.8~9.8억. 정렬값은 중앙 520만. Claude 01 대화의 권역별 재계산은 약 453만(440~510만)·$8.17억. 공식 아님 — 실적은 Billboard 9/30 기준 매출 $500M+ 돌파.",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS ARIRANG (전체 추정)",
@@ -3406,7 +3650,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 dominATE",
@@ -3422,7 +3667,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": null,
-   "note": "범위: 본편 54회 보고분 1,983,821명·$263.3M (Touring Data). 총 56회 = 본편 54 + 인천 앙코르 2 (JYP). Claude 트래커의 55회·215만은 1차 출처 없음 → 미채택."
+   "note": "범위: 본편 54회 보고분 1,983,821명·$263.3M (Touring Data). 총 56회 = 본편 54 + 인천 앙코르 2 (JYP). Claude 트래커의 55회·215만은 1차 출처 없음 → 미채택.",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 dominATE",
@@ -3438,7 +3684,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 DEADLINE",
@@ -3453,7 +3700,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 Born Pink (비교선)",
@@ -3465,7 +3713,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "2022~23년 완료. 매출 3억 3천만 달러로 케이팝 투어 최대 매출 · 07 검증표 $330M, Claude 01 대화는 Billboard 기준 $331.8M이라 함 (07 값 유지)"
+   "note": "2022~23년 완료. 매출 3억 3천만 달러로 케이팝 투어 최대 매출 · 07 검증표 $330M, Claude 01 대화는 Billboard 기준 $331.8M이라 함 (07 값 유지)",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 Born Pink (비교선)",
@@ -3477,7 +3726,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS ARIRANG (집계 확인분)",
@@ -3489,7 +3739,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "빌보드 박스스코어 2026-08-11까지. 매출 $433.2M. 투어 진행 중"
+   "note": "빌보드 박스스코어 2026-08-11까지. 매출 $433.2M. 투어 진행 중",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS ARIRANG (집계 확인분)",
@@ -3501,7 +3752,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 NEW_",
@@ -3513,7 +3765,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "온·오프라인 합산 90만 명 이상. 빌보드 반기 톱투어 7위"
+   "note": "온·오프라인 합산 90만 명 이상. 빌보드 반기 톱투어 7위",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 NEW_",
@@ -3525,7 +3778,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "에스파 SYNK: Parallel Line (비교선)",
@@ -3543,7 +3797,8 @@
    "collected_at": "2026-10-05",
    "grade": "미확",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "아이브 SHOW WHAT I HAVE (비교선)",
@@ -3555,7 +3810,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "2023~24년 완료, 19개국. 아시아 21·북미 6·유럽 5·중남미 3·오세아니아 2"
+   "note": "2023~24년 완료, 19개국. 아시아 21·북미 6·유럽 5·중남미 3·오세아니아 2",
+   "dataset": "tracker_records"
   },
   {
    "subject": "아이브 SHOW WHAT I HAVE (비교선)",
@@ -3567,7 +3823,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 RUN IT (서울)",
@@ -3579,7 +3836,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "서울 5회 수치. 투어 총관객 아님. 아시아 1차 레그 약 18회 9도시 발표"
+   "note": "서울 5회 수치. 투어 총관객 아님. 아시아 1차 레그 약 18회 9도시 발표",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 RUN IT (서울)",
@@ -3591,7 +3849,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 Pureflow (추정)",
@@ -3603,7 +3862,15 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": null,
-   "note": "Claude 모델 추정치(8/30): 34회 × 아레나 회당 약 1.2만 명 가정. 확정 회차 36회로 재계산하지 않음. 실제 관객 미발표."
+   "note": "Claude 모델 추정치(8/30): 34회 × 아레나 회당 약 1.2만 명 가정. 확정 회차 36회로 재계산하지 않음. 실제 관객 미발표.",
+   "dataset": "tracker_records",
+   "estimate_basis": {
+    "shows": 34,
+    "confirmed_shows": 36,
+    "model": "Claude 8/30 비교표 모델",
+    "per_show_assumption": "아레나 회당 약 1.2만 명 (Claude 가정)",
+    "scaled_to_confirmed": false
+   }
   },
   {
    "subject": "르세라핌 Pureflow (추정)",
@@ -3620,7 +3887,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": null,
-   "note": "회차 36 = 마스터값(부분: 공식 발표 32 + 마카오 2 + 교세라돔 2). Claude 원문 회차는 34."
+   "note": "회차 36 = 마스터값(부분: 공식 발표 32 + 마카오 2 + 교세라돔 2). Claude 원문 회차는 34.",
+   "dataset": "tracker_records"
   },
   {
    "subject": "베이비몬스터 Hello Monsters",
@@ -3632,7 +3900,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "데뷔 첫 월드투어. 아시아·북미"
+   "note": "데뷔 첫 월드투어. 아시아·북미",
+   "dataset": "tracker_records"
   },
   {
    "subject": "베이비몬스터 Hello Monsters",
@@ -3644,7 +3913,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 Easy Crazy Hot",
@@ -3656,7 +3926,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": null,
-   "note": "도쿄돔 2회 8만 명 포함. 2026년 2월 잠실 폐막 · Touring Data 27/31회 보고분 $34.1M"
+   "note": "도쿄돔 2회 8만 명 포함. 2026년 2월 잠실 폐막 · Touring Data 27/31회 보고분 $34.1M",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 Easy Crazy Hot",
@@ -3668,7 +3939,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 얼리전트 스타디움 · 라스베이거스",
@@ -3680,7 +3952,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "매출 4,950만 달러. 4회차 편성 도시"
+   "note": "매출 4,950만 달러. 4회차 편성 도시",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 얼리전트 스타디움 · 라스베이거스",
@@ -3692,7 +3965,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 레이먼드 제임스 스타디움 · 탬파",
@@ -3704,7 +3978,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "매출 4,070만 달러. 북미 1차 레그 개막지"
+   "note": "매출 4,070만 달러. 북미 1차 레그 개막지",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 레이먼드 제임스 스타디움 · 탬파",
@@ -3716,7 +3991,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 브라질 레그 (리우+상파울루)",
@@ -3728,7 +4004,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "브라질 개최 케이팝 투어 최대 규모"
+   "note": "브라질 개최 케이팝 투어 최대 규모",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 브라질 레그 (리우+상파울루)",
@@ -3740,7 +4017,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 스탠퍼드 스타디움",
@@ -3752,7 +4030,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "매출 3,050만 달러. 관객이 태극기를 들고 아리랑을 부른 팬 프로젝트 진행"
+   "note": "매출 3,050만 달러. 관객이 태극기를 들고 아리랑을 부른 팬 프로젝트 진행",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 스탠퍼드 스타디움",
@@ -3764,7 +4043,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS M&T 뱅크 스타디움 · 볼티모어",
@@ -3776,7 +4056,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "구장 이틀 합산 최다 관중 기록. 그룹의 첫 볼티모어 공연"
+   "note": "구장 이틀 합산 최다 관중 기록. 그룹의 첫 볼티모어 공연",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS M&T 뱅크 스타디움 · 볼티모어",
@@ -3788,7 +4069,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 마드리드",
@@ -3800,7 +4082,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "매출 2,510만 달러. 취소된 과거 투어에서 빠졌던 지역"
+   "note": "매출 2,510만 달러. 취소된 과거 투어에서 빠졌던 지역",
+   "dataset": "tracker_records"
   },
   {
    "subject": "BTS 마드리드",
@@ -3812,7 +4095,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 스타드 드 프랑스 · 파리",
@@ -3824,7 +4108,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "프랑스 내 한국 가수 최다 관객. 1회 매진 후 2회차 추가"
+   "note": "프랑스 내 한국 가수 최다 관객. 1회 매진 후 2회차 추가",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 스타드 드 프랑스 · 파리",
@@ -3836,7 +4121,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 에스타지우 두 모룸비 · 상파울루",
@@ -3848,7 +4134,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "케이팝 최초 모룸비 단독 공연. 수요 폭증으로 2회차 추가"
+   "note": "케이팝 최초 모룸비 단독 공연. 수요 폭증으로 2회차 추가",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 에스타지우 두 모룸비 · 상파울루",
@@ -3860,7 +4147,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 소파이 스타디움 · 잉글우드",
@@ -3872,7 +4160,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "47분 만에 전석 매진. 걸그룹 최초 이틀 연속 매진"
+   "note": "47분 만에 전석 매진. 걸그룹 최초 이틀 연속 매진",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 소파이 스타디움 · 잉글우드",
@@ -3884,7 +4173,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 도쿄돔",
@@ -3896,7 +4186,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "Easy Crazy Hot 투어 중 최대 회차"
+   "note": "Easy Crazy Hot 투어 중 최대 회차",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 도쿄돔",
@@ -3908,7 +4199,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 고양종합운동장",
@@ -3920,7 +4212,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "DEADLINE 개막지. 신곡 JUMP를 이 무대에서 처음 공개"
+   "note": "DEADLINE 개막지. 신곡 JUMP를 이 무대에서 처음 공개",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 고양종합운동장",
@@ -3932,7 +4225,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 카이탁 스타디움 · 홍콩",
@@ -3944,7 +4238,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "빌보드 톱 박스스코어 18위. 케이팝 유일 톱30 진입"
+   "note": "빌보드 톱 박스스코어 18위. 케이팝 유일 톱30 진입",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 카이탁 스타디움 · 홍콩",
@@ -3956,7 +4251,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 에스타지우 닐톤 산투스 · 리우",
@@ -3968,7 +4264,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "단일 공연 기준 남미 최대 회차"
+   "note": "단일 공연 기준 남미 최대 회차",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 에스타지우 닐톤 산투스 · 리우",
@@ -3980,7 +4277,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 KSPO돔 · 서울",
@@ -3992,7 +4290,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "RUN IT 개막. 오라캐스트 청각 보조 시스템 도입"
+   "note": "RUN IT 개막. 오라캐스트 청각 보조 시스템 도입",
+   "dataset": "tracker_records"
   },
   {
    "subject": "스트레이 키즈 KSPO돔 · 서울",
@@ -4004,7 +4303,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 로저스 스타디움 · 토론토",
@@ -4016,7 +4316,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "판매 51,086석 기준 순 관객. 전석 매진"
+   "note": "판매 51,086석 기준 순 관객. 전석 매진",
+   "dataset": "tracker_records"
   },
   {
    "subject": "블랙핑크 로저스 스타디움 · 토론토",
@@ -4028,7 +4329,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "데이식스 KSPO돔 · 서울",
@@ -4040,7 +4342,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "데뷔 10주년 투어 국내 피날레"
+   "note": "데뷔 10주년 투어 국내 피날레",
+   "dataset": "tracker_records"
   },
   {
    "subject": "데이식스 KSPO돔 · 서울",
@@ -4052,7 +4355,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 인천아시아드주경기장 앙코르",
@@ -4064,7 +4368,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "NEW_ 투어 폐막 공연"
+   "note": "NEW_ 투어 폐막 공연",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 인천아시아드주경기장 앙코르",
@@ -4076,7 +4381,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "제로베이스원 KSPO돔 · 서울",
@@ -4088,7 +4394,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "HERE&NOW 앙코르"
+   "note": "HERE&NOW 앙코르",
+   "dataset": "tracker_records"
   },
   {
    "subject": "제로베이스원 KSPO돔 · 서울",
@@ -4100,7 +4407,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "아이브 인스파이어 아레나 · 인천",
@@ -4112,7 +4420,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "네 번째 팬콘 DIVE into IVE"
+   "note": "네 번째 팬콘 DIVE into IVE",
+   "dataset": "tracker_records"
   },
   {
    "subject": "아이브 인스파이어 아레나 · 인천",
@@ -4124,7 +4433,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "NCT 위시 KSPO돔 · 서울 앙코르",
@@ -4136,7 +4446,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "INTO THE WISH : Our WISH 앙코르. 데뷔 2년 차 국내 최다"
+   "note": "INTO THE WISH : Our WISH 앙코르. 데뷔 2년 차 국내 최다",
+   "dataset": "tracker_records"
   },
   {
    "subject": "NCT 위시 KSPO돔 · 서울 앙코르",
@@ -4148,7 +4459,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "엔하이픈 KSPO돔 · 서울",
@@ -4162,7 +4474,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": null,
-   "note": "BLOOD SAGA 개막 3회 (범위: 서울만). BELIFT 32,250 (Korea Herald). 07탭/Claude 32,280은 1차 아님."
+   "note": "BLOOD SAGA 개막 3회 (범위: 서울만). BELIFT 32,250 (Korea Herald). 07탭/Claude 32,280은 1차 아님.",
+   "dataset": "tracker_records"
   },
   {
    "subject": "엔하이픈 KSPO돔 · 서울",
@@ -4176,7 +4489,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "라이즈 KSPO돔 · 서울 피날레",
@@ -4188,7 +4502,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "RIIZING LOUD 국내 피날레"
+   "note": "RIIZING LOUD 국내 피날레",
+   "dataset": "tracker_records"
   },
   {
    "subject": "라이즈 KSPO돔 · 서울 피날레",
@@ -4200,7 +4515,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "엑소 KSPO돔 · 서울",
@@ -4212,7 +4528,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "EXO PLANET #6 EXhOrizon. 데뷔 14년 차 단독 공연"
+   "note": "EXO PLANET #6 EXhOrizon. 데뷔 14년 차 단독 공연",
+   "dataset": "tracker_records"
   },
   {
    "subject": "엑소 KSPO돔 · 서울",
@@ -4224,7 +4541,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "샤이니 KSPO돔 · 서울",
@@ -4236,7 +4554,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "SHINee WORLD VIII THE INVERT"
+   "note": "SHINee WORLD VIII THE INVERT",
+   "dataset": "tracker_records"
   },
   {
    "subject": "샤이니 KSPO돔 · 서울",
@@ -4248,7 +4567,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "보이넥스트도어 KSPO돔 · 서울",
@@ -4262,7 +4582,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": null,
-   "note": "KNOCK ON Vol.2 개막 3회. KOZ 발표 31,800 (조선비즈 7/20). 07탭/Claude 30,571은 1차 아님."
+   "note": "KNOCK ON Vol.2 개막 3회. KOZ 발표 31,800 (조선비즈 7/20). 07탭/Claude 30,571은 1차 아님.",
+   "dataset": "tracker_records"
   },
   {
    "subject": "보이넥스트도어 KSPO돔 · 서울",
@@ -4276,7 +4597,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 에스쿱스X민규 인스파이어 아레나 · 인천",
@@ -4288,7 +4610,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "유닛 단독 CxM DOUBLE UP LIVE PARTY"
+   "note": "유닛 단독 CxM DOUBLE UP LIVE PARTY",
+   "dataset": "tracker_records"
   },
   {
    "subject": "세븐틴 에스쿱스X민규 인스파이어 아레나 · 인천",
@@ -4300,7 +4623,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "더보이즈 KSPO돔 · 서울",
@@ -4312,7 +4636,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "INTER-ZECTION"
+   "note": "INTER-ZECTION",
+   "dataset": "tracker_records"
   },
   {
    "subject": "더보이즈 KSPO돔 · 서울",
@@ -4324,7 +4649,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "데이식스 부산 벡스코",
@@ -4336,7 +4662,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "The DECADE 부산 공연"
+   "note": "The DECADE 부산 공연",
+   "dataset": "tracker_records"
   },
   {
    "subject": "데이식스 부산 벡스코",
@@ -4348,7 +4675,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "피원하모니 핸드볼경기장 · 서울",
@@ -4360,7 +4688,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "P1ustage H MOST WANTED 앙코르"
+   "note": "P1ustage H MOST WANTED 앙코르",
+   "dataset": "tracker_records"
   },
   {
    "subject": "피원하모니 핸드볼경기장 · 서울",
@@ -4372,7 +4701,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 인스파이어 아레나 · 인천",
@@ -4384,7 +4714,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "Pureflow 개막. 두 회차 모두 발매 당일 매진, 위버스 동시 생중계"
+   "note": "Pureflow 개막. 두 회차 모두 발매 당일 매진, 위버스 동시 생중계",
+   "dataset": "tracker_records"
   },
   {
    "subject": "르세라핌 인스파이어 아레나 · 인천",
@@ -4396,7 +4727,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "몬스타엑스 KSPO돔 · 서울",
@@ -4408,7 +4740,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": "X: NEXUS 개막"
+   "note": "X: NEXUS 개막",
+   "dataset": "tracker_records"
   },
   {
    "subject": "몬스타엑스 KSPO돔 · 서울",
@@ -4420,7 +4753,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": null,
-   "note": ""
+   "note": "",
+   "dataset": "tracker_records"
   },
   {
    "subject": "Stray Kids (Billboard 2025 연간 집계기간)",
@@ -4434,7 +4768,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "Stray Kids (Billboard 2025 연간 집계기간)",
@@ -4448,7 +4783,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "Stray Kids (Billboard 2025 연간 집계기간)",
@@ -4462,7 +4798,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "SEVENTEEN (Billboard 2025 연간 집계기간)",
@@ -4476,7 +4813,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "SEVENTEEN (Billboard 2025 연간 집계기간)",
@@ -4490,7 +4828,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "SEVENTEEN (Billboard 2025 연간 집계기간)",
@@ -4504,7 +4843,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "j-hope (Billboard 2025 연간 집계기간)",
@@ -4518,7 +4858,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "j-hope (Billboard 2025 연간 집계기간)",
@@ -4532,7 +4873,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "j-hope (Billboard 2025 연간 집계기간)",
@@ -4546,7 +4888,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ENHYPEN (Billboard 2025 연간 집계기간)",
@@ -4560,7 +4903,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ENHYPEN (Billboard 2025 연간 집계기간)",
@@ -4574,7 +4918,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ENHYPEN (Billboard 2025 연간 집계기간)",
@@ -4588,7 +4933,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ATEEZ (Billboard 2025 연간 집계기간)",
@@ -4602,7 +4948,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ATEEZ (Billboard 2025 연간 집계기간)",
@@ -4616,7 +4963,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "ATEEZ (Billboard 2025 연간 집계기간)",
@@ -4630,7 +4978,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "TOMORROW X TOGETHER (Billboard 2025 연간 집계기간)",
@@ -4644,7 +4993,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "TOMORROW X TOGETHER (Billboard 2025 연간 집계기간)",
@@ -4658,7 +5008,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "TOMORROW X TOGETHER (Billboard 2025 연간 집계기간)",
@@ -4672,7 +5023,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "Jin (Billboard 2025 연간 집계기간)",
@@ -4686,7 +5038,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "Jin (Billboard 2025 연간 집계기간)",
@@ -4700,7 +5053,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "Jin (Billboard 2025 연간 집계기간)",
@@ -4714,7 +5068,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "LE SSERAFIM (Billboard 2025 연간 집계기간)",
@@ -4728,7 +5083,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "LE SSERAFIM (Billboard 2025 연간 집계기간)",
@@ -4742,7 +5098,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "LE SSERAFIM (Billboard 2025 연간 집계기간)",
@@ -4756,7 +5113,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "G-Dragon (Billboard 2025 연간 집계기간)",
@@ -4770,7 +5128,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "G-Dragon (Billboard 2025 연간 집계기간)",
@@ -4784,7 +5143,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "G-Dragon (Billboard 2025 연간 집계기간)",
@@ -4798,7 +5158,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "aespa (Billboard 2025 연간 집계기간)",
@@ -4812,7 +5173,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "aespa (Billboard 2025 연간 집계기간)",
@@ -4826,7 +5188,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "aespa (Billboard 2025 연간 집계기간)",
@@ -4840,7 +5203,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025",
-   "note": "집계기간 기준, 투어 총량 아님"
+   "note": "집계기간 기준, 투어 총량 아님",
+   "dataset": "billboard_2025"
   },
   {
    "subject": "BTS ARIRANG 2026-04 월간",
@@ -4854,7 +5218,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-04",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-04 월간",
@@ -4868,7 +5233,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-04",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-04 월간",
@@ -4882,7 +5248,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-04",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-05 월간",
@@ -4896,7 +5263,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-05",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-05 월간",
@@ -4910,7 +5278,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-05",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-05 월간",
@@ -4924,7 +5293,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-05",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-07 월간",
@@ -4936,7 +5306,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-07",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-07 월간",
@@ -4948,7 +5319,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-07",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-07 월간",
@@ -4960,7 +5332,8 @@
    "collected_at": "2026-10-04",
    "grade": "추정",
    "as_of": "2026-07",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-08 월간",
@@ -4974,7 +5347,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-08",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-08 월간",
@@ -4988,7 +5362,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-08",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS ARIRANG 2026-08 월간",
@@ -5002,7 +5377,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-08",
-   "note": ""
+   "note": "",
+   "dataset": "bts_monthly"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5020,7 +5396,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5038,7 +5415,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인."
+   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5056,7 +5434,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인."
+   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5074,7 +5453,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5092,7 +5472,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "2,300,000 (38회 시점, 8/11)"
+   "note": "2,300,000 (38회 시점, 8/11)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BTS WORLD TOUR 'ARIRANG'",
@@ -5110,7 +5491,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$500M+ (8월 보고분까지, Billboard 9/30)"
+   "note": "$500M+ (8월 보고분까지, Billboard 9/30)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5127,7 +5509,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5144,7 +5527,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "Billboard 2026 상반기(집계기간) $53M·412K·20회는 2026년분 보고치(투어 총량 아님). 2025년분 Billboard 연간: $64.3M·485K·39회(ACT: PROMISE 일부 포함 집계기간)."
+   "note": "Billboard 2026 상반기(집계기간) $53M·412K·20회는 2026년분 보고치(투어 총량 아님). 2025년분 Billboard 연간: $64.3M·485K·39회(ACT: PROMISE 일부 포함 집계기간).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5161,7 +5545,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "Billboard 2026 상반기(집계기간) $53M·412K·20회는 2026년분 보고치(투어 총량 아님). 2025년분 Billboard 연간: $64.3M·485K·39회(ACT: PROMISE 일부 포함 집계기간)."
+   "note": "Billboard 2026 상반기(집계기간) $53M·412K·20회는 2026년분 보고치(투어 총량 아님). 2025년분 Billboard 연간: $64.3M·485K·39회(ACT: PROMISE 일부 포함 집계기간).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5178,7 +5563,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5195,7 +5581,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "약 564,000 (BigHit 발표)"
+   "note": "약 564,000 (BigHit 발표)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER ACT : TOMORROW",
@@ -5212,7 +5599,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$36.7M (보고 17/29회, Touring Data)"
+   "note": "$36.7M (보고 17/29회, Touring Data)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER 2026 TXT MOA CON",
@@ -5226,7 +5614,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER 2026 TXT MOA CON",
@@ -5240,7 +5629,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "데뷔 7주년 기념 3일 공연, 전석 매진(BigHit)."
+   "note": "데뷔 7주년 기념 3일 공연, 전석 매진(BigHit).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER 2026 TXT MOA CON",
@@ -5254,7 +5644,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "데뷔 7주년 기념 3일 공연, 전석 매진(BigHit)."
+   "note": "데뷔 7주년 기념 3일 공연, 전석 매진(BigHit).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER 2026 TXT MOA CON",
@@ -5268,7 +5659,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
@@ -5283,7 +5675,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
@@ -5298,7 +5691,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "발표 32회·23개 도시(2026-08-27). 도쿄돔 2027-01-07~08 확정. BigHit: 추가 도시 발표 예정 → 최종 회차 미정."
+   "note": "발표 32회·23개 도시(2026-08-27). 도쿄돔 2027-01-07~08 확정. BigHit: 추가 도시 발표 예정 → 최종 회차 미정.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
@@ -5313,7 +5707,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "발표 32회·23개 도시(2026-08-27). 도쿄돔 2027-01-07~08 확정. BigHit: 추가 도시 발표 예정 → 최종 회차 미정."
+   "note": "발표 32회·23개 도시(2026-08-27). 도쿄돔 2027-01-07~08 확정. BigHit: 추가 도시 발표 예정 → 최종 회차 미정.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
@@ -5328,7 +5723,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "CORTIS PUT YOUR PHONE DOWN",
@@ -5343,7 +5739,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "CORTIS PUT YOUR PHONE DOWN",
@@ -5358,7 +5755,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "BigHit: 9개 도시 14회 전석 매진. 회차별 관객·매출 공식 발표 없음."
+   "note": "BigHit: 9개 도시 14회 전석 매진. 회차별 관객·매출 공식 발표 없음.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "CORTIS PUT YOUR PHONE DOWN",
@@ -5373,7 +5771,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "BigHit: 9개 도시 14회 전석 매진. 회차별 관객·매출 공식 발표 없음."
+   "note": "BigHit: 9개 도시 14회 전석 매진. 회차별 관객·매출 공식 발표 없음.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "CORTIS PUT YOUR PHONE DOWN",
@@ -5388,7 +5787,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5404,7 +5804,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5420,7 +5821,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "84만은 PLEDIS 누적 발표(온라인 포함 여부 기사마다 표현 차). 매출은 투어 전체가 아닌 Billboard 상반기 집계기간치. 홍콩 카이탁 2회 76,292명·$16.4M."
+   "note": "84만은 PLEDIS 누적 발표(온라인 포함 여부 기사마다 표현 차). 매출은 투어 전체가 아닌 Billboard 상반기 집계기간치. 홍콩 카이탁 2회 76,292명·$16.4M.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5436,7 +5838,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "84만은 PLEDIS 누적 발표(온라인 포함 여부 기사마다 표현 차). 매출은 투어 전체가 아닌 Billboard 상반기 집계기간치. 홍콩 카이탁 2회 76,292명·$16.4M."
+   "note": "84만은 PLEDIS 누적 발표(온라인 포함 여부 기사마다 표현 차). 매출은 투어 전체가 아닌 Billboard 상반기 집계기간치. 홍콩 카이탁 2회 76,292명·$16.4M.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5452,7 +5855,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5468,7 +5872,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "840,000 (PLEDIS, 온·오프라인 합산 표현)"
+   "note": "840,000 (PLEDIS, 온·오프라인 합산 표현)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN WORLD TOUR [NEW_]",
@@ -5484,7 +5889,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$88M (Billboard 2026 상반기 집계 25회·574K)"
+   "note": "$88M (Billboard 2026 상반기 집계 25회·574K)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
@@ -5498,7 +5904,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
@@ -5512,7 +5919,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "관객 수는 Wikipedia 인용치(1차 원문 미확인)."
+   "note": "관객 수는 Wikipedia 인용치(1차 원문 미확인).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
@@ -5526,7 +5934,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "관객 수는 Wikipedia 인용치(1차 원문 미확인)."
+   "note": "관객 수는 Wikipedia 인용치(1차 원문 미확인).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
@@ -5540,7 +5949,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 JAPAN FAN MEETING ‘約束(YAKUSOKU)’",
@@ -5554,7 +5964,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "180,000 (위키 인용)"
+   "note": "180,000 (위키 인용)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
@@ -5568,7 +5979,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
@@ -5582,7 +5994,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "98개국 온라인 생중계 병행."
+   "note": "98개국 온라인 생중계 병행.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
@@ -5596,7 +6009,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "98개국 온라인 생중계 병행."
+   "note": "98개국 온라인 생중계 병행.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
@@ -5610,7 +6024,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SEVENTEEN 2026 SVT 10TH FAN MEETING ‘CARAT LAND’",
@@ -5624,7 +6039,8 @@
    "collected_at": "2026-10-04",
    "grade": "개략",
    "as_of": "2026-10-05",
-   "note": "58,000+ (PLEDIS)"
+   "note": "58,000+ (PLEDIS)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "S.COUPS X MINGYU (CxM) DOUBLE UP LIVE PARTY 2026",
@@ -5638,7 +6054,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "S.COUPS X MINGYU (CxM) DOUBLE UP LIVE PARTY 2026",
@@ -5652,7 +6069,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "S.COUPS X MINGYU (CxM) DOUBLE UP LIVE PARTY 2026",
@@ -5666,7 +6084,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "S.COUPS X MINGYU (CxM) DOUBLE UP LIVE PARTY 2026",
@@ -5680,7 +6099,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "VERNON·THE 8 (V8) 2026 [V8] LIVE",
@@ -5695,7 +6115,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "VERNON·THE 8 (V8) 2026 [V8] LIVE",
@@ -5710,7 +6131,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "고양 KINTEX 7/11–12(2회) + 홍콩 AsiaWorld-Expo 7/17–19(3회, 추가 1회 포함) = 5회. 그 외 도시 발표 없음."
+   "note": "고양 KINTEX 7/11–12(2회) + 홍콩 AsiaWorld-Expo 7/17–19(3회, 추가 1회 포함) = 5회. 그 외 도시 발표 없음.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "VERNON·THE 8 (V8) 2026 [V8] LIVE",
@@ -5725,7 +6147,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "고양 KINTEX 7/11–12(2회) + 홍콩 AsiaWorld-Expo 7/17–19(3회, 추가 1회 포함) = 5회. 그 외 도시 발표 없음."
+   "note": "고양 KINTEX 7/11–12(2회) + 홍콩 AsiaWorld-Expo 7/17–19(3회, 추가 1회 포함) = 5회. 그 외 도시 발표 없음.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "VERNON·THE 8 (V8) 2026 [V8] LIVE",
@@ -5740,7 +6163,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "VERNON·THE 8 (V8) 2026 [V8] LIVE",
@@ -5755,7 +6179,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "15,000 (고양 2회 합산, allkpop)"
+   "note": "15,000 (고양 2회 합산, allkpop)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 24/7 : With:Us",
@@ -5771,7 +6196,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 24/7 : With:Us",
@@ -5787,7 +6213,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "공지 기준 18회."
+   "note": "공지 기준 18회.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 24/7 : With:Us",
@@ -5803,7 +6230,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "공지 기준 18회."
+   "note": "공지 기준 18회.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -5817,7 +6245,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -5831,7 +6260,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "회차 15는 공지 일정(서울2·후쿠오카3·고베3·요코하마2·마카오2·방콕1·싱가포르1·가오슝1) 합산. 잔여: 싱가포르 10/10, 가오슝 10/24. Weverse 원문 직접 열람 실패 — 검색 색인 기준."
+   "note": "회차 15는 공지 일정(서울2·후쿠오카3·고베3·요코하마2·마카오2·방콕1·싱가포르1·가오슝1) 합산. 잔여: 싱가포르 10/10, 가오슝 10/24. Weverse 원문 직접 열람 실패 — 검색 색인 기준.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -5845,7 +6275,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "회차 15는 공지 일정(서울2·후쿠오카3·고베3·요코하마2·마카오2·방콕1·싱가포르1·가오슝1) 합산. 잔여: 싱가포르 10/10, 가오슝 10/24. Weverse 원문 직접 열람 실패 — 검색 색인 기준."
+   "note": "회차 15는 공지 일정(서울2·후쿠오카3·고베3·요코하마2·마카오2·방콕1·싱가포르1·가오슝1) 합산. 잔여: 싱가포르 10/10, 가오슝 10/24. Weverse 원문 직접 열람 실패 — 검색 색인 기준.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
@@ -5859,7 +6290,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5877,7 +6309,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5895,7 +6328,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17."
+   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5913,7 +6347,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17."
+   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5931,7 +6366,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5949,7 +6385,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "225,250 (범위: 서울 3회 32,250 + 미주 12회 193,000, 부산 2회 미포함)"
+   "note": "225,250 (범위: 서울 3회 32,250 + 미주 12회 193,000, 부산 2회 미포함)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WORLD TOUR ‘BLOOD SAGA’",
@@ -5967,7 +6404,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$3.65M (서울 3회만)"
+   "note": "$3.65M (서울 3회만)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -5984,7 +6422,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -6001,7 +6440,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "32회·19개 도시·67만+ (BELIFT). Billboard 2025 연간(집계기간)은 $76.1M·556K·25회 — 투어 총량 아님."
+   "note": "32회·19개 도시·67만+ (BELIFT). Billboard 2025 연간(집계기간)은 $76.1M·556K·25회 — 투어 총량 아님.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -6018,7 +6458,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "32회·19개 도시·67만+ (BELIFT). Billboard 2025 연간(집계기간)은 $76.1M·556K·25회 — 투어 총량 아님."
+   "note": "32회·19개 도시·67만+ (BELIFT). Billboard 2025 연간(집계기간)은 $76.1M·556K·25회 — 투어 총량 아님.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -6035,7 +6476,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -6052,7 +6494,8 @@
    "collected_at": "2026-10-05",
    "grade": "개략",
    "as_of": "2026-10-05",
-   "note": "670,000+ (BELIFT 발표)"
+   "note": "670,000+ (BELIFT 발표)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ENHYPEN WALK THE LINE",
@@ -6069,7 +6512,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "$76.1M (Billboard 2025 집계기간, 부분)"
+   "note": "$76.1M (Billboard 2025 집계기간, 부분)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT ILLIT LIVE 'PRESS START♥︎'",
@@ -6084,7 +6528,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT ILLIT LIVE 'PRESS START♥︎'",
@@ -6099,7 +6544,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT ILLIT LIVE 'PRESS START♥︎'",
@@ -6114,7 +6560,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT ILLIT LIVE 'PRESS START♥︎'",
@@ -6129,7 +6576,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT 'PRESS START♥︎' ENCORE",
@@ -6145,7 +6593,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT 'PRESS START♥︎' ENCORE",
@@ -6161,7 +6610,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식)."
+   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT 'PRESS START♥︎' ENCORE",
@@ -6177,7 +6627,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식)."
+   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "ILLIT 'PRESS START♥︎' ENCORE",
@@ -6193,7 +6644,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
@@ -6210,7 +6662,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
@@ -6227,7 +6680,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표."
+   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
@@ -6244,7 +6698,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표."
+   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
@@ -6261,7 +6716,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM Easy Crazy Hot Tour",
@@ -6276,7 +6732,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM Easy Crazy Hot Tour",
@@ -6291,7 +6748,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM Easy Crazy Hot Tour",
@@ -6306,7 +6764,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM Easy Crazy Hot Tour",
@@ -6321,7 +6780,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "237,441 (보고 27/31회)"
+   "note": "237,441 (보고 27/31회)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "LE SSERAFIM Easy Crazy Hot Tour",
@@ -6336,7 +6796,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$34.1M (보고 27/31회)"
+   "note": "$34.1M (보고 27/31회)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6353,7 +6814,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6370,7 +6832,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ)."
+   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6387,7 +6850,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ)."
+   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6404,7 +6868,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6421,7 +6886,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "69,300 (Billboard 보고 6회)"
+   "note": "69,300 (Billboard 보고 6회)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2'",
@@ -6438,7 +6904,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$5.8M (Billboard 보고 6회, 9/30)"
+   "note": "$5.8M (Billboard 보고 6회, 9/30)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.1'",
@@ -6450,7 +6917,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.1'",
@@ -6462,7 +6930,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.1'",
@@ -6474,7 +6943,8 @@
    "collected_at": "2026-10-04",
    "grade": "미확",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "&TEAM 2026 CONCERT TOUR 'BLAZE THE WAY'",
@@ -6489,7 +6959,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "&TEAM 2026 CONCERT TOUR 'BLAZE THE WAY'",
@@ -6504,7 +6975,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "14개 도시 23회(YX LABELS, 10/3). 9/5–6 벨루나돔(첫 돔), 10/3–4 KSPO돔 앙코르로 종료(오늘 최종일). 2025 아시아 투어는 10개 도시 약 16만(HYBE JAPAN)."
+   "note": "14개 도시 23회(YX LABELS, 10/3). 9/5–6 벨루나돔(첫 돔), 10/3–4 KSPO돔 앙코르로 종료(오늘 최종일). 2025 아시아 투어는 10개 도시 약 16만(HYBE JAPAN).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "&TEAM 2026 CONCERT TOUR 'BLAZE THE WAY'",
@@ -6519,7 +6991,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "14개 도시 23회(YX LABELS, 10/3). 9/5–6 벨루나돔(첫 돔), 10/3–4 KSPO돔 앙코르로 종료(오늘 최종일). 2025 아시아 투어는 10개 도시 약 16만(HYBE JAPAN)."
+   "note": "14개 도시 23회(YX LABELS, 10/3). 9/5–6 벨루나돔(첫 돔), 10/3–4 KSPO돔 앙코르로 종료(오늘 최종일). 2025 아시아 투어는 10개 도시 약 16만(HYBE JAPAN).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "&TEAM 2026 CONCERT TOUR 'BLAZE THE WAY'",
@@ -6534,7 +7007,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "KATSEYE THE WILDWORLD TOUR",
@@ -6552,7 +7026,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "KATSEYE THE WILDWORLD TOUR",
@@ -6570,7 +7045,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28)."
+   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "KATSEYE THE WILDWORLD TOUR",
@@ -6588,7 +7064,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28)."
+   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "KATSEYE THE WILDWORLD TOUR",
@@ -6606,7 +7083,8 @@
    "collected_at": "2026-10-05",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SANTOS BRAVOS ‘SESIÓN DUAL’",
@@ -6622,7 +7100,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SANTOS BRAVOS ‘SESIÓN DUAL’",
@@ -6638,7 +7117,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "그 외 2026 페스티벌 출연: 보고타·몬테레이·과테말라시티·멕시코시티, CAMPO MARTE 26(7/15), KCON LA(8/14), ES LATINA 마드리드(9/18–20). 정규 투어 미발표."
+   "note": "그 외 2026 페스티벌 출연: 보고타·몬테레이·과테말라시티·멕시코시티, CAMPO MARTE 26(7/15), KCON LA(8/14), ES LATINA 마드리드(9/18–20). 정규 투어 미발표.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SANTOS BRAVOS ‘SESIÓN DUAL’",
@@ -6654,7 +7134,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "그 외 2026 페스티벌 출연: 보고타·몬테레이·과테말라시티·멕시코시티, CAMPO MARTE 26(7/15), KCON LA(8/14), ES LATINA 마드리드(9/18–20). 정규 투어 미발표."
+   "note": "그 외 2026 페스티벌 출연: 보고타·몬테레이·과테말라시티·멕시코시티, CAMPO MARTE 26(7/15), KCON LA(8/14), ES LATINA 마드리드(9/18–20). 정규 투어 미발표.",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "SANTOS BRAVOS ‘SESIÓN DUAL’",
@@ -6670,7 +7151,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "j-hope (BTS) HOPE ON THE STAGE",
@@ -6684,7 +7166,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "j-hope (BTS) HOPE ON THE STAGE",
@@ -6698,7 +7181,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "2026년 BTS 멤버 개별 솔로 투어는 단체 ARIRANG 투어 진행으로 없음(공식 일정 기준)."
+   "note": "2026년 BTS 멤버 개별 솔로 투어는 단체 ARIRANG 투어 진행으로 없음(공식 일정 기준).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "j-hope (BTS) HOPE ON THE STAGE",
@@ -6712,7 +7196,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "2026년 BTS 멤버 개별 솔로 투어는 단체 ARIRANG 투어 진행으로 없음(공식 일정 기준)."
+   "note": "2026년 BTS 멤버 개별 솔로 투어는 단체 ARIRANG 투어 진행으로 없음(공식 일정 기준).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "j-hope (BTS) HOPE ON THE STAGE",
@@ -6726,7 +7211,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "504,000 (Billboard 2025 집계기간 33회)"
+   "note": "504,000 (Billboard 2025 집계기간 33회)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "j-hope (BTS) HOPE ON THE STAGE",
@@ -6740,7 +7226,8 @@
    "collected_at": "2026-10-04",
    "grade": "확정",
    "as_of": "2026-10-05",
-   "note": "$79.9M (Billboard 2025)"
+   "note": "$79.9M (Billboard 2025)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "Jin (BTS) RUNSEOKJIN_EP.TOUR",
@@ -6754,7 +7241,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": ""
+   "note": "",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "Jin (BTS) RUNSEOKJIN_EP.TOUR",
@@ -6768,7 +7256,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "기간 일자는 공식 공지 재확인 필요(회차·관객·매출은 Billboard 연간)."
+   "note": "기간 일자는 공식 공지 재확인 필요(회차·관객·매출은 Billboard 연간).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "Jin (BTS) RUNSEOKJIN_EP.TOUR",
@@ -6782,7 +7271,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "기간 일자는 공식 공지 재확인 필요(회차·관객·매출은 Billboard 연간)."
+   "note": "기간 일자는 공식 공지 재확인 필요(회차·관객·매출은 Billboard 연간).",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "Jin (BTS) RUNSEOKJIN_EP.TOUR",
@@ -6796,7 +7286,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "287,000 (Billboard 2025 집계기간 18회)"
+   "note": "287,000 (Billboard 2025 집계기간 18회)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "Jin (BTS) RUNSEOKJIN_EP.TOUR",
@@ -6810,7 +7301,8 @@
    "collected_at": "2026-10-04",
    "grade": "부분",
    "as_of": "2026-10-05",
-   "note": "$46.1M (Billboard 2025)"
+   "note": "$46.1M (Billboard 2025)",
+   "dataset": "hybe_tours"
   },
   {
    "subject": "HYBE 2025 1Q",
@@ -6825,7 +7317,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025 1Q",
-   "note": "HYBE 실적 공시 보도치."
+   "note": "HYBE 실적 공시 보도치.",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2025 2Q",
@@ -6840,7 +7333,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025 2Q",
-   "note": "HYBE 실적 공시 보도치."
+   "note": "HYBE 실적 공시 보도치.",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2025 3Q",
@@ -6855,7 +7349,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025 3Q",
-   "note": "HYBE 실적 공시 보도치."
+   "note": "HYBE 실적 공시 보도치.",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2025 4Q",
@@ -6869,7 +7364,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025 4Q",
-   "note": "소폭 감소 · "
+   "note": "소폭 감소 · ",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2025 연간",
@@ -6885,7 +7381,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2025 연간",
-   "note": "+약 69% · 10개 팀 279회 공연(HYBE). 분기 합 1,552+1,887+2,450+1,751=7,640억은 분기별 억원 반올림 차이(연간 공시 7,639억 유지)."
+   "note": "+약 69% · 10개 팀 279회 공연(HYBE). 분기 합 1,552+1,887+2,450+1,751=7,640억은 분기별 억원 반올림 차이(연간 공시 7,639억 유지).",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2026 1Q",
@@ -6899,7 +7396,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026 1Q",
-   "note": "−42.8% · "
+   "note": "−42.8% · ",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2026 2Q",
@@ -6915,7 +7413,8 @@
    "collected_at": "2026-10-05",
    "grade": "확정",
    "as_of": "2026 2Q",
-   "note": "+243.3% (QoQ +630%) · 사상 최대. BTS ARIRANG 24회 + SEVENTEEN 팬미팅·&TEAM·TXT·ENHYPEN 공연."
+   "note": "+243.3% (QoQ +630%) · 사상 최대. BTS ARIRANG 24회 + SEVENTEEN 팬미팅·&TEAM·TXT·ENHYPEN 공연.",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2026 3Q(E)",
@@ -6929,7 +7428,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026 3Q(E)",
-   "note": "증권사 전망치(724.9십억). 실적 발표 전."
+   "note": "증권사 전망치(724.9십억). 실적 발표 전.",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2026 4Q(E)",
@@ -6943,7 +7443,8 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026 4Q(E)",
-   "note": "증권사 전망치(518.3십억)."
+   "note": "증권사 전망치(518.3십억).",
+   "dataset": "hybe_company"
   },
   {
    "subject": "HYBE 2026 연간(E)",
@@ -6957,7 +7458,155 @@
    "collected_at": "2026-10-05",
    "grade": "추정",
    "as_of": "2026 연간(E)",
-   "note": "증권사 전망치(1,979.6십억)."
+   "note": "증권사 전망치(1,979.6십억).",
+   "dataset": "hybe_company"
+  },
+  {
+   "subject": "BTS WORLD TOUR 'ARIRANG'",
+   "artist_id": "bts",
+   "metric": "shows_done",
+   "value": 53,
+   "unit": "회",
+   "source_url": [
+    "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+    "https://www.billboard.com/pro/bts-the-weeknd-monthly-boxscore-report/"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 48(10/05). 위키 일정표 기준 계산, 2026-10-14 KST 아침 기준(현지 공연 종료분만)",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "BTS WORLD TOUR 'ARIRANG'",
+   "artist_id": "bts",
+   "metric": "shows_left",
+   "value": 35,
+   "unit": "회",
+   "source_url": [
+    "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+    "https://www.billboard.com/pro/bts-the-weeknd-monthly-boxscore-report/"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 40(10/05). 88−53. Billboard 9/30 \"40 shows left\"와 일치(10월 보고타·리마 5회 차감)",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "BTS ARIRANG 리마 3회 (10/7·9·10)",
+   "artist_id": "bts",
+   "metric": "attendance",
+   "value": 151500,
+   "unit": "명",
+   "source_url": [
+    "https://ktrenz.com/article/2026/10/bts-arirang-tour-500-million-lima-peru-151500"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "개략",
+   "as_of": "2026-10-10",
+   "note": "2차 보도 수치, Billboard Boxscore 미보고 — 1차 보고 시 교체",
+   "dataset": "news_weekly"
+  },
+  {
+   "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
+   "artist_id": "txt",
+   "metric": "shows",
+   "value": 33,
+   "unit": "회",
+   "source_url": [
+    "https://weverse.io/txt/notice/38684",
+    "https://en.fannstar.tf.co.kr/fnnews/read/355672",
+    "https://ime.co/blog/tour/tomorrow-x-together-world-tour-in-macau-2/"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "확정",
+   "as_of": "2026-10-14",
+   "note": "이전 32(8/27 발표). 마카오 11/20 추가",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "TOMORROW X TOGETHER WORLD TOUR ⟨STEAL THE WIND⟩",
+   "artist_id": "txt",
+   "metric": "shows_left",
+   "value": 33,
+   "unit": "회",
+   "source_url": [
+    "https://weverse.io/txt/notice/38684",
+    "https://en.fannstar.tf.co.kr/fnnews/read/355672",
+    "https://ime.co/blog/tour/tomorrow-x-together-world-tour-in-macau-2/"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "확정",
+   "as_of": "2026-10-14",
+   "note": "투어 시작 전(11/13)",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
+   "artist_id": "tws",
+   "metric": "shows_done",
+   "value": 14,
+   "unit": "회",
+   "source_url": [
+    "https://weverse.io/tws/notice/35444"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 13. 공지 일정 기준 계산",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "TWS 2026 TOUR ⟨24/7:FOR:YOU⟩",
+   "artist_id": "tws",
+   "metric": "shows_left",
+   "value": 1,
+   "unit": "회",
+   "source_url": [
+    "https://weverse.io/tws/notice/35444"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 2. 가오슝 10/24",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
+   "artist_id": "le_sserafim",
+   "metric": "shows_done",
+   "value": 22,
+   "unit": "회",
+   "source_url": [
+    "https://prtimes.jp/main/html/rd/p/000000690.000045862.html",
+    "https://weverse.io/lesserafim/notice/37666",
+    "https://www.le-sserafim.jp/news/0fbf87ba1d6c",
+    "https://en.wikipedia.org/wiki/Pureflow_Tour"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 20(10/05). 인천2+일본11+북미9. 2026-10-14 KST 아침 기준(현지 공연 종료분만)",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "LE SSERAFIM 2026 TOUR 'PUREFLOW'",
+   "artist_id": "le_sserafim",
+   "metric": "shows_left",
+   "value": 14,
+   "unit": "회",
+   "source_url": [
+    "https://prtimes.jp/main/html/rd/p/000000690.000045862.html",
+    "https://weverse.io/lesserafim/notice/37666",
+    "https://www.le-sserafim.jp/news/0fbf87ba1d6c",
+    "https://en.wikipedia.org/wiki/Pureflow_Tour"
+   ],
+   "collected_at": "2026-10-14",
+   "grade": "부분",
+   "as_of": "2026-10-14",
+   "note": "이전 16. 유럽5+마카오2+타이베이2+싱가포르1+마닐라2+교세라돔2. 2026-10-14 KST 아침 기준(현지 공연 종료분만)",
+   "dataset": "hybe_tours"
   }
  ]
 }

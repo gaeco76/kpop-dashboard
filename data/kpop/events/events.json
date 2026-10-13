@@ -361,7 +361,7 @@
  },
  "awards2026": {
   "title": "2026 국내 음악 시상식 캘린더",
-  "asOf": "2026-10-04",
+  "asOf": "2026-10-14",
   "note": "과거 일정·라인업은 Claude 대화(8/28) 기준, 9월 이후·예정 시상식은 웹 재확인. ‘상태’는 2026-10-04 KST 기준.",
   "events": [
    {
@@ -611,13 +611,13 @@
     "state": "예정",
     "lineup": "라인업 미공개",
     "status": "verified",
-    "note": "‘릴레이 콘서트’형 시상식, 주최 NINEONENINE919",
+    "note": "‘릴레이 콘서트’형 시상식, 주최 NINEONENINE919 · 2026-10-14 재확인: 개최 도시·라인업 여전히 미발표(검색 기준).",
     "results": [],
     "grade": "확정",
     "source_url": [
      "https://mhnse.com/news/articleView.html?idxno=1449259"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-14",
     "source_ids": [
      "MHN-SSF"
     ]
@@ -647,21 +647,23 @@
     "dateSort": "2026-11-14",
     "venue": "고척스카이돔",
     "state": "예정",
-    "lineup": "1차: PLAVE, RIIZE, NCT WISH, ALPHA DRIVE ONE, LNGSHOT / 3차: NCT 127, NCT DREAM, ATEEZ, TWS, AND2BLE, 82MAJOR / 2차(걸그룹·솔로) 명단은 미확인",
-    "status": "partial",
-    "note": "사상 첫 2일 개최. Claude 대화(8/28)에선 라인업 미공개",
+    "lineup": "1차: PLAVE, RIIZE, NCT WISH, ALPHA DRIVE ONE, LNGSHOT / 이후 발표(카카오엔터 9/30): NCT 127, NCT DREAM, ATEEZ, 82MAJOR, TWS, AND2BLE, YENA, ILLIT, RESCENE, Hearts2Hearts (발표분 15팀, 일자별 배정 미발표)",
+    "status": "verified",
+    "note": "사상 첫 2일 개최. Claude 대화(8/28)에선 라인업 미공개 · 2026-10-14: 이전 ‘2차 명단 미확인’ → 카카오엔터 뉴스룸(9/30)으로 YENA·ILLIT·RESCENE·Hearts2Hearts 확인. 신설 부문 ‘Global TOP 10’.",
     "results": [],
-    "grade": "부분",
+    "grade": "확정",
     "source_url": [
      "https://newsroom.kakaoent.com/news/kakao-entertainment-to-host-mma2026-on-nov-14-15/",
      "https://newsroom.kakaoent.com/news/mma2026-unveils-stellar-lineup-for-its-first-ever-two-day-event/",
-     "https://www.kakaoent.com/pr/detail/592"
+     "https://www.kakaoent.com/pr/detail/592",
+     "https://newsroom.kakaoent.com/news/mma2026-brings-k-pops-biggest-names-to-stage/"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-14",
     "source_ids": [
      "KAKAO-MMA",
      "KAKAO-MMA-L1",
-     "KAKAO-MMA-L3"
+     "KAKAO-MMA-L3",
+     "KAKAO-MMA-L2"
     ]
    },
    {
@@ -670,17 +672,23 @@
     "dateSort": "2026-11-20",
     "venue": "교세라돔 오사카",
     "state": "예정",
-    "lineup": "라인업 미공개 (2026-10-04 기준 확인 못함)",
+    "lineup": "1차(10/13 발표) — [11/20 CHAPTER 1] ALPHA DRIVE ONE, BABYMONSTER, ENHYPEN, ILLIT, INI, NCT WISH, RESCENE / [11/21 CHAPTER 2] CORTIS, KiiiKiii, LE SSERAFIM, 나연(TWICE), ZEROBASEONE (12팀, 추가 발표 예정)",
     "status": "verified",
-    "note": "Mnet Plus 전 세계 생중계",
+    "note": "Mnet Plus 전 세계 생중계 · 후보 10/12 발표, 팬스초이스 1차 투표 10/22까지·2차 10/28부터. 첫 ‘MAMA FAN FESTA’ 11/9–21(오사카·Mnet Plus). 주제 “A MUSIC INTERSTELLAR”.",
     "results": [],
     "grade": "확정",
     "source_url": [
-     "https://www.cjenm.com/en/news/2026-mama-awards-to-take-place-in-japan---from-november-2021/"
+     "https://www.cjenm.com/en/news/2026-mama-awards-to-take-place-in-japan---from-november-2021/",
+     "https://prtimes.jp/main/html/rd/p/000001633.000003711.html",
+     "https://www.asiae.co.kr/en/article/2026101310115505019",
+     "https://www.kpopwise.com/2026/10/2026-mama-awards-reveals-initial.html"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-14",
     "source_ids": [
-     "CJ-MAMA"
+     "CJ-MAMA",
+     "PRT-MAMA-L1",
+     "ASIAE-MAMA-L1",
+     "KPW-MAMA-NOM"
     ]
    },
    {

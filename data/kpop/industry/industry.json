@@ -538,7 +538,13 @@
    "CLAUDE-CHATS-1",
    "TD-LSF-ECH"
   ],
-  "note": "모델 행(2+11+9+5+5=32회)은 Claude 7/13 가정. 확정 회차는 36회(부분)이며 이 추정은 재계산하지 않음."
+  "note": "모델 행(2+11+9+5+5=32회)은 Claude 7/13 가정. 확정 회차는 36회(부분)이며 이 추정은 재계산하지 않음.",
+  "estimate_basis": {
+   "shows": 32,
+   "confirmed_shows": 36,
+   "model": "Claude 7/13 수익 모델(2+11+9+5+5)",
+   "scaled_to_confirmed": false
+  }
  },
  "compare": {
   "title": "걸그룹 투어 매출 추정 비교 (Claude 8/30)",
@@ -1142,6 +1148,12 @@
   "source_ids": [
    "CLAUDE-FC"
   ],
-  "pureflowNote": "PUREFLOW 회차는 마스터 36회(부분, 공식 32 + 마카오 2 + 교세라돔 2). 관객 400,000·수익은 Claude가 32회 기준으로 낸 추정치이며 36회로 재계산하지 않음."
+  "pureflowNote": "PUREFLOW 회차는 마스터 36회(부분, 공식 32 + 마카오 2 + 교세라돔 2). 관객 400,000·수익은 Claude가 32회 기준으로 낸 추정치이며 36회로 재계산하지 않음.",
+  "pureflowEstimateBasis": {
+   "shows": 32,
+   "confirmed_shows": 36,
+   "model": "Claude 7/13 굿즈·티켓 모델",
+   "scaled_to_confirmed": false
+  }
  }
 }
