@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-10-19T08:22:04+09:00",
+ "synced_at": "2026-10-19T08:40:26+09:00",
  "store": "/workspace/data/kpop",
  "store_lastUpdated": "2026-10-19T08:16:00+09:00",
  "files": {
@@ -12,10 +12,10 @@
   "rpd/rpd.json": "c30ac406d82249971624c777703c83be",
   "sources/meta.json": "c3f0264d469bcd60182b5faf1e0f9999",
   "sources/sources.json": "9bbc49e426f4de983e848316714ed4c6",
-  "tours/hybe.json": "19a6588ddac66de0cf3ecb851eaa90f9",
-  "tours/kpop_tours_figures.json": "f873bf18d41dc991bd3b5efe2a33549d",
+  "tours/hybe.json": "8c21e6a4e6c1f7cf86ac4aab1eec0cb7",
+  "tours/kpop_tours_figures.json": "a37b38a6dc7a1970ea0a69aaac1479ea",
   "tours/tours.json": "11e3e34880b960106c684c157ec87159",
-  "tours/tracker.json": "bb843cd6459aeb6386f445b853dad4af"
+  "tours/tracker.json": "abb13348014bbb8e75de5b3fdb09b879"
  },
  "verification": {
   "label": "일부 검증 완료",
