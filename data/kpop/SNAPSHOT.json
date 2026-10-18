@@ -1,5 +1,5 @@
 {
- "synced_at": "2026-10-19T08:18:25+09:00",
+ "synced_at": "2026-10-19T08:22:04+09:00",
  "store": "/workspace/data/kpop",
  "store_lastUpdated": "2026-10-19T08:16:00+09:00",
  "files": {
@@ -18,7 +18,7 @@
   "tours/tracker.json": "bb843cd6459aeb6386f445b853dad4af"
  },
  "verification": {
-  "label": "비서실장 검증 대기",
-  "detail": "INDEX.md §6: | 위 2절의 18개 전부 | 이전 형식 | 검증 전 (needs grading) |"
+  "label": "일부 검증 완료",
+  "detail": "INDEX.md §6: | `kpop/tours/hybe.json` | grade·source_url·collected_at | 검증 완료 (비서실장 10/19) | / | `kpop/tours/tracker.json` | grade·source_url·collected_at | 검증 완료 (비서실장 10/19) | / | `kpop/tours/kpop_tours_figures.json` | README §2 평면 레코드 | 검증 완료 (비서실장 10/19) | / | `kpop/events/events.json` | grade·source_url·collected_at | 검증 완료 (비서실장 10/19) | / | `kpop/events/auditions.json` | grade·source_url·collected_at | 검증 완료 (비서실장 10/19) | / | `kpop/sources/sources.json` | 출처 ID→URL | 검증 완료 (비서실장 10/19) | / | `kpop/sources/meta.json` | 갱신 로그 | 검증 완료 (비서실장 10/19) | / | 그 외 2절 K-pop·AI 복사본(미갱신분) | 이전 형식 또는 기존 검증 | 검증 전 / 기존 AI 검증 유지 |"
  }
 }
