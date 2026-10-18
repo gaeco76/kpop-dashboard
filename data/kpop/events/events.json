@@ -361,7 +361,7 @@
  },
  "awards2026": {
   "title": "2026 국내 음악 시상식 캘린더",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-19",
   "note": "과거 일정·라인업은 Claude 대화(8/28) 기준, 9월 이후·예정 시상식은 웹 재확인. ‘상태’는 2026-10-04 KST 기준.",
   "events": [
    {
@@ -630,13 +630,13 @@
     "state": "예정",
     "lineup": "[11/7 아티스트 데이] 노벨브라이트, 누에라, 다영, 루시, RESCENE, 메이딘, MEOVV, xikers, IDID, AND2BLE, 영케이, ALLDAY PROJECT, 장민호, CRAVITY, CLOSE YOUR EYES, Tuide, TREASURE, tripleS, P1Harmony, FIFTY FIFTY / [11/8 뮤직 데이] NEXZ, RIIZE, 민호, 박지현, Billlie, 셔누X형원, AHOF, ALPHA DRIVE ONE, A.N, ATEEZ, WayV, 유나, ITZY, 최예나, KISS OF LIFE, KiiiKiii, KickFlip, 터치드, TWS, Hearts2Hearts (총 40팀)",
     "status": "verified",
-    "note": "Claude 대화(8/28)에선 라인업 미공개 → 9/22 공개. MC: 7일 RESCENE 원이·남지현, 8일 IVE 리즈·김재원. ENA 생중계",
+    "note": "Claude 대화(8/28)에선 라인업 미공개 → 9/22 공개. MC: 7일 RESCENE 원이·남지현, 8일 IVE 리즈·김재원. ENA 생중계 · 2026-10-19 재확인: 라인업 변동 보도 없음.",
     "results": [],
     "grade": "확정",
     "source_url": [
      "https://www3.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03427606645582744"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-19",
     "source_ids": [
      "EDAILY-KGMA"
     ]
@@ -647,23 +647,25 @@
     "dateSort": "2026-11-14",
     "venue": "고척스카이돔",
     "state": "예정",
-    "lineup": "1차: PLAVE, RIIZE, NCT WISH, ALPHA DRIVE ONE, LNGSHOT / 이후 발표(카카오엔터 9/30): NCT 127, NCT DREAM, ATEEZ, 82MAJOR, TWS, AND2BLE, YENA, ILLIT, RESCENE, Hearts2Hearts (발표분 15팀, 일자별 배정 미발표)",
+    "lineup": "최종 26팀(10/14 발표) — [11/14 Global Day] NCT DREAM, ATEEZ, YENA, RIIZE, TWS, RESCENE, Hearts2Hearts, I.O.I, aespa, Dragon Pony, IDID, AEN, TUIDE, HANA / [11/15 Music Day] IVE, KiiiKiii, CORTIS, hrtz.wav, NCT 127, PLAVE, 82MAJOR, NCT WISH, ILLIT, ALPHA DRIVE ONE, LNGSHOT, AND2BLE",
     "status": "verified",
-    "note": "사상 첫 2일 개최. Claude 대화(8/28)에선 라인업 미공개 · 2026-10-14: 이전 ‘2차 명단 미확인’ → 카카오엔터 뉴스룸(9/30)으로 YENA·ILLIT·RESCENE·Hearts2Hearts 확인. 신설 부문 ‘Global TOP 10’.",
+    "note": "사상 첫 2일 개최. Claude 대화(8/28)에선 라인업 미공개 · 2026-10-14: 이전 ‘2차 명단 미확인’ → 카카오엔터 뉴스룸(9/30)으로 YENA·ILLIT·RESCENE·Hearts2Hearts 확인. 신설 부문 ‘Global TOP 10’. · 2026-10-19: 최종 라인업 26팀·일자별 배정 확정(카카오엔터 10/14).",
     "results": [],
     "grade": "확정",
     "source_url": [
      "https://newsroom.kakaoent.com/news/kakao-entertainment-to-host-mma2026-on-nov-14-15/",
      "https://newsroom.kakaoent.com/news/mma2026-unveils-stellar-lineup-for-its-first-ever-two-day-event/",
      "https://www.kakaoent.com/pr/detail/592",
-     "https://newsroom.kakaoent.com/news/mma2026-brings-k-pops-biggest-names-to-stage/"
+     "https://newsroom.kakaoent.com/news/mma2026-brings-k-pops-biggest-names-to-stage/",
+     "https://newsroom.kakaoent.com/news/mma2026-welcomes-more-k-pop-heavyweights/"
     ],
-    "collected_at": "2026-10-14",
+    "collected_at": "2026-10-19",
     "source_ids": [
      "KAKAO-MMA",
      "KAKAO-MMA-L1",
      "KAKAO-MMA-L3",
-     "KAKAO-MMA-L2"
+     "KAKAO-MMA-L2",
+     "KAKAO-MMA-FINAL"
     ]
    },
    {
@@ -672,7 +674,7 @@
     "dateSort": "2026-11-20",
     "venue": "교세라돔 오사카",
     "state": "예정",
-    "lineup": "1차(10/13 발표) — [11/20 CHAPTER 1] ALPHA DRIVE ONE, BABYMONSTER, ENHYPEN, ILLIT, INI, NCT WISH, RESCENE / [11/21 CHAPTER 2] CORTIS, KiiiKiii, LE SSERAFIM, 나연(TWICE), ZEROBASEONE (12팀, 추가 발표 예정)",
+    "lineup": "1차(10/13 발표) — [11/20 CHAPTER 1] ALPHA DRIVE ONE, BABYMONSTER, ENHYPEN, ILLIT, INI, NCT WISH, RESCENE / [11/21 CHAPTER 2] CORTIS, KiiiKiii, LE SSERAFIM, 나연(TWICE), ZEROBASEONE (12팀) / 2차(10/16 발표) — [11/20 CHAPTER 1] ALLDAY PROJECT, CL, Hearts2Hearts, LNGSHOT, MODYSSEY, 스트릿 월드 파이터: 디렉터스 워, TREASURE / [11/21 CHAPTER 2] BIGBANG, 화사, IVE, izna, KO1KEYZ, WOODZ, &TEAM (2차 14팀, 누적 26팀)",
     "status": "verified",
     "note": "Mnet Plus 전 세계 생중계 · 후보 10/12 발표, 팬스초이스 1차 투표 10/22까지·2차 10/28부터. 첫 ‘MAMA FAN FESTA’ 11/9–21(오사카·Mnet Plus). 주제 “A MUSIC INTERSTELLAR”.",
     "results": [],
@@ -681,14 +683,16 @@
      "https://www.cjenm.com/en/news/2026-mama-awards-to-take-place-in-japan---from-november-2021/",
      "https://prtimes.jp/main/html/rd/p/000001633.000003711.html",
      "https://www.asiae.co.kr/en/article/2026101310115505019",
-     "https://www.kpopwise.com/2026/10/2026-mama-awards-reveals-initial.html"
+     "https://www.kpopwise.com/2026/10/2026-mama-awards-reveals-initial.html",
+     "https://prtimes.jp/main/html/rd/p/000001634.000003711.html"
     ],
-    "collected_at": "2026-10-14",
+    "collected_at": "2026-10-19",
     "source_ids": [
      "CJ-MAMA",
      "PRT-MAMA-L1",
      "ASIAE-MAMA-L1",
-     "KPW-MAMA-NOM"
+     "KPW-MAMA-NOM",
+     "PRT-MAMA-L2"
     ]
    },
    {
@@ -699,14 +703,14 @@
     "state": "예정",
     "lineup": "[12/5, MC 쯔위·성한빈] Naniwa Danshi, NEXZ, 다영, RIIZE, LNGSHOT, RESCENE, MONSTA X, SUPER JUNIOR-D&E, OURBIRTHDAY, IDID, &TEAM, Accusefive, ATEEZ, Xdinary Heroes, 연준, ALLDAY PROJECT, WOODZ, 원필, ITZY, 주헌, YENA, KISS OF LIFE, KickFlip, tripleS, Hearts2Hearts / [12/6, MC 장원영·지창욱] NEXZ, 다영, LNGSHOT, RESCENE, MEOVV, 박지훈, 성한빈, ALPHA DRIVE ONE, ATEEZ 민기·성화·우영(솔로), NMIXX, 유나, ZEROBASEONE, 쯔위, 채령, CORTIS, QWER, CLOSE YOUR EYES, KiiiKiii, TXT, TWS, TUIDE, tripleS",
     "status": "verified",
-    "note": "Claude 대화(8/28) 부분 라인업(TXT·ZB1·RIIZE·연준·ADO·ATEEZ·&TEAM·LNGSHOT·ITZY·H2H·KiiiKiii·RESCENE)은 최종 명단과 일치. 배우 라인업 별도",
+    "note": "Claude 대화(8/28) 부분 라인업(TXT·ZB1·RIIZE·연준·ADO·ATEEZ·&TEAM·LNGSHOT·ITZY·H2H·KiiiKiii·RESCENE)은 최종 명단과 일치. 배우 라인업 별도 · 2026-10-19 재확인: 라인업 변동 보도 없음.",
     "results": [],
     "grade": "확정",
     "source_url": [
      "https://www.starnewskorea.com/en/music/2026/09/15/2026091405040880740",
      "https://sayart.net/news/view/1065659084589217"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-19",
     "source_ids": [
      "STARNEWS-AAA",
      "SAYART-AAA"

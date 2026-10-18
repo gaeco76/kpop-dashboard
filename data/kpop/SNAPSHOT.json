@@ -1,21 +1,21 @@
 {
- "synced_at": "2026-10-15T05:23:54+09:00",
+ "synced_at": "2026-10-19T08:18:25+09:00",
  "store": "/workspace/data/kpop",
- "store_lastUpdated": "2026-10-14T05:55:00+09:00",
+ "store_lastUpdated": "2026-10-19T08:16:00+09:00",
  "files": {
   "artists/artists.json": "d2f0efcee4a5e0bc81b96356bc0a9636",
   "artists/kpop_social_figures.json": "e436828f7440851055af07d7d7b1d33b",
   "artists/social.json": "5ee3bfcd81739acb878949f93b7a1c27",
-  "events/auditions.json": "ba231124e9bdc3f3dd324b76c56a488e",
-  "events/events.json": "f0d0a95f693fd865b6868259c2a7043b",
+  "events/auditions.json": "3d58cf9a438c2b2582a929053ef2edc0",
+  "events/events.json": "2ccd9fe0f524374b7bc79b35db67deee",
   "industry/industry.json": "4307ac559b46c86650892e6a9d1662aa",
   "rpd/rpd.json": "c30ac406d82249971624c777703c83be",
-  "sources/meta.json": "87c8ccc3c15a9288c6e7bcf7e9f82cf4",
-  "sources/sources.json": "c914e2e60c8b03f951a64d1630364858",
-  "tours/hybe.json": "e3dc20f3cf637d8906717c0eb16c001d",
-  "tours/kpop_tours_figures.json": "7514e5852825e1a122bd02c85aa34bbc",
+  "sources/meta.json": "c3f0264d469bcd60182b5faf1e0f9999",
+  "sources/sources.json": "9bbc49e426f4de983e848316714ed4c6",
+  "tours/hybe.json": "19a6588ddac66de0cf3ecb851eaa90f9",
+  "tours/kpop_tours_figures.json": "f873bf18d41dc991bd3b5efe2a33549d",
   "tours/tours.json": "11e3e34880b960106c684c157ec87159",
-  "tours/tracker.json": "5956c5ef908b077b70b9f9d59a09e6cd"
+  "tours/tracker.json": "bb843cd6459aeb6386f445b853dad4af"
  },
  "verification": {
   "label": "비서실장 검증 대기",

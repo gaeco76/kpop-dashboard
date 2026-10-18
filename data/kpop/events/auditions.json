@@ -138,6 +138,24 @@
     "GP2-STARNEWS",
     "GP2-FORBES"
    ]
+  },
+  {
+   "program": "2026 BIGHIT MUSIC GLOBAL AUDITION",
+   "year": "온라인 2026-09-14~12-05 / 현장 10-03~12-05(15개 도시)",
+   "organizer": "BIGHIT MUSIC (HYBE)",
+   "result": "미정 (차세대 보이그룹)",
+   "feature": "2008년 이후 출생 남성, 분야 제한 없음, 현장 사전 등록 불필요",
+   "status": "verified",
+   "grade": "확정",
+   "source_url": [
+    "https://www.allkpop.com/article/2026/09/bighit-music-launches-global-audition-to-find-next-generation-boy-group-members"
+   ],
+   "collected_at": "2026-10-19",
+   "source_ids": [
+    "AKP-BIGHIT-AUD"
+   ],
+   "artist_id": "bighit_music",
+   "dataset": "auditions"
   }
  ],
  "hybeIndia": {
@@ -158,14 +176,14 @@
    },
    {
     "k": "온라인 접수 마감",
-    "v": "2026-10-31 (오늘 기준 D-27)",
+    "v": "2026-10-31 (2026-10-19 기준 D-12)",
     "status": "verified",
     "grade": "확정",
     "source_url": [
      "https://www.filmfare.com/news/bollywood/hybe-india-partners-with-rashmika-mandanna-in-an-expanded-search-for-a-new-global-girl-group-85913.html",
      "https://www.mediainfoline.com/brand/hybe-india-returns-with-hybe-india-audition-final-call"
     ],
-    "collected_at": "2026-10-04",
+    "collected_at": "2026-10-19",
     "source_ids": [
      "HYBEIN-FILMFARE",
      "HYBEIN-MIL"

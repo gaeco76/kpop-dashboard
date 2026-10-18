@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-14T05:55:00+09:00",
+ "asOf": "2026-10-19T08:16:00+09:00",
  "title": "하이브(HYBE) 투어 현황 — 2026-10-04 KST 기준",
  "intro": "HYBE MUSIC GROUP 전 레이블의 2025–26 투어·공연. 관객·매출은 출처가 있는 값만 수치로 넣고, 집계 범위(보고 회차·집계기간)를 함께 표기합니다. 합계 카드는 출처 있는 보고분 단순 합계이며 투어 총량이 아닙니다.",
  "tours": [
@@ -14,16 +14,16 @@
    "regions": "한국·일본·북미·멕시코·유럽(스페인)·남미(10월)·아시아(11월~)",
    "cities": 34,
    "shows": 88,
-   "done": 53,
-   "left": 35,
-   "attendance": 2300000,
-   "attendanceText": "2,300,000 (38회 시점, 8/11)",
+   "done": 56,
+   "left": 32,
+   "attendance": 2314140,
+   "attendanceText": "2,314,140 (38회, Pollstar 3분기 집계 ~8/12)",
    "gross": 500000000,
    "grossText": "$500M+ (8월 보고분까지, Billboard 9/30)",
    "state": "진행 중",
    "y2027": true,
    "status": "partial",
-   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인. | 2026-10-14: 완료 48→53·잔여 40→35 (10월 보고타 2회 10/2–3·리마 3회 10/7·9·10 완료, 위키 일정표 88회 재집계). 리마 3회 151,500명은 2차 보도(KTRENZ, Billboard 미보고) — 개략. 다음: 산티아고 10/14·16·17, 라플라타 10/21·23·24, 상파울루 10/28·30·31.",
+   "note": "월별 Billboard: 5월 12회 $127.8M·641,000장 / 8월 12회 $171.7M·801,000장(역대 월간 2위). 9/30 기준 잔여 40회(10월 남미 14회 → 11/21~2027-03-16 아시아) → 완료 48회는 88−40으로 산출. 관객 230만은 8/11 시점 38회(스타뉴스 인용) — 최신 누적 관객 미확인. | 2026-10-14: 완료 48→53·잔여 40→35 (10월 보고타 2회 10/2–3·리마 3회 10/7·9·10 완료, 위키 일정표 88회 재집계). 리마 3회 151,500명은 2차 보도(KTRENZ, Billboard 미보고) — 개략. 다음: 산티아고 10/14·16·17, 라플라타 10/21·23·24, 상파울루 10/28·30·31. | 2026-10-19: 산티아고 3회(10/14·16·17) 완료 → 완료 56·잔여 32. 누적 관객 1차 갱신: Pollstar 3분기 집계 38회 2,314,140명·$465.8M(2025-11-13~2026-08-12, 빅히트 인용) — 이전 230만(개략)을 교체. 8/12 이후 누적 관객은 미보고.",
    "artist_id": "bts",
    "grade": "부분",
    "source_url": [
@@ -32,20 +32,24 @@
     "https://www.starnewskorea.com/en/music/2026/08/28/2026082816554176386",
     "https://www.contactmusic.com/story/469/3553178/bts-add-pair-of-southeast-asia-dates-as-arirang-tour-expands-to-record-breaking-88-shows",
     "https://m.ekn.kr/view.php?key=20260730021087589",
-    "https://en.wikipedia.org/wiki/Arirang_World_Tour"
+    "https://en.wikipedia.org/wiki/Arirang_World_Tour",
+    "https://en.sportalkorea.com/news/articleView.html?idxno=33400",
+    "https://www.mk.co.kr/en/musics/12173353"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "BB-BTS-0930",
     "TTB-HYBE-2Q26",
     "CL-STARNEWS-BTS",
     "CM-BTS88",
     "HYBE-2Q26-EKN",
-    "WIKI-ARIRANG"
+    "WIKI-ARIRANG",
+    "POLLSTAR-BTS-Q3",
+    "MK-BTS-LIMA"
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "BIGHIT MUSIC",
@@ -159,7 +163,7 @@
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "BIGHIT MUSIC",
@@ -437,7 +441,7 @@
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "BELIFT LAB",
@@ -445,43 +449,47 @@
    "tour": "WORLD TOUR ‘BLOOD SAGA’",
    "kind": "월드투어",
    "start": "2026-05-01",
-   "end": "2027-03-09",
-   "period": "2026-05-01 ~ 2027-03-09",
+   "end": "2027-03-14",
+   "period": "2026-05-01 ~ 2027-03-14",
    "regions": "서울·남미 3도시·북미 5도시·부산·마카오·일본 4도시·자카르타·싱가포르·유럽 5도시",
    "cities": 21,
-   "shows": 35,
-   "done": 17,
-   "left": 18,
+   "shows": 37,
+   "done": 20,
+   "left": 17,
    "attendance": 225250,
    "attendanceText": "225,250 (범위: 서울 3회 32,250 + 미주 12회 193,000, 부산 2회 미포함)",
    "gross": 3648869,
    "grossText": "$3.65M (서울 3회만)",
    "state": "진행 중",
    "y2027": true,
-   "status": "partial",
-   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17. | 2026-10-14: 마카오는 10/16·17·18 3회(Galaxy 공식, 10/16 추가 공연 5월 발표) — 기존 \"10/16–17\" 표기 정정. 총 35회에 3회 모두 반영됐는지 미확인(공식 전체 일정표 없음) → 완료 17·잔여 18 유지.",
+   "status": "conflict",
+   "note": "총 35회(공식 투어 사이트 일정·위키 집계). 서울 32,250(BELIFT) — 이전 07탭 값 32,280은 1차 아님. 미주 193,000은 BELIFT. 종료 2027-03-09 런던 O2. 다음 일정: 마카오 10/16–17. | 2026-10-14: 마카오는 10/16·17·18 3회(Galaxy 공식, 10/16 추가 공연 5월 발표) — 기존 \"10/16–17\" 표기 정정. 총 35회에 3회 모두 반영됐는지 미확인(공식 전체 일정표 없음) → 완료 17·잔여 18 유지. | 2026-10-19 재확인: 위키 35회 표는 마카오 3회(10/16–18)를 포함하나 유럽을 5회(베를린·런던 각 1회)로 집계. 공식 투어 사이트는 유럽 7회(베를린 3/5·6, 런던 3/8·9) → 일정 합산 37회. 총 회차 충돌(35 vs 37) — 공식 총수 발표 전까지 37(일정 합산) 사용. 종료일 2027-03-09(런던) → 2027-03-14(싱가포르 국립경기장, The Kallang 공식)로 정정. 마카오 3회 완료 → 완료 20.",
    "artist_id": "enhypen",
-   "grade": "부분",
+   "grade": "충돌",
    "source_url": [
     "https://www.koreaherald.com/article/10730310",
     "https://k-hallyu.com/articles/enhypen-conclude-americas-leg-of-blood-saga-tour-attracting-193000-fans",
     "https://www.enhypenbloodsagatour.com/",
     "https://www.theo2.co.uk/events/detail/enhypen-world-tour-blood-saga",
     "https://en.wikipedia.org/wiki/List_of_Enhypen_live_performances",
-    "https://www.galaxymacau.com/offers/entertainment/enhypen-world-tour-blood-saga-macau/"
+    "https://www.galaxymacau.com/offers/entertainment/enhypen-world-tour-blood-saga-macau/",
+    "https://www.thekallang.com.sg/en/things-to-do/events/2027-enhypen-world-tour-blood-saga-in-singapore.html"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "KH-ENH-BS",
     "KH2-ENH-AM",
     "ENH-BS-SITE",
     "O2-ENH",
     "WIKI-ENH-LIVE",
-    "GALAXY-ENH-MACAU"
+    "GALAXY-ENH-MACAU",
+    "WIKI-ENH-LIVE2",
+    "KALLANG-ENH-SG",
+    "ENH-BS-SITE2"
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "BELIFT LAB",
@@ -568,8 +576,8 @@
    "regions": "인천 인스파이어 아레나·지바 LaLa arena TOKYO-BAY",
    "cities": 2,
    "shows": 6,
-   "done": 0,
-   "left": 6,
+   "done": 2,
+   "left": 4,
    "attendance": null,
    "attendanceText": "—",
    "gross": null,
@@ -577,7 +585,7 @@
    "state": "예정",
    "y2027": false,
    "status": "verified",
-   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식). | 2026-10-14 확인: 인천 10/17(18:00)·18(17:00) → 완료 0·잔여 6.",
+   "note": "인천 10/17–18, 지바 12/23·24·26·27. 인천 판매율 약 82%(9월 말 보도, 비공식). | 2026-10-14 확인: 인천 10/17(18:00)·18(17:00) → 완료 0·잔여 6. | 2026-10-19: 인천 10/17·18 완료 → 완료 2·잔여 4(지바 12/23·24·26·27).",
    "artist_id": "illit",
    "grade": "확정",
    "source_url": [
@@ -585,7 +593,7 @@
     "https://prtimes.jp/main/html/rd/p/000000726.000045862.html",
     "https://www.koreaboo.com/news/illit-overestimate-demand-in-korea/"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "WEVERSE-ILLIT-ENC",
     "PRT-ILLIT-ENC",
@@ -593,7 +601,7 @@
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "SOURCE MUSIC",
@@ -606,8 +614,8 @@
    "regions": "인천·일본 5도시(11회)·북미 9회·유럽 5회·마카오·타이베이·싱가포르·마닐라·교세라돔",
    "cities": 24,
    "shows": 36,
-   "done": 22,
-   "left": 14,
+   "done": 24,
+   "left": 12,
    "attendance": null,
    "attendanceText": "미확인",
    "gross": null,
@@ -615,25 +623,31 @@
    "state": "진행 중",
    "y2027": false,
    "status": "partial",
-   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표. | 2026-10-14: 북미 9회 완료(워싱턴 10/5·뉴어크 10/8 포함, 위키 일정표) → 완료 22·잔여 14. 다음: 유럽 런던 10/16~베를린 10/26. 총 36회·종료 12/20 변동 없음.",
+   "note": "36회 = 공식 발표 32회(4/28) + 마카오 2회(7/21 추가 공지) + 교세라돔 2회(9/3 공식). 이전 34/32 충돌 해소. 완료·잔여는 2026-10-05 KST 기준 일정 계산. 관객·매출 미발표. | 2026-10-14: 북미 9회 완료(워싱턴 10/5·뉴어크 10/8 포함, 위키 일정표) → 완료 22·잔여 14. 다음: 유럽 런던 10/16~베를린 10/26. 총 36회·종료 12/20 변동 없음. | 2026-10-19: 북미 9개 도시 9회 확인(bnt 9/16·뉴시스 10/10: 9개 도시 중 8개 매진) — Stereoboard 14회 표기는 오류로 판단, 미해결 해소. 런던 O2 10/16 15,000석 매진·시야제한석 추가 오픈(쏘스뮤직, 뉴시스) → 회차별 관객 첫 공식 수치. 런던·암스테르담 완료 → 완료 24·잔여 12.",
    "artist_id": "le_sserafim",
    "grade": "부분",
    "source_url": [
     "https://prtimes.jp/main/html/rd/p/000000690.000045862.html",
     "https://weverse.io/lesserafim/notice/37666",
     "https://www.le-sserafim.jp/news/0fbf87ba1d6c",
-    "https://en.wikipedia.org/wiki/Pureflow_Tour"
+    "https://en.wikipedia.org/wiki/Pureflow_Tour",
+    "https://www.newsis.com/view/NISX20261010_0003820603",
+    "https://www.bntnews.co.kr/Music/article/view/bnt202609160057",
+    "https://en.sportalkorea.com/news/articleView.html?idxno=39429"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "PRT-LSF-PURE",
     "WEVERSE-LSF-MACAU",
     "LSF-JP-KYOCERA",
-    "WIKI-PUREFLOW"
+    "WIKI-PUREFLOW",
+    "NEWSIS-LSF-US",
+    "BNT-LSF-US",
+    "NEWSIS-LSF-LDN"
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "SOURCE MUSIC",
@@ -681,8 +695,8 @@
    "regions": "서울·부산·일본 6도시·북미 9도시·멕시코시티·자카르타·쿠알라룸푸르·타이베이·홍콩·싱가포르·방콕",
    "cities": 24,
    "shows": 38,
-   "done": 16,
-   "left": 22,
+   "done": 18,
+   "left": 20,
    "attendance": 69300,
    "attendanceText": "69,300 (Billboard 보고 6회)",
    "gross": 5800000,
@@ -690,25 +704,27 @@
    "state": "진행 중",
    "y2027": true,
    "status": "partial",
-   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ). | 2026-10-14 확인: 북미 레그 10/30 댈러스 시작 → 완료 16·잔여 22 유지.",
+   "note": "총 38회·24개 도시(KOZ, 10월). 완료 16은 5/13 발표 일정 기준(서울3·부산2·일본11), 잔여 22=38−16(추가 4회 위치 미확인). Billboard 9/30 보고 6회 $5.8M·69,300. 서울 3회 31,800(KOZ). | 2026-10-14 확인: 북미 레그 10/30 댈러스 시작 → 완료 16·잔여 22 유지. | 2026-10-19 정정: 일본 공식 일정은 6도시 13회(요코하마3·사가2·오사카2·미야기2·나가노2·지바2). 지바 10/10–11까지 완료 → 완료 18·잔여 20(=38−18). 10/14 업데이트의 ‘16 유지’는 지바 2회 누락 오류. 다음: 북미 10/30 댈러스.",
    "artist_id": "boynextdoor",
    "grade": "부분",
    "source_url": [
     "https://www.allkpop.com/article/2026/10/boynextdoor-enter-billboards-top-tours-chart-for-the-first-time-with-knock-on-vol2",
     "https://news.tf.co.kr/read/entertain/2372326.htm",
     "https://kpopnewswire.com/boynextdoor-world-tour-knock-on-vol-2-dates-venues-tickets-and-more/",
-    "https://biz.chosun.com/en/en-entertainment/2026/07/20/MJH53EUYXBEAHC74GHAPC7OCVM/"
+    "https://biz.chosun.com/en/en-entertainment/2026/07/20/MJH53EUYXBEAHC74GHAPC7OCVM/",
+    "https://boynextdoor-official.jp/news/eca648b741ad"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "AKP-BND-BB",
     "TF-BND-BB",
     "KNW-BND-SCHED",
-    "CHOSUN-BND"
+    "CHOSUN-BND",
+    "BND-JP-OFFICIAL"
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "KOZ",
@@ -790,8 +806,8 @@
    "regions": "유럽 8도시·북미·멕시코시티",
    "cities": 27,
    "shows": 31,
-   "done": 9,
-   "left": 22,
+   "done": 11,
+   "left": 20,
    "attendance": null,
    "attendanceText": "미확인 (31회 전석 매진)",
    "gross": null,
@@ -799,7 +815,7 @@
    "state": "진행 중",
    "y2027": false,
    "status": "partial",
-   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28). | 2026-10-14 확인: 북미 첫 공연 마이애미 10/13(현지) = 10/14 09:00 KST → 이 시점 완료 9·잔여 22 유지.",
+   "note": "HYBE 2Q26 실적발표: 10개국 27개 도시 31회. 유럽 레그(9월) 완료 후 10/13부터 북미. 9월 이전 회차 Billboard 보고치 미확인. Claude 모델 약 12만 명은 추정치(트래커 탭). 완료 9(유럽)·잔여 22(북미·멕시코, 10/13~11/28). | 2026-10-14 확인: 북미 첫 공연 마이애미 10/13(현지) = 10/14 09:00 KST → 이 시점 완료 9·잔여 22 유지. | 2026-10-19: 북미 마이애미 10/13·애틀랜타 10/15 완료 → 완료 11·잔여 20. 관객·매출 공식 수치 여전히 없음. 다음: 샬럿 10/20.",
    "artist_id": "katseye",
    "grade": "부분",
    "source_url": [
@@ -807,19 +823,23 @@
     "https://news.pollstar.com/2026/05/13/katseye-announces-wildword-tour-of-europe-north-america/",
     "https://newsroom.livenation.com/news/katseye-announces-2026-headline-arena-tour-of-uk-eu-and-north-america/",
     "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/",
-    "https://newsroom.livenation.com/news/katseye-announces-2026-headline-arena-tour-of-uk-eu-and-north-america/"
+    "https://newsroom.livenation.com/news/katseye-announces-2026-headline-arena-tour-of-uk-eu-and-north-america/",
+    "https://www.antimusic.com/p/26/p1014katseye_recap_kick_off_of_their_north_american_tour.shtml",
+    "https://www.ajc.com/arts-entertainment/2026/10/katseye-atlanta-concert/"
    ],
-   "collected_at": "2026-10-14",
+   "collected_at": "2026-10-19",
    "source_ids": [
     "HYBE-2Q26-ZDNET",
     "POLLSTAR-KATSEYE",
     "LN-KATSEYE",
     "BB-KATSEYE-WILD",
-    "LN-KATSEYE-NEWS"
+    "LN-KATSEYE-NEWS",
+    "ANTI-KATSEYE",
+    "AJC-KATSEYE"
    ],
    "dataset": "hybe_tours",
    "tracker_scope": "포함 — tracker.json tours 동일 투어",
-   "done_left_as_of": "2026-10-14"
+   "done_left_as_of": "2026-10-19"
   },
   {
    "label": "HYBE LATIN AMERICA",
@@ -929,7 +949,7 @@
   [
    "BIGHIT MUSIC",
    "BTS",
-   "ARIRANG 월드투어 진행 중 (2027-03 종료 예정)",
+   "ARIRANG 월드투어 진행 중 (56/88회, 다음: 라플라타 10/21 · 2027-03-16 종료)",
    "verified",
    [
     "BB-BTS-0930"
@@ -984,7 +1004,7 @@
   [
    "BELIFT LAB",
    "ENHYPEN",
-   "BLOOD SAGA 진행 중 (다음: 마카오 10/16)",
+   "BLOOD SAGA 진행 중 (20회 완료, 다음: 일본 12/1 · 2027-03-14 싱가포르 종료)",
    "partial",
    [
     "WIKI-ENH-LIVE"
@@ -993,7 +1013,7 @@
   [
    "BELIFT LAB",
    "ILLIT",
-   "PRESS START 앙코르 10/17 개막 예정",
+   "PRESS START 앙코르 진행 중 (인천 10/17–18 완료, 지바 12/23~)",
    "verified",
    [
     "WEVERSE-ILLIT-ENC"
@@ -1002,7 +1022,7 @@
   [
    "SOURCE MUSIC",
    "LE SSERAFIM",
-   "PUREFLOW 진행 중 (북미→유럽→일본)",
+   "PUREFLOW 진행 중 (유럽 레그, 다음: 파리 10/21)",
    "partial",
    [
     "WIKI-PUREFLOW"
@@ -1011,7 +1031,7 @@
   [
    "KOZ",
    "BOYNEXTDOOR",
-   "KNOCK ON Vol.2 진행 중 (지바 10/10)",
+   "KNOCK ON Vol.2 진행 중 (일본 레그 10/11 종료, 북미 10/30~)",
    "partial",
    [
     "AKP-BND-BB"
@@ -1039,7 +1059,7 @@
   [
    "HYBE x Geffen",
    "KATSEYE",
-   "WILDWORLD 진행 중 (북미 10/13~)",
+   "WILDWORLD 진행 중 (북미, 다음: 샬럿 10/20)",
    "partial",
    [
     "HYBE-2Q26-ZDNET"
