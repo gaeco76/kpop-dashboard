@@ -156,6 +156,26 @@
    ],
    "artist_id": "bighit_music",
    "dataset": "auditions"
+  },
+  {
+   "program": "2026 YG GLOBAL AUDITION",
+   "year": "2026 (도시별 순회) — 최신: 밴쿠버 11/11 · 토론토 11/14",
+   "organizer": "YG엔터테인먼트",
+   "result": "미정",
+   "feature": "2008–2015년생, 성별·국적 무관, 보컬/랩/댄스 중 1개(1분 이내), 현장 접수 13:00–16:00. 공지 도시: 방콕·타이베이-홍콩·LA-댈러스-뉴저지·시드니-오클랜드·밴쿠버-토론토. 전체 일정 중 1회만 지원 가능",
+   "status": "verified",
+   "grade": "확정",
+   "source_url": [
+    "https://www.yg-audition.com/en/notice/249",
+    "https://www.yg-audition.com/en/notice"
+   ],
+   "collected_at": "2026-10-19",
+   "source_ids": [
+    "YG-AUD-CANADA",
+    "YG-AUD-NOTICE"
+   ],
+   "artist_id": "yg_entertainment",
+   "dataset": "auditions"
   }
  ],
  "hybeIndia": {

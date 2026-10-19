@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-10-19",
  "rules": "/workspace/data/README.md §2",
- "count": 518,
+ "count": 531,
  "records": [
   {
    "subject": "Taylor Swift The Eras Tour",
@@ -7935,6 +7935,213 @@
    "grade": "확정",
    "as_of": "2026-10-19",
    "note": "이전 6. 2026-10-19 KST 아침 기준(현지 공연 종료분만)",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "SEVENTEEN — Pollstar 2026 Asia Focus 1위",
+   "artist_id": "seventeen",
+   "metric": "gross_asia",
+   "value": 97394004,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가. 본문에 $97,394,005로도 1회 표기(1달러 차) — 사진 설명 값 채택.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "TWICE — Pollstar 2026 Asia Focus 2위",
+   "artist_id": "twice",
+   "metric": "gross_asia",
+   "value": 76176781,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "TOMORROW X TOGETHER — Pollstar 2026 Asia Focus 3위",
+   "artist_id": "txt",
+   "metric": "gross_asia",
+   "value": 53035381,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "BTS (ARIRANG 아시아 공연분) — Pollstar 2026 Asia Focus 4위",
+   "artist_id": "bts",
+   "metric": "gross_asia",
+   "value": 49069994,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "BLACKPINK — Pollstar 2026 Asia Focus 8위",
+   "artist_id": "blackpink",
+   "metric": "gross_asia",
+   "value": 29193966,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "ENHYPEN — Pollstar 2026 Asia Focus 9위",
+   "artist_id": "enhypen",
+   "metric": "gross_asia",
+   "value": 21562532,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "LE SSERAFIM — Pollstar 2026 Asia Focus 13위",
+   "artist_id": "le_sserafim",
+   "metric": "gross_asia",
+   "value": 14068473,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가.",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "SEVENTEEN — Pollstar 2026 Asia Focus 1위",
+   "artist_id": "seventeen",
+   "metric": "tickets_asia",
+   "value": 661088,
+   "unit": "장",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "Pollstar 2026 Asia Focus Top Touring Artists(아시아 지역 공연만). 집계 기간 기사 미명시 — 투어 전체·Billboard 수치와 비교 불가",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "HYBE — Pollstar 2026 Asia Focus 프로모터 1위",
+   "artist_id": "hybe",
+   "metric": "promoter_gross_asia",
+   "value": 247965087,
+   "unit": "USD",
+   "source_url": [
+    "https://news.pollstar.com/2026/10/07/asia-focus-expanding-global-reach-worlds-most-populous-continent-continues-to-flourish/"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-07",
+   "note": "아시아 프로모터 차트 1위(2위 Live Nation $209,803,871). 집계 기간 기사 미명시",
+   "dataset": "pollstar_asia"
+  },
+  {
+   "subject": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+   "artist_id": "seventeen_jxj",
+   "metric": "shows",
+   "value": 13,
+   "unit": "회",
+   "source_url": [
+    "https://www.koreajoongangdaily.com/entertainment/seventeen-subunit-jeonghan-x-joshua-to-hold-concerts-in-six-cities/12894376",
+    "https://www.news1.kr/entertain/music/6303491",
+    "https://www.seventeen-17.jp/statics/dreaming",
+    "https://www.kpopstarz.com/articles/323387/20261001/seventeens-jeonghan-joshua-unveil-dreamscape-teasers-set-jxj-tour-dates-across-asia-2026-27.htm"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-19",
+   "note": "발표 일정 합산(6개 도시). 추가 공연 발표 시 새 행",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+   "artist_id": "seventeen_jxj",
+   "metric": "cities",
+   "value": 6,
+   "unit": "도시",
+   "source_url": [
+    "https://www.koreajoongangdaily.com/entertainment/seventeen-subunit-jeonghan-x-joshua-to-hold-concerts-in-six-cities/12894376",
+    "https://www.news1.kr/entertain/music/6303491",
+    "https://www.seventeen-17.jp/statics/dreaming",
+    "https://www.kpopstarz.com/articles/323387/20261001/seventeens-jeonghan-joshua-unveil-dreamscape-teasers-set-jxj-tour-dates-across-asia-2026-27.htm"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-19",
+   "note": "인천·사이타마·마카오·타이베이·부산·홍콩",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+   "artist_id": "seventeen_jxj",
+   "metric": "start_date",
+   "value": 20261030,
+   "unit": "YYYYMMDD",
+   "source_url": [
+    "https://www.koreajoongangdaily.com/entertainment/seventeen-subunit-jeonghan-x-joshua-to-hold-concerts-in-six-cities/12894376",
+    "https://www.news1.kr/entertain/music/6303491",
+    "https://www.seventeen-17.jp/statics/dreaming",
+    "https://www.kpopstarz.com/articles/323387/20261001/seventeens-jeonghan-joshua-unveil-dreamscape-teasers-set-jxj-tour-dates-across-asia-2026-27.htm"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-19",
+   "note": "인천 인스파이어 아레나",
+   "dataset": "hybe_tours"
+  },
+  {
+   "subject": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]",
+   "artist_id": "seventeen_jxj",
+   "metric": "end_date",
+   "value": 20270221,
+   "unit": "YYYYMMDD",
+   "source_url": [
+    "https://www.koreajoongangdaily.com/entertainment/seventeen-subunit-jeonghan-x-joshua-to-hold-concerts-in-six-cities/12894376",
+    "https://www.news1.kr/entertain/music/6303491",
+    "https://www.seventeen-17.jp/statics/dreaming",
+    "https://www.kpopstarz.com/articles/323387/20261001/seventeens-jeonghan-joshua-unveil-dreamscape-teasers-set-jxj-tour-dates-across-asia-2026-27.htm"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "확정",
+   "as_of": "2026-10-19",
+   "note": "홍콩 AsiaWorld-Arena",
    "dataset": "hybe_tours"
   }
  ]

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05",
+ "generated_at": "2026-10-19",
  "rules": "/workspace/data/README.md §2",
- "count": 70,
+ "count": 72,
  "records": [
   {
    "subject": "Blackpink 유튜브",
@@ -1054,6 +1054,36 @@
    "as_of": null,
    "note": "약 8,030만",
    "dataset": "social_instagram"
+  },
+  {
+   "subject": "BTS 스포티파이 2026년 누적 스트리밍",
+   "artist_id": "bts",
+   "metric": "spotify_streams_year",
+   "value": 10000000000,
+   "unit": "streams",
+   "source_url": [
+    "https://en.yna.co.kr/view/AEN20261016004500315"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "개략",
+   "as_of": "2026-10-16",
+   "note": "‘100억 돌파’(그룹 최초, 빅히트 발표) — 정확한 값 미공개. 2025년 약 45억",
+   "dataset": "streaming_spotify"
+  },
+  {
+   "subject": "BTS 'ARIRANG' 앨범 스포티파이 누적 스트리밍",
+   "artist_id": "bts",
+   "metric": "spotify_album_streams",
+   "value": 5000000000,
+   "unit": "streams",
+   "source_url": [
+    "https://en.yna.co.kr/view/AEN20261016004500315"
+   ],
+   "collected_at": "2026-10-19",
+   "grade": "개략",
+   "as_of": "2026-10-16",
+   "note": "‘50억 이상’(3/20 발매 이후, 2026 발매 앨범 중 최다). 발매일 1억1천만+",
+   "dataset": "streaming_spotify"
   }
  ]
 }
