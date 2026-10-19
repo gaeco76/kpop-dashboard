@@ -177,6 +177,7 @@ function renderBoxscore() {
     ${card({ title: '회당 매출 × 회당 관객', sub: '스타디움급 효율 비교 (계산값)', body: chartDiv('bxPer', 'h420') })}
     ${card({ title: '투어 시작 연도별 매출', sub: '기간(period) 첫 연도 기준 · 최근 투어일수록 매출 상승(명목 달러)', body: chartDiv('bxYear', 'h420') })}
   </div>
+  <div id="bxPollstar"></div>
   <div id="bxCalLinks"></div>
   <h2 class="sec">박스스코어 표</h2>
   <div id="bxTable"></div>
@@ -229,8 +230,36 @@ function renderBoxscore() {
   bindSeg('bxMetric', v => { BX.metric = v; drawCharts(); });
   $('#bxK').onchange = e => { BX.kpop = e.target.checked; drawCharts(); tbl.draw(); };
   $('#bxTop').onchange = e => { BX.top = +e.target.value; drawCharts(); };
+  renderPollstarAsia($('#bxPollstar'));
   if (typeof boxscoreCalLinks === 'function') boxscoreCalLinks($('#bxCalLinks'), all);
   $$('#tab-boxscore li[data-st]').forEach(li => li.style.display = accVisible(li.dataset.st) ? '' : 'none');
+}
+
+/* ========== Pollstar 2026 Asia Focus (dataset pollstar_asia) — 아시아 공연분만, 투어 총량 아님 ========== */
+function renderPollstarAsia(el) {
+  if (!el) return;
+  const R = figDataset('pollstar_asia').filter(r => accVisible(GRADE_KEY[r.grade] || 'unverified'));
+  if (!R.length) { el.innerHTML = ''; return; }
+  const rankOf = r => +((r.subject.match(/(\d+)위/) || [])[1]) || 99;
+  const name = r => r.subject.replace(/\s*—\s*Pollstar.*$/, '');
+  const by = m => R.filter(r => r.metric === m && isNum(r.value)).sort((a, b) => b.value - a.value);
+  const G = by('gross_asia'), T = by('tickets_asia'), P = by('promoter_gross_asia');
+  const urls = [...new Set(R.flatMap(r => r.source_url || []))];
+  const asOf = R.map(r => r.as_of).filter(Boolean).sort().pop() || '';
+  const g = r => GRADE_KEY[r.grade] || 'unverified';
+  const tip = r => tipHTML({ title: name(r), rows: [['Pollstar 순위', rankOf(r) + '위'], ['값', r.unit === 'USD' ? '$' + fmtN(r.value) : fmtN(r.value) + ' ' + esc(r.unit || '')], ['기준', esc(r.as_of || '')], ['수집', esc(r.collected_at || '')]], status: g(r), note: r.note });
+  const noT = G.filter(r => !T.some(t => t.artist_id === r.artist_id)).map(name);
+  el.innerHTML = `<h2 class="sec" id="pollstarAsia">Pollstar 2026 Asia Focus <span class="small muted">아시아 공연분 · 기준 ${esc(asOf)} KST</span></h2>
+  <div class="card warnbox" style="margin-bottom:12px"><b>아시아 지역 공연 수치만이에요 — 투어 전체 매출·관객이 아닙니다.</b> 집계 기간이 기사에 명시되지 않아 위 박스스코어·Billboard 누적과 직접 비교할 수 없어요. 순위는 Pollstar 차트 순위(K-pop 아티스트만 수록, 빈 순위는 비K-pop 또는 미수집). ${urlLinks(urls)}</div>
+  <div class="grid g3">
+    ${card({ title: '아시아 매출 (gross_asia)', sub: `K-pop ${G.length}팀 · 막대 라벨 = Pollstar 순위`, body: chartDiv('psGross', 'h300'), cls: 'span2' })}
+    ${card({ title: '아시아 프로모터 순위', sub: 'promoter_gross_asia', body: P.map(r => `<div class="kpi-mini"><div class="small muted">${rankOf(r)}위 · ${esc(name(r).replace(/\s*프로모터.*$/, ''))}</div><div style="font-size:26px;font-weight:700">$${fmtN(r.value)}</div><div>${badge({ status: g(r), collected_at: r.collected_at })} ${urlLinks(r.source_url)}</div><div class="small muted" style="margin-top:6px">${esc(r.note || '')}</div></div>`).join('') || '<span class="muted">레코드 없음</span>' })}
+    ${card({ title: '아시아 티켓 판매 (tickets_asia)', sub: T.length < G.length ? `보도된 값만 표시 · 티켓 수 미보도: ${noT.map(esc).join(', ')}` : '', body: chartDiv('psTix', T.length > 3 ? 'h300' : 'h160'), cls: 'span3' })}
+  </div>
+  <div class="tablewrap"><table class="dt" style="margin-top:8px"><thead><tr><th class="num">순위</th><th>아티스트</th><th class="num">아시아 매출</th><th class="num">아시아 티켓</th><th>등급</th><th>출처</th></tr></thead><tbody>${G.map(r => { const t = T.find(x => x.artist_id === r.artist_id); return `<tr><td class="num">${rankOf(r)}</td><td><b>${esc(name(r))}</b></td><td class="num">$${fmtN(r.value)}</td><td class="num">${t ? fmtN(t.value) : nullCell('미보도')}</td><td>${badge({ status: g(r), collected_at: r.collected_at })}</td><td>${urlLinks(r.source_url)}</td></tr>`; }).join('')}</tbody></table></div>`;
+  hbar($('#psGross'), G.map(r => ({ label: `${rankOf(r)}위 ${name(r)}`, value: r.value, color: TYPE_COLOR.girl, g: g(r), r })), { valueFmt: v => fmtUSD(v, 1), axisFmt: v => fmtUSD(v, 0), tip: it => tip(it.r), labelWidth: 200, height: Math.max(220, G.length * 30 + 30) });
+  if (T.length) hbar($('#psTix'), T.map(r => ({ label: name(r), value: r.value, color: PAL[1], g: g(r), r })), { valueFmt: v => fmtN(v) + '장', axisFmt: v => fmtKo(v, 0), tip: it => tip(it.r), labelWidth: 200, height: Math.max(120, T.length * 30 + 40) });
+  else $('#psTix').innerHTML = '<span class="muted">티켓 수 레코드 없음</span>';
 }
 
 /* ========== 투어 트래커 ========== */
@@ -384,6 +413,7 @@ function renderSocial() {
     ${card({ title: '멤버별 팔로워', sub: '각 행 기준 시각 참고', body: chartDiv('soIG', 'h260') + '<div id="soIGt"></div>' })}
     ${card({ title: '기타 아티스트 (텍스트 값)', sub: '수치가 문자열(약 ~)로만 제공 → 차트 미표시 · 상태 필드 없음', body: `<ul class="clean">${(ig.others || []).map(o => `<li><b>${esc(o.member)}</b> <span class="muted">${esc(o.text)}</span></li>`).join('')}</ul><div class="card-foot">${srcLinks(ig.othersSources)}</div><ul class="dots small muted" style="margin-top:10px">${(ig.notes || []).map(n => `<li>${esc(n)}</li>`).join('')}</ul>` })}
   </div>
+  <div id="soSpotify"></div>
   <h2 class="sec">${esc(mg.title || '')} ${badge(mg)} ${srcLinks(mg.sources)}</h2>
   <div class="card" id="soMG"></div>`;
 
@@ -426,12 +456,28 @@ function renderSocial() {
   $('#soGens').onclick = e => { const c = e.target.closest('.chip'); if (!c) return; const g = +c.dataset.g; SO.gens.has(g) ? SO.gens.delete(g) : SO.gens.add(g); if (!SO.gens.size) SO.gens.add(g); $$('#soGens .chip').forEach(x => x.classList.toggle('on', SO.gens.has(+x.dataset.g))); draw(); };
   bindSeg('soType', v => { SO.type = v; draw(); }); bindSeg('soMetric', v => { SO.metric = v; draw(); });
   $('#soTop').onchange = e => { SO.top = +e.target.value; draw(); };
+  renderSpotifyCard($('#soSpotify'));
   // IG
   const igR = (ig.rows || []).filter(r => accVisible(r.status)).sort((a, b) => b.followers - a.followers);
   if (igR.length) hbar($('#soIG'), igR.map((r, i) => ({ label: r.member, value: r.followers, color: ['#f472b6', '#fb7185', '#e879f9', '#c084fc'][i % 4], r })), { valueFmt: v => fmtKo(v, 2), labelWidth: 110, tip: it => tipHTML({ title: `${it.r.member} ${it.r.handle}`, rows: [['팔로워', esc(it.r.text)], ['기준 시각', esc(it.r.asOf)]], status: it.r.status, sources: it.r.sources }) });
   else $('#soIG').innerHTML = hiddenNote('인스타그램');
-  $('#soIGt').innerHTML = `<table class="dt" style="margin-top:8px"><thead><tr><th>멤버</th><th>계정</th><th class="num">팔로워</th><th>기준 시각</th><th>등급</th></tr></thead><tbody>${igR.map(r => `<tr><td><b>${esc(r.member)}</b></td><td class="muted">${esc(r.handle)}</td><td class="num">${esc(r.text)}</td><td class="small muted">${esc(r.asOf)}</td><td>${badge(r)}${srcLinks(r.sources)}</td></tr>`).join('')}</tbody></table>`;
+  $('#soIGt').innerHTML = `<div class="tablewrap"><table class="dt" style="margin-top:8px"><thead><tr><th>멤버</th><th>계정</th><th class="num">팔로워</th><th>기준 시각</th><th>등급</th></tr></thead><tbody>${igR.map(r => `<tr><td><b>${esc(r.member)}</b></td><td class="muted">${esc(r.handle)}</td><td class="num">${esc(r.text)}</td><td class="small muted">${esc(r.asOf)}</td><td>${badge(r)}${srcLinks(r.sources)}</td></tr>`).join('')}</tbody></table></div>`;
   $('#soMG').innerHTML = accVisible(mg.status) ? `<table class="dt"><thead><tr><th>멤버</th><th>소속 그룹</th></tr></thead><tbody>${(mg.rows || []).map(r => `<tr><td><b>${esc(r.person)}</b></td><td>${esc(r.groups)}</td></tr>`).join('')}</tbody></table><div class="card-foot">${esc(mg.note || '')}</div>` : hiddenNote('복수 그룹 멤버');
+}
+
+/** 스포티파이 스트리밍 (dataset streaming_spotify). '돌파·이상·+' 하한값은 "N 이상"으로 표기, 개략 등급은 점선 스타일 */
+function renderSpotifyCard(el) {
+  if (!el) return;
+  const R = figDataset('streaming_spotify').filter(r => accVisible(GRADE_KEY[r.grade] || 'unverified')).sort((a, b) => b.value - a.value);
+  if (!R.length) { el.innerHTML = ''; return; }
+  const lower = r => /돌파|이상|\+|over|more than/i.test(r.note || '') || /\+$/.test(String(r.value_text || ''));
+  el.innerHTML = `<h2 class="sec">스포티파이 스트리밍 <span class="small muted">보도 하한값</span></h2>
+  <div class="grid g${Math.min(R.length, 3)}">${R.map(r => { const g = GRADE_KEY[r.grade] || 'unverified';
+    return `<div class="card fig-${g}" ${g === 'rough' ? 'style="border:1.5px dotted #2dd4bf"' : ''}><div class="small muted">${esc(r.subject)}</div>
+    <div style="font-size:26px;font-weight:700;margin:4px 0">${fmtKo(r.value, 0)}${lower(r) ? ' <span style="font-size:15px;font-weight:600">이상</span>' : ''} <span class="small muted">스트리밍</span></div>
+    <div>${badge({ status: g, collected_at: r.collected_at })} <span class="small muted">기준 ${esc(r.as_of || '')}</span> ${urlLinks(r.source_url)}</div>
+    <div class="small muted" style="margin-top:6px">${esc(r.note || '')}</div></div>`; }).join('')}</div>
+  <p class="small muted">개략 = 정확한 값 미공개, 보도된 "~ 돌파/이상" 하한값이에요. 실제 값은 이보다 클 수 있어요.</p>`;
 }
 
 /* ========== 시상식·이벤트 ========== */

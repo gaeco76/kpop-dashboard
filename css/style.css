@@ -262,3 +262,5 @@ input[type=date],input[type=month]{background:var(--card);color:var(--text);bord
 .wk{display:inline-block;font-size:9.5px;line-height:13px;padding:0 3px;margin-left:3px;border-radius:3px;color:var(--dim);border:1px dotted var(--dim);vertical-align:1px;cursor:help}
 .vstate{color:#fbbf24}
 .ytchip{font-size:11px;color:#f87171;font-variant-numeric:tabular-nums;margin-right:3px;white-space:nowrap}
+
+.warnbox{border-left:3px solid #f59e0b}

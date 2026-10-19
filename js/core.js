@@ -52,15 +52,22 @@ function normalizeStore(o) {
   if (o.grade && GRADE_KEY[o.grade]) { if (o.status && o.status_legacy === undefined) o.status_legacy = o.status; o.status = GRADE_KEY[o.grade]; }
   for (const k in o) if (o[k] && typeof o[k] === 'object') normalizeStore(o[k]);
 }
-/* 수치 레코드 인덱스: subject("아티스트 투어") → metric → 최신 레코드 */
-const FIG = new Map();
+/* 수치 레코드 인덱스: (dataset, subject) → metric → 최신 레코드.
+ * dataset으로 데이터셋 간 같은 subject(예: 트래커·하이브의 "BTS WORLD TOUR 'ARIRANG'")를 구분. dataset 없는 구형 레코드는 ''로 */
+const FIG = new Map(), FIG_AID = new Map(), FIG_DS = new Map(), FIG_ALL = new Map();
+const figKey = (ds, subj) => (ds || '') + '\u241f' + subj;
 function buildFigIndex() {
-  FIG.clear();
+  FIG.clear(); FIG_AID.clear(); FIG_DS.clear(); FIG_ALL.clear();
   for (const f of ['tourFigures', 'socialFigures']) for (const r of (D[f]?.records || [])) {
-    const k = r.subject; if (!FIG.has(k)) FIG.set(k, {});
+    const k = figKey(r.dataset, r.subject); if (!FIG.has(k)) FIG.set(k, {});
+    const ak2 = k + '\u241f' + r.metric; if (!FIG_ALL.has(ak2)) FIG_ALL.set(ak2, []); FIG_ALL.get(ak2).push(r);
     const m = FIG.get(k); if (!m[r.metric] || (r.collected_at || '') >= (m[r.metric].collected_at || '')) m[r.metric] = r;
+    if (r.artist_id) { const ak = figKey(r.dataset, r.artist_id); if (!FIG_AID.has(ak)) FIG_AID.set(ak, new Set()); FIG_AID.get(ak).add(r.subject); }
+    const ds = r.dataset || ''; if (!FIG_DS.has(ds)) FIG_DS.set(ds, []); FIG_DS.get(ds).push(r);
   }
 }
+const figDataset = ds => FIG_DS.get(ds) || [];
+const normT = s => String(s || '').toLowerCase().replace(/[^a-z0-9가-힣]+/g, '');
 /* 수치 레코드 → 화면 행 필드 덮어쓰기 + 지표별 등급(row._g[field]) 기록. 차트는 레코드 값·등급을 우선 사용 */
 const FIG_MAP = {
   tours:   [['gross', 'gross'], ['attendance', 'attendance'], ['shows', 'shows']],
@@ -74,16 +81,24 @@ function applyFigures() {
     row._g = row._g || {}; row._rec = row._rec || {};
     for (const [metric, field] of map) {
       const r = figOf(row, metric); if (!r || !isNum(r.value)) continue;
-      // 행 값이 없으면 채우지 않음: subject가 데이터셋 간 겹칠 수 있음(예: 트래커·하이브의 "BTS WORLD TOUR 'ARIRANG'") → 교차 오염 방지
-      if (!isNum(row[field])) { if (row[field] == null) FIG_DIFF.push({ file: f, subject: r.subject, field, row: null, record: r.value, skipped: true }); continue; }
+      // 행 값이 없을 때: 같은 dataset 레코드로 확실히 매칭된 경우만 채움 (dataset 없는 구형 레코드는 교차 오염 방지로 건너뜀)
+      if (!isNum(row[field])) { if (!(row.dataset && r.dataset === row.dataset)) { if (row[field] == null) FIG_DIFF.push({ file: f, subject: r.subject, field, row: null, record: r.value, skipped: true }); continue; } FIG_DIFF.push({ file: f, subject: r.subject, field, row: null, record: r.value, filled: true }); }
       FIG_HITS++;
-      if (row[field] !== r.value) FIG_DIFF.push({ file: f, subject: r.subject, field, row: row[field], record: r.value });
+      if (isNum(row[field]) && row[field] !== r.value) {
+        // 행 값과 최신 레코드가 다를 때: ① 같은 (dataset·subject·metric)에 행 값과 같은 레코드가 있으면 그 레코드(등급) 사용
+        // (예: BTS gross $500M+ Billboard 행 ↔ 최신 레코드 Pollstar $465.8M — 집계 주체가 달라 덮어쓰지 않음)
+        const alt = (FIG_ALL.get(figKey(r.dataset, r.subject) + '\u241f' + metric) || []).find(x => x.value === row[field]);
+        if (alt) { FIG_DIFF.push({ file: f, subject: r.subject, field, row: row[field], record: r.value, kept: 'row(같은 값 레코드 ' + alt.collected_at + ')' }); row._g[field] = GRADE_KEY[alt.grade] || 'unverified'; row._rec[field] = alt; continue; }
+        // ② 행이 레코드보다 최근 수집이면 레코드가 낡은 것 → 행 값 유지(행 등급)
+        if (row.collected_at && r.collected_at && row.collected_at > r.collected_at) { FIG_DIFF.push({ file: f, subject: r.subject, field, row: row[field], record: r.value, kept: 'row(레코드 ' + r.collected_at + ' < 행 ' + row.collected_at + ')' }); continue; }
+        FIG_DIFF.push({ file: f, subject: r.subject, field, row: row[field], record: r.value });
+      }
       row[field] = r.value; row._g[field] = GRADE_KEY[r.grade] || 'unverified'; row._rec[field] = r;
     }
   }
   // 관객 기록(records): subject = "아티스트 label". attendance_model_estimate 레코드면 실집계가 아니라 추정치로 표시
   for (const row of (D.tracker?.records || [])) {
-    const m = FIG.get(`${row.artist} ${row.label}`); if (!m) continue;
+    const m = FIG.get(figKey(row.dataset, `${row.artist} ${row.label}`)) || (!row.dataset && FIG.get(figKey('', `${row.artist} ${row.label}`))); if (!m) continue;
     row._g = row._g || {}; row._rec = row._rec || {};
     if (m.shows && isNum(m.shows.value) && isNum(row.shows)) { if (row.shows !== m.shows.value) FIG_DIFF.push({ file: 'tracker.records', subject: m.shows.subject, field: 'shows', row: row.shows, record: m.shows.value }); row.shows = m.shows.value; row._g.shows = GRADE_KEY[m.shows.grade] || 'unverified'; row._rec.shows = m.shows; FIG_HITS++; }
     const a = m.attendance, ae = m.attendance_model_estimate;
@@ -136,10 +151,22 @@ function gradeStyle(color, g, extra = {}) {
   return { color, ...extra };
 }
 /** 행(row)의 metric 레코드 — subject = "artist tour" (트래커는 한글명, 하이브·박스스코어는 영문명) */
-const figOf = (row, metric) => row ? (FIG.get(`${row.artist} ${row.tour}`) || {})[metric] || null : null;
+function figOf(row, metric) {
+  if (!row) return null;
+  const subj = `${row.artist} ${row.tour}`;
+  let m = FIG.get(figKey(row.dataset, subj));
+  if (!m && !row.dataset) m = FIG.get(figKey('', subj));
+  if (!m && row.dataset && row.artist_id) { // 이름 표기가 달라도 같은 dataset·artist_id + 투어명 포함이면 매칭 (예: "JEONGHAN X JOSHUA (JxJ)" ↔ "JEONGHAN X JOSHUA …")
+    const c = [...(FIG_AID.get(figKey(row.dataset, row.artist_id)) || [])].filter(s => normT(s).includes(normT(row.tour)));
+    if (c.length === 1) m = FIG.get(figKey(row.dataset, c[0]));
+  }
+  return (m || {})[metric] || null;
+}
 /** 차트용: 레코드 값·등급 우선, 없으면 행 필드 */
 function figVal(row, metric, field) {
-  const r = figOf(row, metric);
+  const r = figOf(row, metric), fv = row ? row[field || metric] : null;
+  // applyFigures가 행 값을 유지한 경우(낡은 레코드·다른 집계 주체) 행 값 사용 — 표·차트 일치
+  if (r && isNum(r.value) && isNum(fv) && fv !== r.value) { const kr = row._rec && row._rec[field || metric]; return { value: fv, status: kr ? GRADE_KEY[kr.grade] || 'unverified' : row.status || 'unverified', rec: kr || null }; }
   if (r && isNum(r.value)) return { value: r.value, status: GRADE_KEY[r.grade] || 'unverified', rec: r };
   const v = row ? row[field || metric] : null;
   return { value: isNum(v) ? v : null, status: row?.status || 'unverified', rec: null };
